@@ -85,6 +85,7 @@ GPT‑4o 六大亮点
 45. [案例 45：3D Q版大学拟人化形象 (by @dotey)](#案例-453d-q版大学拟人化形象-by-dotey)
 46. [案例 46：快乐胶囊制作 (by @ZHO_ZHO_ZHO)](#案例-46快乐胶囊制作-by-zho_zho_zho)
 47. [案例 47：键盘ESC 键帽微型立体模型 (by @egeberkina)](#案例-47键盘esc-键帽微型立体模型-by-egeberkina)
+48. [案例 48：体素风格 3D 图标转换 (by @BrettFromDJ)](#案例-48体素风格-3d-图标转换-by-brettfromdj)
 
 ---
 
@@ -870,6 +871,26 @@ Colors: warm highlights, profession-matching hues.
 
 *注意：中文版本提示词由英文版本翻译而来，原提示词请查看英文版本*
 
+
+## 案例 48：体素风格 3D 图标转换 (by [@BrettFromDJ](https://x.com/BrettFromDJ))
+
+[原文链接1](https://x.com/BrettFromDJ/status/1910387413404234076)
+[原文链接2](https://x.com/ZHO_ZHO_ZHO/status/1910671581962985788)
+
+<img src="./examples/example_voxel_icons.jpeg" width="300" alt="体素风格 3D 图标">
+
+**提示词：**
+```
+三个步骤
+1. 上传参考图
+2. 上传要转换的照片
+3. 提示词：将图片/描述/emoji转换为参考图一样的体素 3D 图标，Octane 渲染，8k
+```
+
+*注意：中文提示词 by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)*
+
+**需上传参考图片：** 需要上传两张图片：一张包含期望体素风格图标的参考图（如推文作者提供），以及一张要转换的原始图标。
+
 ---
 
 ## 🙏 致谢
@@ -888,6 +909,7 @@ Colors: warm highlights, profession-matching hues.
 *   [katon (@hellokaton)](https://x.com/hellokaton)
 *   [Berryxia.AI](https://x.com/berryxia_ai)
 *   [Ege (@egeberkina)](https://x.com/egeberkina)
+*   [Brett (@BrettFromDJ)](https://x.com/BrettFromDJ)
 *   以及其他可能通过转推或间接分享而被收录其提示词的创作者们。
 
 如果您的作品被收录在此，而您希望更改署名或将其移除，请随时与我们联系。✉️

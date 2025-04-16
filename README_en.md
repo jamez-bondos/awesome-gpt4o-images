@@ -86,6 +86,8 @@ If you cannot directly access ChatGPT / Sora, to explore and generate image effe
 45. [Example 45: 3D Q-version University Anthropomorphic Mascot (by @dotey)](#example-45-3d-q-version-university-anthropomorphic-mascot-by-dotey)
 46. [Example 46: Happy Capsule Creation (by @ZHO_ZHO_ZHO)](#example-46-happy-capsule-creation-by-zho_zho_zho)
 47. [Example 47: ESC Keycap Miniature Diorama (by @egeberkina)](#example-47-esc-keycap-miniature-diorama-by-egeberkina)
+48. [Example 48: Voxel Style 3D Icon Conversion (by @BrettFromDJ)](#example-48-voxel-style-3d-icon-conversion-by-brettfromdj)
+
 ---
 
 ## Example 1: Q-version Proposal Scene (by [@balconychy](https://x.com/balconychy))
@@ -828,6 +830,21 @@ The purchase button is the same color as the pill, and the price below is $9. Pl
 A hyper-realistic isometric 3D render of a miniature computer setup inside a translucent mechanical keyboard keycap, specifically placed on the ESC key of a real matte-finished mechanical keyboard. Inside the keycap, a tiny figure sits in a modern ergonomic chair, wearing a cozy textured hoodie, working at a glowing ultra-realistic computer screen. The environment is packed with lifelike miniature tech accessories: real-material desk lamps, monitors with reflections, tiny speaker grills, tangled cables, and ceramic mugs. The base of the scene is made of soil, rocks, and moss, with photorealistic textures and imperfections. The lighting inside the cap mimics natural morning sun, casting soft shadows and warm tones, while the outside has cold ambient reflections from the surrounding keyboard. The word “ESC” is subtly etched onto the top of the translucent keycap with a faint frosted glass effect — just barely visible depending on the angle. The surrounding keyboard keys like F1, Q, Shift, and CTRL are crisp, textured, and photorealistically lit. Shot as if taken with a high-end mobile phone camera, with shallow depth of field, perfect white balance, and cinematic detail.
 ```
 
+## Example 48: Voxel Style 3D Icon Conversion (by [@BrettFromDJ](https://x.com/BrettFromDJ))
+
+[Source Link](https://x.com/BrettFromDJ/status/1910387413404234076)
+
+<img src="./examples/example_voxel_icons.jpeg" width="300" alt="3D voxel-style icons">
+
+**Prompt:**
+```
+Take the icon on the right and transform it into a voxel 3d icon like the icons in the left image. Octane render. 8k.
+```
+
+*Note: The tweet author provides a reference image for best results, recommend downloading and using it. When uploading, upload the reference image first, then the icon to be converted.*
+
+**Reference Image Required:** Requires uploading two images: a reference image showing the desired voxel style icons (like the one provided by the tweet author), and the original icon to be transformed.
+
 ---
 
 ## 🙏 Acknowledgements
@@ -846,6 +863,7 @@ Special thanks to the following users for sharing their inspiring work ✨:
 *   [katon (@hellokaton)](https://x.com/hellokaton)
 *   [Berryxia.AI](https://x.com/berryxia_ai)
 *   [Ege (@egeberkina)](https://x.com/egeberkina)
+*   [Brett (@BrettFromDJ)](https://x.com/BrettFromDJ)
 *   And other creators whose prompts may have been included through retweets or indirect shares.
 
 If your work is included here and you wish to change the attribution or have it removed, please feel free to contact us. ✉️
