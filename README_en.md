@@ -88,6 +88,7 @@ If you cannot directly access ChatGPT / Sora, to explore and generate image effe
 47. [Example 47: ESC Keycap Miniature Diorama (by @egeberkina)](#example-47-esc-keycap-miniature-diorama-by-egeberkina)
 48. [Example 48: Voxel Style 3D Icon Conversion (by @BrettFromDJ)](#example-48-voxel-style-3d-icon-conversion-by-brettfromdj)
 49. [Example 49: Fashion Magazine Cover Style (by @dotey)](#example-49-fashion-magazine-cover-style-by-dotey)
+50. [Example 50: Physical Destruction Effect Card (Lara Croft) (by @op7418)](#example-50-physical-destruction-effect-card-lara-croft-by-op7418)
 
 ---
 
@@ -856,6 +857,20 @@ Take the icon on the right and transform it into a voxel 3d icon like the icons 
 ```
 A beautiful woman wearing a pink cheongsam, floral headwear with colorful flowers in her hair, and an elegant white lace collar around her neck. She is holding large butterflies in one hand. The photography style features high-definition details, resembling a fashion magazine cover design. The text "FASHION DESIGN" is displayed at the top center of the photo. The background is a minimalist, light gray solid color, designed to highlight the model.
 ```
+
+## Example 50: Physical Destruction Effect Card (Lara Croft) (by [@op7418](https://x.com/op7418))
+
+[Source Link 1](https://x.com/op7418/status/1912782048160542886)
+[Source Link 2](https://x.com/hc_dsn/status/1912367201476309396)
+
+<img src="./examples/example_lara_croft_card_break.jpeg" width="300" alt="Lara Croft breaking through the border of an 'Archaeological Expeditions' card with physical destruction effects">
+
+**Prompt:**
+```
+A hyper-realistic, cinematic illustration depicting Lara Croft dynamically crashing through the border of an "Archaeological Expeditions" trading card. She is mid-leap or swinging on a rope, clad in iconic adventure gear, possibly firing dual pistols with muzzle flares helping to shatter the card's ancient stone-carved border, creating visible dimensional break effects around the breach like energy cracks and spatial distortion, sending dust and debris flying. Her body bursts forward energetically with significant motion depth, breaking the card's plane, while the card interior (background) depicts a lush jungle ruin or trap-filled tomb interior. Card debris mixes with crumbling stone, flying vines, ancient coin fragments, and spent bullet casings. The title "ARCHAEOLOGICAL EXPEDITIONS" and the name "LARA CROFT" (with a stylized artifact icon) are visible on the remaining cracked and weathered parts of the card. Adventurous, dynamic lighting highlights her athleticism and the perilous environment.
+```
+*Note: The original tweet mentioned key terms are "dimensional break effects" and "motion depth". The prompt above is a reconstruction based on the description.*
+
 
 ---
 
