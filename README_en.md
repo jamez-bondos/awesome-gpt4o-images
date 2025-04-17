@@ -87,6 +87,7 @@ If you cannot directly access ChatGPT / Sora, to explore and generate image effe
 46. [Example 46: Happy Capsule Creation (by @ZHO_ZHO_ZHO)](#example-46-happy-capsule-creation-by-zho_zho_zho)
 47. [Example 47: ESC Keycap Miniature Diorama (by @egeberkina)](#example-47-esc-keycap-miniature-diorama-by-egeberkina)
 48. [Example 48: Voxel Style 3D Icon Conversion (by @BrettFromDJ)](#example-48-voxel-style-3d-icon-conversion-by-brettfromdj)
+49. [Example 49: Fashion Magazine Cover Style (by @dotey)](#example-49-fashion-magazine-cover-style-by-dotey)
 
 ---
 
@@ -844,6 +845,17 @@ Take the icon on the right and transform it into a voxel 3d icon like the icons 
 *Note: The tweet author provides a reference image for best results, recommend downloading and using it. When uploading, upload the reference image first, then the icon to be converted.*
 
 **Reference Image Required:** Requires uploading two images: a reference image showing the desired voxel style icons (like the one provided by the tweet author), and the original icon to be transformed.
+
+## Example 49: Fashion Magazine Cover Style (by [@dotey](https://x.com/dotey))
+
+[Source Link](https://x.com/dotey/status/1912536019905233194)
+
+<img src="./examples/example_fashion_design_cover.jpeg" width="300" alt="Fashion magazine cover style photo of a woman in pink cheongsam with flowers and butterflies">
+
+**Prompt:**
+```
+A beautiful woman wearing a pink cheongsam, floral headwear with colorful flowers in her hair, and an elegant white lace collar around her neck. She is holding large butterflies in one hand. The photography style features high-definition details, resembling a fashion magazine cover design. The text "FASHION DESIGN" is displayed at the top center of the photo. The background is a minimalist, light gray solid color, designed to highlight the model.
+```
 
 ---
 

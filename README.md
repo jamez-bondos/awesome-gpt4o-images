@@ -86,6 +86,7 @@ GPT‑4o 六大亮点
 46. [案例 46：快乐胶囊制作 (by @ZHO_ZHO_ZHO)](#案例-46快乐胶囊制作-by-zho_zho_zho)
 47. [案例 47：键盘ESC 键帽微型立体模型 (by @egeberkina)](#案例-47键盘esc-键帽微型立体模型-by-egeberkina)
 48. [案例 48：体素风格 3D 图标转换 (by @BrettFromDJ)](#案例-48体素风格-3d-图标转换-by-brettfromdj)
+49. [案例 49：时尚杂志封面风格 (by @dotey)](#案例-49时尚杂志封面风格-by-dotey)
 
 ---
 
@@ -890,6 +891,18 @@ Colors: warm highlights, profession-matching hues.
 *注意：中文提示词 by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)*
 
 **需上传参考图片：** 需要上传两张图片：一张包含期望体素风格图标的参考图（如推文作者提供），以及一张要转换的原始图标。
+
+
+## 案例 49：时尚杂志封面风格 (by [@dotey](https://x.com/dotey))
+
+[原文链接](https://x.com/dotey/status/1912536019905233194)
+
+<img src="./examples/example_fashion_design_cover.jpeg" width="300" alt="身穿粉色旗袍头戴花饰手托蝴蝶的女子时尚杂志封面">
+
+**提示词：**
+```
+一位美丽的女子身穿粉色旗袍，头戴精致的花饰，秀发中点缀着色彩缤纷的花朵，颈间装饰着优雅的白色蕾丝领子。她的一只手轻托着几只大型蝴蝶。整体拍摄风格呈现高清细节质感，类似时尚杂志封面设计，照片上方中央位置标有文字「FASHION DESIGN」。画面背景采用简约的纯浅灰色，以突出人物主体。
+```
 
 ---
 
