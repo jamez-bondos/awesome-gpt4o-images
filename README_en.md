@@ -43,6 +43,7 @@ If you cannot directly access ChatGPT / Sora, to explore and generate image effe
 
 **Note on Prompts:** For accuracy and reproducibility, prompts are provided in their original language (Chinese or English) as used for generation.
 
+*   [Example 53: Emoji Inflatable Cushion (by @gizakdag)](#example-53-emoji-inflatable-cushion-by-gizakdag)
 *   [Example 52: Paper Craft Style Emoji Icon (by @egeberkina)](#example-52-paper-craft-style-emoji-icon-by-egeberkina)
 *   [Example 51: Passport Entry Stamp (Rome) (by @M_w14_)](#example-51-passport-entry-stamp-by-m_w14_)
 *   [Example 50: Physical Destruction Effect Card (Lara Croft) (by @op7418)](#example-50-physical-destruction-effect-card-lara-croft-by-op7418)
@@ -97,6 +98,22 @@ If you cannot directly access ChatGPT / Sora, to explore and generate image effe
 *   [Example 1: Q-version Proposal Scene (by @balconychy)](#example-1-q-version-proposal-scene-by-balconychy)
 
 ---
+
+## Example 53: Emoji Inflatable Cushion (by [@gizakdag](https://x.com/gizakdag))
+
+[Source Link](https://x.com/gizakdag/status/1912858535643197927)
+
+<img src="./examples/example_emoji_cushion_pleading.jpeg" width="300" alt="Pleading face emoji designed as an inflatable cushion">
+
+**Prompt:**
+```
+Create a high-resolution 3D render of [🥹] designed as an inflatable, puffy object. The shape should appear soft, rounded, and air-filled — like a plush balloon or blow-up toy. Use a smooth, matte texture with subtle fabric creases and stitching to emphasize the inflatable look. The form should be slightly irregular and squishy, with gentle shadows and soft lighting that highlight volume and realism. Place it on a clean, minimal background (light gray or pale blue), and maintain a playful, sculptural aesthetic.
+```
+
+*Note: The [🥹] emoji in the prompt can be replaced with other emojis.*
+
+[⬆️ Back to Directory](#example-toc)
+
 
 ## Example 52: Paper Craft Style Emoji Icon (by [@egeberkina](https://x.com/egeberkina))
 

@@ -39,6 +39,7 @@ GPT‑4o 六大亮点
 <a id="example-toc"></a>
 ## 📖 案例目录
 
+*   [案例 53：Emoji 充气感靠垫 (by @gizakdag)](#案例-53emoji-充气感靠垫-by-gizakdag)
 *   [案例 52：纸艺风格 Emoji 图标 (by @egeberkina)](#案例-52纸艺风格-emoji-图标-by-egeberkina)
 *   [案例 51：护照入境印章 (by @ZHO_ZHO_ZHO)](#案例-51护照入境印章-by-zho_zho_zho)
 *   [案例 50：物理破坏效果卡片 (劳拉) (by @op7418)](#案例-50物理破坏效果卡片-劳拉-by-op7418)
@@ -93,6 +94,23 @@ GPT‑4o 六大亮点
 *   [案例 1：Q版求婚场景 (by @balconychy)](#案例-1q版求婚场景-by-balconychy)
 
 ---
+
+## 案例 53：Emoji 充气感靠垫 (by [@gizakdag](https://x.com/gizakdag))
+
+[原文链接](https://x.com/gizakdag/status/1912858535643197927)
+
+<img src="./examples/example_emoji_cushion_pleading.jpeg" width="300" alt="恳求脸 Emoji 变成的充气感靠垫">
+
+**提示词：**
+```
+Create a high-resolution 3D render of [🥹] designed as an inflatable, puffy object. The shape should appear soft, rounded, and air-filled — like a plush balloon or blow-up toy. Use a smooth, matte texture with subtle fabric creases and stitching to emphasize the inflatable look. The form should be slightly irregular and squishy, with gentle shadows and soft lighting that highlight volume and realism. Place it on a clean, minimal background (light gray or pale blue), and maintain a playful, sculptural aesthetic.
+```
+
+*注意：可将提示词中的 [🥹] 替换为其他 Emoji。*
+
+[⬆️ 返回目录](#example-toc)
+
+
 ## 案例 52：纸艺风格 Emoji 图标 (by [@egeberkina](https://x.com/egeberkina))
 
 [原文链接](https://x.com/egeberkina/status/1912521263085482464)
