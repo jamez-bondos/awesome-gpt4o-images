@@ -39,6 +39,7 @@ GPT‑4o 六大亮点
 <a id="example-toc"></a>
 ## 📖 案例目录
 
+*   [案例 52：纸艺风格 Emoji 图标 (by @egeberkina)](#案例-52纸艺风格-emoji-图标-by-egeberkina)
 *   [案例 51：护照入境印章 (by @ZHO_ZHO_ZHO)](#案例-51护照入境印章-by-zho_zho_zho)
 *   [案例 50：物理破坏效果卡片 (劳拉) (by @op7418)](#案例-50物理破坏效果卡片-劳拉-by-op7418)
 *   [案例 49：时尚杂志封面风格 (by @dotey)](#案例-49时尚杂志封面风格-by-dotey)
@@ -92,6 +93,20 @@ GPT‑4o 六大亮点
 *   [案例 1：Q版求婚场景 (by @balconychy)](#案例-1q版求婚场景-by-balconychy)
 
 ---
+## 案例 52：纸艺风格 Emoji 图标 (by [@egeberkina](https://x.com/egeberkina))
+
+[原文链接](https://x.com/egeberkina/status/1912521263085482464)
+
+<img src="./examples/example_paper_craft_emoji_fire.jpeg" width="300" alt="纸艺风格的火焰 Emoji 图标">
+
+**提示词：**
+```
+A paper craft-style "🔥" floating on a pure white background. The emoji is handcrafted from colorful cut paper with visible textures, creases, and layered shapes. It casts a soft drop shadow beneath, giving a sense of lightness and depth. The design is minimal, playful, and clean — centered in the frame with lots of negative space. Use soft studio lighting to highlight the paper texture and edges.
+```
+
+*注意：可将提示词中的 "🔥" 替换为其他 Emoji。*
+
+[⬆️ 返回目录](#example-toc)
 
 
 ## 案例 51：护照入境印章 (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))

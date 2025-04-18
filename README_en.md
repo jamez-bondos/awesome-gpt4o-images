@@ -43,6 +43,7 @@ If you cannot directly access ChatGPT / Sora, to explore and generate image effe
 
 **Note on Prompts:** For accuracy and reproducibility, prompts are provided in their original language (Chinese or English) as used for generation.
 
+*   [Example 52: Paper Craft Style Emoji Icon (by @egeberkina)](#example-52-paper-craft-style-emoji-icon-by-egeberkina)
 *   [Example 51: Passport Entry Stamp (Rome) (by @M_w14_)](#example-51-passport-entry-stamp-by-m_w14_)
 *   [Example 50: Physical Destruction Effect Card (Lara Croft) (by @op7418)](#example-50-physical-destruction-effect-card-lara-croft-by-op7418)
 *   [Example 49: Fashion Magazine Cover Style (by @dotey)](#example-49-fashion-magazine-cover-style-by-dotey)
@@ -96,6 +97,21 @@ If you cannot directly access ChatGPT / Sora, to explore and generate image effe
 *   [Example 1: Q-version Proposal Scene (by @balconychy)](#example-1-q-version-proposal-scene-by-balconychy)
 
 ---
+
+## Example 52: Paper Craft Style Emoji Icon (by [@egeberkina](https://x.com/egeberkina))
+
+[Source Link](https://x.com/egeberkina/status/1912521263085482464)
+
+<img src="./examples/example_paper_craft_emoji_fire.jpeg" width="300" alt="Paper craft style fire emoji icon">
+
+**Prompt:**
+```
+A paper craft-style "🔥" floating on a pure white background. The emoji is handcrafted from colorful cut paper with visible textures, creases, and layered shapes. It casts a soft drop shadow beneath, giving a sense of lightness and depth. The design is minimal, playful, and clean — centered in the frame with lots of negative space. Use soft studio lighting to highlight the paper texture and edges.
+```
+
+*Note: The "🔥" emoji in the prompt can be replaced with other emojis.*
+
+[⬆️ Back to Directory](#example-toc)
 
 
 ## Example 51: Passport Entry Stamp (by [@M_w14_](https://x.com/M_w14_))
