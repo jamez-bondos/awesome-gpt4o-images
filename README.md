@@ -42,6 +42,7 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 <a id="example-toc"></a>
 ## 📖 案例目录
 
+*   [案例 55：低多边形 (Low-Poly) 3D 渲染 (by @azed_ai)](#案例-55低多边形-low-poly-3d-渲染-by-azed_ai)
 *   [案例 54：“极其平凡”的iPhone自拍 (by @jiamimaodashu)](#案例-54极其平凡的iphone自拍-by-jiamimaodashu)
 *   [案例 53：Emoji 充气感靠垫 (by @gizakdag)](#案例-53emoji-充气感靠垫-by-gizakdag)
 *   [案例 52：纸艺风格 Emoji 图标 (by @egeberkina)](#案例-52纸艺风格-emoji-图标-by-egeberkina)
@@ -98,6 +99,23 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 *   [案例 1：Q版求婚场景 (by @balconychy)](#案例-1q版求婚场景-by-balconychy)
 
 ---
+
+## 案例 55：低多边形 (Low-Poly) 3D 渲染 (by [@azed_ai](https://x.com/azed_ai))
+
+[原文链接](https://x.com/azed_ai/status/1912084257918595342)
+
+<img src="./examples/example_low_poly_lizard.jpeg" width="300" alt="低多边形 (Low-Poly) 风格的 3D 渲染蜥蜴">
+
+**提示词：**
+```
+一个 [subject] 的低多边形 3D 渲染图，由干净的三角形面构成，具有平坦的 [color1] 和 [color2] 表面。环境是一个风格化的数字沙漠，具有极简的几何形状和环境光遮蔽效果。
+```
+
+*注意：可替换提示词中的 `[subject]`（要画的对象）、`[color1]` 和 `[color2]`（颜色）以生成不同对象。示例图的subject为蜥蜴，颜色1/2分别为olive green和dusty brown。*
+
+
+[⬆️ 返回案例目录](#example-toc)
+
 
 ## 案例 54：“极其平凡”的iPhone自拍 (by [@jiamimaodashu](https://x.com/jiamimaodashu))
 
@@ -1164,6 +1182,7 @@ Can you create a PS2 video game case of "Grand Theft Auto: Far Far Away" a GTA b
 *   [Brett (@BrettFromDJ)](https://x.com/BrettFromDJ)
 *   [89'S (@M_w14_)](https://x.com/M_w14_)
 *   [jiamimao 猫叔 (@jiamimaodashu)](https://x.com/jiamimaodashu)
+*   [Amira Zairi (@azed_ai)](https://x.com/azed_ai)
 *   以及其他可能通过转推或间接分享而被收录其提示词的创作者们。
 
 如果您的作品被收录在此，而您希望更改署名或将其移除，请随时与我们联系。✉️

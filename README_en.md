@@ -45,6 +45,7 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 
 **Note on Prompts:** For accuracy and reproducibility, prompts are provided in their original language (Chinese or English) as used for generation.
 
+*   [Example 55: Low-Poly 3D Render (by @azed_ai)](#example-55-low-poly-3d-render-by-azed_ai)
 *   [Example 54: "Extremely Ordinary" iPhone Selfie (Eason & Nicholas) (by @jiamimaodashu)](#example-54-extremely-ordinary-iphone-selfie-eason--nicholas-by-jiamimaodashu)
 *   [Example 53: Emoji Inflatable Cushion (by @gizakdag)](#example-53-emoji-inflatable-cushion-by-gizakdag)
 *   [Example 52: Paper Craft Style Emoji Icon (by @egeberkina)](#example-52-paper-craft-style-emoji-icon-by-egeberkina)
@@ -102,6 +103,22 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 
 ---
 
+## Example 55: Low-Poly 3D Render (by [@azed_ai](https://x.com/azed_ai))
+
+[Source Link](https://x.com/azed_ai/status/1912084257918595342)
+
+<img src="./examples/example_low_poly_lizard.jpeg" width="300" alt="Low-poly style 3D render of a lizard">
+
+**Prompt:**
+```
+A low-poly 3D render of a [subject], built from clean triangular facets with flat [color1] and [color2] surfaces. The environment is a stylized digital desert with minimal geometry and ambient occlusion.
+```
+
+*Note: The [subject] (the object to draw), [color1], and [color2] (colors) placeholders in the prompt can be replaced to generate different objects. For the example image shown, the subject is 'lizard', and colors 1/2 are 'olive green' and 'dusty brown' respectively.*
+
+[⬆️ Back to Directory](#example-toc)
+
+
 ## Example 54: "Extremely Ordinary" iPhone Selfie (Eason & Nicholas) (by [@jiamimaodashu](https://x.com/jiamimaodashu))
 
 [Source Link](https://x.com/jiamimaodashu/status/1912653073190879410)
@@ -115,7 +132,7 @@ Please draw an extremely ordinary iPhone selfie, lacking a clear subject or sens
 
 *Note: This prompt aims to generate a photo that looks very casual, even slightly like an accidental snapshot.*
 
-[⬆️ 返回案例目录](#example-toc)
+[⬆️ Back to Directory](#example-toc)
 
 
 ## Example 53: Emoji Inflatable Cushion (by [@gizakdag](https://x.com/gizakdag))
@@ -1145,6 +1162,7 @@ Special thanks to the following users for sharing their inspiring work ✨:
 *   [Brett (@BrettFromDJ)](https://x.com/BrettFromDJ)
 *   [89'S (@M_w14_)](https://x.com/M_w14_)
 *   [jiamimao 猫叔 (@jiamimaodashu)](https://x.com/jiamimaodashu)
+*   [Amira Zairi (@azed_ai)](https://x.com/azed_ai)
 *   And other creators whose prompts may have been included through retweets or indirect shares.
 
 If your work is included here and you wish to change the attribution or have it removed, please feel free to contact us. ✉️
