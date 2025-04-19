@@ -45,6 +45,7 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 
 **Note on Prompts:** For accuracy and reproducibility, prompts are provided in their original language (Chinese or English) as used for generation.
 
+*   [Example 54: "Extremely Ordinary" iPhone Selfie (Eason & Nicholas) (by @jiamimaodashu)](#example-54-extremely-ordinary-iphone-selfie-eason--nicholas-by-jiamimaodashu)
 *   [Example 53: Emoji Inflatable Cushion (by @gizakdag)](#example-53-emoji-inflatable-cushion-by-gizakdag)
 *   [Example 52: Paper Craft Style Emoji Icon (by @egeberkina)](#example-52-paper-craft-style-emoji-icon-by-egeberkina)
 *   [Example 51: Passport Entry Stamp (Rome) (by @M_w14_)](#example-51-passport-entry-stamp-by-m_w14_)
@@ -100,6 +101,22 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 *   [Example 1: Q-version Proposal Scene (by @balconychy)](#example-1-q-version-proposal-scene-by-balconychy)
 
 ---
+
+## Example 54: "Extremely Ordinary" iPhone Selfie (Eason & Nicholas) (by [@jiamimaodashu](https://x.com/jiamimaodashu))
+
+[Source Link](https://x.com/jiamimaodashu/status/1912653073190879410)
+
+<img src="./examples/example_ordinary_selfie_eason_nicholas.jpeg" width="300" alt="'Extremely ordinary' iPhone selfie of Eason Chan and Nicholas Tse by Victoria Harbour, Hong Kong">
+
+**Prompt:**
+```
+Please draw an extremely ordinary iPhone selfie, lacking a clear subject or sense of composition, like a snapshot taken casually. The photo has slight motion blur, and uneven sunlight or indoor lighting causes slight overexposure. The angle is awkward, the composition is chaotic, presenting an overall sense of deliberate mediocrity - like a selfie accidentally taken while pulling the phone out of a pocket. The subjects are Eason Chan and Nicholas Tse, at night, next to the Hong Kong Convention and Exhibition Centre, beside Victoria Harbour in Hong Kong.
+```
+
+*Note: This prompt aims to generate a photo that looks very casual, even slightly like an accidental snapshot.*
+
+[⬆️ 返回案例目录](#example-toc)
+
 
 ## Example 53: Emoji Inflatable Cushion (by [@gizakdag](https://x.com/gizakdag))
 
@@ -1127,6 +1144,7 @@ Special thanks to the following users for sharing their inspiring work ✨:
 *   [Ege (@egeberkina)](https://x.com/egeberkina)
 *   [Brett (@BrettFromDJ)](https://x.com/BrettFromDJ)
 *   [89'S (@M_w14_)](https://x.com/M_w14_)
+*   [jiamimao 猫叔 (@jiamimaodashu)](https://x.com/jiamimaodashu)
 *   And other creators whose prompts may have been included through retweets or indirect shares.
 
 If your work is included here and you wish to change the attribution or have it removed, please feel free to contact us. ✉️

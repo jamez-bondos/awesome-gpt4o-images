@@ -42,6 +42,7 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 <a id="example-toc"></a>
 ## 📖 案例目录
 
+*   [案例 54：“极其平凡”的iPhone自拍 (by @jiamimaodashu)](#案例-54极其平凡的iphone自拍-by-jiamimaodashu)
 *   [案例 53：Emoji 充气感靠垫 (by @gizakdag)](#案例-53emoji-充气感靠垫-by-gizakdag)
 *   [案例 52：纸艺风格 Emoji 图标 (by @egeberkina)](#案例-52纸艺风格-emoji-图标-by-egeberkina)
 *   [案例 51：护照入境印章 (by @ZHO_ZHO_ZHO)](#案例-51护照入境印章-by-zho_zho_zho)
@@ -95,6 +96,23 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 *   [案例 3：复古宣传海报 (by @dotey)](#案例-3复古宣传海报-by-dotey)
 *   [案例 2：立体相框 (by @dotey)](#案例-2立体相框-by-dotey)
 *   [案例 1：Q版求婚场景 (by @balconychy)](#案例-1q版求婚场景-by-balconychy)
+
+---
+
+## 案例 54：“极其平凡”的iPhone自拍 (by [@jiamimaodashu](https://x.com/jiamimaodashu))
+
+[原文链接](https://x.com/jiamimaodashu/status/1912653073190879410)
+
+<img src="./examples/example_ordinary_selfie_eason_nicholas.jpeg" width="300" alt="陈奕迅和谢霆锋在香港维多利亚港旁的“极其平凡无奇”的iPhone自拍照">
+
+**提示词：**
+```
+请画一张极其平凡无奇的iPhone 自拍照，没有明确的主体或构图感，就像是随手一拍的快照。照片略带运动模糊，阳光或店内灯光不均导致轻微曝光过度。角度尴尬、构图混乱，整体呈现出一种刻意的平庸感-就像是从口袋里拿手机时不小心拍到的一张自拍。主角是陈奕迅和谢霆锋，晚上，旁边是香港会展中心，在香港维多利亚港旁边。
+```
+*注意：这个提示词旨在生成一张看起来非常随意、甚至有点“失败”的快照风格照片。*
+
+[⬆️ 返回案例目录](#example-toc)
+
 
 ## 案例 53：Emoji 充气感靠垫 (by [@gizakdag](https://x.com/gizakdag))
 
@@ -1145,6 +1163,7 @@ Can you create a PS2 video game case of "Grand Theft Auto: Far Far Away" a GTA b
 *   [Ege (@egeberkina)](https://x.com/egeberkina)
 *   [Brett (@BrettFromDJ)](https://x.com/BrettFromDJ)
 *   [89'S (@M_w14_)](https://x.com/M_w14_)
+*   [jiamimao 猫叔 (@jiamimaodashu)](https://x.com/jiamimaodashu)
 *   以及其他可能通过转推或间接分享而被收录其提示词的创作者们。
 
 如果您的作品被收录在此，而您希望更改署名或将其移除，请随时与我们联系。✉️
