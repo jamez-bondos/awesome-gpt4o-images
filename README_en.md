@@ -47,6 +47,7 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 
 **Note on Prompts:** For accuracy and reproducibility, prompts are provided in their original language (Chinese or English) as used for generation.
 
+*   [Example 56: Miniature 3D Building (by @dotey)](#example-56-miniature-3d-building-by-dotey)
 *   [Example 55: Low-Poly 3D Render (by @azed_ai)](#example-55-low-poly-3d-render-by-azed_ai)
 *   [Example 54: "Extremely Ordinary" iPhone Selfie (Eason & Nicholas) (by @jiamimaodashu)](#example-54-extremely-ordinary-iphone-selfie-eason--nicholas-by-jiamimaodashu)
 *   [Example 53: Emoji Inflatable Cushion (by @gizakdag)](#example-53-emoji-inflatable-cushion-by-gizakdag)
@@ -104,6 +105,19 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 *   [Example 1: Q-version Proposal Scene (by @balconychy)](#example-1-q-version-proposal-scene-by-balconychy)
 
 ---
+
+## Example 56: Miniature 3D Building (by [@dotey](https://x.com/dotey))
+
+[Source Link](https://x.com/dotey/status/1913759515700285569)
+
+<img src="./examples/example_miniature_starbucks_cup_building.jpeg" width="300" alt="3D Q-version miniature Starbucks cafe building shaped like a coffee cup">
+
+**Prompt:**
+```
+3D Q-version mini style, a fun-filled miniature Starbucks cafe that looks like a giant takeaway coffee cup, complete with a lid and straw. The building has two floors, with large glass windows clearly displaying the warm and exquisite interior design: wooden furniture, warm lighting, and busy baristas. Cute small figures walk or sit on the street, surrounded by benches, streetlights, and potted plants, creating a charming city corner. The overall style is urban miniature landscape, rich in detail, realistic, with soft lighting presenting a cozy afternoon feel.
+```
+*Note: You can ask the AI to generate similar prompts for other buildings by referencing the prompt above. For example: "Referencing the prompt above, write a similar prompt for [Dunkin' Donuts], shaped like a [donut]".*
+
 
 ## Example 55: Low-Poly 3D Render (by [@azed_ai](https://x.com/azed_ai))
 
