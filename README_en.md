@@ -47,6 +47,7 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 
 **Note on Prompts:** For accuracy and reproducibility, prompts are provided in their original language (Chinese or English) as used for generation.
 
+*   [Example 58: Cloud Art (by @umesh_ai)](#example-58-cloud-art-by-umesh_ai)
 *   [Example 57: 8-Bit Pixel Icon (by @egeberkina)](#example-57-8-bit-pixel-icon-by-egeberkina)
 *   [Example 56: Miniature 3D Building (by @dotey)](#example-56-miniature-3d-building-by-dotey)
 *   [Example 55: Low-Poly 3D Render (by @azed_ai)](#example-55-low-poly-3d-render-by-azed_ai)
@@ -106,6 +107,23 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 *   [Example 1: Q-version Proposal Scene (by @balconychy)](#example-1-q-version-proposal-scene-by-balconychy)
 
 ---
+
+## Example 58: Cloud Art (by [@umesh_ai](https://x.com/umesh_ai))
+
+[Source Link](https://x.com/umesh_ai/status/1913628737872027805)
+
+<img src="./examples/example_cloud_art_dragon_great_wall.png" width="300" alt="Dragon formed by clouds above the Great Wall">
+
+**Prompt:**
+```
+Generate image: A photograph captures a daytime scene with a [SUBJECT/OBJECT] formed by scattered clouds in the sky, positioned above a [LOCATION]
+```
+
+*Note: The `[SUBJECT/OBJECT]` (shape formed by clouds) and `[LOCATION]` placeholders in the prompt can be replaced. The example image uses 'chinese dragon' as the subject and 'The Great Wall' as the location.*
+
+
+[⬆️ Back to Directory](#example-toc)
+
 
 ## Example 57: 8-Bit Pixel Icon (by [@egeberkina](https://x.com/egeberkina))
 
@@ -1184,12 +1202,13 @@ Special thanks to the following users for sharing their inspiring work ✨:
 *   [RichChat (@richardchang)](https://x.com/richardchang)
 *   [歸藏(guizang.ai) (@op7418)](https://x.com/op7418)
 *   [katon (@hellokaton)](https://x.com/hellokaton)
-*   [Berryxia.AI](https://x.com/berryxia_ai)
+*   [Berryxia.AI (@berryxia_ai)](https://x.com/berryxia_ai)
 *   [Ege (@egeberkina)](https://x.com/egeberkina)
 *   [Brett (@BrettFromDJ)](https://x.com/BrettFromDJ)
 *   [89'S (@M_w14_)](https://x.com/M_w14_)
 *   [jiamimao 猫叔 (@jiamimaodashu)](https://x.com/jiamimaodashu)
 *   [Amira Zairi (@azed_ai)](https://x.com/azed_ai)
+*   [Umesh (@umesh_ai)](https://x.com/umesh_ai)
 *   And other creators whose prompts may have been included through retweets or indirect shares.
 
 If your work is included here and you wish to change the attribution or have it removed, please feel free to contact us. ✉️
