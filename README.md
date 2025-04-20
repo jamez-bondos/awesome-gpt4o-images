@@ -44,6 +44,7 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 <a id="example-toc"></a>
 ## 📖 案例目录
 
+*   [案例 57：8位像素图标 (by @egeberkina)](#案例-578位像素图标-by-egeberkina)
 *   [案例 56：迷你 3D 建筑 (by @dotey)](#案例-56迷你-3d-建筑-by-dotey)
 *   [案例 55：低多边形 (Low-Poly) 3D 渲染 (by @azed_ai)](#案例-55低多边形-low-poly-3d-渲染-by-azed_ai)
 *   [案例 54：“极其平凡”的iPhone自拍 (by @jiamimaodashu)](#案例-54极其平凡的iphone自拍-by-jiamimaodashu)
@@ -102,6 +103,22 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 *   [案例 1：Q版求婚场景 (by @balconychy)](#案例-1q版求婚场景-by-balconychy)
 
 ---
+
+## 案例 57：8位像素图标 (by [@egeberkina](https://x.com/egeberkina))
+
+[原文链接](https://x.com/egeberkina/status/1913654508330058064)
+
+<img src="./examples/example_8bit_pixel_burger.jpeg" width="300" alt="8位像素风格的汉堡图标">
+
+**提示词：**
+```
+创建一个 [🍔] 的极简 8 位像素标志，居中放置在纯白背景上。使用有限的复古调色板，带有像素化细节、锐利边缘和干净的块状形态。该标志应简洁、具有标志性，并能在像素艺术风格中清晰识别——灵感来自经典街机游戏美学。
+```
+
+*注意：可替换提示词中的 `[🍔]` 为其他 Emoji 或对象。提示词翻译自英文版本，请参考原文链接*
+
+[⬆️ 返回案例目录](#example-toc)
+
 
 ## 案例 56：迷你 3D 建筑 (by [@dotey](https://x.com/dotey))
 

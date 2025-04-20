@@ -47,6 +47,7 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 
 **Note on Prompts:** For accuracy and reproducibility, prompts are provided in their original language (Chinese or English) as used for generation.
 
+*   [Example 57: 8-Bit Pixel Icon (by @egeberkina)](#example-57-8-bit-pixel-icon-by-egeberkina)
 *   [Example 56: Miniature 3D Building (by @dotey)](#example-56-miniature-3d-building-by-dotey)
 *   [Example 55: Low-Poly 3D Render (by @azed_ai)](#example-55-low-poly-3d-render-by-azed_ai)
 *   [Example 54: "Extremely Ordinary" iPhone Selfie (Eason & Nicholas) (by @jiamimaodashu)](#example-54-extremely-ordinary-iphone-selfie-eason--nicholas-by-jiamimaodashu)
@@ -106,6 +107,22 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 
 ---
 
+## Example 57: 8-Bit Pixel Icon (by [@egeberkina](https://x.com/egeberkina))
+
+[Source Link](https://x.com/egeberkina/status/1913654508330058064)
+
+<img src="./examples/example_8bit_pixel_burger.jpeg" width="300" alt="8-bit pixel art style burger icon">
+
+**Prompt:**
+```
+Create a minimalist 8-bit pixel logo of [🍔], centered on a pure white background. Use a limited retro color palette with pixelated detailing, sharp edges, and clean blocky forms. The logo should be simple, iconic, and clearly recognizable in pixel art style — inspired by classic arcade game aesthetics.
+```
+
+*Note: The `[🍔]` emoji in the prompt can be replaced with other emojis or subjects.*
+
+[⬆️ Back to Directory](#example-toc)
+
+
 ## Example 56: Miniature 3D Building (by [@dotey](https://x.com/dotey))
 
 [Source Link](https://x.com/dotey/status/1913759515700285569)
@@ -117,6 +134,8 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 3D Q-version mini style, a fun-filled miniature Starbucks cafe that looks like a giant takeaway coffee cup, complete with a lid and straw. The building has two floors, with large glass windows clearly displaying the warm and exquisite interior design: wooden furniture, warm lighting, and busy baristas. Cute small figures walk or sit on the street, surrounded by benches, streetlights, and potted plants, creating a charming city corner. The overall style is urban miniature landscape, rich in detail, realistic, with soft lighting presenting a cozy afternoon feel.
 ```
 *Note: You can ask the AI to generate similar prompts for other buildings by referencing the prompt above. For example: "Referencing the prompt above, write a similar prompt for [Dunkin' Donuts], shaped like a [donut]".*
+
+[⬆️ Back to Directory](#example-toc)
 
 
 ## Example 55: Low-Poly 3D Render (by [@azed_ai](https://x.com/azed_ai))
