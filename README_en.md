@@ -47,6 +47,7 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 
 **Note on Prompts:** For accuracy and reproducibility, prompts are provided in their original language (Chinese or English) as used for generation.
 
+*   [Example 61: Fake Tweet Screenshot (Einstein) (by @egeberkina)](#example-61-fake-tweet-screenshot-einstein-by-egeberkina)
 *   [Example 60: Emoji Tufted Rug (by @gizakdag)](#example-60-emoji-tufted-rug-by-gizakdag)
 *   [Example 59: Colorful Vector Art Poster (by @michaelrabone)](#example-59-colorful-vector-art-poster-by-michaelrabone)
 *   [Example 58: Cloud Art (by @umesh_ai)](#example-58-cloud-art-by-umesh_ai)
@@ -109,6 +110,20 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 *   [Example 1: Q-version Proposal Scene (by @balconychy)](#example-1-q-version-proposal-scene-by-balconychy)
 
 ---
+
+## Example 61: Fake Tweet Screenshot (Einstein) (by [@egeberkina](https://x.com/egeberkina))
+
+[Source Link](https://x.com/egeberkina/status/1914299716394778713)
+
+<img src="./examples/example_fake_tweet_einstein.jpeg" width="300" alt="Hyperrealistic Twitter post screenshot by Albert Einstein after finishing the theory of relativity, with chalkboard and equations in the background, liked by Nikola Tesla">
+
+**Prompt:**
+```
+a hyper realistic twitter post by Albert Einstein right after finishing the theory of relativity. include a selfie where you can clearly see scribbled equations and a chalkboard in the background. have it visible that the post was liked by Nikola Tesla
+```
+
+[⬆️ Back to Directory](#example-toc)
+
 
 ## Example 60: Emoji Tufted Rug (by [@gizakdag](https://x.com/gizakdag))
 

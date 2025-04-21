@@ -44,6 +44,7 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 <a id="example-toc"></a>
 ## 📖 案例目录
 
+*   [案例 61：虚构推文截图 (爱因斯坦) (by @egeberkina)](#案例-61虚构推文截图-爱因斯坦-by-egeberkina)
 *   [案例 60：Emoji 簇绒地毯 (by @gizakdag)](#案例-60emoji-簇绒地毯-by-gizakdag)
 *   [案例 59：彩色矢量艺术海报 (by @michaelrabone)](#案例-59彩色矢量艺术海报-by-michaelrabone)
 *   [案例 58：云彩艺术 (by @umesh_ai)](#案例-58云彩艺术-by-umesh_ai)
@@ -106,6 +107,23 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 *   [案例 1：Q版求婚场景 (by @balconychy)](#案例-1q版求婚场景-by-balconychy)
 
 ---
+
+## 案例 61：虚构推文截图 (爱因斯坦) (by [@egeberkina](https://x.com/egeberkina))
+
+[原文链接](https://x.com/egeberkina/status/1914299716394778713)
+
+<img src="./examples/example_fake_tweet_einstein.jpeg" width="300" alt="爱因斯坦发布相对论后的“超现实”推特帖子截图，背景有黑板和公式，显示尼古拉·特斯拉点赞">
+
+**提示词：**
+```
+一个超现实的推特帖子，由阿尔伯特·爱因斯坦在完成相对论后立即发布。包含一张自拍照，可以清晰看到背景中潦草的方程式和黑板。要能看到该帖子被尼古拉·特斯拉点赞了。
+
+原版英文提示词：
+a hyper realistic twitter post by Albert Einstein right after finishing the theory of relativity. include a selfie where you can clearly see scribbled equations and a chalkboard in the background. have it visible that the post was liked by Nikola Tesla
+```
+
+[⬆️ 返回案例目录](#example-toc)
+
 
 ## 案例 60：Emoji 簇绒地毯 (by [@gizakdag](https://x.com/gizakdag))
 
