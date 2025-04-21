@@ -47,6 +47,7 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 
 **Note on Prompts:** For accuracy and reproducibility, prompts are provided in their original language (Chinese or English) as used for generation.
 
+*   [Example 59: Colorful Vector Art Poster (by @michaelrabone)](#example-59-colorful-vector-art-poster-by-michaelrabone)
 *   [Example 58: Cloud Art (by @umesh_ai)](#example-58-cloud-art-by-umesh_ai)
 *   [Example 57: 8-Bit Pixel Icon (by @egeberkina)](#example-57-8-bit-pixel-icon-by-egeberkina)
 *   [Example 56: Miniature 3D Building (by @dotey)](#example-56-miniature-3d-building-by-dotey)
@@ -107,6 +108,22 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 *   [Example 1: Q-version Proposal Scene (by @balconychy)](#example-1-q-version-proposal-scene-by-balconychy)
 
 ---
+
+## Example 59: Colorful Vector Art Poster (by [@michaelrabone](https://x.com/michaelrabone))
+
+[Source Link](https://x.com/michaelrabone/status/1913865394139316291)
+
+<img src="./examples/example_vector_poster_london.png" width="300" alt="Colorful vector art poster of London">
+
+**Prompt:**
+```
+Barcelona Spain colourful summer vector art poster with big "BARCELONA" title at the top and smaller "SPAIN" title under
+```
+
+*Note: Replace the city and country names in the prompt (e.g., replace "Barcelona Spain" and the titles with "London United Kingdom" to generate the example image). This style prompt also works for food, movies, music, etc.*
+
+[⬆️ Back to Directory](#toc-en)
+
 
 ## Example 58: Cloud Art (by [@umesh_ai](https://x.com/umesh_ai))
 
@@ -1209,6 +1226,7 @@ Special thanks to the following users for sharing their inspiring work ✨:
 *   [jiamimao 猫叔 (@jiamimaodashu)](https://x.com/jiamimaodashu)
 *   [Amira Zairi (@azed_ai)](https://x.com/azed_ai)
 *   [Umesh (@umesh_ai)](https://x.com/umesh_ai)
+*   [Michael Rabone (@michaelrabone)](https://x.com/michaelrabone)
 *   And other creators whose prompts may have been included through retweets or indirect shares.
 
 If your work is included here and you wish to change the attribution or have it removed, please feel free to contact us. ✉️

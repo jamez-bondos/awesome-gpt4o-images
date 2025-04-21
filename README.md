@@ -44,6 +44,7 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 <a id="example-toc"></a>
 ## 📖 案例目录
 
+*   [案例 59：彩色矢量艺术海报 (by @michaelrabone)](#案例-59彩色矢量艺术海报-by-michaelrabone)
 *   [案例 58：云彩艺术 (by @umesh_ai)](#案例-58云彩艺术-by-umesh_ai)
 *   [案例 57：8位像素图标 (by @egeberkina)](#案例-578位像素图标-by-egeberkina)
 *   [案例 56：迷你 3D 建筑 (by @dotey)](#案例-56迷你-3d-建筑-by-dotey)
@@ -104,6 +105,21 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 *   [案例 1：Q版求婚场景 (by @balconychy)](#案例-1q版求婚场景-by-balconychy)
 
 ---
+
+## 案例 59：彩色矢量艺术海报 (by [@michaelrabone](https://x.com/michaelrabone))
+
+[原文链接](https://x.com/michaelrabone/status/1913865394139316291)
+
+<img src="./examples/example_vector_poster_london.png" width="300" alt="伦敦彩色矢量艺术海报">
+
+**提示词：**
+```
+地点是"英国伦敦"，生成一张夏季的彩色矢量艺术海报，顶部有大的"LONDON"标题，下方有较小的"UNITED KINGDOM"标题
+```
+*注意：可替换提示词中的城市和国家名称（例如将"英国伦敦"替换为"中国北京"以生成示例图，大小标题也跟着更换）。此风格提示词也可用于食物、电影、音乐等主题。*
+
+[⬆️ 返回案例目录](#example-toc)
+
 
 ## 案例 58：云彩艺术 (by [@umesh_ai](https://x.com/umesh_ai))
 
@@ -1221,13 +1237,14 @@ Can you create a PS2 video game case of "Grand Theft Auto: Far Far Away" a GTA b
 *   [RichChat (@richardchang)](https://x.com/richardchang)
 *   [歸藏(guizang.ai) (@op7418)](https://x.com/op7418)
 *   [katon (@hellokaton)](https://x.com/hellokaton)
-*   [Berryxia.AI](https://x.com/berryxia_ai)
+*   [Berryxia.AI (@berryxia_ai)](https://x.com/berryxia_ai)
 *   [Ege (@egeberkina)](https://x.com/egeberkina)
 *   [Brett (@BrettFromDJ)](https://x.com/BrettFromDJ)
 *   [89'S (@M_w14_)](https://x.com/M_w14_)
 *   [jiamimao 猫叔 (@jiamimaodashu)](https://x.com/jiamimaodashu)
 *   [Amira Zairi (@azed_ai)](https://x.com/azed_ai)
 *   [Umesh (@umesh_ai)](https://x.com/umesh_ai)
+*   [Michael Rabone (@michaelrabone)](https://x.com/michaelrabone)
 *   以及其他可能通过转推或间接分享而被收录其提示词的创作者们。
 
 如果您的作品被收录在此，而您希望更改署名或将其移除，请随时与我们联系。✉️
