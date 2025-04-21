@@ -44,6 +44,7 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 <a id="example-toc"></a>
 ## 📖 案例目录
 
+*   [案例 60：Emoji 簇绒地毯 (by @gizakdag)](#案例-60emoji-簇绒地毯-by-gizakdag)
 *   [案例 59：彩色矢量艺术海报 (by @michaelrabone)](#案例-59彩色矢量艺术海报-by-michaelrabone)
 *   [案例 58：云彩艺术 (by @umesh_ai)](#案例-58云彩艺术-by-umesh_ai)
 *   [案例 57：8位像素图标 (by @egeberkina)](#案例-578位像素图标-by-egeberkina)
@@ -105,6 +106,22 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 *   [案例 1：Q版求婚场景 (by @balconychy)](#案例-1q版求婚场景-by-balconychy)
 
 ---
+
+## 案例 60：Emoji 簇绒地毯 (by [@gizakdag](https://x.com/gizakdag))
+
+[原文链接](https://x.com/gizakdag/status/1913925062568144924)
+
+<img src="./examples/example_tufted_rug_dino_emoji.jpeg" width="300" alt="手工簇绒地毯，形状为恐龙 Emoji 🦖">
+
+**提示词：**
+```
+创建一张色彩鲜艳的手工簇绒地毯图片，形状为 🦖 表情符号，放置在简单的地板背景上。地毯设计大胆、有趣，具有柔软蓬松的质地和粗纱线细节。从上方拍摄，在自然日光下，带有略微古怪的 DIY 美学风格。色彩鲜艳、卡通轮廓、触感舒适的材料——类似于手工簇绒艺术地毯。
+```
+
+*注意：可替换提示词中的 🦖 为其他 Emoji。*
+
+[⬆️ 返回案例目录](#example-toc)
+
 
 ## 案例 59：彩色矢量艺术海报 (by [@michaelrabone](https://x.com/michaelrabone))
 

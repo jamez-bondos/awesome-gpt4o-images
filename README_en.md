@@ -47,6 +47,7 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 
 **Note on Prompts:** For accuracy and reproducibility, prompts are provided in their original language (Chinese or English) as used for generation.
 
+*   [Example 60: Emoji Tufted Rug (by @gizakdag)](#example-60-emoji-tufted-rug-by-gizakdag)
 *   [Example 59: Colorful Vector Art Poster (by @michaelrabone)](#example-59-colorful-vector-art-poster-by-michaelrabone)
 *   [Example 58: Cloud Art (by @umesh_ai)](#example-58-cloud-art-by-umesh_ai)
 *   [Example 57: 8-Bit Pixel Icon (by @egeberkina)](#example-57-8-bit-pixel-icon-by-egeberkina)
@@ -109,6 +110,22 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 
 ---
 
+## Example 60: Emoji Tufted Rug (by [@gizakdag](https://x.com/gizakdag))
+
+[Source Link](https://x.com/gizakdag/status/1913925062568144924)
+
+<img src="./examples/example_tufted_rug_dino_emoji.jpeg" width="300" alt="Hand-tufted rug in the shape of a dinosaur emoji 🦖">
+
+**Prompt:**
+```
+Create an image of a colorful, hand-tufted rug in the shape of 🦖 emoji, placed on a simple floor background. The rug has a bold, playful design with soft, fluffy texture and thick yarn details. Shot from above, in natural daylight, with a slightly quirky, DIY aesthetic. Vibrant colors, cartoonish outlines, and tactile, cozy material—similar to handmade tufted art rugs.
+```
+
+*Note: The 🦖 emoji in the prompt can be replaced with other emojis.*
+
+[⬆️ Back to Directory](#example-toc)
+
+
 ## Example 59: Colorful Vector Art Poster (by [@michaelrabone](https://x.com/michaelrabone))
 
 [Source Link](https://x.com/michaelrabone/status/1913865394139316291)
@@ -122,7 +139,7 @@ Barcelona Spain colourful summer vector art poster with big "BARCELONA" title at
 
 *Note: Replace the city and country names in the prompt (e.g., replace "Barcelona Spain" and the titles with "London United Kingdom" to generate the example image). This style prompt also works for food, movies, music, etc.*
 
-[⬆️ Back to Directory](#toc-en)
+[⬆️ Back to Directory](#example-toc)
 
 
 ## Example 58: Cloud Art (by [@umesh_ai](https://x.com/umesh_ai))
