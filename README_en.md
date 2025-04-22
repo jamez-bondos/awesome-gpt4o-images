@@ -47,6 +47,7 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 
 **Note on Prompts:** For accuracy and reproducibility, prompts are provided in their original language (Chinese or English) as used for generation.
 
+*   [Example 62: Kawaii Enamel Pin (by @gnrlyxyz)](#example-62-kawaii-enamel-pin-by-gnrlyxyz)
 *   [Example 61: Fake Tweet Screenshot (Einstein) (by @egeberkina)](#example-61-fake-tweet-screenshot-einstein-by-egeberkina)
 *   [Example 60: Emoji Tufted Rug (by @gizakdag)](#example-60-emoji-tufted-rug-by-gizakdag)
 *   [Example 59: Colorful Vector Art Poster (by @michaelrabone)](#example-59-colorful-vector-art-poster-by-michaelrabone)
@@ -110,6 +111,24 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 *   [Example 1: Q-version Proposal Scene (by @balconychy)](#example-1-q-version-proposal-scene-by-balconychy)
 
 ---
+
+## Example 62: Kawaii Enamel Pin (by [@gnrlyxyz](https://x.com/gnrlyxyz))
+
+[Source Link](https://x.com/gnrlyxyz/status/1914303110853583302)
+
+<img src="./examples/example_enamel_pins_pop_culture.jpeg" width="300" alt="Kawaii enamel pins of several pop culture characters (e.g., Terminator, Breaking Bad protagonist)">
+
+**Prompt:**
+```
+Turn the subject in the attached image into a kawaii enamel pin. Use glossy metal outlines and vibrant enamel fill. No extra added features. Square mockup format. White background.
+```
+
+**Reference Image Required:** Needs a photo of a person or object as the subject for transformation.
+
+**Example Submitted by:** [StevenSong-sTs](https://github.com/StevenSong-sTs)
+
+[⬆️ Back to Directory](#example-toc)
+
 
 ## Example 61: Fake Tweet Screenshot (Einstein) (by [@egeberkina](https://x.com/egeberkina))
 
@@ -1259,6 +1278,7 @@ Special thanks to the following users for sharing their inspiring work ✨:
 *   [Amira Zairi (@azed_ai)](https://x.com/azed_ai)
 *   [Umesh (@umesh_ai)](https://x.com/umesh_ai)
 *   [Michael Rabone (@michaelrabone)](https://x.com/michaelrabone)
+*   [gnrly.xyz (@gnrlyxyz)](https://x.com/gnrlyxyz)
 *   And other creators whose prompts may have been included through retweets or indirect shares.
 
 If your work is included here and you wish to change the attribution or have it removed, please feel free to contact us. ✉️
