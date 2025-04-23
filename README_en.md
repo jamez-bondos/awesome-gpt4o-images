@@ -47,6 +47,7 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 
 **Note on Prompts:** For accuracy and reproducibility, prompts are provided in their original language (Chinese or English) as used for generation.
 
+*   [Example 63: Emoji Cream Popsicle (by @ZHO_ZHO_ZHO)](#example-63-emoji-cream-popsicle-by-zho_zho_zho)
 *   [Example 62: Kawaii Enamel Pin (by @gnrlyxyz)](#example-62-kawaii-enamel-pin-by-gnrlyxyz)
 *   [Example 61: Fake Tweet Screenshot (Einstein) (by @egeberkina)](#example-61-fake-tweet-screenshot-einstein-by-egeberkina)
 *   [Example 60: Emoji Tufted Rug (by @gizakdag)](#example-60-emoji-tufted-rug-by-gizakdag)
@@ -111,6 +112,22 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 *   [Example 1: Q-version Proposal Scene (by @balconychy)](#example-1-q-version-proposal-scene-by-balconychy)
 
 ---
+
+## Example 63: Emoji Cream Popsicle (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
+
+[Source Link](https://x.com/ZHO_ZHO_ZHO/status/1914574278911000967)
+
+<img src="./examples/example_ice_cream_emoji_strawberry.png" width="300" alt="Strawberry-shaped cream popsicle with a cream swirl on top, cute Q-version 3D style">
+
+**Prompt:**
+```
+Turn 【🍓】 into a cream popsicle, with cream swirling deliciously on top, suspended at a 45-degree angle in the air, cute Q-version 3D style, solid background with matching color scheme.
+```
+
+*Note: The 【🍓】 emoji in the prompt can be replaced with other emojis.*
+
+[⬆️ Back to Directory](#example-toc)
+
 
 ## Example 62: Kawaii Enamel Pin (by [@gnrlyxyz](https://x.com/gnrlyxyz))
 

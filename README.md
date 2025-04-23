@@ -44,6 +44,7 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 <a id="example-toc"></a>
 ## 📖 案例目录
 
+*   [案例 63：Emoji 奶油雪糕 (by @ZHO_ZHO_ZHO)](#案例-63emoji-奶油雪糕-by-zho_zho_zho)
 *   [案例 62：可爱珐琅别针 (by @gnrlyxyz)](#案例-62可爱珐琅别针-by-gnrlyxyz)
 *   [案例 61：虚构推文截图 (爱因斯坦) (by @egeberkina)](#案例-61虚构推文截图-爱因斯坦-by-egeberkina)
 *   [案例 60：Emoji 簇绒地毯 (by @gizakdag)](#案例-60emoji-簇绒地毯-by-gizakdag)
@@ -108,6 +109,21 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 *   [案例 1：Q版求婚场景 (by @balconychy)](#案例-1q版求婚场景-by-balconychy)
 
 ---
+
+## 案例 63：Emoji 奶油雪糕 (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
+
+[原文链接](https://x.com/ZHO_ZHO_ZHO/status/1914574278911000967)
+
+<img src="./examples/example_ice_cream_emoji_strawberry.png" width="300" alt="草莓形状的奶油雪糕，顶部有奶油漩涡，Q版3D可爱风格">
+
+**提示词：**
+```
+为我生成：将【🍓】变成变成一根奶油雪糕，奶油在雪糕顶上呈曲线流动状看起来美味可口，45度悬浮在空中，q版 3d 可爱风格，一致色系的纯色背景
+```
+*注意：可替换提示词中的【🍓】为其他 Emoji。*
+
+[⬆️ 返回案例目录](#example-toc)
+
 
 ## 案例 62：可爱珐琅别针 (by [@gnrlyxyz](https://x.com/gnrlyxyz))
 
