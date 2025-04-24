@@ -44,7 +44,7 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 <a id="example-toc"></a>
 ## 📖 案例目录
 
-*   [案例：蒸汽朋克机械鱼 (by @f-is-h)](#案例蒸汽朋克机械鱼-by-f-is-h)
+*   [案例 64：蒸汽朋克机械鱼 (by @f-is-h)](#案例-64蒸汽朋克机械鱼-by-f-is-h)
 *   [案例 63：Emoji 奶油雪糕 (by @ZHO_ZHO_ZHO)](#案例-63emoji-奶油雪糕-by-zho_zho_zho)
 *   [案例 62：可爱珐琅别针 (by @gnrlyxyz)](#案例-62可爱珐琅别针-by-gnrlyxyz)
 *   [案例 61：虚构推文截图 (爱因斯坦) (by @egeberkina)](#案例-61虚构推文截图-爱因斯坦-by-egeberkina)
@@ -111,7 +111,7 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 
 ---
 
-## 案例：蒸汽朋克机械鱼 (by [@f-is-h](https://github.com/f-is-h))
+## 案例64：蒸汽朋克机械鱼 (by [@f-is-h](https://github.com/f-is-h))
 
 [原文链接](https://github.com/f-is-h/f-is-h/blob/main/images/streampank-fish-4.png)
 
@@ -1339,6 +1339,7 @@ Can you create a PS2 video game case of "Grand Theft Auto: Far Far Away" a GTA b
 *   [Umesh (@umesh_ai)](https://x.com/umesh_ai)
 *   [Michael Rabone (@michaelrabone)](https://x.com/michaelrabone)
 *   [gnrly.xyz (@gnrlyxyz)](https://x.com/gnrlyxyz)
+*   [f-is-h (@f-is-h)](https://github.com/f-is-h)
 *   以及其他可能通过转推或间接分享而被收录其提示词的创作者们。
 
 如果您的作品被收录在此，而您希望更改署名或将其移除，请随时与我们联系。✉️
