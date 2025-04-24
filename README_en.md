@@ -47,6 +47,7 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 
 **Note on Prompts:** For accuracy and reproducibility, prompts are provided in their original language (Chinese or English) as used for generation.
 
+*   [Example 65: Trompe-l'œil Three-Dimensional Spatial Art (by @madpencil_)](#example-65-trompe-lœil-three-dimensional-spatial-art-by-madpencil_)
 *   [Example 64: Steampunk Mechanical Fish (by @f-is-h)](#example-64-steampunk-mechanical-fish-by-f-is-h)
 *   [Example 63: Emoji Cream Popsicle (by @ZHO_ZHO_ZHO)](#example-63-emoji-cream-popsicle-by-zho_zho_zho)
 *   [Example 62: Kawaii Enamel Pin (by @gnrlyxyz)](#example-62-kawaii-enamel-pin-by-gnrlyxyz)
@@ -1333,6 +1334,7 @@ Special thanks to the following users for sharing their inspiring work ✨:
 *   [Michael Rabone (@michaelrabone)](https://x.com/michaelrabone)
 *   [gnrly.xyz (@gnrlyxyz)](https://x.com/gnrlyxyz)
 *   [f-is-h (@f-is-h)](https://github.com/f-is-h)
+*   [Madpencil (@madpencil_)](https://x.com/madpencil_)
 *   And other creators whose prompts may have been included through retweets or indirect shares.
 
 If your work is included here and you wish to change the attribution or have it removed, please feel free to contact us. ✉️
