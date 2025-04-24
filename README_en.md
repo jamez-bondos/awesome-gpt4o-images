@@ -47,7 +47,7 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 
 **Note on Prompts:** For accuracy and reproducibility, prompts are provided in their original language (Chinese or English) as used for generation.
 
-*   [Example 64: Steampunk Mechanical Fish (by @f-is-h)](#example-64-steampunk-mechanical-fish-by-f-is-h)
+*   [Example: Steampunk Mechanical Fish (by @f-is-h)](#example-steampunk-mechanical-fish-by-f-is-h)
 *   [Example 63: Emoji Cream Popsicle (by @ZHO_ZHO_ZHO)](#example-63-emoji-cream-popsicle-by-zho_zho_zho)
 *   [Example 62: Kawaii Enamel Pin (by @gnrlyxyz)](#example-62-kawaii-enamel-pin-by-gnrlyxyz)
 *   [Example 61: Fake Tweet Screenshot (Einstein) (by @egeberkina)](#example-61-fake-tweet-screenshot-einstein-by-egeberkina)
@@ -114,7 +114,7 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 
 ---
 
-## Example 64: Steampunk Mechanical Fish (by [@f-is-h](https://github.com/f-is-h))
+## Example: Steampunk Mechanical Fish (by [@f-is-h](https://github.com/f-is-h))
 
 [Source Link](https://github.com/f-is-h/f-is-h/blob/main/images/streampank-fish-4.png)
 
