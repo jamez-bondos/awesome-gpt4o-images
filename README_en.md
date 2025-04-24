@@ -48,7 +48,7 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 **Note on Prompts:** For accuracy and reproducibility, prompts are provided in their original language (Chinese or English) as used for generation.
 
 *   [Example 67: Ultra-realistic 3D Game (by @ZHO_ZHO_ZHO)](#example-67-ultra-realistic-3d-game-by-zho_zho_zho)
-*   [Example 66: Silk Universe-Creative Universe (by @ZHO_ZHO_ZHO)](#example-66-silk-universe-creative-universe-by-zho_zho_zho)
+*   [Example 66: Creative Silk Universe (by @ZHO_ZHO_ZHO)](#example-66-creative-silk-universe-by-zho_zho_zho)
 *   [Example 65: Trompe-l'œil Three-Dimensional Spatial Art (by @madpencil_)](#example-65-trompe-l-œil-three-dimensional-spatial-art-by-madpencil_)
 *   [Example 65: Trompe-l'œil Three-Dimensional Spatial Art (by @madpencil_)](#example-65-trompe-lœil-three-dimensional-spatial-art-by-madpencil_)
 *   [Example 64: Steampunk Mechanical Fish (by @f-is-h)](#example-64-steampunk-mechanical-fish-by-f-is-h)
@@ -118,7 +118,7 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 
 ---
 
-## Example 67：Ultra-realistic 3D Game (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO) )
+## Example 67: Ultra-realistic 3D Game (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO) )
 
 [Source Link](https://x.com/ZHO_ZHO_ZHO/status/1913648013144137840)
 
@@ -131,7 +131,10 @@ The entire room is filled with a nostalgic atmosphere of the year 2008: snack pa
 The flash slightly overexposes her face and clothes, making her silhouette stand out more prominently in the dimly lit room. The whole photo appears raw and natural. The strong contrast between light and dark casts deep shadows behind her. The image is full of tactile feel, with a simulated texture that resembles an authentic film snapshot from 2008.
 ```
 
-## Example 66: Silk Universe-Creative Universe (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO) )
+**Example Submitted by:** [wowmarcomei](https://github.com/wowmarcomei)
+
+
+## Example 66: Creative Silk Universe (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO) )
 
 [Source Link](https://x.com/ZHO_ZHO_ZHO/status/1914864217867608175)
 
@@ -142,6 +145,8 @@ The flash slightly overexposes her face and clothes, making her silhouette stand
 Transform the ❄️ into a soft 3D object with a silk texture. The entire surface of the object is wrapped in smooth and flowing silk fabric, featuring surreal wrinkle details, soft highlights, and shadows. The object gently floats in the center of a clean light gray background, creating a light and elegant atmosphere. The overall style is surreal, tactile, and modern, conveying a sense of comfort and refined playfulness. Studio lighting, high-resolution rendering.
 ```
 *You can replace the [❄️] in the prompt words with your target value*
+
+**Example Submitted by:** [wowmarcomei](https://github.com/wowmarcomei)
 
 [⬆️ Back to Directory](#example-toc)
 

@@ -45,7 +45,7 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 ## 📖 案例目录
 
 *   [案例 67：超写实3D游戏 (by @ZHO_ZHO_ZHO)](#案例-67超写实3d游戏-by-zho_zho_zho)
-*   [案例 66：丝绸宇宙 | 创意宇宙 (by @ZHO_ZHO_ZHO)](#案例-66丝绸宇宙-创意宇宙-by-zho_zho_zho)
+*   [案例 66：创意丝绸宇宙 (by @ZHO_ZHO_ZHO)](#案例-66创意丝绸宇宙-by-zho_zho_zho)
 *   [案例 65：Trompe-l'œil 三维空间艺术 (by @madpencil_)](#案例-65trompe-lœil-三维空间艺术-by-madpencil-)
 *   [案例 65：Trompe-l'œil 三维空间艺术 (by @madpencil_)](#案例-65trompe-lœil-三维空间艺术-by-madpencil_)
 *   [案例 64：蒸汽朋克机械鱼 (by @f-is-h)](#案例-64蒸汽朋克机械鱼-by-f-is-h)
@@ -130,20 +130,24 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 闪光灯轻微地过曝了她的脸和衣服，使她的轮廓在昏暗的房间中更加突出。整张照片显得原始而自然，强烈的明暗对比在她身后投下深邃的阴影，画面充满触感，带有一种真实的2008年胶片快照的模拟质感。
 ```
 
+**案例提交：** [wowmarcomei](https://github.com/wowmarcomei)
 
 [⬆️ 返回案例目录](#example-toc)
 
-## 案例 66：丝绸宇宙 | 创意宇宙 (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO) )
+
+## 案例 66：创意丝绸宇宙 (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO) )
 
 [原文链接](https://x.com/ZHO_ZHO_ZHO/status/1914864217867608175)
 
-<img src="./examples/example_silk_creation_universe.jpg" width="300" alt="丝绸宇宙 创意宇宙">
+<img src="./examples/example_silk_creation_universe.jpg" width="300" alt="创意丝绸宇宙">
 
 **提示词：**
 ```
 将 ❄️ 变成一个柔软的 3D 丝绸质感物体。整个物体表面包裹着顺滑流动的丝绸面料，带有超现实的褶皱细节、柔和的高光与阴影。该物体轻轻漂浮在干净的浅灰色背景中央，营造出轻盈优雅的氛围。整体风格超现实、触感十足且现代，传递出舒适与精致趣味的感觉。工作室灯光，高分辨率渲染。
 ```
 *注意：可替换提示词中的【❄️】替换为你的目标值。*
+
+**案例提交：** [wowmarcomei](https://github.com/wowmarcomei)
 
 [⬆️ 返回案例目录](#example-toc)
 
