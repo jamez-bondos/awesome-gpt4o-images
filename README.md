@@ -44,6 +44,9 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 <a id="example-toc"></a>
 ## 📖 案例目录
 
+*   [案例 67：超写实3D游戏 (by @ZHO_ZHO_ZHO)](#案例-67超写实3d游戏-by-zho_zho_zho)
+*   [案例 66：丝绸宇宙 | 创意宇宙 (by @ZHO_ZHO_ZHO)](#案例-66丝绸宇宙-创意宇宙-by-zho_zho_zho)
+*   [案例 65：Trompe-l'œil 三维空间艺术 (by @madpencil_)](#案例-65trompe-lœil-三维空间艺术-by-madpencil-)
 *   [案例 65：Trompe-l'œil 三维空间艺术 (by @madpencil_)](#案例-65trompe-lœil-三维空间艺术-by-madpencil_)
 *   [案例 64：蒸汽朋克机械鱼 (by @f-is-h)](#案例-64蒸汽朋克机械鱼-by-f-is-h)
 *   [案例 63：Emoji 奶油雪糕 (by @ZHO_ZHO_ZHO)](#案例-63emoji-奶油雪糕-by-zho_zho_zho)
@@ -111,6 +114,38 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 *   [案例 1：Q版求婚场景 (by @balconychy)](#案例-1q版求婚场景-by-balconychy)
 
 ---
+
+## 案例 67：超写实3D游戏 (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO) )
+
+[原文链接](https://x.com/ZHO_ZHO_ZHO/status/1913648013144137840)
+
+<img src="./examples/example_Ultra_realistic_3D_game.jpg" width="300" alt="超写实3D游戏">
+
+**提示词：**
+```
+超写实的 3D 渲染画面，重现了2008年《命令与征服：红色警戒3》中娜塔莎的角色设计，完全依照原版建模。场景设定在一个昏暗杂乱的2008年代卧室里，角色正坐在地毯上，面对一台正在播放《命令与征服：红色警戒3》的老式电视和游戏机手柄。
+
+整个房间充满了2008年代的怀旧氛围：零食包装袋、汽水罐、海报以及纠缠在一起的电线。娜塔莎·沃尔科娃在画面中被抓拍到转头的一瞬，回眸看向镜头，她那标志性的空灵美丽面容上带着一抹纯真的微笑。她的上半身微微扭转，动态自然，仿佛刚刚被闪光灯惊到而做出的反应。
+
+闪光灯轻微地过曝了她的脸和衣服，使她的轮廓在昏暗的房间中更加突出。整张照片显得原始而自然，强烈的明暗对比在她身后投下深邃的阴影，画面充满触感，带有一种真实的2008年胶片快照的模拟质感。
+```
+
+
+[⬆️ 返回案例目录](#example-toc)
+
+## 案例 66：丝绸宇宙 | 创意宇宙 (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO) )
+
+[原文链接](https://x.com/ZHO_ZHO_ZHO/status/1914864217867608175)
+
+<img src="./examples/example_silk_creation_universe.jpg" width="300" alt="丝绸宇宙 创意宇宙">
+
+**提示词：**
+```
+将 ❄️ 变成一个柔软的 3D 丝绸质感物体。整个物体表面包裹着顺滑流动的丝绸面料，带有超现实的褶皱细节、柔和的高光与阴影。该物体轻轻漂浮在干净的浅灰色背景中央，营造出轻盈优雅的氛围。整体风格超现实、触感十足且现代，传递出舒适与精致趣味的感觉。工作室灯光，高分辨率渲染。
+```
+*注意：可替换提示词中的【❄️】替换为你的目标值。*
+
+[⬆️ 返回案例目录](#example-toc)
 
 
 ## 案例 65：Trompe-l'œil 三维空间艺术 (by [@madpencil_](https://x.com/madpencil_) )
