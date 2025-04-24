@@ -47,7 +47,7 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 
 **Note on Prompts:** For accuracy and reproducibility, prompts are provided in their original language (Chinese or English) as used for generation.
 
-*   [Example: Steampunk Mechanical Fish (by @f-is-h)](#example-steampunk-mechanical-fish-by-f-is-h)
+*   [Example 64: Steampunk Mechanical Fish (by @f-is-h)](#example-64-steampunk-mechanical-fish-by-f-is-h)
 *   [Example 63: Emoji Cream Popsicle (by @ZHO_ZHO_ZHO)](#example-63-emoji-cream-popsicle-by-zho_zho_zho)
 *   [Example 62: Kawaii Enamel Pin (by @gnrlyxyz)](#example-62-kawaii-enamel-pin-by-gnrlyxyz)
 *   [Example 61: Fake Tweet Screenshot (Einstein) (by @egeberkina)](#example-61-fake-tweet-screenshot-einstein-by-egeberkina)
@@ -114,7 +114,7 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 
 ---
 
-## Example: Steampunk Mechanical Fish (by [@f-is-h](https://github.com/f-is-h))
+## Example 64: Steampunk Mechanical Fish (by [@f-is-h](https://github.com/f-is-h))
 
 [Source Link](https://github.com/f-is-h/f-is-h/blob/main/images/streampank-fish-4.png)
 
@@ -1319,6 +1319,7 @@ Special thanks to the following users for sharing their inspiring work ✨:
 *   [Umesh (@umesh_ai)](https://x.com/umesh_ai)
 *   [Michael Rabone (@michaelrabone)](https://x.com/michaelrabone)
 *   [gnrly.xyz (@gnrlyxyz)](https://x.com/gnrlyxyz)
+*   [f-is-h (@f-is-h)](https://github.com/f-is-h)
 *   And other creators whose prompts may have been included through retweets or indirect shares.
 
 If your work is included here and you wish to change the attribution or have it removed, please feel free to contact us. ✉️
