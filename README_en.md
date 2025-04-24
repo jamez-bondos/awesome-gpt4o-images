@@ -47,6 +47,7 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 
 **Note on Prompts:** For accuracy and reproducibility, prompts are provided in their original language (Chinese or English) as used for generation.
 
+*   [Example 68: Futuristic Logo Trading Card (by @hewarsaber)](#example-68-futuristic-logo-trading-card-by-hewarsaber)
 *   [Example 67: Ultra-realistic 3D Game (by @ZHO_ZHO_ZHO)](#example-67-ultra-realistic-3d-game-by-zho_zho_zho)
 *   [Example 66: Creative Silk Universe (by @ZHO_ZHO_ZHO)](#example-66-creative-silk-universe-by-zho_zho_zho)
 *   [Example 65: Trompe-l'œil Three-Dimensional Spatial Art (by @madpencil_)](#example-65-trompe-lœil-three-dimensional-spatial-art-by-madpencil_)
@@ -116,6 +117,46 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 *   [Example 1: Q-version Proposal Scene (by @balconychy)](#example-1-q-version-proposal-scene-by-balconychy)
 
 ---
+
+## Example 68: Futuristic Logo Trading Card (by [@hewarsaber](https://x.com/hewarsaber))
+
+[Source Link](https://x.com/hewarsaber/status/1912933875166171515)
+
+<img src="./examples/example_trading_card_logo_tesla.png" width="300" alt="Futuristic trading card featuring the Tesla logo">
+
+**Prompt:**
+```
+{
+    "prompt": "A futuristic trading card with a dark, moody neon aesthetic and soft sci-fi lighting. The card features a semi-transparent, rounded rectangle with slightly muted glowing edges, appearing as if made of holographic glass. At the center is a large glowing logo of {{logo}}, with no additional text or label, illuminated with a smooth gradient of {{colors}}, but not overly bright. The reflections on the card surface should be subtle, with a slight glossy finish catching ambient light. The background is a dark carbon fiber texture or deep gradient with soft ambient glows bleeding into the edges. Add subtle light rays streaming down diagonally from the top, giving the scene a soft cinematic glow. Apply light motion blur to the edges and reflections to give the scene a sense of depth and energy, as if it's part of a high-end tech animation still. Below the card, include realistic floor reflections that mirror the neon edges and logo—slightly diffused for a grounded, futuristic look. Text elements are minimal and softly lit: top-left shows '{{ticker}}', top-right has a stylized signature, and the bottom displays '{{company_name}}' with a serial number '{{card_number}}', a revenue badge reading '{{revenue}}', and the year '{{year}}'. Typography should have a faint glow with slight blurring, and all elements should feel premium, elegant, and softly illuminated—like a high-end cyberpunk collectible card.",
+    "style": {
+        "lighting": "Neon glow, soft reflections",
+        "font": "Modern sans-serif, clean and minimal",
+        "layout": "Centered, structured like a digital collectible card",
+        "materials": "Glass, holographic plastic, glowing metal edges"
+    },
+    "parameters": {
+        "logo": "Tesla logo",
+        "ticker": "TSLA",
+        "company_name": "Tesla Inc.",
+        "card_number": "#0006",
+        "revenue": "$96.8B",
+        "year": "2025",
+        "colors": [
+            "red",
+            "white",
+            "dark gray"
+        ]
+    },
+    "medium": "3D render, high-resolution digital art",
+    "size": "1080px by 1080px"
+}
+```
+*Note: The prompt uses a JSON-like structure to describe card elements. Modify values in the `parameters` object (like logo, ticker, company_name, colors, etc.) to customize the card. For custom logos, specify in `parameters.logo` (e.g., "Framer logo (attached image)") and upload the image.*
+
+**Reference Image Required:** (Optional) Upload a custom logo image.
+
+[⬆️ Back to Directory](#example-toc)
+
 
 ## Example 67: Ultra-realistic 3D Game (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO) )
 
@@ -1377,6 +1418,7 @@ Special thanks to the following users for sharing their inspiring work ✨:
 *   [gnrly.xyz (@gnrlyxyz)](https://x.com/gnrlyxyz)
 *   [f-is-h (@f-is-h)](https://github.com/f-is-h)
 *   [Madpencil (@madpencil_)](https://x.com/madpencil_)
+*   [Hewar (@hewarsaber)](https://x.com/hewarsaber)
 *   And other creators whose prompts may have been included through retweets or indirect shares.
 
 If your work is included here and you wish to change the attribution or have it removed, please feel free to contact us. ✉️

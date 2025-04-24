@@ -44,6 +44,7 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 <a id="example-toc"></a>
 ## 📖 案例目录
 
+*   [案例 68：未来主义 Logo 交易卡 (by @hewarsaber)](#案例-68未来主义-logo-交易卡-by-hewarsaber)
 *   [案例 67：超写实3D游戏 (by @ZHO_ZHO_ZHO)](#案例-67超写实3d游戏-by-zho_zho_zho)
 *   [案例 66：创意丝绸宇宙 (by @ZHO_ZHO_ZHO)](#案例-66创意丝绸宇宙-by-zho_zho_zho)
 *   [案例 65：Trompe-l'œil 三维空间艺术 (by @madpencil_)](#案例-65trompe-lœil-三维空间艺术-by-madpencil_)
@@ -113,6 +114,47 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 *   [案例 1：Q版求婚场景 (by @balconychy)](#案例-1q版求婚场景-by-balconychy)
 
 ---
+
+## 案例 68：未来主义 Logo 交易卡 (by [@hewarsaber](https://x.com/hewarsaber))
+
+[原文链接](https://x.com/hewarsaber/status/1912933875166171515)
+
+<img src="./examples/example_trading_card_logo_tesla.png" width="300" alt="未来主义风格的特斯拉 Logo 交易卡">
+
+**提示词：**
+```
+{
+    "prompt": "A futuristic trading card with a dark, moody neon aesthetic and soft sci-fi lighting. The card features a semi-transparent, rounded rectangle with slightly muted glowing edges, appearing as if made of holographic glass. At the center is a large glowing logo of {{logo}}, with no additional text or label, illuminated with a smooth gradient of {{colors}}, but not overly bright. The reflections on the card surface should be subtle, with a slight glossy finish catching ambient light. The background is a dark carbon fiber texture or deep gradient with soft ambient glows bleeding into the edges. Add subtle light rays streaming down diagonally from the top, giving the scene a soft cinematic glow. Apply light motion blur to the edges and reflections to give the scene a sense of depth and energy, as if it's part of a high-end tech animation still. Below the card, include realistic floor reflections that mirror the neon edges and logo—slightly diffused for a grounded, futuristic look. Text elements are minimal and softly lit: top-left shows '{{ticker}}', top-right has a stylized signature, and the bottom displays '{{company_name}}' with a serial number '{{card_number}}', a revenue badge reading '{{revenue}}', and the year '{{year}}'. Typography should have a faint glow with slight blurring, and all elements should feel premium, elegant, and softly illuminated—like a high-end cyberpunk collectible card.",
+    "style": {
+        "lighting": "Neon glow, soft reflections",
+        "font": "Modern sans-serif, clean and minimal",
+        "layout": "Centered, structured like a digital collectible card",
+        "materials": "Glass, holographic plastic, glowing metal edges"
+    },
+    "parameters": {
+        "logo": "Tesla logo",
+        "ticker": "TSLA",
+        "company_name": "Tesla Inc.",
+        "card_number": "#0006",
+        "revenue": "$96.8B",
+        "year": "2025",
+        "colors": [
+            "red",
+            "white",
+            "dark gray"
+        ]
+    },
+    "medium": "3D render, high-resolution digital art",
+    "size": "1080px by 1080px"
+}
+```
+
+*注意：提示词采用类 JSON 结构描述卡片元素。可修改 `parameters` 对象中的值（如 logo, ticker, company_name, colors 等）来自定义卡片。对于自定义 Logo，需在 `parameters.logo` 中注明（例如："Framer logo (attached image)"）并上传图片。本提示词为结构化JSON，保持英文。*
+
+**需上传参考图片：** （可选）上传自定义 Logo 图片。
+
+[⬆️ 返回案例目录](#example-toc)
+
 
 ## 案例 67：超写实3D游戏 (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO) )
 
@@ -1398,6 +1440,7 @@ Can you create a PS2 video game case of "Grand Theft Auto: Far Far Away" a GTA b
 *   [gnrly.xyz (@gnrlyxyz)](https://x.com/gnrlyxyz)
 *   [f-is-h (@f-is-h)](https://github.com/f-is-h)
 *   [Madpencil (@madpencil_)](https://x.com/madpencil_)
+*   [Hewar (@hewarsaber)](https://x.com/hewarsaber)
 *   以及其他可能通过转推或间接分享而被收录其提示词的创作者们。
 
 如果您的作品被收录在此，而您希望更改署名或将其移除，请随时与我们联系。✉️
