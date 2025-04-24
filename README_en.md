@@ -47,6 +47,7 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 
 **Note on Prompts:** For accuracy and reproducibility, prompts are provided in their original language (Chinese or English) as used for generation.
 
+*   [Example 64: Steampunk Mechanical Fish (by @f-is-h)](#example-64-steampunk-mechanical-fish-by-f-is-h)
 *   [Example 63: Emoji Cream Popsicle (by @ZHO_ZHO_ZHO)](#example-63-emoji-cream-popsicle-by-zho_zho_zho)
 *   [Example 62: Kawaii Enamel Pin (by @gnrlyxyz)](#example-62-kawaii-enamel-pin-by-gnrlyxyz)
 *   [Example 61: Fake Tweet Screenshot (Einstein) (by @egeberkina)](#example-61-fake-tweet-screenshot-einstein-by-egeberkina)
@@ -112,6 +113,28 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 *   [Example 1: Q-version Proposal Scene (by @balconychy)](#example-1-q-version-proposal-scene-by-balconychy)
 
 ---
+
+## Example 64: Steampunk Mechanical Fish (by [@f-is-h](https://github.com/f-is-h))
+
+[Source Link](https://github.com/f-is-h/f-is-h/blob/main/images/streampank-fish-4.png)
+
+<img src="./examples/example_steampunk_fish.jpg" width="300" alt="Steampunk-style mechanical fish with brass body, visible gear mechanisms and multi-faceted ruby eyes">
+
+**Prompt:**
+```
+A steampunk-style mechanical fish with a brass body and clearly visible gear mechanisms when in motion.
+Its mechanical teeth can be slightly seen, neatly arranged and closed, with both upper and lower teeth visible. Each tooth is triangular in shape and made of diamond material.
+The tail fin has a metal wire mesh structure, while other fins are made of semi-transparent amber-colored glass with some subtle bubbles inside.
+The eyes are multi-faceted rubies, with clearly visible reflective shine.
+The fish has "f-is-h" text clearly visible on its body, with all lowercase letters and careful attention to the hyphen placement.
+The image is square, showing the entire fish in the center of the frame, with its head pointing to the right. There is adequate white space around the fish, with more space on the left and right sides. The background has subtle steampunk-style gear patterns.
+The entire fish looks very cool. This is a high-definition image with extremely rich details and unique texture and aesthetics. The image should not be too dark.
+```
+
+*Note: This image showcases an excellent combination of steampunk style and metallic textures, presenting intricate mechanical details and a retro-futuristic aesthetic.*
+
+[⬆️ Back to Directory](#example-toc)
+
 
 ## Example 63: Emoji Cream Popsicle (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
 
