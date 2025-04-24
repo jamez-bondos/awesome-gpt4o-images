@@ -125,6 +125,8 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 ```
 *注意：可替换提示词中的【主题/着装】与[爱心眼、笑脸]。*
 
+**案例提交：** [wowmarcomei](https://github.com/wowmarcomei)
+
 [⬆️ 返回案例目录](#example-toc)
 
 

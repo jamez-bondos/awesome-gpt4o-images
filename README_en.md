@@ -128,6 +128,11 @@ Trompe l'oeil illusion of A (subject) (attire) steps out of a large screen displ
 
 *Note: You can replace the [Theme/Dress Code] and [Heart Eyes Emoji, Smiling Face Emoji] in the prompt words.*
 
+**Example Submitted by:** [wowmarcomei](https://github.com/wowmarcomei)
+
+[⬆️ Back to Directory](#example-toc)
+
+
 ## Example 64: Steampunk Mechanical Fish (by [@f-is-h](https://github.com/f-is-h))
 
 [Source Link](https://github.com/f-is-h/f-is-h/blob/main/images/streampank-fish-4.png)
