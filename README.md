@@ -111,6 +111,22 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 
 ---
 
+
+## 案例 65：Trompe-l'œil 三维空间艺术 (by [@madpencil_](https://x.com/madpencil_) )
+
+[原文链接](https://x.com/madpencil_/status/1915099250079469907)
+
+<img src="./examples/example_tromple-I-3d-art.jpg" width="300" alt="人物从屏幕中“走出”的三维错觉">
+
+**提示词：**
+```
+一幅视错觉风格的画面：人物A[主题/着装]从显示着xyz社交媒体界面的大屏幕中迈步而出。屏幕上可见用户名为“@”，显示1千次点赞、12-20条评论，周围漂浮着[爱心眼、笑脸]表情符号，背景可根据您的喜好自定义。
+```
+*注意：可替换提示词中的【主题/着装】与[爱心眼、笑脸]。*
+
+[⬆️ 返回案例目录](#example-toc)
+
+
 ## 案例 64：蒸汽朋克机械鱼 (by [@f-is-h](https://github.com/f-is-h))
 
 [原文链接](https://github.com/f-is-h/f-is-h/blob/main/images/streampank-fish-4.png)

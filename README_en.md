@@ -114,6 +114,19 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 
 ---
 
+## Example 65: Trompe-l'œil Three-Dimensional Spatial Art (by [@madpencil_](https://x.com/madpencil_) )
+
+[Source Link](https://x.com/madpencil_/status/1915099250079469907)
+
+<img src="./examples/example_tromple-I-3d-art.jpg" width="300" alt="Three-dimensional illusion of a figure stepping out from the screen.">
+
+**Prompt:**
+```
+Trompe l'oeil illusion of A (subject) (attire) steps out of a large screen displaying xyz social media interface. The screen shows the username "@" 1K likes, and 12- 20 comments, with floating emojis (heart-eyes, smiley) around it. your preferred background..
+```
+
+*Note: You can replace the [Theme/Dress Code] and [Heart Eyes Emoji, Smiling Face Emoji] in the prompt words.*
+
 ## Example 64: Steampunk Mechanical Fish (by [@f-is-h](https://github.com/f-is-h))
 
 [Source Link](https://github.com/f-is-h/f-is-h/blob/main/images/streampank-fish-4.png)
