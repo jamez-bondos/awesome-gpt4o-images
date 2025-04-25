@@ -49,6 +49,7 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 
 **Note on Prompts:** For accuracy and reproducibility, prompts are provided in their original language (Chinese or English) as used for generation.
 
+*   [Example 69: Silhouette Art (by @umesh_ai)](#examples-69)
 *   [Example 68: Futuristic Logo Trading Card (by @hewarsaber)](#example-68-futuristic-logo-trading-card-by-hewarsaber)
 *   [Example 67: Ultra-realistic 3D Game (by @ZHO_ZHO_ZHO)](#example-67-ultra-realistic-3d-game-by-zho_zho_zho)
 *   [Example 66: Creative Silk Universe (by @ZHO_ZHO_ZHO)](#example-66-creative-silk-universe-by-zho_zho_zho)
@@ -119,6 +120,23 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 *   [Example 1: Q-version Proposal Scene (by @balconychy)](#example-1-q-version-proposal-scene-by-balconychy)
 
 ---
+
+<a id="examples-69"></a>
+## Example 69: Silhouette Art (by [@umesh_ai](https://x.com/umesh_ai))
+
+[Source Link](https://x.com/umesh_ai/status/1915417277953962048)
+
+<img src="./examples/example_silhouette_art_composite.jpeg" width="300" alt="Collection of black silhouette art on yellow background (UFO/person, lightbulb, woman's profile, dragon/castle)">
+
+**Prompt:**
+```
+The silhouette of a basic outline of a [PROMPT]. The background is bright yellow, and the silhouette is solid black.
+```
+
+*Note: Replace `[PROMPT]` with the specific subject, e.g., "dragon on a castle", "woman's profile", etc.*
+
+[⬆️ Back to Directory](#example-toc)
+
 
 ## Example 68: Futuristic Logo Trading Card (by [@hewarsaber](https://x.com/hewarsaber))
 

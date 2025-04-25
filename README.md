@@ -46,6 +46,7 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 <a id="example-toc"></a>
 ## 📖 案例目录
 
+*   [案例 69：剪影艺术 (by @umesh_ai)](#examples-69)
 *   [案例 68：未来主义 Logo 交易卡 (by @hewarsaber)](#案例-68未来主义-logo-交易卡-by-hewarsaber)
 *   [案例 67：超写实3D游戏 (by @ZHO_ZHO_ZHO)](#案例-67超写实3d游戏-by-zho_zho_zho)
 *   [案例 66：创意丝绸宇宙 (by @ZHO_ZHO_ZHO)](#案例-66创意丝绸宇宙-by-zho_zho_zho)
@@ -116,6 +117,23 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 *   [案例 1：Q版求婚场景 (by @balconychy)](#案例-1q版求婚场景-by-balconychy)
 
 ---
+
+<a id="examples-69"></a>
+## 案例 69：剪影艺术 (by [@umesh_ai](https://x.com/umesh_ai))
+
+[原文链接](https://x.com/umesh_ai/status/1915417277953962048)
+
+<img src="./examples/example_silhouette_art_composite.jpeg" width="300" alt="黄色背景上的黑色剪影艺术集合">
+
+**提示词：**
+```
+一个 [PROMPT] 的基本轮廓剪影。背景是亮黄色，剪影是纯黑色。
+```
+
+*注意：可替换提示词中的 `[PROMPT]` 为具体对象，例如 "dragon on a castle", "woman's profile" 等。*
+
+[⬆️ 返回案例目录](#example-toc)
+
 
 ## 案例 68：未来主义 Logo 交易卡 (by [@hewarsaber](https://x.com/hewarsaber))
 
