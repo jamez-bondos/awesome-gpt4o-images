@@ -69,5 +69,10 @@ Template_en.md:
 
 ---
 
-
-
+## Improvements to make:
+1. Correct the Chinese and English usage in the form and preview.
+2. Add required the optional field in the form
+3. Add a form validation
+4. Add space after the template 
+5. Improve the description and instruction in the tool
+6. Add more graphic to the tool to make it looks more modern and techy
