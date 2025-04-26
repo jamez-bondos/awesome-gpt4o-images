@@ -9,6 +9,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Label } from "@/components/ui/label"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Copy, Globe, Check, ChevronRight } from "lucide-react"
 import { translations } from "@/lib/translations"
 import { 
@@ -20,6 +21,10 @@ import {
 export default function Home() {
   const [uiLanguage, setUiLanguage] = useState<"en" | "cn">("en")
   const [formLanguage, setFormLanguage] = useState<"en" | "cn">("en")
+  const [previewLanguage, setPreviewLanguage] = useState<"en" | "cn">("en")
+  const [validationErrors, setValidationErrors] = useState({
+    example_number: "",
+  })
   const [formData, setFormData] = useState({
     example_number: "",
     example_title_cn: "",
@@ -49,10 +54,22 @@ export default function Home() {
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target
     setFormData((prev) => ({ ...prev, [name]: value }))
+    
+    // Validate example_number field
+    if (name === "example_number") {
+      if (value && !/^\d+$/.test(value)) {
+        setValidationErrors(prev => ({
+          ...prev,
+          example_number: translations[uiLanguage].validationNumberError
+        }))
+      } else {
+        setValidationErrors(prev => ({ ...prev, example_number: "" }))
+      }
+    }
   }
 
   const generateMarkdown = () => {
-    // Generate markdown using template functions
+    // Generate markdown using template functions regardless of field completion
     const cnMarkdown = generateChineseMarkdown(formData)
     const enMarkdown = generateEnglishMarkdown(formData)
 
@@ -63,11 +80,11 @@ export default function Home() {
   }
 
   const handleGenerateTocLink = () => {
-    return generateTocLink(formData, formLanguage)
+    return generateTocLink(formData, previewLanguage)
   }
 
   const copyToClipboard = () => {
-    const textToCopy = formLanguage === "cn" ? markdown.cn : markdown.en
+    const textToCopy = previewLanguage === "cn" ? markdown.cn : markdown.en
     navigator.clipboard.writeText(textToCopy)
     setCopied((prev) => ({ ...prev, markdown: true }))
     setTimeout(() => setCopied((prev) => ({ ...prev, markdown: false })), 2000)
@@ -113,7 +130,7 @@ export default function Home() {
         {/* Description */}
         <Card className="mb-8 bg-black/20 border-gray-700 text-gray-200">
           <CardContent className="pt-6">
-            <p>{translations[uiLanguage].description}</p>
+            <p dangerouslySetInnerHTML={{ __html: translations[uiLanguage].description }}></p>
           </CardContent>
         </Card>
 
@@ -226,9 +243,13 @@ export default function Home() {
                           name="example_number"
                           value={formData.example_number}
                           onChange={handleInputChange}
-                          className="bg-black/30 border-gray-700"
+                          className={`bg-black/30 border-gray-700 ${validationErrors.example_number ? "border-red-500" : ""}`}
                         />
+                        {validationErrors.example_number && (
+                          <p className="text-red-500 text-sm mt-1">{validationErrors.example_number}</p>
+                        )}
                       </div>
+
                       <div className="space-y-2">
                         <Label htmlFor="example_author">{translations[uiLanguage].author}</Label>
                         <Input
@@ -287,14 +308,20 @@ export default function Home() {
 
                     <div className="space-y-2">
                       <Label htmlFor="example_reference_image">{translations[uiLanguage].referenceImage}</Label>
-                      <Input
-                        id="example_reference_image"
-                        name="example_reference_image"
+                      <Select
                         value={formData.example_reference_image}
-                        onChange={handleInputChange}
-                        className="bg-black/30 border-gray-700"
-                        placeholder="Yes/No"
-                      />
+                        onValueChange={(value) => 
+                          setFormData((prev) => ({ ...prev, example_reference_image: value }))
+                        }
+                      >
+                        <SelectTrigger className="bg-black/30 border-gray-700">
+                          <SelectValue placeholder="Select..." />
+                        </SelectTrigger>
+                        <SelectContent className="bg-black/90 border-gray-700">
+                          <SelectItem value="Yes">{translations[uiLanguage].referenceImageYes}</SelectItem>
+                          <SelectItem value="No">{translations[uiLanguage].referenceImageNo}</SelectItem>
+                        </SelectContent>
+                      </Select>
                     </div>
                   </div>
                 </div>
@@ -321,12 +348,12 @@ export default function Home() {
                 </CardDescription>
               </CardHeader>
               <CardContent className="pt-6">
-                <Tabs defaultValue={formLanguage} className="w-full">
+                <Tabs defaultValue={previewLanguage} className="w-full">
                   <TabsList className="grid grid-cols-2 bg-black/30">
-                    <TabsTrigger value="en" onClick={() => setFormLanguage("en")}>
+                    <TabsTrigger value="en" onClick={() => setPreviewLanguage("en")}>
                       {translations[uiLanguage].languageEn}
                     </TabsTrigger>
-                    <TabsTrigger value="cn" onClick={() => setFormLanguage("cn")}>
+                    <TabsTrigger value="cn" onClick={() => setPreviewLanguage("cn")}>
                       {translations[uiLanguage].languageCn}
                     </TabsTrigger>
                   </TabsList>
@@ -364,7 +391,12 @@ export default function Home() {
                   </div>
                 </div>
               </CardContent>
-              <CardFooter className="bg-black/30 border-t border-gray-700 flex justify-end p-4">
+              <CardFooter className="bg-black/30 border-t border-gray-700 flex justify-between p-4">
+                <p className="text-gray-400 text-sm">
+                  {previewLanguage === "cn" ? 
+                    translations[uiLanguage].copyToReadme : 
+                    translations[uiLanguage].copyToReadmeEn}
+                </p>
                 <Button
                   variant="outline"
                   className="bg-black/20 border-gray-700 hover:bg-black/40 flex items-center gap-2"

@@ -15,9 +15,7 @@ interface FormData {
 }
 
 export function generateChineseMarkdown(formData: FormData): string {
-  return `# 中文案例
-
-<a id="${formData.example_number}"></a>
+  return `<a id="${formData.example_number}"></a>
 ## 案例 ${formData.example_number}：${formData.example_title_cn} (by [${formData.example_author}](${formData.author_url}))
 
 [原文链接](${formData.source_url})
@@ -33,13 +31,14 @@ ${formData.example_prompt_cn}
 
 **需上传参考图片：** ${formData.example_reference_image}
 
-[⬆️ 返回案例目录](#example-toc)`;
+[⬆️ 返回案例目录](#example-toc)
+
+
+`;
 }
 
 export function generateEnglishMarkdown(formData: FormData): string {
-  return `# English Example
-
-<a id="${formData.example_number}"></a>
+  return `<a id="${formData.example_number}"></a>
 ## Example ${formData.example_number}: ${formData.example_title_en} (by [${formData.example_author}](${formData.author_url}))
 
 [Source Link](${formData.source_url})
@@ -55,13 +54,16 @@ ${formData.example_prompt_en}
 
 **Reference Image Required:** ${formData.example_reference_image}
 
-[⬆️ Back to Directory](#example-toc)`;
+[⬆️ Back to Directory](#example-toc)
+
+
+`;
 }
 
 export function generateTocLink(formData: FormData, language: "en" | "cn"): string {
   if (language === "cn") {
-    return `[案例 ${formData.example_number}：${formData.example_title_cn} (by ${formData.example_author})](#examples-${formData.example_number})`;
+    return `[案例 ${formData.example_number}：${formData.example_title_cn} (by @${formData.example_author})](#examples-${formData.example_number})`;
   } else {
-    return `[Example ${formData.example_number}: ${formData.example_title_en} (by ${formData.example_author})](#examples-${formData.example_number})`;
+    return `[Example ${formData.example_number}: ${formData.example_title_en} (by @${formData.example_author})](#examples-${formData.example_number})`;
   }
 } 
