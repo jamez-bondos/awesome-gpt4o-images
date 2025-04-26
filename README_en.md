@@ -49,6 +49,7 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 
 **Note on Prompts:** For accuracy and reproducibility, prompts are provided in their original language (Chinese or English) as used for generation.
 
+*   [Example 70: Original Pokemon Creation (by @Anima_Labs)](#examples-70)
 *   [Example 69: Silhouette Art (by @umesh_ai)](#examples-69)
 *   [Example 68: Futuristic Logo Trading Card (by @hewarsaber)](#examples-68)
 *   [Example 67: Ultra-realistic 3D Game (by @ZHO_ZHO_ZHO)](#examples-67)
@@ -120,6 +121,27 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 *   [Example 1: Q-version Proposal Scene (by @balconychy)](#examples-1)
 
 ---
+<a id="examples-70"></a>
+## Example 70: Original Pokemon Creation (by [@Anima_Labs](https://x.com/Anima_Labs))
+
+[Source Link](https://x.com/Anima_Labs/status/1915044265895379166)
+
+<img src="./examples/example_pokemon_pepperimp.jpeg" width="300" alt="Original Pokemon 'Pepperimp' inspired by a pepper, Grass type">
+
+**Prompt:**
+```
+Create an original creature inspired by this object (photo provided). The creature should look like it belongs in a fantasy monster-catching universe, with a cute or cool design influenced by retro Japanese RPG monster art. The image must include:
+– A full-body view of the creature, inspired by the shape, materials or purpose of the object.
+– A small orb or capsule (similar an a pokeball) at its feet, designed with patterns and colors matching the object’s look — not a standard Pokéball, but a custom design.
+– An invented name for the creature, displayed next to or below it. – Its elemental type (e.g., Fire, Water, Metal, Nature, Electric…), based on the object’s core properties. The illustration should look like it comes from a fantasy creature encyclopedia, with clean lines, soft shadows, and an expressive, character-driven design.
+```
+
+*Note: If the prompt doesn't work the first time, try a new conversation or ask him to work around the problem.*
+
+**Reference Image Required:** Needs a photo of an object, food, etc., as inspiration.
+
+[⬆️ Back to Directory](#example-toc)
+
 
 <a id="examples-69"></a>
 ## Example 69: Silhouette Art (by [@umesh_ai](https://x.com/umesh_ai))
@@ -1513,6 +1535,7 @@ Special thanks to the following users for sharing their inspiring work ✨:
 *   [f-is-h (@f-is-h)](https://github.com/f-is-h)
 *   [Madpencil (@madpencil_)](https://x.com/madpencil_)
 *   [Hewar (@hewarsaber)](https://x.com/hewarsaber)
+*   [Anima (@Anima_Labs)](https://x.com/Anima_Labs)
 *   And other creators whose prompts may have been included through retweets or indirect shares.
 
 If your work is included here and you wish to change the attribution or have it removed, please feel free to contact us. ✉️

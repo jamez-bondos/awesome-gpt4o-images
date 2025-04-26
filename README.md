@@ -46,6 +46,7 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 <a id="example-toc"></a>
 ## 📖 案例目录
 
+*   [案例 70：原创宝可梦生成 (by @Anima_Labs)](#examples-70)
 *   [案例 69：剪影艺术 (by @umesh_ai)](#examples-69)
 *   [案例 68：未来主义 Logo 交易卡 (by @hewarsaber)](#examples-68)
 *   [案例 67：超写实3D游戏 (by @ZHO_ZHO_ZHO)](#examples-67)
@@ -117,6 +118,28 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 *   [案例 1：Q版求婚场景 (by @balconychy)](#examples-1)
 
 ---
+
+<a id="examples-70"></a>
+## 案例 70：原创宝可梦生成 (by [@Anima_Labs](https://x.com/Anima_Labs))
+
+[原文链接](https://x.com/Anima_Labs/status/1915044265895379166)
+
+<img src="./examples/example_pokemon_pepperimp.jpeg" width="300" alt="受辣椒启发的原创宝可梦“Pepperimp”，草属性">
+
+**提示词：**
+```
+根据此物体（提供的照片）创作一个原创生物。该生物应看起来像是属于一个奇幻怪物捕捉宇宙，具有受复古日式RPG怪物艺术影响的可爱或酷炫设计。图像必须包含：
+  – 生物的全身视图，灵感来自物体的形状、材料或用途。
+  – 在其脚边有一个小球体或胶囊（类似于精灵球），其设计图案和颜色与物体的外观相匹配——不是标准的精灵球，而是自定义设计。
+  – 为生物发明的名字，显示在其旁边或下方。 – 其元素类型（例如火、水、金属、自然、电……），基于物体的核心属性。插图应看起来像是来自奇幻生物百科全书，线条清晰，阴影柔和，设计富有表现力且以角色为驱动。
+```
+
+*注意：如果第一次提示无效，尝试开启新对话或要求它绕过问题。*
+
+**需上传参考图片：** 需要上传一张物体、食物等的照片作为灵感来源。
+
+
+[⬆️ 返回案例目录](#example-toc)
 
 <a id="examples-69"></a>
 ## 案例 69：剪影艺术 (by [@umesh_ai](https://x.com/umesh_ai))
@@ -1529,6 +1552,7 @@ Can you create a PS2 video game case of "Grand Theft Auto: Far Far Away" a GTA b
 *   [f-is-h (@f-is-h)](https://github.com/f-is-h)
 *   [Madpencil (@madpencil_)](https://x.com/madpencil_)
 *   [Hewar (@hewarsaber)](https://x.com/hewarsaber)
+*   [Anima (@Anima_Labs)](https://x.com/Anima_Labs)
 *   以及其他可能通过转推或间接分享而被收录其提示词的创作者们。
 
 如果您的作品被收录在此，而您希望更改署名或将其移除，请随时与我们联系。✉️
