@@ -46,6 +46,7 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 <a id="example-toc"></a>
 ## 📖 案例目录
 
+*   [案例 71：迷你 Cyberpunk 傾斜移軸景觀 (by terry623)](#examples-71)
 *   [案例 70：原创宝可梦生成 (by @Anima_Labs)](#examples-70)
 *   [案例 69：剪影艺术 (by @umesh_ai)](#examples-69)
 *   [案例 68：未来主义 Logo 交易卡 (by @hewarsaber)](#examples-68)
@@ -118,6 +119,20 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 *   [案例 1：Q版求婚场景 (by @balconychy)](#examples-1)
 
 ---
+
+<a id="examples-71"></a>
+## 案例 71：迷你 Cyberpunk 傾斜移軸景觀 (by [terry623](https://github.com/terry623))
+
+<img src="./examples/example_cyberpunk_tilt_shift_miniature.jpg" width="300" alt="從上方俯瞰的超高細節迷你 Cyberpunk 景觀，採用傾斜移軸鏡頭效果">
+
+**提示詞：**
+```
+從上方俯瞰的超高細節迷你【Cyberpunk】景觀，採用傾斜移軸鏡頭效果。場景中充滿如玩具般的元素，全部以高解析度 CG 呈現。光線戲劇化，營造出大片的氛圍，色彩鮮明，對比強烈，強調景深效果與擬真微觀視角，使觀者仿佛俯瞰一個玩具世界般的迷你現實，畫面中包含大量視覺笑點與極具重複觀看價值的細節設計
+```
+
+*注意：可替換提示詞中的【Cyberpunk】為其他風格或場景，如「未來城市」、「蒸汽朋克」、「中世紀村莊」等。*
+
+[⬆️ 返回案例目錄](#example-toc)
 
 <a id="examples-70"></a>
 ## 案例 70：原创宝可梦生成 (by [@Anima_Labs](https://x.com/Anima_Labs))

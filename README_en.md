@@ -49,6 +49,7 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 
 **Note on Prompts:** For accuracy and reproducibility, prompts are provided in their original language (Chinese or English) as used for generation.
 
+*   [Example 71: Miniature Cyberpunk Tilt-Shift Landscape (by @terry623)](#examples-71)
 *   [Example 70: Original Pokemon Creation (by @Anima_Labs)](#examples-70)
 *   [Example 69: Silhouette Art (by @umesh_ai)](#examples-69)
 *   [Example 68: Futuristic Logo Trading Card (by @hewarsaber)](#examples-68)
@@ -121,6 +122,20 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 *   [Example 1: Q-version Proposal Scene (by @balconychy)](#examples-1)
 
 ---
+<a id="examples-71"></a>
+## Example 71: Miniature Cyberpunk Tilt-Shift Landscape (by [terry623](https://github.com/terry623))
+
+<img src="./examples/example_cyberpunk_tilt_shift_miniature.jpg" width="300" alt="Highly detailed miniature Cyberpunk landscape viewed from above, with tilt-shift lens effect">
+
+**Prompt:**
+```
+A highly detailed miniature [Cyberpunk] landscape viewed from above, using a tilt-shift lens effect. The scene is filled with toy-like elements, all rendered in high-resolution CG. Dramatic lighting creates a cinematic atmosphere, with vivid colors and strong contrast, emphasizing depth of field and a realistic micro-perspective, making the viewer feel as if overlooking a toy world. The image contains many visual jokes and details worth repeated viewing.
+```
+
+*Note: You can replace [Cyberpunk] in the prompt with other styles or scenes, such as "Futuristic City", "Steampunk", "Medieval Village", etc.*
+
+[⬆️ Back to Directory](#example-toc)
+
 <a id="examples-70"></a>
 ## Example 70: Original Pokemon Creation (by [@Anima_Labs](https://x.com/Anima_Labs))
 
