@@ -49,6 +49,7 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 
 **Note on Prompts:** For accuracy and reproducibility, prompts are provided in their original language (Chinese or English) as used for generation.
 
+*   [Example 72: Gold Pendant Necklace (by @azed_ai)](#examples-72)
 *   [Example 71: Miniature Cyberpunk Tilt-Shift Landscape (by @terry623)](#examples-71)
 *   [Example 70: Original Pokemon Creation (by @Anima_Labs)](#examples-70)
 *   [Example 69: Silhouette Art (by @umesh_ai)](#examples-69)
@@ -122,6 +123,27 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 *   [Example 1: Q-version Proposal Scene (by @balconychy)](#examples-1)
 
 ---
+
+
+<a id="examples-72"></a>
+## Example 72: Gold Pendant Necklace (by [@azed_ai](https://x.com/azed_ai))
+
+[Source Link](https://x.com/azed_ai/status/1915770501705925106)
+
+<img src="./examples/example_gold_pendant.png" width="300" alt="Photorealistic close-up of a gold pendant necklace held by female hand.">
+
+**Prompt:**
+\\\
+A photorealistic close-up of a gold pendant necklace held by female hand. The pendant features a bas-relief engraving of [image /emoji]. The pendant hangs from a polished gold chain. The background is softly blurred with neutral beige tones, and natural lighting, realistic skin tones, Product photography, 16:9 aspect ratio.
+\\\
+
+*Note: Replace `[image /emoji]` in the prompt with a specific image description or an emoji.*
+
+**Reference Image Required:** (Optional) An image can be uploaded to be used as the bas-relief pattern.
+
+[⬆️ Back to Directory](#example-toc)
+
+
 <a id="examples-71"></a>
 ## Example 71: Miniature Cyberpunk Tilt-Shift Landscape (by [terry623](https://github.com/terry623))
 

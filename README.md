@@ -46,6 +46,7 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 <a id="example-toc"></a>
 ## 📖 案例目录
 
+*   [案例 72：金色吊坠项链 (by @azed_ai)](#examples-72)
 *   [案例 71：迷你 Cyberpunk 傾斜移軸景觀 (by terry623)](#examples-71)
 *   [案例 70：原创宝可梦生成 (by @Anima_Labs)](#examples-70)
 *   [案例 69：剪影艺术 (by @umesh_ai)](#examples-69)
@@ -119,6 +120,25 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 *   [案例 1：Q版求婚场景 (by @balconychy)](#examples-1)
 
 ---
+
+<a id="examples-72"></a>
+## 案例 72：金色吊坠项链 (by [@azed_ai](https://x.com/azed_ai))
+
+[原文链接](https://x.com/azed_ai/status/1915770501705925106)
+
+<img src="./examples/example_gold_pendant.png" width="300" alt="由女性手持的金色吊坠项链特写">
+
+**提示词：**
+```
+一张照片般逼真的金色吊坠项链特写，由女性手持。吊坠上带有 [图片/表情符号] 的浅浮雕。吊坠悬挂在抛光的金链上。背景是柔和模糊的中性米色调，自然光照，逼真的肤色，产品摄影风格，16:9 宽高比。
+```
+
+*注意：可替换提示词中的 `[image /emoji]` 为具体图像描述或 Emoji。*
+
+**需上传参考图片：** （可选）可上传图片作为浮雕图案。
+
+[⬆️ 返回案例目录](#example-toc)
+
 
 <a id="examples-71"></a>
 ## 案例 71：迷你 Cyberpunk 傾斜移軸景觀 (by [terry623](https://github.com/terry623))
