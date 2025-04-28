@@ -56,6 +56,7 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 
 **Note on Prompts:** For accuracy and reproducibility, prompts are provided in their original language (Chinese or English) as used for generation.
 
+*   [Example 73: Cute Chibi Keychain (by @azed_ai)](#examples-73)
 *   [Example 72: Gold Pendant Necklace (by @azed_ai)](#examples-72)
 *   [Example 71: Miniature Cyberpunk Tilt-Shift Landscape (by @terry623)](#examples-71)
 *   [Example 70: Original Pokemon Creation (by @Anima_Labs)](#examples-70)
@@ -130,6 +131,26 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 *   [Example 1: Q-version Proposal Scene (by @balconychy)](#examples-1)
 
 ---
+
+<a id="examples-73"></a>
+## Example 73: Cute Chibi Keychain (by [@azed_ai](https://x.com/azed_ai))
+
+[Source Link](https://x.com/azed_ai/status/1916521742052503804)
+
+<img src="./examples/example_keychain_chibi_composite.jpeg" width="300" alt="Collection of cute, colorful soft rubber keychains held by a hand, featuring chibi-style designs of various characters">
+
+**Prompt:**
+```
+A close-up photo of a cute, colorful keychain held by person's hand. The keychain features a chibi-style of the [attached image ]. The keychain is made of soft rubber with bold black outlines and attached to a small silver keyring, neutral background
+```
+
+*Note: The `[attached image]` part of the prompt needs to be used in conjunction with an uploaded image.*
+
+**Reference Image Required:** A photo of a person or object as the subject for the keychain design.
+
+**Example Submitted by:** [Kong-F](https://github.com/Kong-F)
+
+[⬆️ Back to Directory](#example-toc)
 
 
 <a id="examples-72"></a>

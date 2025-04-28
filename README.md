@@ -53,6 +53,7 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 <a id="example-toc"></a>
 ## 📖 案例目录
 
+*   [案例 73：定制Q版钥匙串 (by @azed_ai)](#examples-73)
 *   [案例 72：金色吊坠项链 (by @azed_ai)](#examples-72)
 *   [案例 71：迷你 Cyberpunk 傾斜移軸景觀 (by terry623)](#examples-71)
 *   [案例 70：原创宝可梦生成 (by @Anima_Labs)](#examples-70)
@@ -127,6 +128,27 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 *   [案例 1：Q版求婚场景 (by @balconychy)](#examples-1)
 
 ---
+
+<a id="examples-73"></a>
+## 案例 73：定制Q版钥匙扣 (by [@azed_ai](https://x.com/azed_ai))
+
+[原文链接](https://x.com/azed_ai/status/1916521742052503804)
+
+<img src="./examples/example_keychain_chibi_composite.jpeg" width="300" alt="由手持有的可爱彩色软胶钥匙扣集合，带有不同人物的 Chibi 风格图案">
+
+**提示词：**
+```
+一张特写照片，画面中一个人手里拿着一个可爱的、色彩鲜艳的钥匙扣。钥匙扣以 [参考图片] 的Q版形象为主题，采用软橡胶材质，轮廓用粗黑线勾勒，并连接着一个小巧的银色钥匙圈，背景为中性色调。
+```
+
+*注意：提示词中的 `[参考图片]` 部分需要与上传的图片配合使用。*
+
+**需上传参考图片：** 需要上传一张人物或物体的照片作为钥匙串图案主体。
+
+**案例提交：** [Kong-F](https://github.com/Kong-F)
+
+[⬆️ 返回案例目录](#example-toc)
+
 
 <a id="examples-72"></a>
 ## 案例 72：金色吊坠项链 (by [@azed_ai](https://x.com/azed_ai))
