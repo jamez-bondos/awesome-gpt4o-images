@@ -56,6 +56,7 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 
 **Note on Prompts:** For accuracy and reproducibility, prompts are provided in their original language (Chinese or English) as used for generation.
 
+*   [Example 74: Logo Shaped Bookshelf (by @umesh_ai)](#examples-74)
 *   [Example 73: Cute Chibi Keychain (by @azed_ai)](#examples-73)
 *   [Example 72: Gold Pendant Necklace (by @azed_ai)](#examples-72)
 *   [Example 71: Miniature Cyberpunk Tilt-Shift Landscape (by @terry623)](#examples-71)
@@ -131,6 +132,24 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 *   [Example 1: Q-version Proposal Scene (by @balconychy)](#examples-1)
 
 ---
+
+<a id="examples-74"></a>
+## Example 74: Logo Shaped Bookshelf (by [@umesh_ai](https://x.com/umesh_ai))
+
+[Source Link](https://x.com/umesh_ai/status/1916517976414495161)
+
+<img src="./examples/example_logo_bookshelves_composite.jpeg" width="300" alt="Collection of modern bookshelves inspired by famous company logos (e.g., Apple, McDonald's, Google)">
+
+**Prompt:**
+```
+Create a photograph of a modern bookshelf inspired by the shape of [LOGO]. The bookshelf features flowing, interconnected curves forming multiple sections of varying sizes. It is made of sleek matte black metal with wooden shelves inside the loops. Soft, warm LED lighting outlines the inner curves. The bookshelf is mounted on a neutral-toned wall and holds a mix of colorful books, small plants, and minimalistic art pieces. The overall vibe is creative, elegant, and slightly futuristic
+```
+
+*Note: Replace the `[LOGO]` placeholder in the prompt with a specific brand logo description (e.g., "Apple logo", "McDonald's logo").*
+
+
+[⬆️ Back to Directory](#example-toc)
+
 
 <a id="examples-73"></a>
 ## Example 73: Cute Chibi Keychain (by [@azed_ai](https://x.com/azed_ai))

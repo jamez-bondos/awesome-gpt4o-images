@@ -53,6 +53,7 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 <a id="example-toc"></a>
 ## 📖 案例目录
 
+*   [案例 74：Logo 形状创意书架 (by @umesh_ai)](#examples-74)
 *   [案例 73：定制Q版钥匙串 (by @azed_ai)](#examples-73)
 *   [案例 72：金色吊坠项链 (by @azed_ai)](#examples-72)
 *   [案例 71：迷你 Cyberpunk 傾斜移軸景觀 (by terry623)](#examples-71)
@@ -128,6 +129,28 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 *   [案例 1：Q版求婚场景 (by @balconychy)](#examples-1)
 
 ---
+
+<a id="examples-74"></a>
+## 案例 74：Logo 形状创意书架 (by [@umesh_ai](https://x.com/umesh_ai))
+
+[原文链接](https://x.com/umesh_ai/status/1916517976414495161)
+
+<img src="./examples/example_logo_bookshelves_composite.jpeg" width="300" alt="多个由著名公司 Logo 形状启发的现代书架（如 Apple, McDonald's, Google）">
+
+**提示词：**
+```
+创建一张现代书架的照片，书架的造型灵感来自于【LOGO】的形状。
+书架由流畅、互相连接的曲线构成，形成多个大小不一的分区。
+整体材质为哑光黑色金属，曲线内部配有木质层板。
+柔和温暖的LED灯带沿着内侧曲线勾勒轮廓。
+书架安装在一个中性色调的墙面上，上面摆放着色彩丰富的书籍、小型绿植和极简风格的艺术摆件。
+整体氛围富有创意、优雅且略带未来感。
+```
+
+*注意：可替换提示词中的 `[LOGO]` 为具体品牌 Logo 描述（例如 "Apple logo", "McDonald's logo"）。*
+
+
+[⬆️ 返回案例目录](#example-toc)
 
 <a id="examples-73"></a>
 ## 案例 73：定制Q版钥匙扣 (by [@azed_ai](https://x.com/azed_ai))
