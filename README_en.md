@@ -48,7 +48,10 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 ## 📖 Example Directory
 
 **Note on Prompts:** For accuracy and reproducibility, prompts are provided in their original language (Chinese or English) as used for generation.
-*   [Example 72: Pixar Style Transfer (by @Amira Zairi)](#examples-72)
+
+*   [Example 72: Gold Pendant Necklace (by @azed_ai)](#examples-72)
+*   [Example 71: Miniature Cyberpunk Tilt-Shift Landscape (by @terry623)](#examples-71)
+*   [Example 70: Original Pokemon Creation (by @Anima_Labs)](#examples-70)
 *   [Example 69: Silhouette Art (by @umesh_ai)](#examples-69)
 *   [Example 68: Futuristic Logo Trading Card (by @hewarsaber)](#examples-68)
 *   [Example 67: Ultra-realistic 3D Game (by @ZHO_ZHO_ZHO)](#examples-67)
@@ -121,21 +124,58 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 
 ---
 
+
 <a id="examples-72"></a>
-## Example 72: Pixar Style Transfer (by [Amira Zairi](https://x.com/azed_ai))
+## Example 72: Gold Pendant Necklace (by [@azed_ai](https://x.com/azed_ai))
 
-[Source Link](https://x.com/azed_ai/status/1912505288110002458)
+[Source Link](https://x.com/azed_ai/status/1915770501705925106)
 
-<img src="./examples/pixar_style_transfer.jpg" width="300" alt="Pixar style image ">
+<img src="./examples/example_gold_pendant.png" width="300" alt="Photorealistic close-up of a gold pendant necklace held by female hand.">
+
+**Prompt:**
+\\\
+A photorealistic close-up of a gold pendant necklace held by female hand. The pendant features a bas-relief engraving of [image /emoji]. The pendant hangs from a polished gold chain. The background is softly blurred with neutral beige tones, and natural lighting, realistic skin tones, Product photography, 16:9 aspect ratio.
+\\\
+
+*Note: Replace `[image /emoji]` in the prompt with a specific image description or an emoji.*
+
+**Reference Image Required:** (Optional) An image can be uploaded to be used as the bas-relief pattern.
+
+[⬆️ Back to Directory](#example-toc)
+
+
+<a id="examples-71"></a>
+## Example 71: Miniature Cyberpunk Tilt-Shift Landscape (by [terry623](https://github.com/terry623))
+
+<img src="./examples/example_cyberpunk_tilt_shift_miniature.jpg" width="300" alt="Highly detailed miniature Cyberpunk landscape viewed from above, with tilt-shift lens effect">
 
 **Prompt:**
 ```
-Restyle this image to A 3D render, smooth texture and a soft skin, large expressive eyes, cartoonish, soft lighting, subtle glow, highly detailed with a Pixar-like style
+A highly detailed miniature [Cyberpunk] landscape viewed from above, using a tilt-shift lens effect. The scene is filled with toy-like elements, all rendered in high-resolution CG. Dramatic lighting creates a cinematic atmosphere, with vivid colors and strong contrast, emphasizing depth of field and a realistic micro-perspective, making the viewer feel as if overlooking a toy world. The image contains many visual jokes and details worth repeated viewing.
 ```
 
-*Note: *
+*Note: You can replace [Cyberpunk] in the prompt with other styles or scenes, such as "Futuristic City", "Steampunk", "Medieval Village", etc.*
 
-**Reference Image Required:** Yes
+[⬆️ Back to Directory](#example-toc)
+
+<a id="examples-70"></a>
+## Example 70: Original Pokemon Creation (by [@Anima_Labs](https://x.com/Anima_Labs))
+
+[Source Link](https://x.com/Anima_Labs/status/1915044265895379166)
+
+<img src="./examples/example_pokemon_pepperimp.jpeg" width="300" alt="Original Pokemon 'Pepperimp' inspired by a pepper, Grass type">
+
+**Prompt:**
+```
+Create an original creature inspired by this object (photo provided). The creature should look like it belongs in a fantasy monster-catching universe, with a cute or cool design influenced by retro Japanese RPG monster art. The image must include:
+– A full-body view of the creature, inspired by the shape, materials or purpose of the object.
+– A small orb or capsule (similar an a pokeball) at its feet, designed with patterns and colors matching the object’s look — not a standard Pokéball, but a custom design.
+– An invented name for the creature, displayed next to or below it. – Its elemental type (e.g., Fire, Water, Metal, Nature, Electric…), based on the object’s core properties. The illustration should look like it comes from a fantasy creature encyclopedia, with clean lines, soft shadows, and an expressive, character-driven design.
+```
+
+*Note: If the prompt doesn't work the first time, try a new conversation or ask him to work around the problem.*
+
+**Reference Image Required:** Needs a photo of an object, food, etc., as inspiration.
 
 [⬆️ Back to Directory](#example-toc)
 
@@ -1532,6 +1572,8 @@ Special thanks to the following users for sharing their inspiring work ✨:
 *   [f-is-h (@f-is-h)](https://github.com/f-is-h)
 *   [Madpencil (@madpencil_)](https://x.com/madpencil_)
 *   [Hewar (@hewarsaber)](https://x.com/hewarsaber)
+*   [Anima (@Anima_Labs)](https://x.com/Anima_Labs)
+*   [terry623 (@terry623)](https://github.com/terry623)
 *   And other creators whose prompts may have been included through retweets or indirect shares.
 
 If your work is included here and you wish to change the attribution or have it removed, please feel free to contact us. ✉️

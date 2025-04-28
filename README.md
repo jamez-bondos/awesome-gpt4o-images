@@ -45,7 +45,10 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 
 <a id="example-toc"></a>
 ## 📖 案例目录
-*   [案例 72：皮克斯风格 (by @Amira Zairi)](#examples-72)
+
+*   [案例 72：金色吊坠项链 (by @azed_ai)](#examples-72)
+*   [案例 71：迷你 Cyberpunk 傾斜移軸景觀 (by terry623)](#examples-71)
+*   [案例 70：原创宝可梦生成 (by @Anima_Labs)](#examples-70)
 *   [案例 69：剪影艺术 (by @umesh_ai)](#examples-69)
 *   [案例 68：未来主义 Logo 交易卡 (by @hewarsaber)](#examples-68)
 *   [案例 67：超写实3D游戏 (by @ZHO_ZHO_ZHO)](#examples-67)
@@ -135,6 +138,61 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 
 [⬆️ 返回案例目录](#example-toc)
 
+
+<a id="examples-72"></a>
+## 案例 72：金色吊坠项链 (by [@azed_ai](https://x.com/azed_ai))
+
+[原文链接](https://x.com/azed_ai/status/1915770501705925106)
+
+<img src="./examples/example_gold_pendant.png" width="300" alt="由女性手持的金色吊坠项链特写">
+
+**提示词：**
+```
+一张照片般逼真的金色吊坠项链特写，由女性手持。吊坠上带有 [图片/表情符号] 的浅浮雕。吊坠悬挂在抛光的金链上。背景是柔和模糊的中性米色调，自然光照，逼真的肤色，产品摄影风格，16:9 宽高比。
+```
+
+*注意：可替换提示词中的 `[image /emoji]` 为具体图像描述或 Emoji。*
+
+**需上传参考图片：** （可选）可上传图片作为浮雕图案。
+
+[⬆️ 返回案例目录](#example-toc)
+
+
+<a id="examples-71"></a>
+## 案例 71：迷你 Cyberpunk 傾斜移軸景觀 (by [terry623](https://github.com/terry623))
+
+<img src="./examples/example_cyberpunk_tilt_shift_miniature.jpg" width="300" alt="從上方俯瞰的超高細節迷你 Cyberpunk 景觀，採用傾斜移軸鏡頭效果">
+
+**提示詞：**
+```
+從上方俯瞰的超高細節迷你【Cyberpunk】景觀，採用傾斜移軸鏡頭效果。場景中充滿如玩具般的元素，全部以高解析度 CG 呈現。光線戲劇化，營造出大片的氛圍，色彩鮮明，對比強烈，強調景深效果與擬真微觀視角，使觀者仿佛俯瞰一個玩具世界般的迷你現實，畫面中包含大量視覺笑點與極具重複觀看價值的細節設計
+```
+
+*注意：可替換提示詞中的【Cyberpunk】為其他風格或場景，如「未來城市」、「蒸汽朋克」、「中世紀村莊」等。*
+
+[⬆️ 返回案例目錄](#example-toc)
+
+<a id="examples-70"></a>
+## 案例 70：原创宝可梦生成 (by [@Anima_Labs](https://x.com/Anima_Labs))
+
+[原文链接](https://x.com/Anima_Labs/status/1915044265895379166)
+
+<img src="./examples/example_pokemon_pepperimp.jpeg" width="300" alt="受辣椒启发的原创宝可梦“Pepperimp”，草属性">
+
+**提示词：**
+```
+根据此物体（提供的照片）创作一个原创生物。该生物应看起来像是属于一个奇幻怪物捕捉宇宙，具有受复古日式RPG怪物艺术影响的可爱或酷炫设计。图像必须包含：
+  – 生物的全身视图，灵感来自物体的形状、材料或用途。
+  – 在其脚边有一个小球体或胶囊（类似于精灵球），其设计图案和颜色与物体的外观相匹配——不是标准的精灵球，而是自定义设计。
+  – 为生物发明的名字，显示在其旁边或下方。 – 其元素类型（例如火、水、金属、自然、电……），基于物体的核心属性。插图应看起来像是来自奇幻生物百科全书，线条清晰，阴影柔和，设计富有表现力且以角色为驱动。
+```
+
+*注意：如果第一次提示无效，尝试开启新对话或要求它绕过问题。*
+
+**需上传参考图片：** 需要上传一张物体、食物等的照片作为灵感来源。
+
+
+[⬆️ 返回案例目录](#example-toc)
 
 <a id="examples-69"></a>
 ## 案例 69：剪影艺术 (by [@umesh_ai](https://x.com/umesh_ai))
@@ -1547,6 +1605,8 @@ Can you create a PS2 video game case of "Grand Theft Auto: Far Far Away" a GTA b
 *   [f-is-h (@f-is-h)](https://github.com/f-is-h)
 *   [Madpencil (@madpencil_)](https://x.com/madpencil_)
 *   [Hewar (@hewarsaber)](https://x.com/hewarsaber)
+*   [Anima (@Anima_Labs)](https://x.com/Anima_Labs)
+*   [terry623 (@terry623)](https://github.com/terry623)
 *   以及其他可能通过转推或间接分享而被收录其提示词的创作者们。
 
 如果您的作品被收录在此，而您希望更改署名或将其移除，请随时与我们联系。✉️
