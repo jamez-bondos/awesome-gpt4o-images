@@ -45,7 +45,7 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 
 <a id="example-toc"></a>
 ## 📖 案例目录
-
+*   [案例 72：皮克斯风格 (by @Amira Zairi)](#examples-72)
 *   [案例 69：剪影艺术 (by @umesh_ai)](#examples-69)
 *   [案例 68：未来主义 Logo 交易卡 (by @hewarsaber)](#examples-68)
 *   [案例 67：超写实3D游戏 (by @ZHO_ZHO_ZHO)](#examples-67)
@@ -117,6 +117,24 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 *   [案例 1：Q版求婚场景 (by @balconychy)](#examples-1)
 
 ---
+<a id="examples-72"></a>
+## 案例 72：皮克斯风格 (by [Amira Zairi](https://x.com/azed_ai))
+
+[原文链接](https://x.com/azed_ai/status/1912505288110002458)
+
+<img src="./examples/pixar_style_transfer.jpg" width="300" alt="Pixar style image ">
+
+**提示词：**
+```
+将此图像重新设计为 3D 渲染，具有光滑的纹理和柔软的皮肤，大而富有表现力的眼睛，卡通风格，柔和的灯光，微妙的光芒，具有皮克斯风格的高度细节
+```
+
+*注意： *
+
+**需上传参考图片：** Yes
+
+[⬆️ 返回案例目录](#example-toc)
+
 
 <a id="examples-69"></a>
 ## 案例 69：剪影艺术 (by [@umesh_ai](https://x.com/umesh_ai))

@@ -2,7 +2,7 @@
 
 import type React from "react"
 
-import { useState, useEffect } from "react"
+import { useState, useEffect, useRef } from "react"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription, CardFooter } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
@@ -10,7 +10,7 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { Copy, Globe, Check, ChevronRight } from "lucide-react"
+import { Copy, Globe, Check, ChevronRight, Upload, X } from "lucide-react"
 import { translations } from "@/lib/translations"
 import { 
   generateChineseMarkdown, 
@@ -22,6 +22,9 @@ export default function Home() {
   const [uiLanguage, setUiLanguage] = useState<"en" | "cn">("en")
   const [formLanguage, setFormLanguage] = useState<"en" | "cn">("en")
   const [previewLanguage, setPreviewLanguage] = useState<"en" | "cn">("en")
+  const [uploadedImage, setUploadedImage] = useState<File | null>(null)
+  const [uploadedFileName, setUploadedFileName] = useState<string>("")
+  const fileInputRef = useRef<HTMLInputElement>(null)
   const [validationErrors, setValidationErrors] = useState({
     example_number: "",
   })
@@ -68,7 +71,12 @@ export default function Home() {
     }
   }
 
-  const generateMarkdown = () => {
+  const generateMarkdown = async () => {
+    // If there's an uploaded image, upload it first
+    if (uploadedImage) {
+      await uploadImageToServer();
+    }
+    
     // Generate markdown using template functions regardless of field completion
     const cnMarkdown = generateChineseMarkdown(formData)
     const enMarkdown = generateEnglishMarkdown(formData)
@@ -78,6 +86,32 @@ export default function Home() {
       en: enMarkdown,
     })
   }
+
+  const uploadImageToServer = async () => {
+    if (!uploadedImage || !uploadedFileName) return;
+    
+    try {
+      const formData = new FormData();
+      formData.append('file', uploadedImage);
+      formData.append('filename', uploadedFileName);
+      
+      const response = await fetch('/api/upload', {
+        method: 'POST',
+        body: formData,
+      });
+      
+      const result = await response.json();
+      
+      if (!response.ok) {
+        throw new Error(result.error || 'Failed to upload image');
+      }
+      
+      return result.path;
+    } catch (error) {
+      console.error('Error uploading image:', error);
+      alert('Error uploading image to server');
+    }
+  };
 
   const handleGenerateTocLink = () => {
     return generateTocLink(formData, previewLanguage)
@@ -95,6 +129,51 @@ export default function Home() {
     setCopied((prev) => ({ ...prev, toc: true }))
     setTimeout(() => setCopied((prev) => ({ ...prev, toc: false })), 2000)
   }
+
+  const handleImageUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    if (!e.target.files || e.target.files.length === 0) return;
+    
+    const file = e.target.files[0];
+    
+    // Create a filename based on the example title
+    const titleForFilename = formData.example_title_en.toLowerCase().replace(/\s+/g, '_').replace(/[^a-z0-9_]/g, '');
+    if (!titleForFilename) {
+      alert("Please enter an example title first");
+      return;
+    }
+    
+    // Get file extension
+    const fileExt = file.name.split('.').pop();
+    const newFilename = `${titleForFilename}.${fileExt}`;
+    
+    // Save information about the uploaded file
+    setUploadedImage(file);
+    setUploadedFileName(newFilename);
+    
+    // Update the image URL in the form data
+    setFormData(prev => ({ 
+      ...prev, 
+      example_image_url: `./examples/${newFilename}` 
+    }));
+    
+    // Reset file input
+    if (fileInputRef.current) {
+      fileInputRef.current.value = '';
+    }
+  };
+
+  const handleRemoveImage = () => {
+    // Remove all code related to deleting files from the server
+    setUploadedImage(null);
+    setUploadedFileName("");
+    setFormData(prev => ({ ...prev, example_image_url: "" }));
+  };
+  
+  const triggerFileInput = () => {
+    if (fileInputRef.current) {
+      fileInputRef.current.click();
+    }
+  };
 
   // Switch both tabs when language changes
   useEffect(() => {
@@ -285,14 +364,57 @@ export default function Home() {
                     </div>
 
                     <div className="space-y-2">
-                      <Label htmlFor="example_image_url">{translations[uiLanguage].imageUrl}</Label>
-                      <Input
-                        id="example_image_url"
-                        name="example_image_url"
-                        value={formData.example_image_url}
-                        onChange={handleInputChange}
-                        className="bg-black/30 border-gray-700"
-                      />
+                      <Label htmlFor="example_image">{translations[uiLanguage].imageUrl}</Label>
+                      <div className="flex items-center gap-2">
+                        <input
+                          type="file"
+                          accept="image/*"
+                          ref={fileInputRef}
+                          onChange={handleImageUpload}
+                          className="hidden"
+                        />
+                        <Button 
+                          onClick={triggerFileInput}
+                          variant="outline" 
+                          className="bg-black/30 border-gray-700 hover:bg-black/40 flex items-center gap-2"
+                        >
+                          <Upload className="h-4 w-4" />
+                          {uploadedFileName ? "Change Image" : "Upload Image"}
+                        </Button>
+                        {formData.example_image_url && (
+                          <div className="flex-1 flex items-center justify-between bg-black/30 p-2 rounded-md border border-gray-700 text-gray-300 text-sm">
+                            <span className="truncate">{uploadedFileName}</span>
+                            <Button
+                              variant="ghost"
+                              size="icon"
+                              className="h-6 w-6 hover:bg-black/40 text-gray-400"
+                              onClick={handleRemoveImage}
+                            >
+                              <X className="h-4 w-4" />
+                            </Button>
+                          </div>
+                        )}
+                      </div>
+                      
+                      {/* Image preview */}
+                      {uploadedImage && (
+                          <div className="mt-4 space-y-2">
+                          <div className="border border-gray-700 rounded-md overflow-hidden bg-black/20 p-1">
+                            <img 
+                              src={URL.createObjectURL(uploadedImage)} 
+                              alt="Preview" 
+                              className="max-h-44 object-contain mx-auto rounded"
+                            />
+                          </div>
+                          <div className="text-xs text-gray-400 p-2 bg-black/20 border border-gray-700 rounded-md">
+                            <p className="mb-1"><span className="text-gray-300">File name:</span> {uploadedFileName}</p>
+                            <p><span className="text-gray-300">Will be saved to:</span> ../examples/{uploadedFileName}</p>
+                            <p className="mt-1 text-yellow-500">
+                              Note: This image will be saved when you click "Generate Markdown"
+                            </p>
+                          </div>
+                        </div>
+                      )}
                     </div>
 
                     <div className="space-y-2">

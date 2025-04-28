@@ -48,7 +48,7 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 ## 📖 Example Directory
 
 **Note on Prompts:** For accuracy and reproducibility, prompts are provided in their original language (Chinese or English) as used for generation.
-
+*   [Example 72: Pixar Style Transfer (by @Amira Zairi)](#examples-72)
 *   [Example 69: Silhouette Art (by @umesh_ai)](#examples-69)
 *   [Example 68: Futuristic Logo Trading Card (by @hewarsaber)](#examples-68)
 *   [Example 67: Ultra-realistic 3D Game (by @ZHO_ZHO_ZHO)](#examples-67)
@@ -120,6 +120,25 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 *   [Example 1: Q-version Proposal Scene (by @balconychy)](#examples-1)
 
 ---
+
+<a id="examples-72"></a>
+## Example 72: Pixar Style Transfer (by [Amira Zairi](https://x.com/azed_ai))
+
+[Source Link](https://x.com/azed_ai/status/1912505288110002458)
+
+<img src="./examples/pixar_style_transfer.jpg" width="300" alt="Pixar style image ">
+
+**Prompt:**
+```
+Restyle this image to A 3D render, smooth texture and a soft skin, large expressive eyes, cartoonish, soft lighting, subtle glow, highly detailed with a Pixar-like style
+```
+
+*Note: *
+
+**Reference Image Required:** Yes
+
+[⬆️ Back to Directory](#example-toc)
+
 
 <a id="examples-69"></a>
 ## Example 69: Silhouette Art (by [@umesh_ai](https://x.com/umesh_ai))
