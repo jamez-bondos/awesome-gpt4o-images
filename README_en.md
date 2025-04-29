@@ -13,7 +13,14 @@ This repo gathers striking examples produced by OpenAI's newest multimodal model
 
 Most examples come from Twitter/X 🐦. May they spark ideas 💡 and turbo‑charge your creativity 🚀.
 
-<strong>OpenAI’s latest gpt-image-1 image generation model is now available via API, delivering higher fidelity, diverse styles, and precise editing capabilities. For details, see the [🛠️ Tools Introduction](#tools-toc).</strong>
+OpenAI’s latest cutting-edge image model, **gpt-image-1**, has been released, offering even more powerful image generation capabilities and is available via API.
+
+<strong>Check out the 40+ brilliant examples below, carefully curated and translated by this project, sourced from OpenAI official materials, showcasing the power of `gpt-image-1`! 👇</strong>
+
+-   Chinese Version: [OpenAI gpt-image-1: 40 Curated Prompt & Image Examples (Chinese)](./gpt-image-1/gpt-image-1.md)
+-   English Version: [OpenAI gpt-image-1: 40 Curated Prompt & Image Examples](./gpt-image-1/gpt-image-1-en.md)
+
+*Note: Both `gpt-image-1` and GPT-4o are OpenAI's latest image generation products, supported by largely the same underlying models. The main difference is that the former is currently accessed via API, while the latter powers official products like ChatGPT and Sora. `gpt-image-1` represents the newer iteration available through the API.*
 
 <strong>→ 喜欢就点 Star 支持！ / Smash that ⭐ if you like it!</strong>
 
@@ -49,6 +56,8 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 
 **Note on Prompts:** For accuracy and reproducibility, prompts are provided in their original language (Chinese or English) as used for generation.
 
+*   [Example 74: Logo Shaped Bookshelf (by @umesh_ai)](#examples-74)
+*   [Example 73: Cute Chibi Keychain (by @azed_ai)](#examples-73)
 *   [Example 72: Gold Pendant Necklace (by @azed_ai)](#examples-72)
 *   [Example 71: Miniature Cyberpunk Tilt-Shift Landscape (by @terry623)](#examples-71)
 *   [Example 70: Original Pokemon Creation (by @Anima_Labs)](#examples-70)
@@ -123,6 +132,46 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 *   [Example 1: Q-version Proposal Scene (by @balconychy)](#examples-1)
 
 ---
+
+<a id="examples-74"></a>
+## Example 74: Logo Shaped Bookshelf (by [@umesh_ai](https://x.com/umesh_ai))
+
+[Source Link](https://x.com/umesh_ai/status/1916517976414495161)
+
+<img src="./examples/example_logo_bookshelves_composite.jpeg" width="300" alt="Collection of modern bookshelves inspired by famous company logos (e.g., Apple, McDonald's, Google)">
+
+**Prompt:**
+```
+Create a photograph of a modern bookshelf inspired by the shape of [LOGO]. The bookshelf features flowing, interconnected curves forming multiple sections of varying sizes. It is made of sleek matte black metal with wooden shelves inside the loops. Soft, warm LED lighting outlines the inner curves. The bookshelf is mounted on a neutral-toned wall and holds a mix of colorful books, small plants, and minimalistic art pieces. The overall vibe is creative, elegant, and slightly futuristic
+```
+
+*Note: Replace the `[LOGO]` placeholder in the prompt with a specific brand logo description (e.g., "Apple logo", "McDonald's logo").*
+
+
+[⬆️ Back to Directory](#example-toc)
+
+
+<a id="examples-73"></a>
+## Example 73: Cute Chibi Keychain (by [@azed_ai](https://x.com/azed_ai))
+
+[Source Link](https://x.com/azed_ai/status/1916521742052503804)
+
+<img src="./examples/example_keychain_chibi_composite.jpeg" width="300" alt="Collection of cute, colorful soft rubber keychains held by a hand, featuring chibi-style designs of various characters">
+
+**Prompt:**
+```
+A close-up photo of a cute, colorful keychain held by person's hand. The keychain features a chibi-style of the [attached image ]. The keychain is made of soft rubber with bold black outlines and attached to a small silver keyring, neutral background
+```
+
+*Note: The `[attached image]` part of the prompt needs to be used in conjunction with an uploaded image.*
+
+**Reference Image Required:** A photo of a person or object as the subject for the keychain design.
+
+**Example Submitted by:** [Kong-F](https://github.com/Kong-F)
+
+[⬆️ Back to Directory](#example-toc)
+
+
 <a id="examples-72"></a>
 ## Example 72: Gold Pendant Necklace (by [@azed_ai](https://x.com/azed_ai))
 

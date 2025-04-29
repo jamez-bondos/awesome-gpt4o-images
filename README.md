@@ -13,7 +13,14 @@
 
 案例主要来源于 Twitter/X 🐦，希望这些案例能为您带来启发 💡，为你的灵感加速 🚀。
 
-<strong>OpenAI 最新发布的 gpt‑image‑1 图像生成模型，提供API访问，具备更高保真度、多样风格和精准编辑能力，详情见[🛠️ 工具介绍](#tools-toc)。</strong>
+OpenAI 最新尖端图像模型 gpt‑image‑1 已发布，图像生成能力更加强大，通过 API 调用提供服务。
+
+<strong>下面的 40+ 精彩案例，由本项目精心整理和翻译，来自OpenAI官方，展示 gpt‑image‑1 的强大能力。请戳👇</strong>
+
+- 中文版：[OpenAI gpt-image-1：40 个精选图像案例及提示词](./gpt-image-1/gpt-image-1.md)
+- 英文版：[OpenAI gpt-image-1: 40 Curated Prompt & Image Examples](./gpt-image-1/gpt-image-1-en.md)
+
+*注：gpt‑image‑1 和 GPT‑4o 都是 OpenAI 的最新图像生成产品，背后的支持模型是大致相同的。不同的是 gpt‑image‑1 仅提供 API 访问，且 gpt‑image‑1 目前较新一些。*
 
 <strong>→ 喜欢就点 Star 支持！ / Smash that ⭐ if you like it!</strong>
 
@@ -46,6 +53,8 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 <a id="example-toc"></a>
 ## 📖 案例目录
 
+*   [案例 74：Logo 形状创意书架 (by @umesh_ai)](#examples-74)
+*   [案例 73：定制Q版钥匙串 (by @azed_ai)](#examples-73)
 *   [案例 72：金色吊坠项链 (by @azed_ai)](#examples-72)
 *   [案例 71：迷你 Cyberpunk 傾斜移軸景觀 (by terry623)](#examples-71)
 *   [案例 70：原创宝可梦生成 (by @Anima_Labs)](#examples-70)
@@ -120,6 +129,49 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 *   [案例 1：Q版求婚场景 (by @balconychy)](#examples-1)
 
 ---
+<a id="examples-74"></a>
+## 案例 74：Logo 形状创意书架 (by [@umesh_ai](https://x.com/umesh_ai))
+
+[原文链接](https://x.com/umesh_ai/status/1916517976414495161)
+
+<img src="./examples/example_logo_bookshelves_composite.jpeg" width="300" alt="多个由著名公司 Logo 形状启发的现代书架（如 Apple, McDonald's, Google）">
+
+**提示词：**
+```
+创建一张现代书架的照片，书架的造型灵感来自于【LOGO】的形状。
+书架由流畅、互相连接的曲线构成，形成多个大小不一的分区。
+整体材质为哑光黑色金属，曲线内部配有木质层板。
+柔和温暖的LED灯带沿着内侧曲线勾勒轮廓。
+书架安装在一个中性色调的墙面上，上面摆放着色彩丰富的书籍、小型绿植和极简风格的艺术摆件。
+整体氛围富有创意、优雅且略带未来感。
+```
+
+*注意：可替换提示词中的 `[LOGO]` 为具体品牌 Logo 描述（例如 "Apple logo", "McDonald's logo"）。*
+
+
+[⬆️ 返回案例目录](#example-toc)
+
+<a id="examples-73"></a>
+## 案例 73：定制Q版钥匙扣 (by [@azed_ai](https://x.com/azed_ai))
+
+[原文链接](https://x.com/azed_ai/status/1916521742052503804)
+
+<img src="./examples/example_keychain_chibi_composite.jpeg" width="300" alt="由手持有的可爱彩色软胶钥匙扣集合，带有不同人物的 Chibi 风格图案">
+
+**提示词：**
+```
+一张特写照片，画面中一个人手里拿着一个可爱的、色彩鲜艳的钥匙扣。钥匙扣以 [参考图片] 的Q版形象为主题，采用软橡胶材质，轮廓用粗黑线勾勒，并连接着一个小巧的银色钥匙圈，背景为中性色调。
+```
+
+*注意：提示词中的 `[参考图片]` 部分需要与上传的图片配合使用。*
+
+**需上传参考图片：** 需要上传一张人物或物体的照片作为钥匙串图案主体。
+
+**案例提交：** [Kong-F](https://github.com/Kong-F)
+
+[⬆️ 返回案例目录](#example-toc)
+
+
 <a id="examples-72"></a>
 ## 案例 72：金色吊坠项链 (by [@azed_ai](https://x.com/azed_ai))
 
