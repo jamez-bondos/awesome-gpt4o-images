@@ -53,6 +53,7 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 <a id="example-toc"></a>
 ## 📖 案例目录
 
+*   [案例 75：社交媒体相框融合 (by @dotey)](#examples-75)
 *   [案例 74：Logo 形状创意书架 (by @umesh_ai)](#examples-74)
 *   [案例 73：定制Q版钥匙串 (by @azed_ai)](#examples-73)
 *   [案例 72：金色吊坠项链 (by @azed_ai)](#examples-72)
@@ -129,6 +130,24 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 *   [案例 1：Q版求婚场景 (by @balconychy)](#examples-1)
 
 ---
+
+<a id="examples-75"></a>
+## 案例 75：社交媒体相框融合 (by [@dotey](https://x.com/dotey))
+
+[原文链接](https://x.com/dotey/status/1917042797506662560)
+
+<img src="./examples/example_instagram_frame_pearl_earring.png" width="300" alt="戴珍珠耳环的少女 Q版 3D 形象俏皮地坐在 Instagram 相框边缘比心">
+
+**提示词：**
+```
+根据所附照片创建一个风格化的3D Q版人物角色，准确保留人物的面部特征和服装细节。角色的左手比心（手指上方有红色爱心元素），姿势俏皮地坐在一个巨大的Instagram相框边缘，双腿悬挂在框外。相框顶部显示用户名『Beauty』，四周漂浮着社交媒体图标（点赞、评论、转发）。
+```
+*注意：可替换提示词中的用户名『Beauty』及图标。原图由 Sora 生成。*
+
+**需上传参考图片：** 需要上传一张图片作为参考。
+
+[⬆️ 返回案例目录](#example-toc)
+
 
 <a id="examples-74"></a>
 ## 案例 74：Logo 形状创意书架 (by [@umesh_ai](https://x.com/umesh_ai))
