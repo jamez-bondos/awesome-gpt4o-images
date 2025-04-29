@@ -121,25 +121,6 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 
 ---
 <a id="examples-72"></a>
-## 案例 72：皮克斯风格 (by [Amira Zairi](https://x.com/azed_ai))
-
-[原文链接](https://x.com/azed_ai/status/1912505288110002458)
-
-<img src="./examples/pixar_style_transfer.jpg" width="300" alt="Pixar style image ">
-
-**提示词：**
-```
-将此图像重新设计为 3D 渲染，具有光滑的纹理和柔软的皮肤，大而富有表现力的眼睛，卡通风格，柔和的灯光，微妙的光芒，具有皮克斯风格的高度细节
-```
-
-*注意： *
-
-**需上传参考图片：** Yes
-
-[⬆️ 返回案例目录](#example-toc)
-
-
-<a id="examples-72"></a>
 ## 案例 72：金色吊坠项链 (by [@azed_ai](https://x.com/azed_ai))
 
 [原文链接](https://x.com/azed_ai/status/1915770501705925106)

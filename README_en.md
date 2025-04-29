@@ -123,8 +123,6 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 *   [Example 1: Q-version Proposal Scene (by @balconychy)](#examples-1)
 
 ---
-
-
 <a id="examples-72"></a>
 ## Example 72: Gold Pendant Necklace (by [@azed_ai](https://x.com/azed_ai))
 
