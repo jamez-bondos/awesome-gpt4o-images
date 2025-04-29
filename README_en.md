@@ -56,6 +56,7 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 
 **Note on Prompts:** For accuracy and reproducibility, prompts are provided in their original language (Chinese or English) as used for generation.
 
+*   [Example 76: Nostalgic Anime Film Poster (by photis (Sora))](#examples-76)
 *   [Example 75: Social Media Frame Integration (by @dotey)](#examples-75)
 *   [Example 74: Logo Shaped Bookshelf (by @umesh_ai)](#examples-74)
 *   [Example 73: Cute Chibi Keychain (by @azed_ai)](#examples-73)
@@ -133,6 +134,24 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 *   [Example 1: Q-version Proposal Scene (by @balconychy)](#examples-1)
 
 ---
+
+<a id="examples-76"></a>
+## Example 76: Nostalgic Anime Film Poster (by photis (Sora))
+
+[Source Link](https://sora.com/g/gen_01jsfxrdpjfpebnyed8yaz42nf)
+
+<img src="./examples/example_anime_nostalgic_poster.png" width="300" alt="nostalgic anime film poster in High School DXD style with folds and scuffing damage">
+
+**Prompt:**
+```
+{The Lord of the Rings} anime film poster, the anime is in the style of High School DXD. Visible even folds are seen across the poster as it’s been folded over time, and due to some creases over damaging the poster has caused some physical damage scuffing along the creases and the color has partially faded. Indiscriminate flaps and folds and scratches all around simply from moving back and forth causing subtle yet incremental damage with the ever expanding of entropy we cannot escape, but the loving memories in our hearts will forever be whole. Making the objects we collect along the way priceless is the essence you feel when looking at this nostalgic poster.
+```
+
+*Note: You can replace the movie title "{The Lord of the Rings}" in the prompt with others. Be aware that some movie titles may trigger content moderation. The referenced anime style can also be modified.*
+
+
+[⬆️ Back to Directory](#example-toc)
+
 
 <a id="examples-75"></a>
 ## Example 75: Social Media Frame Integration (by [@dotey](https://x.com/dotey))
@@ -1639,6 +1658,7 @@ Special thanks to the following users for sharing their inspiring work ✨:
 *   [Hewar (@hewarsaber)](https://x.com/hewarsaber)
 *   [Anima (@Anima_Labs)](https://x.com/Anima_Labs)
 *   [terry623 (@terry623)](https://github.com/terry623)
+*   [photis (Sora Profile)](https://sora.com/explore?user=user-sydD5ZkXZsDaL0BriQa010dQ)
 *   And other creators whose prompts may have been included through retweets or indirect shares.
 
 If your work is included here and you wish to change the attribution or have it removed, please feel free to contact us. ✉️

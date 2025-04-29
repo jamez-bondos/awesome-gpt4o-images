@@ -53,6 +53,7 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 <a id="example-toc"></a>
 ## 📖 案例目录
 
+*   [案例 76：怀旧动漫风格电影海报 (by photis (Sora))](#examples-76)
 *   [案例 75：社交媒体相框融合 (by @dotey)](#examples-75)
 *   [案例 74：Logo 形状创意书架 (by @umesh_ai)](#examples-74)
 *   [案例 73：定制Q版钥匙串 (by @azed_ai)](#examples-73)
@@ -130,6 +131,26 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 *   [案例 1：Q版求婚场景 (by @balconychy)](#examples-1)
 
 ---
+
+<a id="examples-76"></a>
+## 案例 76：怀旧动漫风格电影海报 (by photis (Sora))
+
+[原文链接](https://sora.com/g/gen_01jsfxrdpjfpebnyed8yaz42nf)
+
+<img src="./examples/example_anime_nostalgic_poster.png" width="300" alt="High School DXD 风格怀旧动漫电影海报，带有折痕和磨损效果">
+
+**提示词：**
+```
+{The Lord of the Rings} 的动漫电影海报，这张动漫海报的风格参考了《恶魔高中DXD（High School DXD）》。
+海报上可以清晰看到折叠的痕迹，因为长时间以来被反复折叠，导致在褶皱处出现了物理性的损伤和擦痕，颜色也在部分区域出现了褪色。
+由于来回搬动，海报表面散布着无规律的折痕、翻折痕迹和细微划痕，这些微小但不断累积的损耗，正如无法逃避的熵增过程一样，渐渐扩展。
+然而，留存在我们心中的美好回忆却始终完整无缺。
+当你凝视这张充满怀旧气息的海报时，所能感受到的，正是那些随着岁月积累、变得无比珍贵的点点收藏物所承载的情感本质。
+```
+
+*注意：可替换提示词中的电影名{The Lord of the Rings}为其他电影，某些电影可能会触发内容审核。参考的动漫风格也可以修改。*
+
+[⬆️ 返回案例目录](#example-toc)
 
 <a id="examples-75"></a>
 ## 案例 75：社交媒体相框融合 (by [@dotey](https://x.com/dotey))
@@ -1660,6 +1681,7 @@ Can you create a PS2 video game case of "Grand Theft Auto: Far Far Away" a GTA b
 *   [Hewar (@hewarsaber)](https://x.com/hewarsaber)
 *   [Anima (@Anima_Labs)](https://x.com/Anima_Labs)
 *   [terry623 (@terry623)](https://github.com/terry623)
+*   [photis (Sora Profile)](https://sora.com/explore?user=user-sydD5ZkXZsDaL0BriQa010dQ)
 *   以及其他可能通过转推或间接分享而被收录其提示词的创作者们。
 
 如果您的作品被收录在此，而您希望更改署名或将其移除，请随时与我们联系。✉️
