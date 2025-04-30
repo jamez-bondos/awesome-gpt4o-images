@@ -56,6 +56,7 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 
 **Note on Prompts:** For accuracy and reproducibility, prompts are provided in their original language (Chinese or English) as used for generation.
 
+*   [Example 77: Story Scene in Crystal Ball (by @dotey)](#examples-77)
 *   [Example 76: Nostalgic Anime Film Poster (by photis (Sora))](#examples-76)
 *   [Example 75: Social Media Frame Integration (by @dotey)](#examples-75)
 *   [Example 74: Logo Shaped Bookshelf (by @umesh_ai)](#examples-74)
@@ -134,6 +135,23 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 *   [Example 1: Q-version Proposal Scene (by @balconychy)](#examples-1)
 
 ---
+
+<a id="examples-77"></a>
+## Example 77: Story Scene in Crystal Ball (by [@dotey](https://x.com/dotey))
+
+[Source Link](https://x.com/dotey/status/1916530529324699858)
+
+<img src="./examples/example_crystal_ball_chang_e.jpeg" width="300" alt="Miniature 3D Q-version world themed around Chang'e Flying to the Moon inside a crystal ball">
+
+**Prompt:**
+```
+A delicate crystal ball rests quietly on a warm, softly lit table by the window. The background is blurred and dreamy, while warm-toned sunlight gently filters through the crystal, refracting into shimmering golden sparkles that softly illuminate the dim surroundings. Inside the crystal ball, a miniature 3D world themed around {Chang’e Flying to the Moon} unfolds naturally—an exquisitely detailed and dreamlike diorama. The characters and objects are rendered in a charming chibi (Q-style) design, full of lively emotional interactions. The overall atmosphere is infused with East Asian fantasy elements, rich in intricate details and imbued with a magical realism texture. The entire scene feels poetic and dreamlike, radiant yet elegant, glowing gently as if brought to life by the warmth of the surrounding light and shadow.
+```
+
+*Note: Replace the text within the square brackets {} in the prompt with a description of a story scene (idioms, stories, short tales all work).*
+
+
+[⬆️ Back to Directory](#example-toc)
 
 <a id="examples-76"></a>
 ## Example 76: Nostalgic Anime Film Poster (by photis (Sora))
