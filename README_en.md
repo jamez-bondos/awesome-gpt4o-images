@@ -56,6 +56,7 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 
 **Note on Prompts:** For accuracy and reproducibility, prompts are provided in their original language (Chinese or English) as used for generation.
 
+*   [Example 78: Glass Retexturing (by @egeberkina)](#examples-78)
 *   [Example 77: Story Scene in Crystal Ball (by @dotey)](#examples-77)
 *   [Example 76: Nostalgic Anime Film Poster (by photis (Sora))](#examples-76)
 *   [Example 75: Social Media Frame Integration (by @dotey)](#examples-75)
@@ -135,6 +136,40 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 *   [Example 1: Q-version Proposal Scene (by @balconychy)](#examples-1)
 
 ---
+
+<a id="examples-78"></a>
+## Example 78: Glass Retexturing (by [@egeberkina](https://x.com/egeberkina))
+
+[Source Link](https://x.com/egeberkina/status/1917631056980721743)
+
+<img src="./examples/example_retexture_glass_phone.jpeg" width="300" alt="Vintage rotary phone retextured to appear as transparent glass">
+
+**Prompt:**
+```
+retexture the image attached based on the json below:
+
+{
+  "style": "photorealistic",
+  "material": "glass",
+  "background": "plain white",
+  "object_position": "centered",
+  "lighting": "soft, diffused studio lighting",
+  "camera_angle": "eye-level, straight-on",
+  "resolution": "high",
+  "aspect_ratio": "2:3",
+  "details": {
+    "reflections": true,
+    "shadows": false,
+    "transparency": true
+  }
+}
+```
+
+*Note: This prompt uses a JSON structure to precisely control the output style.*
+
+**Reference Image Required:** Yes, needs an image of the object to be retextured.
+
+[⬆️ Back to Directory](#example-toc)
 
 <a id="examples-77"></a>
 ## Example 77: Story Scene in Crystal Ball (by [@dotey](https://x.com/dotey))

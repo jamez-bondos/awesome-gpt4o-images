@@ -53,6 +53,7 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 <a id="example-toc"></a>
 ## 📖 案例目录
 
+*   [案例 78：玻璃材质重塑 (by @egeberkina)](#examples-78)
 *   [案例 77：水晶球故事场景 (by @dotey)](#examples-77)
 *   [案例 76：怀旧动漫风格电影海报 (by photis (Sora))](#examples-76)
 *   [案例 75：社交媒体相框融合 (by @dotey)](#examples-75)
@@ -132,6 +133,40 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 *   [案例 1：Q版求婚场景 (by @balconychy)](#examples-1)
 
 ---
+
+<a id="examples-78"></a>
+## 案例 78：玻璃材质重塑 (by [@egeberkina](https://x.com/egeberkina))
+
+[原文链接](https://x.com/egeberkina/status/1917631056980721743)
+
+<img src="./examples/example_retexture_glass_phone.jpeg" width="300" alt="老式旋转拨号电话被重塑为透明玻璃材质">
+
+**提示词：**
+```
+retexture the image attached based on the json below:
+
+{
+  "style": "photorealistic",
+  "material": "glass",
+  "background": "plain white",
+  "object_position": "centered",
+  "lighting": "soft, diffused studio lighting",
+  "camera_angle": "eye-level, straight-on",
+  "resolution": "high",
+  "aspect_ratio": "2:3",
+  "details": {
+    "reflections": true,
+    "shadows": false,
+    "transparency": true
+  }
+}
+```
+
+*注意：此提示词通过 JSON 结构精确控制输出风格，并将上传图片重塑为指定材质。*
+
+**需上传参考图片：** 需要上传一张要进行材质重塑的物体图片。
+
+[⬆️ 返回案例目录](#example-toc)
 
 <a id="examples-77"></a>
 ## 案例 77：水晶球故事场景 (by [@dotey](https://x.com/dotey))
