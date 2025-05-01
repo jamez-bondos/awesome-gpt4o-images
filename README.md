@@ -53,6 +53,7 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 <a id="example-toc"></a>
 ## 📖 案例目录
 
+*   [案例 80：代码风格名片 (by @umesh_ai)](#examples-80)
 *   [案例 79：乐高城市景观 (by @dotey)](#examples-79)
 *   [案例 78：玻璃材质重塑 (by @egeberkina)](#examples-78)
 *   [案例 77：水晶球故事场景 (by @dotey)](#examples-77)
@@ -134,6 +135,31 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 *   [案例 1：Q版求婚场景 (by @balconychy)](#examples-1)
 
 ---
+<a id="examples-80"></a>
+## 案例 80：代码风格名片 (by [@umesh_ai](https://x.com/umesh_ai))
+
+[原文链接 1](https://x.com/umesh_ai/status/1915696926596415492)
+[原文链接 2](https://x.com/fr0gger_/status/1916743281339498760)
+[原文链接 3](https://x.com/dotey/status/1917412535130563006)
+
+<img src="./examples/example_business_card_code_style.png" width="300" alt="代码风格名片">
+
+**提示词模板：**
+```
+特写镜头：一只手正拿着一张设计成 VS Code 中 JSON 文件外观的名片。名片上的代码以真实的 JSON 语法高亮格式呈现。窗口界面包含典型的工具栏图标和标题栏，标题显示为 Business Card.json，整体风格与 VS Code 界面完全一致。背景略微虚化，突出展示名片内容。
+名片上的 JSON 代码如下所示：
+{
+  "name": "Jamez Bondos",
+  "title": "Your Title",
+  "email": "your@email.com",
+  "link": "yourwebsite"
+}
+```
+
+*注意：替换最后的JSON代码中的name、title、email和link数据。提示词由原文链接中简化而来。*
+
+[⬆️ 返回案例目录](#example-toc)
+
 
 <a id="examples-79"></a>
 ## 案例 79：乐高城市景观 (by [@dotey](https://x.com/dotey))

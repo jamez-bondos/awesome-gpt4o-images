@@ -56,6 +56,7 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 
 **Note on Prompts:** For accuracy and reproducibility, prompts are provided in their original language (Chinese or English) as used for generation.
 
+*   [Example 80: Code Style Business Card (by @umesh_ai)](#examples-80)
 *   [Example 79: Lego Cityscape (by @dotey)](#examples-79)
 *   [Example 78: Glass Retexturing (by @egeberkina)](#examples-78)
 *   [Example 77: Story Scene in Crystal Ball (by @dotey)](#examples-77)
@@ -137,6 +138,33 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 *   [Example 1: Q-version Proposal Scene (by @balconychy)](#examples-1)
 
 ---
+
+<a id="examples-80"></a>
+## Example 80: Code Style Business Card (by [@umesh_ai](https://x.com/umesh_ai))
+
+[Source Link 1](https://x.com/umesh_ai/status/1915696926596415492)
+[Source Link 2](https://x.com/fr0gger_/status/1916743281339498760)
+[Source Link 3](https://x.com/dotey/status/1917412535130563006)
+
+<img src="./examples/example_business_card_code_style.png" width="300" alt="Code Style Business Card">
+
+**Prompt Template:**
+```
+A close-up shot of a hand holding a business card designed to look like a JSON file opened in VS Code. The card shows code formatted in realistic syntax-highlighted JSON code. The window includes typical toolbar icons and a title bar labeled Business Card.json, styled exactly like the interface of VS Code. Background is slightly blurred, keeping the focus on the card.
+The card displays the following code formatted in JSON:
+{
+  "name": "Jamez Bondos",
+  "title": "Your Title",
+  "email": "your@email.com",
+  "link": "yourwebsite"
+}
+
+```
+
+*Note: Replace the values of name, title, email, and link in the final JSON code. The prompt is a simplified version derived from the original source link.*
+
+[⬆️ Back to Directory](#example-toc)
+
 
 <a id="examples-79"></a>
 ## Example 79: Lego Cityscape (Shanghai Bund) (by [@dotey](https://x.com/dotey))
