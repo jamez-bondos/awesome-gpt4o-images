@@ -58,9 +58,6 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 <a id="cases-toc"></a>
 ## 📖 案例目录
 
-<a id="examples-74"></a>
-## 案例 74：Logo 形状创意书架 (by [@umesh_ai](https://x.com/umesh_ai))
-=======
 *   [案例 85：超现实交互场景 (by @umesh_ai)](#cases-85)
 *   [案例 84：动物硅胶腕托 (by @ZHO_ZHO_ZHO)](#cases-84)
 *   [案例 83：发光线条解剖图 (by @umesh_ai)](#cases-83)
