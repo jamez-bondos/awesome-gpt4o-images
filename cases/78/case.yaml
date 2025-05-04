@@ -1,0 +1,55 @@
+title: 玻璃材质重塑
+title_en: Glass Retexturing
+author: "@egeberkina"
+author_link: https://x.com/egeberkina
+source_links:
+  - url: https://x.com/egeberkina/status/1917631056980721743
+image: example_retexture_glass_phone.jpeg
+alt_text: 玻璃材质重塑
+alt_text_en: Glass Retexturing
+prompt: |
+  retexture the image attached based on the json below:
+
+  {
+    "style": "photorealistic",
+    "material": "glass",
+    "background": "plain white",
+    "object_position": "centered",
+    "lighting": "soft, diffused studio lighting",
+    "camera_angle": "eye-level, straight-on",
+    "resolution": "high",
+    "aspect_ratio": "2:3",
+    "details": {
+      "reflections": true,
+      "shadows": false,
+      "transparency": true
+    }
+  }
+prompt_en: |
+  retexture the image attached based on the json below:
+
+  {
+    "style": "photorealistic",
+    "material": "glass",
+    "background": "plain white",
+    "object_position": "centered",
+    "lighting": "soft, diffused studio lighting",
+    "camera_angle": "eye-level, straight-on",
+    "resolution": "high",
+    "aspect_ratio": "2:3",
+    "details": {
+      "reflections": true,
+      "shadows": false,
+      "transparency": true
+    }
+  }
+prompt_note: |
+  此提示词通过 JSON 结构精确控制输出风格，并将上传图片重塑为指定材质。
+prompt_note_en: |
+  This prompt uses a JSON structure to precisely control the output style.
+reference_note: |
+  需要上传一张要进行材质重塑的物体图片。
+reference_note_en: |
+  Yes, needs an image of the object to be retextured.
+submitter: ""
+submitter_link: ""

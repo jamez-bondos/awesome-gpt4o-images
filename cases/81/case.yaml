@@ -1,0 +1,19 @@
+title: 半透明玻璃质感变换
+title_en: 3D Translucent Glass Transformation
+author: "@azed_ai"
+author_link: https://x.com/azed_ai
+source_links:
+  - url: https://x.com/azed_ai/status/1917948899098243407
+image: example.jpeg
+alt_text: 半透明玻璃质感变换
+alt_text_en: 3D Translucent Glass Transformation
+prompt: |
+  将附图变换为柔软的3D半透明玻璃，具有磨砂哑光效果和细致的纹理，原始色彩，以浅灰色背景为中心，在空间中轻轻漂浮，柔和的阴影，自然的光线
+prompt_en: |
+  A soft, 3D translucent glass of the attached image with a frosty matte finish and detailed texture, original colors, centered on a light gray background, floats gently in space, soft shadows, natural lighting
+prompt_note: ""
+prompt_note_en: ""
+reference_note: "需要上传一张实物参考图"
+reference_note_en: "Need to upload a reference image of a physical object"
+submitter: luoshui-coder
+submitter_link: https://github.com/luoshui-coder

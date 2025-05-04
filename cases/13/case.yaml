@@ -1,0 +1,21 @@
+title: 3D Q版风格
+title_en: Photo to 3D Q-version Style
+author: "@dotey"
+author_link: https://x.com/dotey
+source_links:
+  - url: https://x.com/dotey/status/1908194518345678865
+image: example_photo_to_3d_q.png
+alt_text: 3D Q版风格
+alt_text_en: Photo to 3D Q-version Style
+prompt: |
+  将场景中的角色转化为3D Q版风格，同时保持原本的场景布置和服装造型不变。
+prompt_en: |
+  Transform the characters in the scene into 3D chibi-style figures, while keeping the original scene layout and their clothing exactly the same.
+prompt_note: ""
+prompt_note_en: ""
+reference_note: |
+  一张照片。
+reference_note_en: |
+  A photo.
+submitter: ""
+submitter_link: ""

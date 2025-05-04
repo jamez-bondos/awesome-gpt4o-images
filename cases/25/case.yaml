@@ -1,0 +1,93 @@
+title: 极简主义 3D 插画
+title_en: Minimalist 3D Illustration
+author: "@0xdlk"
+author_link: https://x.com/0xdlk
+source_links:
+  - url: https://x.com/0xdlk/status/1906843247432929642
+image: example_minimalist_3d_toilet.png
+alt_text: 极简主义 3D 插画
+alt_text_en: Minimalist 3D Illustration
+prompt: |
+  使用以下 JSON 配置文件生成一个马桶：
+  {
+    "art_style_profile": {
+      "style_name": "Minimalist 3D Illustration",
+      "visual_elements": {
+        "shape_language": "Rounded edges, smooth and soft forms with simplified geometry",
+        "colors": {
+          "primary_palette": ["Soft beige, light gray, warm orange"],
+          "accent_colors": ["Warm orange for focal elements"],
+          "shading": "Soft gradients with smooth transitions, avoiding harsh shadows or highlights"
+        },
+        "lighting": {
+          "type": "Soft, diffused lighting",
+          "source_direction": "Above and slightly to the right",
+          "shadow_style": "Subtle and diffused, no sharp or high-contrast shadows"
+        },
+        "materials": {
+          "surface_texture": "Matte, smooth surfaces with subtle shading",
+          "reflectivity": "Low to none, avoiding glossiness"
+        },
+        "composition": {
+          "object_presentation": "Single, central object displayed in isolation with ample negative space",
+          "perspective": "Slightly angled, giving a three-dimensional feel without extreme depth",
+          "background": "Solid, muted color that complements the object without distraction"
+        },
+        "typography": {
+          "font_style": "Minimalistic, sans-serif",
+          "text_placement": "Bottom-left corner with small, subtle text",
+          "color": "Gray, low-contrast against the background"
+        },
+        "rendering_style": {
+          "technique": "3D render with simplified, low-poly aesthetics",
+          "detail_level": "Medium detail, focusing on form and color over texture or intricacy"
+        }
+      },
+      "purpose": "To create clean, aesthetically pleasing visuals that emphasize simplicity, approachability, and modernity."
+    }
+  }
+prompt_en: |
+  Generate a toilet with the following JSON profile:
+  {
+    "art_style_profile": {
+      "style_name": "Minimalist 3D Illustration",
+      "visual_elements": {
+        "shape_language": "Rounded edges, smooth and soft forms with simplified geometry",
+        "colors": {
+          "primary_palette": ["Soft beige, light gray, warm orange"],
+          "accent_colors": ["Warm orange for focal elements"],
+          "shading": "Soft gradients with smooth transitions, avoiding harsh shadows or highlights"
+        },
+        "lighting": {
+          "type": "Soft, diffused lighting",
+          "source_direction": "Above and slightly to the right",
+          "shadow_style": "Subtle and diffused, no sharp or high-contrast shadows"
+        },
+        "materials": {
+          "surface_texture": "Matte, smooth surfaces with subtle shading",
+          "reflectivity": "Low to none, avoiding glossiness"
+        },
+        "composition": {
+          "object_presentation": "Single, central object displayed in isolation with ample negative space",
+          "perspective": "Slightly angled, giving a three-dimensional feel without extreme depth",
+          "background": "Solid, muted color that complements the object without distraction"
+        },
+        "typography": {
+          "font_style": "Minimalistic, sans-serif",
+          "text_placement": "Bottom-left corner with small, subtle text",
+          "color": "Gray, low-contrast against the background"
+        },
+        "rendering_style": {
+          "technique": "3D render with simplified, low-poly aesthetics",
+          "detail_level": "Medium detail, focusing on form and color over texture or intricacy"
+        }
+      },
+      "purpose": "To create clean, aesthetically pleasing visuals that emphasize simplicity, approachability, and modernity."
+    }
+  }
+prompt_note: "原提示词以 JSON 格式给出，JSON部分未翻译，请参考原文。"
+prompt_note_en: ""
+reference_note: ""
+reference_note_en: ""
+submitter: ""
+submitter_link: ""

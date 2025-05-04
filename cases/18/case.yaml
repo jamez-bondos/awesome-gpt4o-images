@@ -1,0 +1,21 @@
+title: 皮克斯3D风格
+title_en: Pixar 3D Style
+author: "AnimeAI"
+author_link: https://animeai.online
+source_links:
+  - url: https://animeai.online/#demo-gallery
+image: pixar-style-godfather-scene.png
+alt_text: 皮克斯3D风格《教父》
+alt_text_en: Pixar 3D Style
+prompt: |
+  以皮克斯 3D 风格重绘这张照片
+prompt_en: |
+  Redraw this photo in Pixar 3D style
+prompt_note: ""
+prompt_note_en: ""
+reference_note: |
+  一张人物或者其他照片。
+reference_note_en: |
+  A photo of a person or other subject.
+submitter: ""
+submitter_link: ""

@@ -1,0 +1,25 @@
+title: 《海贼王》主题手办制作
+title_en: One Piece Themed Figure Creation
+author: "@dotey"
+author_link: https://x.com/dotey
+source_links:
+  - url: https://x.com/dotey/status/1909047547563213145
+image: example_one_piece_figure_creation.png
+alt_text: 《海贼王》主题手办制作
+alt_text_en: One Piece Themed Figure Creation
+prompt: |
+  把照片中的人物变成《海贼王》（One Piece）动漫主题手办包装盒的风格，以等距视角（isometric）呈现。包装盒内展示的是基于照片人物的《海贼王》动漫画风设计的形象，旁边搭配有日常必备物品（手枪、手表、西装和皮鞋）同时，在包装盒旁边还应呈现该手办本体的实物效果，采用逼真的、具有真实感的渲染风格。
+prompt_en: |
+  Transform the person in the photo into a One Piece-themed anime-style action figure, presented inside a collectible figure box designed in the visual style of the One Piece universe. The box is shown in an isometric view.
+  Inside the box, display the character reimagined in the One Piece anime art style, posed dynamically and accompanied by essential everyday items such as a pistol, a wristwatch, a suit, and leather shoes — all miniaturized and arranged like collectible accessories.
+  Next to the box, include a realistic, fully rendered version of the actual figure itself, outside of the packaging. This figure should be rendered with high detail and realism, showcasing the material textures and craftsmanship, as if it were a professionally photographed product.
+prompt_note: |
+  日常必备物品此处稍作修改。请参考原文。
+prompt_note_en: |
+  The list of essential items was slightly modified here. Please refer to the original source.
+reference_note: |
+  一张半身或者全身照片。
+reference_note_en: |
+  A half-body or full-body photo.
+submitter: ""
+submitter_link: ""

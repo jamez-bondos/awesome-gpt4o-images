@@ -1,0 +1,37 @@
+title: 名画人物 OOTD
+title_en: Famous Painting Character OOTD
+author: "@ZHO_ZHO_ZHO"
+author_link: https://x.com/ZHO_ZHO_ZHO
+source_links:
+  - url: https://x.com/ZHO_ZHO_ZHO/status/1909892294217781714
+image: example_pearl_earring_ootd.png
+alt_text: 名画人物 OOTD
+alt_text_en: Famous Painting Character OOTD
+prompt: |
+  为图片人物生成不同职业风的OOTD，时尚穿搭和配饰，和人物色系一致的纯色背景，Q版 3d，c4d渲染，保持人脸特征，姿势都要保持一致，人物的比例腿很修长
+
+  构图：9:16
+  顶部文字：OOTD，左侧为人物ootd q版形象，右侧为穿搭的单件展示
+
+  先来第一个职业：时尚设计师
+prompt_en: |
+  Generate a Q-style 3D C4D-rendered character based on the person in the photo, dressed in a fashion-forward “outfit of the day” (OOTD) inspired by a specific profession.
+  Profession: Fashion Designer
+  – Keep the original facial features and character pose
+  – Stylize the character with a cute, long-legged chibi proportion
+  – Outfit and accessories should reflect the profession, including trendy designer wear, glasses, sketchbook or tablet, and stylish shoes
+  – Match the outfit with fashion accessories to complete the look
+  – Use a solid background color that complements the character’s overall color palette (no gradients or textures)
+
+  Composition: Aspect ratio: 9:16
+  Top text: “OOTD”
+  Left side: the full-body chibi character wearing the complete outfit
+  Right side: individual clothing items and accessories laid out separately, as if in a style breakdown
+prompt_note: ""
+prompt_note_en: ""
+reference_note: |
+  [《戴珍珠耳环的少女》图片](./references/Meisje_met_de_parel.jpg)。
+reference_note_en: |
+  [Image of 'Girl with a Pearl Earring'](./references/Meisje_met_de_parel.jpg).
+submitter: ""
+submitter_link: ""

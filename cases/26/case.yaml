@@ -1,0 +1,35 @@
+title: 名画人物麦片广告
+title_en: Famous Painting Character Cereal Ad
+author: "@ZHO_ZHO_ZHO"
+author_link: https://x.com/ZHO_ZHO_ZHO
+source_links:
+  - url: https://x.com/ZHO_ZHO_ZHO/status/1909542765857587310
+image: example_master_oats_ad.png
+alt_text: 名画人物麦片广告
+alt_text_en: Famous Painting Character Cereal Ad
+prompt: |
+  《大师麦片》：根据我上传的照片的人物特征判断，为他生成一个符合他特质的燕麦片搭配（比如蔬菜、水果、酸奶、粗粮等等）和包装设计，然后生成他作为麦片包装盒封面人物 加 相应麦片搭配的广告封面，人物要保持特征、可爱Q版3d、c4d渲染风格，麦片所放置的地方的风格也要符合设定，比如放在厨房、超市 极简主义的设计台上等等，先做好设定，再生成图像。
+prompt_en: |
+  “Master Oats”: Based on the visual features of the person in the uploaded photo, generate a custom oatmeal mix that reflects their personality traits — for example, using vegetables, fruits, yogurt, whole grains, etc.
+
+  Design a unique cereal box and package aesthetic that aligns with this tailored mix.
+
+  Then, create an advertising cover featuring the person as the mascot on the cereal box. The character should retain their recognizable features but be transformed into a cute chibi-style 3D figure with a C4D-quality rendering.
+
+  The oatmeal and packaging should be presented in a setting that matches the mood — such as a minimalist kitchen, a sleek supermarket display, or a clean design counter.
+
+  The process includes:
+  – Character analysis and oat mix pairing
+  – Cereal box concept and design
+  – Display environment selection
+  – Final image with mascot figure, packaging, and styled scene composition
+
+  All visuals should be balanced, modern, and appealing, reflecting a premium and fun oat brand identity.
+prompt_note: ""
+prompt_note_en: ""
+reference_note: |
+  [《戴珍珠耳环的少女》图片](./references/Meisje_met_de_parel.jpg)。
+reference_note_en: |
+  [Image of 'Girl with a Pearl Earring'](./references/Meisje_met_de_parel.jpg).
+submitter: ""
+submitter_link: ""

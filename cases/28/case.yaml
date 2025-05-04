@@ -1,0 +1,28 @@
+title: 扁平贴纸设计
+title_en: Flat Sticker Design
+author: "@ZHO_ZHO_ZHO"
+author_link: https://x.com/ZHO_ZHO_ZHO
+source_links:
+  - url: https://x.com/ZHO_ZHO_ZHO/status/1908044836953108490
+image: example_flat_sticker_pearl_earring.jpeg
+alt_text: 扁平贴纸设计
+alt_text_en: Flat Sticker Design
+prompt: |
+  把这张照片设计成一个极简扁平插画风格的Q版贴纸，厚白边，保留人物特征，风格要可爱一些，人物要超出圆形区域边框，圆形区域要为纯色不要3d感，透明背景。
+prompt_en: |
+  Turn this photo into a chibi-style sticker illustration in a minimalist flat design.
+  – Keep the character’s recognizable features
+  – Use a cute, simplified aesthetic
+  – The sticker should have a thick white border
+  – The character should break out of the circular frame, adding a playful touch
+  – The circular base should be a solid flat color (no 3D or gradients)
+  – Background should be transparent
+  The overall style should be clean, modern, and visually appealing for use as a fun Q-version sticker.
+prompt_note: ""
+prompt_note_en: ""
+reference_note: |
+  一张清晰头像照片。
+reference_note_en: |
+  A clear profile photo.
+submitter: ""
+submitter_link: ""

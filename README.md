@@ -15,29 +15,32 @@
 
 OpenAI 最新尖端图像模型 gpt‑image‑1 已发布，图像生成能力更加强大，通过 API 调用提供服务。
 
-<strong>下面的 40+ 精彩案例，由本项目精心整理和翻译，来自OpenAI官方，展示 gpt‑image‑1 的强大能力。请戳👇</strong>
+<strong>另外，来自OpenAI官方发布的 gpt‑image‑1 模型的数十个精彩案例，由本项目精心整理和翻译，查看请戳👇</strong>
 
-- 中文版：[OpenAI gpt-image-1：40 个精选图像案例及提示词](./gpt-image-1/gpt-image-1.md)
+- 中文版：[OpenAI gpt-image-1: 40 个精选图像案例及提示词](./gpt-image-1/gpt-image-1.md)
 - 英文版：[OpenAI gpt-image-1: 40 Curated Prompt & Image Examples](./gpt-image-1/gpt-image-1-en.md)
 
-*注：gpt‑image‑1 和 GPT‑4o 都是 OpenAI 的最新图像生成产品，背后的支持模型是大致相同的。不同的是 gpt‑image‑1 仅提供 API 访问，且 gpt‑image‑1 目前较新一些。*
 
 <strong>→ 喜欢就点 Star 支持！ / Smash that ⭐ if you like it!</strong>
 
+
 ---
 
-<a id="contents-toc"></a>
+<a id="table-of-contents"></a>
 ## 目录
 
-- [🎨 GPT‑4o介绍](#gpt4o-toc)
-- [📖 案例目录](#example-toc)
-- [🛠️ 工具介绍](#tools-toc)
-- [💡 提示词技巧](#prompting-toc)
-- [🤝 如何贡献](#contribute-toc)
-- [🙏 致谢](#acknowledgements-toc)
-- [🌟 Star历史](#starhistory-toc)
+- [🎨 GPT‑4o介绍](#gpt4o-intro)
+- [📖 案例目录](#cases-toc)
+- [🛠️ 工具介绍](#tools-intro)
+- [💡 提示词技巧](#prompting-tips)
+- [🤝 如何贡献](#how-to-contribute)
+- [🙏 致谢](#acknowledgements)
+- [🌟 Star历史](#star-history)
 
-<a id="gpt4o-toc"></a>
+
+---
+
+<a id="gpt4o-intro"></a>
 ## 🎨 GPT‑4o介绍
 
 GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生成高质量图片，也支持图生图编辑，涵盖局部修改、风格转换及多图融合等高级操作。
@@ -50,169 +53,462 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 - ⚡️ 极速交互：响应更快，适合实时创意迭代
 
 
-<a id="example-toc"></a>
+---
+
+<a id="cases-toc"></a>
 ## 📖 案例目录
 
-*   [案例 74：Logo 形状创意书架 (by @umesh_ai)](#examples-74)
-*   [案例 73：定制Q版钥匙串 (by @azed_ai)](#examples-73)
-*   [案例 72：金色吊坠项链 (by @azed_ai)](#examples-72)
-*   [案例 71：迷你 Cyberpunk 傾斜移軸景觀 (by terry623)](#examples-71)
-*   [案例 70：原创宝可梦生成 (by @Anima_Labs)](#examples-70)
-*   [案例 69：剪影艺术 (by @umesh_ai)](#examples-69)
-*   [案例 68：未来主义 Logo 交易卡 (by @hewarsaber)](#examples-68)
-*   [案例 67：超写实3D游戏 (by @ZHO_ZHO_ZHO)](#examples-67)
-*   [案例 66：创意丝绸宇宙 (by @ZHO_ZHO_ZHO)](#examples-66)
-*   [案例 65：Trompe-l'œil 三维空间艺术 (by @madpencil_)](#examples-65)
-*   [案例 64：蒸汽朋克机械鱼 (by @f-is-h)](#examples-64)
-*   [案例 63：Emoji 奶油雪糕 (by @ZHO_ZHO_ZHO)](#examples-63)
-*   [案例 62：可爱珐琅别针 (by @gnrlyxyz)](#examples-62)
-*   [案例 61：虚构推文截图 (爱因斯坦) (by @egeberkina)](#examples-61)
-*   [案例 60：Emoji 簇绒地毯 (by @gizakdag)](#examples-60)
-*   [案例 59：彩色矢量艺术海报 (by @michaelrabone)](#examples-59)
-*   [案例 58：云彩艺术 (by @umesh_ai)](#examples-58)
-*   [案例 57：8位像素图标 (by @egeberkina)](#examples-57)
-*   [案例 56：迷你 3D 建筑 (by @dotey)](#examples-56)
-*   [案例 55：低多边形 (Low-Poly) 3D 渲染 (by @azed_ai)](#examples-55)
-*   [案例 54：“极其平凡”的iPhone自拍 (by @jiamimaodashu)](#examples-54)
-*   [案例 53：Emoji 充气感靠垫 (by @gizakdag)](#examples-53)
-*   [案例 52：纸艺风格 Emoji 图标 (by @egeberkina)](#examples-52)
-*   [案例 51：护照入境印章 (by @ZHO_ZHO_ZHO)](#examples-51)
-*   [案例 50：物理破坏效果卡片 (劳拉) (by @op7418)](#examples-50)
-*   [案例 49：时尚杂志封面风格 (by @dotey)](#examples-49)
-*   [案例 48：体素风格 3D 图标转换 (by @BrettFromDJ)](#examples-48)
-*   [案例 47：键盘ESC 键帽微型立体模型 (by @egeberkina)](#examples-47)
-*   [案例 46：快乐胶囊制作 (by @ZHO_ZHO_ZHO)](#examples-46)
-*   [案例 45：3D Q版大学拟人化形象 (by @dotey)](#examples-45)
-*   [案例 44：RPG 风格角色卡片制作 (by @berryxia_ai)](#examples-44)
-*   [案例 43：Q版可爱俄罗斯套娃 (戴珍珠耳环的少女) (by @ZHO_ZHO_ZHO)](#examples-43)
-*   [案例 42：3D Q版情侣水晶球 (by @balconychy)](#examples-42)
-*   [案例 41：微型立体场景 (孙悟空三打白骨精) (by @dotey)](#examples-41)
-*   [案例 40：日系双格漫画 (少女总统红温了) (by @hellokaton)](#examples-40)
-*   [案例 39：卡通插画 (by @dotey)](#examples-39)
-*   [案例 38：手绘信息图卡片 (by @dotey)](#examples-38)
-*   [案例 37：社交媒体帖子涂鸦 (by @op7418)](#examples-37)
-*   [案例 36：极简主义 3D 插画 (文字版) (by @dotey)](#examples-36)
-*   [案例 35：毛茸茸南瓜灯 (by gizakdag)](#examples-35)
-*   [案例 34：手绘信息图卡片 (by @dotey)](#examples-34)
-*   [案例 33：全家福婚纱照 (by @balconychy)](#examples-33)
-*   [案例 32：纸艺剪贴风格招聘广告 (by @dotey)](#examples-32)
-*   [案例 31：动漫贴纸集合 (by @richardchang)](#examples-31)
-*   [案例 30：35mm 胶片风格飞岛 (by @dotey)](#examples-30)
-*   [案例 29：名画人物 OOTD (by @ZHO_ZHO_ZHO)](#examples-29)
-*   [案例 28：扁平贴纸设计 (by @ZHO_ZHO_ZHO)](#examples-28)
-*   [案例 27：Q 版表情包制作 (by @dotey)](#examples-27)
-*   [案例 26：名画人物麦片广告 (by @ZHO_ZHO_ZHO)](#examples-26)
-*   [案例 25：极简主义 3D 插画 (by @0xdlk)](#examples-25)
-*   [案例 24：Funko Pop 公仔制作 (by @dotey)](#examples-24)
-*   [案例 23：《泰坦尼克号》模仿 (by @balconychy)](#examples-23)
-*   [案例 22：小红书封面 (by @balconychy)](#examples-22)
-*   [案例 21：简笔画表情包 (by @ZHO_ZHO_ZHO)](#examples-21)
-*   [案例 20：四格漫画 (相对论) (by @dotey)](#examples-20)
-*   [案例 19：语文课本重绘 (by @balconychy)](#examples-19)
-*   [案例 18：皮克斯3D风格 (by AnimeAI)](#examples-18)
-*   [案例 17：数码宝贝风格图 (by @ZHO_ZHO_ZHO)](#examples-17)
-*   [案例 16：布丁老虎机 (by @ZHO_ZHO_ZHO)](#examples-16)
-*   [案例 15：讽刺海报生成 (by @ZHO_ZHO_ZHO)](#examples-15)
-*   [案例 14：《海贼王》主题手办制作 (by @dotey)](#examples-14)
-*   [案例 13：3D Q版风格 (by @dotey)](#examples-13)
-*   [案例 12：3D 情侣珠宝盒摆件 (by @dotey)](#examples-12)
-*   [案例 11：PS2 游戏封面 (GTA x Shrek) (by @dotey)](#examples-11)
-*   [案例 10：讽刺漫画生成 (by @dotey)](#examples-10)
-*   [案例 9：气球名画 (by @ZHO_ZHO_ZHO)](#examples-9)
-*   [案例 8：乐高收藏品 (by @ZHO_ZHO_ZHO)](#examples-8)
-*   [案例 7：个性化房间设计 (by @ZHO_ZHO_ZHO)](#examples-7)
-*   [案例 6：角色穿越传送门 (by @dotey)](#examples-6)
-*   [案例 5：吉卜力风格 (by AnimeAI)](#examples-5)
-*   [案例 4：Q 版中式婚礼图 (by @balconychy)](#examples-4)
-*   [案例 3：复古宣传海报 (by @dotey)](#examples-3)
-*   [案例 2：立体相框 (by @dotey)](#examples-2)
-*   [案例 1：Q版求婚场景 (by @balconychy)](#examples-1)
-
----
 <a id="examples-74"></a>
 ## 案例 74：Logo 形状创意书架 (by [@umesh_ai](https://x.com/umesh_ai))
+=======
+*   [案例 85：超现实交互场景 (by @umesh_ai)](#cases-85)
+*   [案例 84：动物硅胶腕托 (by @ZHO_ZHO_ZHO)](#cases-84)
+*   [案例 83：发光线条解剖图 (by @umesh_ai)](#cases-83)
+*   [案例 82：特色城市天气预报 (by @dotey)](#cases-82)
+*   [案例 81：半透明玻璃质感变换 (by @azed_ai)](#cases-81)
+*   [案例 80：代码风格名片 (by @umesh_ai)](#cases-80)
+*   [案例 79：乐高城市景观 (by @dotey)](#cases-79)
+*   [案例 78：玻璃材质重塑 (by @egeberkina)](#cases-78)
+*   [案例 77：水晶球故事场景 (by @dotey)](#cases-77)
+*   [案例 76：怀旧动漫风格电影海报 (by photis (Sora))](#cases-76)
+*   [案例 75：社交媒体相框融合 (by @dotey)](#cases-75)
+*   [案例 74：Logo 形状创意书架 (by @umesh_ai)](#cases-74)
+*   [案例 73：定制Q版钥匙串 (by @azed_ai)](#cases-73)
+*   [案例 72：金色吊坠项链 (by @azed_ai)](#cases-72)
+*   [案例 71：迷你 Cyberpunk 傾斜移軸景觀 (by terry623)](#cases-71)
+*   [案例 70：原创宝可梦生成 (by @Anima_Labs)](#cases-70)
+*   [案例 69：剪影艺术 (by @umesh_ai)](#cases-69)
+*   [案例 68：未来主义 Logo 交易卡 (by @hewarsaber)](#cases-68)
+*   [案例 67：超写实3D游戏 (by @ZHO_ZHO_ZHO)](#cases-67)
+*   [案例 66：创意丝绸宇宙 (by @ZHO_ZHO_ZHO)](#cases-66)
+*   [案例 65：Trompe-l'œil 三维空间艺术 (by @madpencil_)](#cases-65)
+*   [案例 64：蒸汽朋克机械鱼 (by @f-is-h)](#cases-64)
+*   [案例 63：Emoji 奶油雪糕 (by @ZHO_ZHO_ZHO)](#cases-63)
+*   [案例 62：可爱珐琅别针 (by @gnrlyxyz)](#cases-62)
+*   [案例 61：虚构推文截图 (爱因斯坦) (by @egeberkina)](#cases-61)
+*   [案例 60：Emoji 簇绒地毯 (by @gizakdag)](#cases-60)
+*   [案例 59：彩色矢量艺术海报 (by @michaelrabone)](#cases-59)
+*   [案例 58：云彩艺术 (by @umesh_ai)](#cases-58)
+*   [案例 57：8位像素图标 (by @egeberkina)](#cases-57)
+*   [案例 56：迷你 3D 建筑 (by @dotey)](#cases-56)
+*   [案例 55：低多边形 (Low-Poly) 3D 渲染 (by @azed_ai)](#cases-55)
+*   [案例 54：“极其平凡”的iPhone自拍 (by @jiamimaodashu)](#cases-54)
+*   [案例 53：Emoji 充气感靠垫 (by @gizakdag)](#cases-53)
+*   [案例 52：纸艺风格 Emoji 图标 (by @egeberkina)](#cases-52)
+*   [案例 51：护照入境印章 (by @M_w14_)](#cases-51)
+*   [案例 50：物理破坏效果卡片 (劳拉) (by @op7418)](#cases-50)
+*   [案例 49：时尚杂志封面风格 (by @dotey)](#cases-49)
+*   [案例 48：体素风格 3D 图标转换 (by @BrettFromDJ)](#cases-48)
+*   [案例 47：键盘ESC 键帽微型立体模型 (by @egeberkina)](#cases-47)
+*   [案例 46：快乐胶囊制作 (by @ZHO_ZHO_ZHO)](#cases-46)
+*   [案例 45：3D Q版大学拟人化形象 (by @dotey)](#cases-45)
+*   [案例 44：RPG 风格角色卡片制作 (by @berryxia_ai)](#cases-44)
+*   [案例 43：Q版可爱俄罗斯套娃 (戴珍珠耳环的少女) (by @ZHO_ZHO_ZHO)](#cases-43)
+*   [案例 42：3D Q版情侣水晶球 (by @balconychy)](#cases-42)
+*   [案例 41：微型立体场景 (孙悟空三打白骨精) (by @dotey)](#cases-41)
+*   [案例 40：日系双格漫画 (少女总统红温了) (by @hellokaton)](#cases-40)
+*   [案例 39：奇幻卡通插画 (by @dotey)](#cases-39)
+*   [案例 38：手绘信息图卡片 (by @dotey)](#cases-38)
+*   [案例 37：社交媒体帖子涂鸦 (by @op7418)](#cases-37)
+*   [案例 36：极简主义 3D 插画 (Markdown 格式) (by @dotey)](#cases-36)
+*   [案例 35：毛茸茸南瓜灯 (by gizakdag)](#cases-35)
+*   [案例 34：手绘信息图卡片 (by @dotey)](#cases-34)
+*   [案例 33：全家福婚纱照 (by @balconychy)](#cases-33)
+*   [案例 32：纸艺剪贴风格招聘广告 (by @dotey)](#cases-32)
+*   [案例 31：动漫贴纸集合 (by @richardchang)](#cases-31)
+*   [案例 30：35mm 胶片风格飞岛 (by @dotey)](#cases-30)
+*   [案例 29：名画人物 OOTD (by @ZHO_ZHO_ZHO)](#cases-29)
+*   [案例 28：扁平贴纸设计 (by @ZHO_ZHO_ZHO)](#cases-28)
+*   [案例 27：Q 版表情包制作 (by @dotey)](#cases-27)
+*   [案例 26：名画人物麦片广告 (by @ZHO_ZHO_ZHO)](#cases-26)
+*   [案例 25：极简主义 3D 插画 (by @0xdlk)](#cases-25)
+*   [案例 24：Funko Pop 公仔制作 (by @dotey)](#cases-24)
+*   [案例 23：《泰坦尼克号》模仿 (by @balconychy)](#cases-23)
+*   [案例 22：小红书封面 (by @balconychy)](#cases-22)
+*   [案例 21：简笔画表情包 (by @ZHO_ZHO_ZHO)](#cases-21)
+*   [案例 20：四格漫画 (相对论) (by @dotey)](#cases-20)
+*   [案例 19：语文课本重绘 (by @balconychy)](#cases-19)
+*   [案例 18：皮克斯3D风格 (by AnimeAI)](#cases-18)
+*   [案例 17：数码宝贝风格图 (by @ZHO_ZHO_ZHO)](#cases-17)
+*   [案例 16：布丁老虎机 (by @ZHO_ZHO_ZHO)](#cases-16)
+*   [案例 15：讽刺海报生成 (by @ZHO_ZHO_ZHO)](#cases-15)
+*   [案例 14：《海贼王》主题手办制作 (by @dotey)](#cases-14)
+*   [案例 13：3D Q版风格 (by @dotey)](#cases-13)
+*   [案例 12：3D 情侣珠宝盒摆件 (by @dotey)](#cases-12)
+*   [案例 11：PS2 游戏封面 (GTA x Shrek) (by @dotey)](#cases-11)
+*   [案例 10：讽刺漫画生成 (by @dotey)](#cases-10)
+*   [案例 9：气球名画 (by @ZHO_ZHO_ZHO)](#cases-9)
+*   [案例 8：乐高收藏品 (by @ZHO_ZHO_ZHO)](#cases-8)
+*   [案例 7：个性化房间设计 (by @ZHO_ZHO_ZHO)](#cases-7)
+*   [案例 6：角色穿越传送门 (by @dotey)](#cases-6)
+*   [案例 5：吉卜力风格 (by AnimeAI)](#cases-5)
+*   [案例 4：3D Q版中式婚礼图 (by @balconychy)](#cases-4)
+*   [案例 3：复古宣传海报 (by @dotey)](#cases-3)
+*   [案例 2：3D Q版人物立体相框 (by @dotey)](#cases-2)
+*   [案例 1：Q版求婚场景 (by @balconychy)](#cases-1)
+
+---
+
+<a id="cases"></a>
+## 🧩 案例
+
+<a id="cases-85"></a>
+### 案例 85：超现实交互场景 (by [@umesh_ai](https://x.com/umesh_ai))
+
+[原文链接](https://x.com/umesh_ai/status/1917444534239191544)
+
+<img src="cases/85/case.png" width="300" alt="超现实交互场景">
+
+**提示词**
+
+```
+一幅铅笔素描画，描绘了 [Subject 1] 与 [Subject 2] 互动的场景，其中 [Subject 2] 以逼真的全彩风格呈现，与 [Subject 1] 及背景的手绘素描风格形成超现实的对比。
+```
+
+*注意： 替换提示词中的[主体1]和[主体2]为具体的主体描述，例如"一个女孩"和"一朵玫瑰"。*
+
+
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-84"></a>
+### 案例 84：动物硅胶腕托 (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
+
+[原文链接](https://x.com/ZHO_ZHO_ZHO/status/1918525296577327574)
+
+<img src="cases/84/case.png" width="300" alt="动物硅胶腕托">
+
+**提示词**
+
+```
+创建图片 一个可爱Q版的硅胶护腕托，外形基于【🐼】表情，采用柔软的食品级硅胶材质，表面为亲肤哑光质感，内部填充慢回弹棉，拟人化卡通风格，表情生动，双手张开趴在桌面上，呈现出拥抱手腕的姿势，整体造型圆润软萌，颜色为【🐼】配色，风格治愈可爱，适合办公使用，背景为白色纯色，柔和布光，产品摄影风格，前视角或45度俯视，高清细节，突出硅胶质感与舒适功能
+```
+
+*注意： 可替换提示词中的【🐼】为其他动物 Emoji。*
+
+
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-83"></a>
+### 案例 83：发光线条解剖图 (by [@umesh_ai](https://x.com/umesh_ai))
+
+[原文链接](https://x.com/umesh_ai/status/1914644426334314545)
+
+<img src="cases/83/case.png" width="300" alt="发光线条解剖图">
+
+**提示词**
+
+```
+一幅数字插画，描绘了一个 [SUBJECT]，其结构由一组发光、干净且纯净的蓝色线条勾勒而成。画面设定在深色背景之上，以突出 [SUBJECT] 的形态与特征。某个特定部位，如 [PART]，通过红色光晕加以强调，以表示该区域的重要性或特殊意义。整体风格兼具教育性与视觉吸引力，设计上仿佛是一种先进的成像技术。
+```
+
+*注意： 可替换提示词中的 `[SUBJECT]` (主体) 和 `[PART]` (部位)。*
+
+
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-82"></a>
+### 案例 82：特色城市天气预报 (by [@dotey](https://x.com/dotey))
+
+[原文链接](https://x.com/dotey/status/1917988595228438771)
+
+<img src="cases/82/example.png" width="300" alt="特色城市天气预报">
+
+**提示词**
+
+```
+以清晰的45°俯视角度，展示一个等距微缩模型场景，内容为[上海东方明珠塔、外滩]等城市特色建筑，天气效果巧妙融入场景中，柔和的多云天气与城市轻柔互动。使用基于物理的真实渲染（PBR）和逼真的光照效果，纯色背景，清晰简洁。画面采用居中构图，凸显出三维模型精准而细腻的美感。在图片上方展示“[上海 多云 20°C]”，并附有多云天气图标。
+```
+
+*注意： 城市、天气、温度和建筑名称可根据需求替换 [] 中的内容。图片由 Sora 生成。*
+
+
+**案例提交：** [luoshui-coder](https://github.com/luoshui-coder)
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-81"></a>
+### 案例 81：半透明玻璃质感变换 (by [@azed_ai](https://x.com/azed_ai))
+
+[原文链接](https://x.com/azed_ai/status/1917948899098243407)
+
+<img src="cases/81/example.jpeg" width="300" alt="半透明玻璃质感变换">
+
+**提示词**
+
+```
+将附图变换为柔软的3D半透明玻璃，具有磨砂哑光效果和细致的纹理，原始色彩，以浅灰色背景为中心，在空间中轻轻漂浮，柔和的阴影，自然的光线
+```
+
+
+**需上传参考图片：** 需要上传一张实物参考图
+
+**案例提交：** [luoshui-coder](https://github.com/luoshui-coder)
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-80"></a>
+### 案例 80：代码风格名片 (by [@umesh_ai](https://x.com/umesh_ai))
+
+[原文链接1](https://x.com/umesh_ai/status/1915696926596415492) | [原文链接2](https://x.com/fr0gger_/status/1916743281339498760) | [原文链接3](https://x.com/dotey/status/1917412535130563006)
+
+<img src="cases/80/example_business_card_code_style.png" width="300" alt="代码风格名片">
+
+**提示词**
+
+```
+特写镜头：一只手正拿着一张设计成 VS Code 中 JSON 文件外观的名片。名片上的代码以真实的 JSON 语法高亮格式呈现。窗口界面包含典型的工具栏图标和标题栏，标题显示为 Business Card.json，整体风格与 VS Code 界面完全一致。背景略微虚化，突出展示名片内容。
+名片上的 JSON 代码如下所示：
+{
+  "name": "Jamez Bondos",
+  "title": "Your Title",
+  "email": "your@email.com",
+  "link": "yourwebsite"
+}
+```
+
+*注意： 替换最后的JSON代码中的name、title、email和link数据。提示词由原文链接中简化而来。*
+
+
+**案例提交：** [Kong-F](https://github.com/Kong-F)
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-79"></a>
+### 案例 79：乐高城市景观 (by [@dotey](https://x.com/dotey))
+
+[原文链接](https://x.com/dotey/status/1917713810346872902)
+
+<img src="cases/79/example_lego_shanghai_bund.jpeg" width="300" alt="用乐高积木搭建的上海外滩景观">
+
+**提示词**
+
+```
+创建一幅高度精细且色彩鲜艳的乐高版上海外滩景象。前景呈现经典的外滩历史建筑群，用乐高砖块精致还原西式与新古典主义风格的建筑立面，包括钟楼、穹顶、柱廊等细节。乐高小人们正在沿江漫步、拍照、观光，街道两旁停靠着经典样式的乐高汽车。背景是壮观的黄浦江，以蓝色半透明乐高砖拼接，江面上有乐高渡轮和游览船。对岸的浦东陆家嘴高楼林立，包括东方明珠塔、上海中心、金茂大厦和环球金融中心，这些超现代乐高摩天大楼色彩丰富、造型逼真。天空为乐高明亮蓝色，点缀少量白色乐高积木云朵，整体呈现充满活力与现代感的视觉效果。
+```
+
+*注意： 可以用 AI 参考提示词示例生成其他城市景观。原图由 Sora 生成。*
+
+
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-78"></a>
+### 案例 78：玻璃材质重塑 (by [@egeberkina](https://x.com/egeberkina))
+
+[原文链接](https://x.com/egeberkina/status/1917631056980721743)
+
+<img src="cases/78/example_retexture_glass_phone.jpeg" width="300" alt="玻璃材质重塑">
+
+**提示词**
+
+```
+retexture the image attached based on the json below:
+
+{
+  "style": "photorealistic",
+  "material": "glass",
+  "background": "plain white",
+  "object_position": "centered",
+  "lighting": "soft, diffused studio lighting",
+  "camera_angle": "eye-level, straight-on",
+  "resolution": "high",
+  "aspect_ratio": "2:3",
+  "details": {
+    "reflections": true,
+    "shadows": false,
+    "transparency": true
+  }
+}
+```
+
+*注意： 此提示词通过 JSON 结构精确控制输出风格，并将上传图片重塑为指定材质。*
+
+**需上传参考图片：** 需要上传一张要进行材质重塑的物体图片。
+
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-77"></a>
+### 案例 77：水晶球故事场景 (by [@dotey](https://x.com/dotey))
+
+[原文链接](https://x.com/dotey/status/1916530529324699858)
+
+<img src="cases/77/example_crystal_ball_chang_e.jpeg" width="300" alt="水晶球故事场景">
+
+**提示词**
+
+```
+一枚精致的水晶球静静摆放在窗户旁温暖柔和的桌面上，背景虚化而朦胧，暖色调的阳光轻柔地穿透水晶球，折射出点点金光，温暖地照亮了四周的微暗空间。水晶球内部自然地呈现出一个以 {嫦娥奔月} 为主题的迷你立体世界，细腻精美而梦幻的3D景观，人物与物体皆是可爱的Q版造型，精致而美观，彼此之间充满灵动的情感互动。整体氛围充满了东亚奇幻色彩，细节极为丰富，呈现出魔幻现实主义般的奇妙质感。整个场景如诗如梦，华美而典雅，散发着温馨柔和的光芒，仿佛在温暖的光影中被赋予了生命。
+```
+
+*注意： 可替换提示词中括号 {} 内文字为故事场景描述，成语、故事、小故事都可以。*
+
+
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-76"></a>
+### 案例 76：怀旧动漫风格电影海报 (by [photis (Sora)](https://sora.com/explore?user=user-sydD5ZkXZsDaL0BriQa010dQ))
+
+[原文链接](https://sora.com/g/gen_01jsfxrdpjfpebnyed8yaz42nf)
+
+<img src="cases/76/example_anime_nostalgic_poster.png" width="300" alt="怀旧动漫风格电影海报">
+
+**提示词**
+
+```
+{The Lord of the Rings} 风格的动漫电影海报，动漫画风为《恶魔高中 DXD（High School DXD）》风格。海报上可见明显的折痕痕迹，因长时间反复折叠，造成部分区域出现褶皱处的物理性损伤和擦痕，颜色也在某些地方出现了褪色。表面遍布无规律的折痕、翻折印记与划痕，这些都是在不断搬动过程中逐渐积累的微小损耗，如同熵增不可逆的过程在不断扩展。
+然而，留存在我们心中的美好记忆却始终完整无缺。当你凝视这张充满怀旧氛围的海报时，所感受到的，正是那些随时间累积、变得无比珍贵的收藏品所承载的情感本质。
+```
+
+*注意： 可替换提示词中的电影名{The Lord of the Rings}为其他电影，某些电影可能会触发内容审核。参考的动漫风格也可以修改。*
+
+
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-75"></a>
+### 案例 75：社交媒体相框融合 (by [@dotey](https://x.com/dotey))
+
+[原文链接](https://x.com/dotey/status/1917042797506662560)
+
+<img src="cases/75/example_instagram_frame_pearl_earring.png" width="300" alt="社交媒体相框融合">
+
+**提示词**
+
+```
+根据所附照片创建一个风格化的3D Q版人物角色，准确保留人物的面部特征和服装细节。角色的左手比心（手指上方有红色爱心元素），姿势俏皮地坐在一个巨大的Instagram相框边缘，双腿悬挂在框外。相框顶部显示用户名『Beauty』，四周漂浮着社交媒体图标（点赞、评论、转发）。
+```
+
+*注意： 可替换提示词中的用户名『Beauty』及图标。原图由 Sora 生成。*
+
+**需上传参考图片：** 需要上传一张图片作为参考。
+
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-74"></a>
+### 案例 74：Logo 形状创意书架 (by [@umesh_ai](https://x.com/umesh_ai))
 
 [原文链接](https://x.com/umesh_ai/status/1916517976414495161)
 
-<img src="./examples/example_logo_bookshelves_composite.jpeg" width="300" alt="多个由著名公司 Logo 形状启发的现代书架（如 Apple, McDonald's, Google）">
+<img src="cases/74/example_logo_bookshelves_composite.jpeg" width="300" alt="Logo 形状创意书架">
 
-**提示词：**
+**提示词**
+
 ```
-创建一张现代书架的照片，书架的造型灵感来自于【LOGO】的形状。
-书架由流畅、互相连接的曲线构成，形成多个大小不一的分区。
-整体材质为哑光黑色金属，曲线内部配有木质层板。
-柔和温暖的LED灯带沿着内侧曲线勾勒轮廓。
-书架安装在一个中性色调的墙面上，上面摆放着色彩丰富的书籍、小型绿植和极简风格的艺术摆件。
-整体氛围富有创意、优雅且略带未来感。
+拍摄一张现代书架的照片，其造型灵感来源于 [LOGO] 的形状。书架由流畅、互相连接的曲线构成，形成多个大小不一的分区。整体材质为光滑的哑光黑色金属，曲线内部设有木质层板。柔和暖色的 LED 灯带勾勒出内侧曲线轮廓。书架安装在一个中性色调的墙面上，上面摆放着色彩丰富的书籍、小型绿植和极简风格的艺术摆件。整体氛围富有创意、优雅且略带未来感。
 ```
 
-*注意：可替换提示词中的 `[LOGO]` 为具体品牌 Logo 描述（例如 "Apple logo", "McDonald's logo"）。*
+*注意： 可替换提示词中的 `[LOGO]` 为具体品牌 Logo 描述（例如 "Apple logo", "McDonald's logo"）。*
 
 
-[⬆️ 返回案例目录](#example-toc)
 
-<a id="examples-73"></a>
-## 案例 73：定制Q版钥匙扣 (by [@azed_ai](https://x.com/azed_ai))
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-73"></a>
+### 案例 73：定制Q版钥匙串 (by [@azed_ai](https://x.com/azed_ai))
 
 [原文链接](https://x.com/azed_ai/status/1916521742052503804)
 
-<img src="./examples/example_keychain_chibi_composite.jpeg" width="300" alt="由手持有的可爱彩色软胶钥匙扣集合，带有不同人物的 Chibi 风格图案">
+<img src="cases/73/example_keychain_chibi_composite.jpeg" width="300" alt="定制Q版钥匙串">
 
-**提示词：**
+**提示词**
+
 ```
-一张特写照片，画面中一个人手里拿着一个可爱的、色彩鲜艳的钥匙扣。钥匙扣以 [参考图片] 的Q版形象为主题，采用软橡胶材质，轮廓用粗黑线勾勒，并连接着一个小巧的银色钥匙圈，背景为中性色调。
+一张特写照片，展示一个被人手握住的可爱多彩钥匙串。钥匙串的造型为 [参考图片] 的 Q 版风格。钥匙串由柔软橡胶材质制成，带有粗黑描边，连接在一个小巧的银色钥匙圈上，背景为中性色调。
 ```
 
-*注意：提示词中的 `[参考图片]` 部分需要与上传的图片配合使用。*
+*注意： 提示词中的 `[参考图片]` 部分需要与上传的图片配合使用。*
 
 **需上传参考图片：** 需要上传一张人物或物体的照片作为钥匙串图案主体。
 
 **案例提交：** [Kong-F](https://github.com/Kong-F)
 
-[⬆️ 返回案例目录](#example-toc)
+---
 
+[⬆️ 返回案例目录](#cases-toc)
 
-<a id="examples-72"></a>
-## 案例 72：金色吊坠项链 (by [@azed_ai](https://x.com/azed_ai))
+<a id="cases-72"></a>
+### 案例 72：金色吊坠项链 (by [@azed_ai](https://x.com/azed_ai))
 
 [原文链接](https://x.com/azed_ai/status/1915770501705925106)
 
-<img src="./examples/example_gold_pendant.png" width="300" alt="由女性手持的金色吊坠项链特写">
+<img src="cases/72/gold_pendant_necklace.png" width="300" alt="金色吊坠项链">
 
-**提示词：**
+**提示词**
+
 ```
-一张照片般逼真的金色吊坠项链特写，由女性手持。吊坠上带有 [图片/表情符号] 的浅浮雕。吊坠悬挂在抛光的金链上。背景是柔和模糊的中性米色调，自然光照，逼真的肤色，产品摄影风格，16:9 宽高比。
+一张照片级写实的特写图像，展示一条由女性手握持的金质吊坠项链。吊坠上刻有 [图像 / 表情符号] 的浮雕图案，悬挂在一条抛光金链上。背景为柔和虚化的中性米色调，采用自然光照，肤色真实，风格为产品摄影，画面比例为 16:9。
 ```
 
-*注意：可替换提示词中的 `[image /emoji]` 为具体图像描述或 Emoji。*
+*注意： 可替换提示词中的 `[image /emoji]` 为具体图像描述或 Emoji。*
 
 **需上传参考图片：** （可选）可上传图片作为浮雕图案。
 
-[⬆️ 返回案例目录](#example-toc)
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-71"></a>
+### 案例 71：迷你 Cyberpunk 傾斜移軸景觀 (by [terry623](https://github.com/terry623))
 
 
-<a id="examples-71"></a>
-## 案例 71：迷你 Cyberpunk 傾斜移軸景觀 (by [terry623](https://github.com/terry623))
 
-<img src="./examples/example_cyberpunk_tilt_shift_miniature.jpg" width="300" alt="從上方俯瞰的超高細節迷你 Cyberpunk 景觀，採用傾斜移軸鏡頭效果">
+<img src="cases/71/example_cyberpunk_tilt_shift_miniature.jpg" width="300" alt="從上方俯瞰的超高細節迷你 Cyberpunk 景觀，採用傾斜移軸鏡頭效果">
 
-**提示詞：**
+**提示词**
+
 ```
 從上方俯瞰的超高細節迷你【Cyberpunk】景觀，採用傾斜移軸鏡頭效果。場景中充滿如玩具般的元素，全部以高解析度 CG 呈現。光線戲劇化，營造出大片的氛圍，色彩鮮明，對比強烈，強調景深效果與擬真微觀視角，使觀者仿佛俯瞰一個玩具世界般的迷你現實，畫面中包含大量視覺笑點與極具重複觀看價值的細節設計
 ```
 
-*注意：可替換提示詞中的【Cyberpunk】為其他風格或場景，如「未來城市」、「蒸汽朋克」、「中世紀村莊」等。*
+*注意： 可替換提示詞中的【Cyberpunk】為其他風格或場景，如「未來城市」、「蒸汽朋克」、「中世紀村莊」等。*
 
-[⬆️ 返回案例目錄](#example-toc)
 
-<a id="examples-70"></a>
-## 案例 70：原创宝可梦生成 (by [@Anima_Labs](https://x.com/Anima_Labs))
+**案例提交：** [terry623](https://github.com/terry623)
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-70"></a>
+### 案例 70：原创宝可梦生成 (by [@Anima_Labs](https://x.com/Anima_Labs))
 
 [原文链接](https://x.com/Anima_Labs/status/1915044265895379166)
 
-<img src="./examples/example_pokemon_pepperimp.jpeg" width="300" alt="受辣椒启发的原创宝可梦“Pepperimp”，草属性">
+<img src="cases/70/example_pokemon_pepperimp.jpeg" width="300" alt="原创宝可梦生成">
 
-**提示词：**
+**提示词**
+
 ```
 根据此物体（提供的照片）创作一个原创生物。该生物应看起来像是属于一个奇幻怪物捕捉宇宙，具有受复古日式RPG怪物艺术影响的可爱或酷炫设计。图像必须包含：
   – 生物的全身视图，灵感来自物体的形状、材料或用途。
@@ -220,38 +516,45 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
   – 为生物发明的名字，显示在其旁边或下方。 – 其元素类型（例如火、水、金属、自然、电……），基于物体的核心属性。插图应看起来像是来自奇幻生物百科全书，线条清晰，阴影柔和，设计富有表现力且以角色为驱动。
 ```
 
-*注意：如果第一次提示无效，尝试开启新对话或要求它绕过问题。*
+*注意： 如果第一次提示无效，尝试开启新对话或要求它绕过问题。*
 
 **需上传参考图片：** 需要上传一张物体、食物等的照片作为灵感来源。
 
 
-[⬆️ 返回案例目录](#example-toc)
+---
 
-<a id="examples-69"></a>
-## 案例 69：剪影艺术 (by [@umesh_ai](https://x.com/umesh_ai))
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-69"></a>
+### 案例 69：剪影艺术 (by [@umesh_ai](https://x.com/umesh_ai))
 
 [原文链接](https://x.com/umesh_ai/status/1915417277953962048)
 
-<img src="./examples/example_silhouette_art_composite.jpeg" width="300" alt="黄色背景上的黑色剪影艺术集合">
+<img src="cases/69/example_silhouette_art_composite.jpeg" width="300" alt="剪影艺术">
 
-**提示词：**
+**提示词**
+
 ```
-一个 [PROMPT] 的基本轮廓剪影。背景是亮黄色，剪影是纯黑色。
+一个 [PROMPT] 的基础轮廓剪影。背景为亮黄色，剪影为纯黑色实心填充。
 ```
 
-*注意：可替换提示词中的 `[PROMPT]` 为具体对象，例如 "dragon on a castle", "woman's profile" 等。*
-
-[⬆️ 返回案例目录](#example-toc)
+*注意： 可替换提示词中的 `[PROMPT]` 为具体对象，例如 "dragon on a castle", "woman's profile" 等。*
 
 
-<a id="examples-68"></a>
-## 案例 68：未来主义 Logo 交易卡 (by [@hewarsaber](https://x.com/hewarsaber))
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-68"></a>
+### 案例 68：未来主义 Logo 交易卡 (by [@hewarsaber](https://x.com/hewarsaber))
 
 [原文链接](https://x.com/hewarsaber/status/1912933875166171515)
 
-<img src="./examples/example_trading_card_logo_tesla.png" width="300" alt="未来主义风格的特斯拉 Logo 交易卡">
+<img src="cases/68/example_trading_card_logo_tesla.png" width="300" alt="未来主义 Logo 交易卡">
 
-**提示词：**
+**提示词**
+
 ```
 {
     "prompt": "A futuristic trading card with a dark, moody neon aesthetic and soft sci-fi lighting. The card features a semi-transparent, rounded rectangle with slightly muted glowing edges, appearing as if made of holographic glass. At the center is a large glowing logo of {{logo}}, with no additional text or label, illuminated with a smooth gradient of {{colors}}, but not overly bright. The reflections on the card surface should be subtle, with a slight glossy finish catching ambient light. The background is a dark carbon fiber texture or deep gradient with soft ambient glows bleeding into the edges. Add subtle light rays streaming down diagonally from the top, giving the scene a soft cinematic glow. Apply light motion blur to the edges and reflections to give the scene a sense of depth and energy, as if it's part of a high-end tech animation still. Below the card, include realistic floor reflections that mirror the neon edges and logo—slightly diffused for a grounded, futuristic look. Text elements are minimal and softly lit: top-left shows '{{ticker}}', top-right has a stylized signature, and the bottom displays '{{company_name}}' with a serial number '{{card_number}}', a revenue badge reading '{{revenue}}', and the year '{{year}}'. Typography should have a faint glow with slight blurring, and all elements should feel premium, elegant, and softly illuminated—like a high-end cyberpunk collectible card.",
@@ -279,21 +582,24 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 }
 ```
 
-*注意：提示词采用类 JSON 结构描述卡片元素。可修改 `parameters` 对象中的值（如 logo, ticker, company_name, colors 等）来自定义卡片。对于自定义 Logo，需在 `parameters.logo` 中注明（例如："Framer logo (attached image)"）并上传图片。本提示词为结构化JSON，保持英文。*
+*注意： 提示词采用类 JSON 结构描述卡片元素。可修改 `parameters` 对象中的值（如 logo, ticker, company_name, colors 等）来自定义卡片。对于自定义 Logo，需在 `parameters.logo` 中注明（例如："Framer logo (attached image)"）并上传图片。本提示词为结构化JSON，保持英文。*
 
 **需上传参考图片：** （可选）上传自定义 Logo 图片。
 
-[⬆️ 返回案例目录](#example-toc)
 
+---
 
-<a id="examples-67"></a>
-## 案例 67：超写实3D游戏 (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO) )
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-67"></a>
+### 案例 67：超写实3D游戏 (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
 
 [原文链接](https://x.com/ZHO_ZHO_ZHO/status/1913648013144137840)
 
-<img src="./examples/example_Ultra_realistic_3D_game.jpg" width="300" alt="超写实3D游戏">
+<img src="cases/67/example_Ultra_realistic_3D_game.jpg" width="300" alt="超写实3D游戏">
 
-**提示词：**
+**提示词**
+
 ```
 超写实的 3D 渲染画面，重现了2008年《命令与征服：红色警戒3》中娜塔莎的角色设计，完全依照原版建模。场景设定在一个昏暗杂乱的2008年代卧室里，角色正坐在地毯上，面对一台正在播放《命令与征服：红色警戒3》的老式电视和游戏机手柄。
 
@@ -302,55 +608,67 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 闪光灯轻微地过曝了她的脸和衣服，使她的轮廓在昏暗的房间中更加突出。整张照片显得原始而自然，强烈的明暗对比在她身后投下深邃的阴影，画面充满触感，带有一种真实的2008年胶片快照的模拟质感。
 ```
 
+
+
 **案例提交：** [wowmarcomei](https://github.com/wowmarcomei)
 
-[⬆️ 返回案例目录](#example-toc)
+---
 
+[⬆️ 返回案例目录](#cases-toc)
 
-<a id="examples-66"></a>
-## 案例 66：创意丝绸宇宙 (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO) )
+<a id="cases-66"></a>
+### 案例 66：创意丝绸宇宙 (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
 
 [原文链接](https://x.com/ZHO_ZHO_ZHO/status/1914864217867608175)
 
-<img src="./examples/example_silk_creation_universe.jpg" width="300" alt="创意丝绸宇宙">
+<img src="cases/66/example_silk_creation_universe.jpg" width="300" alt="创意丝绸宇宙">
 
-**提示词：**
+**提示词**
+
 ```
-将 ❄️ 变成一个柔软的 3D 丝绸质感物体。整个物体表面包裹着顺滑流动的丝绸面料，带有超现实的褶皱细节、柔和的高光与阴影。该物体轻轻漂浮在干净的浅灰色背景中央，营造出轻盈优雅的氛围。整体风格超现实、触感十足且现代，传递出舒适与精致趣味的感觉。工作室灯光，高分辨率渲染。
+将 {❄️} 变成一个柔软的 3D 丝绸质感物体。整个物体表面包裹着顺滑流动的丝绸面料，带有超现实的褶皱细节、柔和的高光与阴影。该物体轻轻漂浮在干净的浅灰色背景中央，营造出轻盈优雅的氛围。整体风格超现实、触感十足且现代，传递出舒适与精致趣味的感觉。工作室灯光，高分辨率渲染。
 ```
-*注意：可替换提示词中的【❄️】替换为你的目标值。*
+
+*注意： 可替换提示词中的 {❄️} 替换为你的目标值。*
+
 
 **案例提交：** [wowmarcomei](https://github.com/wowmarcomei)
 
-[⬆️ 返回案例目录](#example-toc)
+---
 
+[⬆️ 返回案例目录](#cases-toc)
 
-<a id="examples-65"></a>
-## 案例 65：Trompe-l'œil 三维空间艺术 (by [@madpencil_](https://x.com/madpencil_) )
+<a id="cases-65"></a>
+### 案例 65：Trompe-l'œil 三维空间艺术 (by [@madpencil_](https://x.com/madpencil_))
 
 [原文链接](https://x.com/madpencil_/status/1915099250079469907)
 
-<img src="./examples/example_tromple-I-3d-art.jpg" width="300" alt="人物从屏幕中“走出”的三维错觉">
+<img src="cases/65/example_tromple-I-3d-art.jpg" width="300" alt="Trompe-l'œil 三维空间艺术">
 
-**提示词：**
+**提示词**
+
 ```
 一幅视错觉风格的画面：人物A[主题/着装]从显示着xyz社交媒体界面的大屏幕中迈步而出。屏幕上可见用户名为“@”，显示1千次点赞、12-20条评论，周围漂浮着[爱心眼、笑脸]表情符号，背景可根据您的喜好自定义。
 ```
-*注意：可替换提示词中的【主题/着装】与[爱心眼、笑脸]。*
+
+*注意： 可替换提示词中的【主题/着装】与[爱心眼、笑脸]。*
+
 
 **案例提交：** [wowmarcomei](https://github.com/wowmarcomei)
 
-[⬆️ 返回案例目录](#example-toc)
+---
 
+[⬆️ 返回案例目录](#cases-toc)
 
-<a id="examples-64"></a>
-## 案例 64：蒸汽朋克机械鱼 (by [@f-is-h](https://github.com/f-is-h))
+<a id="cases-64"></a>
+### 案例 64：蒸汽朋克机械鱼 (by [@f-is-h](https://github.com/f-is-h))
 
 [原文链接](https://github.com/f-is-h/f-is-h/blob/main/images/streampank-fish-4.png)
 
-<img src="./examples/example_steampunk_fish.jpg" width="300" alt="蒸汽朋克风格的机械鱼，黄铜材质，带有机械齿轮结构和多面红宝石眼睛">
+<img src="cases/64/example_steampunk_fish.jpg" width="300" alt="蒸汽朋克机械鱼">
 
-**提示词：**
+**提示词**
+
 ```
 一个蒸汽朋克风格的机械鱼，身体为黄铜风格，可以清楚的看到其动作时的机械齿轮结构。
 能略微看到它的机械牙齿，整齐并且紧闭，上下牙齿都可以看到。每颗牙齿均呈三角状，材质为金刚石。
@@ -361,267 +679,338 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 整个鱼看起非常炫酷。这是一张高清图片，整张照片的细节非常丰富，并且有独特的质感与美感。画面不要太暗。
 ```
 
-*注意：此图片展示了蒸汽朋克风格与金属材质的精美结合，呈现出精致的机械感和复古未来主义风格。*
-
-[⬆️ 返回案例目录](#example-toc)
+*注意： 此图片展示了蒸汽朋克风格与金属材质的精美结合，呈现出精致的机械感和复古未来主义风格。*
 
 
-<a id="examples-63"></a>
-## 案例 63：Emoji 奶油雪糕 (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
+**案例提交：** [f-is-h](https://github.com/f-is-h)
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-63"></a>
+### 案例 63：Emoji 奶油雪糕 (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
 
 [原文链接](https://x.com/ZHO_ZHO_ZHO/status/1914574278911000967)
 
-<img src="./examples/example_ice_cream_emoji_strawberry.png" width="300" alt="草莓形状的奶油雪糕，顶部有奶油漩涡，Q版3D可爱风格">
+<img src="cases/63/example_ice_cream_emoji_strawberry.png" width="300" alt="Emoji 奶油雪糕">
 
-**提示词：**
+**提示词**
+
 ```
-为我生成：将【🍓】变成变成一根奶油雪糕，奶油在雪糕顶上呈曲线流动状看起来美味可口，45度悬浮在空中，q版 3d 可爱风格，一致色系的纯色背景
+生成图片：将【🍓】变成变成一根奶油雪糕，奶油在雪糕顶上呈曲线流动状看起来美味可口，45度悬浮在空中，q版 3d 可爱风格，一致色系的纯色背景
 ```
-*注意：可替换提示词中的【🍓】为其他 Emoji。*
 
-[⬆️ 返回案例目录](#example-toc)
+*注意： 可替换提示词中的【🍓】为其他 Emoji。*
 
-<a id="examples-62"></a>
-## 案例 62：可爱珐琅别针 (by [@gnrlyxyz](https://x.com/gnrlyxyz))
+
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-62"></a>
+### 案例 62：可爱珐琅别针 (by [@gnrlyxyz](https://x.com/gnrlyxyz))
 
 [原文链接](https://x.com/gnrlyxyz/status/1914303110853583302)
 
-<img src="./examples/example_enamel_pins_pop_culture.jpeg" width="300" alt="几个流行文化角色的可爱珐琅别针（例如终结者、绝命毒师主角等）">
+<img src="cases/62/example_enamel_pins_pop_culture.jpeg" width="300" alt="可爱珐琅别针">
 
-**提示词：**
+**提示词**
+
 ```
-将附图中的主题变成可爱的珐琅别针。使用光泽的金属轮廓和鲜艳的珐琅填充。无需额外添加任何功能。方形模型格式。白色背景。 
+将附图中的人物转换成可爱的珐琅徽章风格。使用光亮金属描边和鲜艳的珐琅填色。不添加任何额外元素。方形效果图格式，白色背景。
 ```
+
 
 **需上传参考图片：** 需要上传一张人物或物体的照片作为转换主体。
 
 **案例提交：** [StevenSong-sTs](https://github.com/StevenSong-sTs)
 
-[⬆️ 返回案例目录](#example-toc)
+---
 
-<a id="examples-61"></a>
-## 案例 61：虚构推文截图 (爱因斯坦) (by [@egeberkina](https://x.com/egeberkina))
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-61"></a>
+### 案例 61：虚构推文截图 (爱因斯坦) (by [@egeberkina](https://x.com/egeberkina))
 
 [原文链接](https://x.com/egeberkina/status/1914299716394778713)
 
-<img src="./examples/example_fake_tweet_einstein.jpeg" width="300" alt="爱因斯坦发布相对论后的“超现实”推特帖子截图，背景有黑板和公式，显示尼古拉·特斯拉点赞">
+<img src="cases/61/example_fake_tweet_einstein.jpeg" width="300" alt="虚构推文截图 (爱因斯坦)">
 
-**提示词：**
+**提示词**
+
 ```
-一个超现实的推特帖子，由阿尔伯特·爱因斯坦在完成相对论后立即发布。包含一张自拍照，可以清晰看到背景中潦草的方程式和黑板。要能看到该帖子被尼古拉·特斯拉点赞了。
-
-原版英文提示词：
-a hyper realistic twitter post by Albert Einstein right after finishing the theory of relativity. include a selfie where you can clearly see scribbled equations and a chalkboard in the background. have it visible that the post was liked by Nikola Tesla
+爱因斯坦刚刚完成相对论后发布的一条超写实风格的推文。包含一张自拍照，照片中清晰可见背景中的粉笔板和潦草的公式。推文下方显示尼古拉·特斯拉点赞了该内容。
 ```
 
-[⬆️ 返回案例目录](#example-toc)
 
-<a id="examples-60"></a>
-## 案例 60：Emoji 簇绒地毯 (by [@gizakdag](https://x.com/gizakdag))
+
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-60"></a>
+### 案例 60：Emoji 簇绒地毯 (by [@gizakdag](https://x.com/gizakdag))
 
 [原文链接](https://x.com/gizakdag/status/1913925062568144924)
 
-<img src="./examples/example_tufted_rug_dino_emoji.jpeg" width="300" alt="手工簇绒地毯，形状为恐龙 Emoji 🦖">
+<img src="cases/60/example_tufted_rug_dino_emoji.jpeg" width="300" alt="Emoji 簇绒地毯">
 
-**提示词：**
+**提示词**
+
 ```
-创建一张色彩鲜艳的手工簇绒地毯图片，形状为 🦖 表情符号，放置在简单的地板背景上。地毯设计大胆、有趣，具有柔软蓬松的质地和粗纱线细节。从上方拍摄，在自然日光下，带有略微古怪的 DIY 美学风格。色彩鲜艳、卡通轮廓、触感舒适的材料——类似于手工簇绒艺术地毯。
+创建一张图像，展示一个彩色、手工簇绒的地毯，形状为 🦖 表情符号，铺设在一个简约的地板背景上。地毯设计大胆、俏皮，具有柔软蓬松的质感和粗线条的细节。从上方俯拍，使用自然光照，整体风格略带古怪的 DIY 美感。色彩鲜艳，轮廓卡通化，材质具触感且温馨舒适——类似于手工簇绒艺术地毯。
 ```
 
-*注意：可替换提示词中的 🦖 为其他 Emoji。*
+*注意： 可替换提示词中的 🦖 为其他 Emoji。*
 
-[⬆️ 返回案例目录](#example-toc)
 
-<a id="examples-59"></a>
-## 案例 59：彩色矢量艺术海报 (by [@michaelrabone](https://x.com/michaelrabone))
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-59"></a>
+### 案例 59：彩色矢量艺术海报 (by [@michaelrabone](https://x.com/michaelrabone))
 
 [原文链接](https://x.com/michaelrabone/status/1913865394139316291)
 
-<img src="./examples/example_vector_poster_london.png" width="300" alt="伦敦彩色矢量艺术海报">
+<img src="cases/59/example_vector_poster_london.png" width="300" alt="彩色矢量艺术海报">
 
-**提示词：**
+**提示词**
+
 ```
 地点是"英国伦敦"，生成一张夏季的彩色矢量艺术海报，顶部有大的"LONDON"标题，下方有较小的"UNITED KINGDOM"标题
 ```
-*注意：可替换提示词中的城市和国家名称（例如将"英国伦敦"替换为"中国北京"以生成示例图，大小标题也跟着更换）。此风格提示词也可用于食物、电影、音乐等主题。*
 
-[⬆️ 返回案例目录](#example-toc)
+*注意： 可替换提示词中的城市和国家名称（例如将"英国伦敦"替换为"中国北京"以生成示例图，大小标题也跟着更换）。此风格提示词也可用于食物、电影、音乐等主题。*
 
-<a id="examples-58"></a>
-## 案例 58：云彩艺术 (by [@umesh_ai](https://x.com/umesh_ai))
+
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-58"></a>
+### 案例 58：云彩艺术 (by [@umesh_ai](https://x.com/umesh_ai))
 
 [原文链接](https://x.com/umesh_ai/status/1913628737872027805)
 
-<img src="./examples/example_cloud_art_dragon_great_wall.png" width="300" alt="由云彩组成的龙在长城上空">
+<img src="cases/58/example_cloud_art_dragon_great_wall.png" width="300" alt="云彩艺术">
 
-**提示词：**
+**提示词**
+
 ```
 生成一张照片：捕捉了白天的场景，天空中散落的云彩组成了 [主体/物体] 的形状，位于 [地点] 的上方。
 ```
 
-*注意：可替换提示词中的 `[SUBJECT/OBJECT]`（云彩形状的主体）和 `[LOCATION]`（地点）。示例图的主体是中国龙，地点是长城。*
+*注意： 可替换提示词中的 `[SUBJECT/OBJECT]`（云彩形状的主体）和 `[LOCATION]`（地点）。示例图的主体是中国龙，地点是长城。*
 
-[⬆️ 返回案例目录](#example-toc)
 
-<a id="examples-57"></a>
-## 案例 57：8位像素图标 (by [@egeberkina](https://x.com/egeberkina))
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-57"></a>
+### 案例 57：8位像素图标 (by [@egeberkina](https://x.com/egeberkina))
 
 [原文链接](https://x.com/egeberkina/status/1913654508330058064)
 
-<img src="./examples/example_8bit_pixel_burger.jpeg" width="300" alt="8位像素风格的汉堡图标">
+<img src="cases/57/example_8bit_pixel_burger.jpeg" width="300" alt="8位像素图标">
 
-**提示词：**
+**提示词**
+
 ```
-创建一个 [🍔] 的极简 8 位像素标志，居中放置在纯白背景上。使用有限的复古调色板，带有像素化细节、锐利边缘和干净的块状形态。该标志应简洁、具有标志性，并能在像素艺术风格中清晰识别——灵感来自经典街机游戏美学。
+创建一个极简主义的 8 位像素风格的 [🍔] 标志，居中放置在纯白背景上。使用有限的复古调色板，搭配像素化细节、锐利边缘和干净的块状形态。标志应简洁、具有标志性，并能在像素艺术风格中清晰识别——灵感来自经典街机游戏美学。
 ```
 
-*注意：可替换提示词中的 `[🍔]` 为其他 Emoji 或对象。提示词翻译自英文版本，请参考原文链接*
-
-[⬆️ 返回案例目录](#example-toc)
+*注意： 可替换提示词中的 `[🍔]` 为其他 Emoji 或对象。提示词翻译自英文版本，请参考原文链接*
 
 
-<a id="examples-56"></a>
-## 案例 56：迷你 3D 建筑 (by [@dotey](https://x.com/dotey))
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-56"></a>
+### 案例 56：迷你 3D 建筑 (by [@dotey](https://x.com/dotey))
 
 [原文链接](https://x.com/dotey/status/1913759515700285569)
 
-<img src="./examples/example_miniature_starbucks_cup_building.jpeg" width="300" alt="星巴克咖啡杯造型的 3D Q版迷你咖啡馆建筑模型">
+<img src="cases/56/example_miniature_starbucks_cup_building.jpeg" width="300" alt="迷你 3D 建筑">
 
-**提示词：**
+**提示词**
+
 ```
 3D Q版迷你风格，一个充满奇趣的迷你星巴克咖啡馆，外观就像一个巨大的外带咖啡杯，还有盖子和吸管。建筑共两层，大大的玻璃窗清晰地展示出内部温馨而精致的设计：木质的家具、温暖的灯光以及忙碌的咖啡师们。街道上有可爱的小人偶漫步或坐着，四周布置着长凳、街灯和植物盆栽，营造出迷人的城市一角。整体采用城市微缩景观风格，细节丰富、逼真，画面光线柔和、呈现出午后的惬意感受。
 ```
-*注意：可以让 AI 参考上面的提示词，为你生成其他建筑的类似提示词。例如：参考上面的提示词，写一个类似的提示词，针对【DunkinDonuts】，【甜甜圈】造型*
 
-[⬆️ 返回案例目录](#example-toc)
+*注意： 可以让 AI 参考上面的提示词，为你生成其他建筑的类似提示词。例如：参考上面的提示词，写一个类似的提示词，针对【DunkinDonuts】，【甜甜圈】造型*
 
 
-<a id="examples-55"></a>
-## 案例 55：低多边形 (Low-Poly) 3D 渲染 (by [@azed_ai](https://x.com/azed_ai))
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-55"></a>
+### 案例 55：低多边形 (Low-Poly) 3D 渲染 (by [@azed_ai](https://x.com/azed_ai))
 
 [原文链接](https://x.com/azed_ai/status/1912084257918595342)
 
-<img src="./examples/example_low_poly_lizard.jpeg" width="300" alt="低多边形 (Low-Poly) 风格的 3D 渲染蜥蜴">
+<img src="cases/55/example_low_poly_lizard.jpeg" width="300" alt="低多边形 (Low-Poly) 风格的 3D 渲染蜥蜴">
 
-**提示词：**
+**提示词**
+
 ```
 一个 [subject] 的低多边形 3D 渲染图，由干净的三角形面构成，具有平坦的 [color1] 和 [color2] 表面。环境是一个风格化的数字沙漠，具有极简的几何形状和环境光遮蔽效果。
 ```
 
-*注意：可替换提示词中的 `[subject]`（要画的对象）、`[color1]` 和 `[color2]`（颜色）以生成不同对象。示例图的subject为蜥蜴，颜色1/2分别为olive green和dusty brown。*
+*注意： 可替换提示词中的 `[subject]`（要画的对象）、`[color1]` 和 `[color2]`（颜色）以生成不同对象。示例图的subject为蜥蜴，颜色1/2分别为olive green和dusty brown。*
 
 
-[⬆️ 返回案例目录](#example-toc)
 
+---
 
-<a id="examples-54"></a>
-## 案例 54：“极其平凡”的iPhone自拍 (by [@jiamimaodashu](https://x.com/jiamimaodashu))
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-54"></a>
+### 案例 54：“极其平凡”的iPhone自拍 (by [@jiamimaodashu](https://x.com/jiamimaodashu))
 
 [原文链接](https://x.com/jiamimaodashu/status/1912653073190879410)
 
-<img src="./examples/example_ordinary_selfie_eason_nicholas.jpeg" width="300" alt="陈奕迅和谢霆锋在香港维多利亚港旁的“极其平凡无奇”的iPhone自拍照">
+<img src="cases/54/example_ordinary_selfie_eason_nicholas.jpeg" width="300" alt="“极其平凡”的iPhone自拍">
 
-**提示词：**
+**提示词**
+
 ```
 请画一张极其平凡无奇的iPhone 自拍照，没有明确的主体或构图感，就像是随手一拍的快照。照片略带运动模糊，阳光或店内灯光不均导致轻微曝光过度。角度尴尬、构图混乱，整体呈现出一种刻意的平庸感-就像是从口袋里拿手机时不小心拍到的一张自拍。主角是陈奕迅和谢霆锋，晚上，旁边是香港会展中心，在香港维多利亚港旁边。
 ```
-*注意：这个提示词旨在生成一张看起来非常随意、甚至有点“失败”的快照风格照片。*
 
-[⬆️ 返回案例目录](#example-toc)
+*注意： 这个提示词旨在生成一张看起来非常随意、甚至有点“失败”的快照风格照片。*
 
 
-<a id="examples-53"></a>
-## 案例 53：Emoji 充气感靠垫 (by [@gizakdag](https://x.com/gizakdag))
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-53"></a>
+### 案例 53：Emoji 充气感靠垫 (by [@gizakdag](https://x.com/gizakdag))
 
 [原文链接](https://x.com/gizakdag/status/1912858535643197927)
 
-<img src="./examples/example_emoji_cushion_pleading.jpeg" width="300" alt="恳求脸 Emoji 变成的充气感靠垫">
+<img src="cases/53/example_emoji_cushion_pleading.jpeg" width="300" alt="Emoji 充气感靠垫">
 
-**提示词：**
+**提示词**
+
 ```
-Create a high-resolution 3D render of [🥹] designed as an inflatable, puffy object. The shape should appear soft, rounded, and air-filled — like a plush balloon or blow-up toy. Use a smooth, matte texture with subtle fabric creases and stitching to emphasize the inflatable look. The form should be slightly irregular and squishy, with gentle shadows and soft lighting that highlight volume and realism. Place it on a clean, minimal background (light gray or pale blue), and maintain a playful, sculptural aesthetic.
+创建一个高分辨率的 3D 渲染图，将 [🥹] 设计成一个充气、鼓胀的物体。形状应柔软、圆润、充满空气——类似于一个毛绒气球或充气玩具。使用光滑的哑光材质，带有细微的布料折痕和缝线，以强化充气效果。整体形态应略带不规则且柔软塌陷，搭配柔和阴影和软光照，以突出体积感与真实感。将其置于干净、简约的背景上（浅灰色或浅蓝色），整体风格应保持俏皮而具雕塑感。
 ```
 
-*注意：可将提示词中的 [🥹] 替换为其他 Emoji。*
-
-[⬆️ 返回案例目录](#example-toc)
+*注意： 可将提示词中的 [🥹] 替换为其他 Emoji。*
 
 
-<a id="examples-52"></a>
-## 案例 52：纸艺风格 Emoji 图标 (by [@egeberkina](https://x.com/egeberkina))
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-52"></a>
+### 案例 52：纸艺风格 Emoji 图标 (by [@egeberkina](https://x.com/egeberkina))
 
 [原文链接](https://x.com/egeberkina/status/1912521263085482464)
 
-<img src="./examples/example_paper_craft_emoji_fire.jpeg" width="300" alt="纸艺风格的火焰 Emoji 图标">
+<img src="cases/52/example_paper_craft_emoji_fire.jpeg" width="300" alt="纸艺风格的火焰 Emoji 图标">
 
-**提示词：**
+**提示词**
+
 ```
-A paper craft-style "🔥" floating on a pure white background. The emoji is handcrafted from colorful cut paper with visible textures, creases, and layered shapes. It casts a soft drop shadow beneath, giving a sense of lightness and depth. The design is minimal, playful, and clean — centered in the frame with lots of negative space. Use soft studio lighting to highlight the paper texture and edges.
+一个纸艺风格的“🔥”图标，漂浮在纯白背景上。这个表情符号由彩色剪纸手工制作而成，具有可见的纸张纹理、折痕和分层形状。它在下方投下柔和的阴影，营造出轻盈感和立体感。整体设计简洁、有趣、干净，图像居中，周围留有大量留白。使用柔和的影棚光照以突出纸张的质感与边缘。
 ```
 
-*注意：可将提示词中的 "🔥" 替换为其他 Emoji。*
-
-[⬆️ 返回案例目录](#example-toc)
+*注意： 可将提示词中的 "🔥" 替换为其他 Emoji。*
 
 
-<a id="examples-51"></a>
-## 案例 51：护照入境印章 (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
 
-[原文链接1](https://x.com/ZHO_ZHO_ZHO/status/1912188562944250035)
-[原文链接2](https://x.com/M_w14_/status/1912146666410459618)
+---
 
-<img src="./examples/example_passport_stamp_beijing.jpeg" width="300" alt="北京故宫护照入境印章">
+[⬆️ 返回案例目录](#cases-toc)
 
-**提示词：**
+<a id="cases-51"></a>
+### 案例 51：护照入境印章 (by [@M_w14_](https://x.com/M_w14_))
+
+[原文链接1](https://x.com/M_w14_/status/1912146666410459618) | [原文链接2](https://x.com/ZHO_ZHO_ZHO/status/1912188562944250035)
+
+<img src="cases/51/example_passport_stamp_rome.jpeg" width="300" alt="护照入境印章">
+
+**提示词**
+
 ```
-创建一个逼真的护照页，并盖上[北京, 中国]的入境章。章面应以粗体英文写明“欢迎来到北京”，并设计成圆形或椭圆形，并带有装饰性边框。章面应包含“ARRIVAL”字样和一个虚构的日期，例如“2025年4月16日”。在章面中加入{故宫}的微妙轮廓作为背景细节。使用深蓝色或红色墨水并略加晕染，以增强真实感。章面应略微倾斜，如同手工压印。护照页应清晰可见纸张纹理和安全图案
+创建一个逼真的护照页，并盖上[北京, 中国]的入境章。章面应以粗体英文写明“欢迎来到北京”，并设计成圆形或椭圆形，并带有装饰性边框。章面应包含“ARRIVAL”字样和一个虚构的日期，例如“2025年4月16日”。在章面中加入{故宫}的微妙轮廓作为背景细节。使用深蓝色或红色墨水并略加晕染，以增强真实感。章面应略微倾斜，如同手工压印。护照页应清晰可见纸张纹理和安全图案。
 ```
-*注意：可替换提示词中括号内的城市、国家、地标和日期。*
 
-[⬆️ 返回案例目录](#example-toc)
+*注意： 可替换提示词中括号内的城市、国家、地标和日期。示例图使用罗马、意大利、罗马斗兽场、日期2025年4月16日。中文提示词 by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)*
 
 
-<a id="examples-50"></a>
-## 案例 50：物理破坏效果卡片 (劳拉) (by [@op7418](https://x.com/op7418))
 
-[原文链接1](https://x.com/op7418/status/1912782048160542886)
-[原文链接2](https://x.com/hc_dsn/status/1912367201476309396)
+---
 
-<img src="./examples/example_lara_croft_card_break.jpeg" width="300" alt="劳拉·克劳馥冲破“考古探险”卡牌边框，带有物理破坏效果">
+[⬆️ 返回案例目录](#cases-toc)
 
-**提示词：**
+<a id="cases-50"></a>
+### 案例 50：物理破坏效果卡片 (劳拉) (by [@op7418](https://x.com/op7418))
+
+[原文链接1](https://x.com/op7418/status/1912782048160542886) | [原文链接2](https://x.com/hc_dsn/status/1912367201476309396)
+
+<img src="cases/50/example_lara_croft_card_break.jpeg" width="300" alt="物理破坏效果卡片 (劳拉)">
+
+**提示词**
+
 ```
 一幅超写实、电影感的插画，描绘了劳拉·克劳馥动态地撞穿一张“考古探险”集换卡牌的边框。她正处于跳跃中或用绳索摆荡，穿着标志性的冒险装备，可能正在使用双枪射击，枪口的火焰帮助将卡牌古老的石雕边框震碎，在破口周围制造出可见的维度破裂效果，如能量裂纹和空间扭曲，使灰尘和碎片四散飞溅。她的身体充满活力地向前冲出，带有明显的运动深度，突破了卡牌的平面，卡牌内部（背景）描绘着茂密的丛林遗迹或布满陷阱的古墓内部。卡牌的碎屑与 crumbling 的石头、飞舞的藤蔓、古钱币碎片和用过的弹壳混合在一起。“考古探险”的标题和“劳拉·克劳馥”的名字（带有一个风格化的文物图标）在卡牌剩余的、布满裂纹和风化痕迹的部分上可见。充满冒险感的、动态的灯光突出了她的运动能力和危险的环境。
 ```
-*注意：原推文提到核心词是 dimensional break effects 和 motion depth。*
 
-[⬆️ 返回案例目录](#example-toc)
+*注意： 原推文提到核心词是 dimensional break effects 和 motion depth。*
 
 
-<a id="examples-49"></a>
-## 案例 49：时尚杂志封面风格 (by [@dotey](https://x.com/dotey))
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-49"></a>
+### 案例 49：时尚杂志封面风格 (by [@dotey](https://x.com/dotey))
 
 [原文链接](https://x.com/dotey/status/1912536019905233194)
 
-<img src="./examples/example_fashion_design_cover.jpeg" width="300" alt="身穿粉色旗袍头戴花饰手托蝴蝶的女子时尚杂志封面">
+<img src="cases/49/example_fashion_design_cover.jpeg" width="300" alt="时尚杂志封面风格">
 
-**提示词：**
+**提示词**
+
 ```
 一位美丽的女子身穿粉色旗袍，头戴精致的花饰，秀发中点缀着色彩缤纷的花朵，颈间装饰着优雅的白色蕾丝领子。她的一只手轻托着几只大型蝴蝶。整体拍摄风格呈现高清细节质感，类似时尚杂志封面设计，照片上方中央位置标有文字「FASHION DESIGN」。画面背景采用简约的纯浅灰色，以突出人物主体。
 ```
 
-[⬆️ 返回案例目录](#example-toc)
 
 
-<a id="examples-48"></a>
-## 案例 48：体素风格 3D 图标转换 (by [@BrettFromDJ](https://x.com/BrettFromDJ))
 
-[原文链接1](https://x.com/BrettFromDJ/status/1910387413404234076)
-[原文链接2](https://x.com/ZHO_ZHO_ZHO/status/1910671581962985788)
+---
 
-<img src="./examples/example_voxel_icons.jpeg" width="300" alt="体素风格 3D 图标">
+[⬆️ 返回案例目录](#cases-toc)
 
-**提示词：**
+<a id="cases-48"></a>
+### 案例 48：体素风格 3D 图标转换 (by [@BrettFromDJ](https://x.com/BrettFromDJ))
+
+[原文链接1](https://x.com/BrettFromDJ/status/1910387413404234076) | [原文链接2](https://x.com/ZHO_ZHO_ZHO/status/1910671581962985788)
+
+<img src="cases/48/example_voxel_icons.jpeg" width="300" alt="体素风格 3D 图标">
+
+**提示词**
+
 ```
 三个步骤
 1. 上传参考图
@@ -629,154 +1018,185 @@ A paper craft-style "🔥" floating on a pure white background. The emoji is han
 3. 提示词：将图片/描述/emoji转换为参考图一样的体素 3D 图标，Octane 渲染，8k
 ```
 
-*注意：中文提示词 by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)*
+*注意： 中文提示词 by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)*
 
 **需上传参考图片：** 需要上传两张图片：一张包含期望体素风格图标的参考图（如推文作者提供），以及一张要转换的原始图标。
 
-[⬆️ 返回案例目录](#example-toc)
 
+---
 
-<a id="examples-47"></a>
-## 案例 47：键盘ESC 键帽微型立体模型 (by [@egeberkina](https://x.com/egeberkina))
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-47"></a>
+### 案例 47：键盘ESC 键帽微型立体模型 (by [@egeberkina](https://x.com/egeberkina))
 
 [原文链接](https://x.com/egeberkina/status/1911368319212408926)
 
-<img src="./examples/example_esc_keycap_diorama.jpeg" width="300" alt="键盘 ESC 键帽内的微型电脑工作室立体模型">
+<img src="cases/47/example_esc_keycap_diorama.jpeg" width="300" alt="键盘 ESC 键帽内的微型电脑工作室立体模型">
 
-**提示词：**
+**提示词**
 
 ```
-一个超写实的等距视角 3D 渲染图，展示了一个微型电脑工作室，它位于一个半透明的机械键盘键帽内，该键帽特别放置在一个真实的哑光表面机械键盘的 ESC 键上。键帽内部，一个小人穿着舒适的有纹理连帽衫，坐在现代人体工学椅子上，正在一个发光的超逼真电脑屏幕前工作。环境充满了逼真的微型科技配件：真实材质的台灯、带有反光的显示器、微小的扬声器格栅、缠绕的电线和陶瓷杯子。场景底部由泥土、岩石和苔藓构成，具有照片级的纹理和瑕疵。键帽内部的光线模仿自然的清晨阳光，投下柔和的阴影和温暖的色调，而外部则有来自周围键盘的冷色调环境反射。单词“ESC”以微弱的磨砂玻璃效果巧妙地蚀刻在半透明键帽的顶部——根据角度仅勉强可见。周围的键盘按键如 F1、Q、Shift 和 CTRL 清晰、有纹理，并具有照片级的逼真光照。拍摄效果如同使用高端手机相机，具有浅景深、完美的白平衡和电影般的细节。
+一个超写实的等距视角 3D 渲染图，展示了一个微型电脑工作空间，置于一个半透明的机械键盘键帽内，键帽特别放置在一块真实哑光表面的机械键盘的 ESC 键上。
+键帽内部，一个穿着舒适、有纹理连帽衫的小人坐在现代人体工学椅上，正专注地面对一块发光的超写实电脑屏幕工作。整个空间布满了逼真的微型科技配件：真实材质的台灯、带有反射效果的显示器、微小的扬声器格栅、缠绕的电缆以及陶瓷杯子。
+场景底部由土壤、岩石和苔藓构成，拥有照片级的材质质感和自然瑕疵。键帽内的光照模拟清晨自然阳光，投下柔和阴影与温暖光调；而键帽外部则受周围键盘环境的冷色调反射影响。
+“ESC”字样以微弱的磨砂玻璃效果蚀刻在半透明键帽顶部——根据视角不同，仅隐约可见。
+周围的按键如 F1、Q、Shift 和 CTRL 均清晰可见，拥有真实材质纹理与光照。整体画面仿佛由高端手机相机拍摄，具备浅景深、完美白平衡与电影感细节。
 ```
 
-*注意：中文版本提示词由英文版本翻译而来，原提示词请查看英文版本*
-
-[⬆️ 返回案例目录](#example-toc)
+*注意： 中文版本提示词由英文版本翻译而来，原提示词请查看英文版本*
 
 
 
-<a id="examples-46"></a>
-## 案例 46：快乐胶囊制作 (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-46"></a>
+### 案例 46：快乐胶囊制作 (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
 
 [原文链接](https://x.com/ZHO_ZHO_ZHO/status/1911724629460455896)
 
-<img src="./examples/example_happy_capsule.png" width="300" alt="快乐胶囊">
+<img src="cases/46/example_happy_capsule.png" width="300" alt="快乐胶囊">
 
-**提示词：**
+**提示词**
+
 ```
 标题（大字）：速效快乐胶囊
-
 一颗上为星巴克绿下为透明的小药丸，上面印有星巴克logo，里面有很多咖啡豆
-
 说明（小字）：请在悲伤难过时服用，一日三次，一次两粒
-
 购买按钮 和 药丸颜色一致，下面价格：$9，请遵循医嘱酌情购买
 ```
 
-[⬆️ 返回案例目录](#example-toc)
 
 
-<a id="examples-45"></a>
-## 案例 45：3D Q版大学拟人化形象 (by [@dotey](https://x.com/dotey))
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-45"></a>
+### 案例 45：3D Q版大学拟人化形象 (by [@dotey](https://x.com/dotey))
 
 [原文链接](https://x.com/dotey/status/1911988003729203648)
 
-<img src="./examples/example_university_mascot_npu.jpeg" width="300" alt="西北工业大学拟人化3D Q版美少女，体现航空航天航海特色">
+<img src="cases/45/example_university_mascot_npu.jpeg" width="300" alt="西北工业大学拟人化3D Q版美少女，体现航空航天航海特色">
 
-**提示词：**
+**提示词**
+
 ```
-給【西北工业大学】画一个拟人化的3D Q版美少女形象，体现学校【航空航天航海三航】特色
+给 {西北工业大学} 画一个拟人化的3D Q版美少女形象，体现学校 {航空航天航海三航} 特色
 ```
-*注意：可替换【】括号内的学校名称和特色描述以生成不同大学的拟人化形象。*
 
-[⬆️ 返回案例目录](#example-toc)
+*注意： 可替换 {西北工业大学} 括号内的学校名称和特色描述以生成不同大学的拟人化形象。*
 
 
-<a id="examples-44"></a>
-## 案例 44：RPG 风格角色卡片制作 (by [@berryxia_ai](https://x.com/berryxia_ai))
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-44"></a>
+### 案例 44：RPG 风格角色卡片制作 (by [@berryxia_ai](https://x.com/berryxia_ai))
 
 [原文链接](https://x.com/berryxia_ai/status/1911334046724165905)
 
-<img src="./examples/example_rpg_card_designer.png" width="300" alt="RPG 风格的设计师角色卡片">
+<img src="cases/44/example_rpg_card_designer.png" width="300" alt="RPG 风格角色卡片制作">
 
-**提示词：**
+**提示词**
+
 ```
-Create a digital character card in RPG collectible style.
-The subject is a 【Programmer】, standing confidently with tools or symbols relevant to their job.
-Render it in 3D cartoon style, soft lighting, vivid personality.
-Include skill bars or stats like [Skill1 +x], [Skill2 +x, e.g., Creativity +10, UI/UX +8].
-Add a title banner on top and a nameplate on the bottom.
-Frame the card with clean edges like a real figure box.
-Make the background fit the profession's theme.
-Colors: warm highlights, profession-matching hues.
+创建一张 RPG 收藏风格的数字角色卡。
+角色设定为 {Programmer}，自信地站立，配有与其职业相关的工具或符号。
+以 3D 卡通风格呈现，采用柔和光照，展现鲜明的个性。
+添加技能条或属性数值，例如 [技能1 +x]、[技能2 +x]，如 Creativity +10、UI/UX +8。
+卡片顶部添加标题横幅，底部放置角色名牌。
+卡片边框应干净利落，如同真实的收藏公仔包装盒。
+背景需与职业主题相匹配。
+配色方面使用温暖的高光与符合职业特征的色调。
 ```
 
-*注意：可替换【】括号内的职业为Designer、Doctor等等*
+*注意： 可替换 {Programmer} 括号内的职业为Designer、Doctor等等*
 
 **需上传参考图片：** 可选。可根据职业或角色描述生成，或上传照片作为参考。
 
-[⬆️ 返回案例目录](#example-toc)
 
+---
 
-<a id="examples-43"></a>
-## 案例 43：Q版可爱俄罗斯套娃 (戴珍珠耳环的少女) (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-43"></a>
+### 案例 43：Q版可爱俄罗斯套娃 (戴珍珠耳环的少女) (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
 
 [原文链接](https://x.com/ZHO_ZHO_ZHO/status/1911669883315818497)
 
-<img src="./examples/example_matryoshka_pearl_earring.png" width="300" alt="Q版戴珍珠耳环的少女俄罗斯套娃">
+<img src="cases/43/example_matryoshka_pearl_earring.png" width="300" alt="Q版可爱俄罗斯套娃">
 
-**提示词：**
+**提示词**
+
 ```
-把图片人物生成变成 Q 版可爱俄罗斯套娃🪆，大到小一共五个，放在精致的木桌上，横幅4:3比例
+把图片人物生成变成 Q 版可爱俄罗斯套娃🪆，大到小一共五个，放在精致的木桌上，横幅3:2比例
 ```
-*注意：对原提示词的比例描述稍作修改。原始提示词见原文链接。*
+
 
 **需上传参考图片：** 需要上传一张人物图片作为转换对象 (原文使用了[《戴珍珠耳环的少女》](./references/Meisje_met_de_parel.jpg))。
 
-[⬆️ 返回案例目录](#example-toc)
 
+---
 
-<a id="examples-42"></a>
-## 案例 42：3D Q版情侣水晶球 (by [@balconychy](https://x.com/balconychy))
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-42"></a>
+### 案例 42：3D Q版情侣水晶球 (by [@balconychy](https://x.com/balconychy))
 
 [原文链接](https://x.com/balconychy/status/1909908568129655248)
 
-<img src="./examples/example_3d_q_snowglobe_couple.jpeg" width="300" alt="3D Q版情侣水晶球">
+<img src="cases/42/example_3d_q_snowglobe_couple.jpeg" width="300" alt="3D Q版情侣水晶球">
 
-**提示词：**
+**提示词**
+
 ```
 将附图中的人物转换成水晶球场景。 整体环境：水晶球放在窗户旁桌面上，背景模糊，暖色调。阳光透过球体，洒下点点金光，照亮了周围的黑暗。 水晶球内部：人物是可爱Q版3D造型，相互之间满眼的爱意。
 ```
+
+
 **需上传参考图片：** 一张情侣照片 或 一张其他人物照片。
 
-[⬆️ 返回案例目录](#example-toc)
 
+---
 
-<a id="examples-41"></a>
-## 案例 41：微型立体场景 (孙悟空三打白骨精) (by [@dotey](https://x.com/dotey))
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-41"></a>
+### 案例 41：微型立体场景 (孙悟空三打白骨精) (by [@dotey](https://x.com/dotey))
 
 [原文链接](https://x.com/dotey/status/1911609122547449886)
 
-<img src="./examples/example_miniature_journey_west.jpeg" width="300" alt="Q版孙悟空三打白骨精微型立体场景，移轴摄影风格">
+<img src="cases/41/example_miniature_journey_west.jpeg" width="300" alt="Q版孙悟空三打白骨精微型立体场景，移轴摄影风格">
 
-**提示词：**
+**提示词**
+
 ```
 微型立体场景呈现，运用移轴摄影的技法，呈现出Q版【孙悟空三打白骨精】场景
 ```
 
-*注意：提示词中括号内的【孙悟空三打白骨精】可以替换为其他中文场景，如“孙悟空大闹天宫”、“哪吒闹海”、“武松打虎”、“黛玉葬花”、“孙悟空三打白骨精”、“关云长过五关斩六将”等。*
-
-[⬆️ 返回案例目录](#example-toc)
+*注意： 提示词中括号内的【孙悟空三打白骨精】可以替换为其他中文场景，如“孙悟空大闹天宫”、“哪吒闹海”、“武松打虎”、“黛玉葬花”、“孙悟空三打白骨精”、“关云长过五关斩六将”等。*
 
 
-<a id="examples-40"></a>
-## 案例 40：日系双格漫画 (少女总统红温了) (by [@hellokaton](https://x.com/hellokaton))
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-40"></a>
+### 案例 40：日系双格漫画 (少女总统红温了) (by [@hellokaton](https://x.com/hellokaton))
 
 [原文链接](https://x.com/hellokaton/status/1910900979194646959)
 
-<img src="./examples/example_two_panel_manga_president.jpeg" width="300" alt="日系双格漫画：少女总统因电话未接通而生气加关税">
+<img src="cases/40/example_two_panel_manga_president.jpeg" width="300" alt="日系双格漫画：少女总统因电话未接通而生气加关税">
 
-**提示词：**
+**提示词**
+
 ```
 创建一张日系萌系双格漫画，上下排列，主题：少女总统的工作日常。
 
@@ -799,34 +1219,43 @@ Colors: warm highlights, profession-matching hues.
 - 画面整体色彩鲜艳，突出卡通风格。
 ```
 
+
 **需上传参考图片：** 需要上传一张人物照片作为参考。
 
-[⬆️ 返回案例目录](#example-toc)
 
+---
 
-<a id="examples-39"></a>
-## 案例 39：卡通插画 (by [@dotey](https://x.com/dotey))
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-39"></a>
+### 案例 39：奇幻卡通插画 (by [@dotey](https://x.com/dotey))
 
 [原文链接](https://x.com/dotey/status/1905103477879267823)
 
-<img src="./examples/example_fantasy_computer_head_portal.jpeg" width="300" alt="卡通插画">
+<img src="cases/39/example_fantasy_computer_head_portal.jpeg" width="300" alt="奇幻卡通插画">
 
-**提示词：**
+**提示词**
+
 ```
-A cartoon-style character with a smiling computer monitor as its head, wearing gloves and boots, happily jumping through a glowing, blue, circular portal in a lush, fantasy forest landscape. The forest is detailed with large trees, mushrooms, flowers, a serene river, floating islands, and an atmospheric starry night sky with multiple moons. Bright, vibrant colors with soft lighting, fantasy illustration style.
+一个卡通风格的角色，头部是一个带笑脸的电脑显示器，穿着手套和靴子，正开心地跳跃穿过一个发光的蓝色圆形传送门，背景是一片郁郁葱葱的奇幻森林景观。森林中细节丰富，有高大的树木、蘑菇、鲜花、宁静的河流、漂浮的岛屿，以及一个充满氛围的星夜天空，天空中有多个月亮。整体采用明亮鲜艳的色彩搭配柔和光效，风格为奇幻插画风。
 ```
 
-[⬆️ 返回案例目录](#example-toc)
 
 
-<a id="examples-38"></a>
-## 案例 38：手绘信息图卡片 (by [@dotey](https://x.com/dotey))
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-38"></a>
+### 案例 38：手绘信息图卡片 (by [@dotey](https://x.com/dotey))
 
 [原文链接](https://x.com/dotey/status/1907870919852179850)
 
-<img src="./examples/example_hand_drawn_infographic.jpeg" width="300" alt="手绘信息图卡片">
+<img src="cases/38/example_hand_drawn_infographic.jpeg" width="300" alt="手绘信息图卡片">
 
-**提示词：**
+**提示词**
+
 ```
 创作一张手绘风格的信息图卡片，比例为9:16竖版。卡片主题鲜明，背景为带有纸质肌理的米色或米白色，整体设计体现质朴、亲切的手绘美感。
 
@@ -837,34 +1266,43 @@ A cartoon-style character with a smiling computer monitor as its head, wearing g
 坚持每日更新，肯定会有结果，因为 99% 都坚持不了的！”
 ```
 
-[⬆️ 返回案例目录](#example-toc)
 
 
-<a id="examples-37"></a>
-## 案例 37：社交媒体帖子涂鸦 (by [@op7418](https://x.com/op7418))
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-37"></a>
+### 案例 37：社交媒体帖子涂鸦 (by [@op7418](https://x.com/op7418))
 
 [原文链接](https://x.com/op7418/status/1906208691877253536)
 
-<img src="./examples/example_social_media_doodle.jpeg" width="300" alt="社交媒体帖子涂鸦">
+<img src="cases/37/example_social_media_doodle.jpeg" width="300" alt="社交媒体帖子涂鸦">
 
-**提示词：**
+**提示词**
+
 ```
 生成图片，把它打印出来，然后用红墨水疯狂地加上手写中文批注、涂鸦、乱画，如果你想的话，还可以加点小剪贴画
 ```
 
+
 **需上传参考图片：** 一张照片或者截图。
 
-[⬆️ 返回案例目录](#example-toc)
 
+---
 
-<a id="examples-36"></a>
-## 案例 36：极简主义 3D 插画 (文字版) (by [@dotey](https://x.com/dotey))
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-36"></a>
+### 案例 36：极简主义 3D 插画 (Markdown 格式) (by [@dotey](https://x.com/dotey))
 
 [原文链接](https://x.com/dotey/status/1907131027253772399)
 
-<img src="./examples/example_minimalist_3d_toilet_txt.jpeg" width="300" alt="极简主义 3D 插画 (文字版)">
+<img src="cases/36/example_minimalist_3d_toilet_txt.jpeg" width="300" alt="极简主义 3D 插画">
 
-**提示词：**
+**提示词**
+
 ```
 画一个马桶：
 
@@ -905,38 +1343,45 @@ A cartoon-style character with a smiling computer monitor as its head, wearing g
 
 ### 🎯 风格目标（Purpose）
 > 创建干净、美观的视觉效果，强调简洁、亲和和现代感。
-
 ```
 
-[⬆️ 返回案例目录](#example-toc)
 
 
-<a id="examples-35"></a>
-## 案例 35：毛茸茸南瓜灯 (by [gizakdag](https://x.com/gizakdag))
 
-[原文链接1](https://x.com/gizakdag/status/1911075302941622512)
-[原文链接2](https://x.com/dotey/status/1912276883196039520)
+---
 
-<img src="./examples/example_fluffy_pumpkin.jpeg" width="300" alt="毛茸茸南瓜灯">
+[⬆️ 返回案例目录](#cases-toc)
 
-**提示词：**
+<a id="cases-35"></a>
+### 案例 35：毛茸茸南瓜灯 (by [gizakdag](https://x.com/gizakdag))
+
+[原文链接1](https://x.com/gizakdag/status/1911075302941622512) | [原文链接2](https://x.com/dotey/status/1912276883196039520)
+
+<img src="cases/35/example_fluffy_pumpkin.jpeg" width="300" alt="毛茸茸南瓜灯">
+
+**提示词**
+
 ```
 将一个简单平面的矢量图标 [🎃] 转化为柔软、立体、毛茸茸的可爱物体。整体造型被浓密的毛发完全覆盖，毛发质感极其真实，带有柔和的阴影。物体居中悬浮于干净的浅灰色背景中，轻盈漂浮。整体风格超现实，富有触感和现代感，带来舒适和俏皮的视觉感受。采用摄影棚级灯光，高分辨率渲染，比例为1:1。
 ```
 
-*注：中文提示词 by @dotey*
-
-[⬆️ 返回案例目录](#example-toc)
+*注意： 中文提示词 by @dotey*
 
 
-<a id="examples-34"></a>
-## 案例 34：手绘信息图卡片 (by [@dotey](https://x.com/dotey))
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-34"></a>
+### 案例 34：手绘信息图卡片 (by [@dotey](https://x.com/dotey))
 
 [原文链接](https://x.com/dotey/status/1907903480678985784)
 
-<img src="./examples/example_hand_drawn_infographic_cognition.jpeg" width="300" alt="手绘信息图卡片">
+<img src="cases/34/example_hand_drawn_infographic_cognition.jpeg" width="300" alt="手绘信息图卡片">
 
-**提示词：**
+**提示词**
+
 ```
 创作一张手绘风格的信息图卡片，比例为9:16竖版。卡片主题鲜明，背景为带有纸质肌理的米色或米白色，整体设计体现质朴、亲切的手绘美感。
 
@@ -951,80 +1396,103 @@ A cartoon-style character with a smiling computer monitor as its head, wearing g
 - 也遇不到「圈子」以外的机会。
 ```
 
-[⬆️ 返回案例目录](#example-toc)
 
 
-<a id="examples-33"></a>
-## 案例 33：全家福婚纱照 (by [@balconychy](https://x.com/balconychy))
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-33"></a>
+### 案例 33：全家福婚纱照 (by [@balconychy](https://x.com/balconychy))
 
 [原文链接](https://x.com/balconychy/status/1909426314643222595)
 
-<img src="./examples/example_family_wedding_photo_q.jpeg" width="300" alt="全家福婚纱照">
+<img src="cases/33/example_family_wedding_photo_q.jpeg" width="300" alt="全家福婚纱照">
 
-**提示词：**
+**提示词**
+
 ```
-将照片里的转换成Q版 3D人物，父母婚礼服饰，孩子是美丽的花童。 父母，西式婚礼服饰，父亲礼服，母亲婚纱。孩子手捧鲜花。 背景是五彩鲜花做的拱门。 除了人物是3D Q版，环境其他都是写实。 整体放在一个相框里。
+将照片里的转换成Q版 3D人物，父母婚礼服饰，孩子是美丽的花童。 父母，西式婚礼服饰，父亲礼服，母亲婚纱。孩子手捧鲜花。 背景是五彩鲜花做的拱门。 除了人物是3D Q版，环境其他都是写实。整体放在一个相框里。
 ```
+
 
 **需上传参考图片：** 一张家庭照片。
 
-[⬆️ 返回案例目录](#example-toc)
 
+---
 
-<a id="examples-32"></a>
-## 案例 32：纸艺剪贴风格招聘广告 (by [@dotey](https://x.com/dotey))
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-32"></a>
+### 案例 32：纸艺剪贴风格招聘广告 (by [@dotey](https://x.com/dotey))
 
 [原文链接](https://x.com/dotey/status/1905021792642564406)
 
-<img src="./examples/example_paper_cutout_job_ad.jpeg" width="300" alt="纸艺剪贴风格招聘广告">
+<img src="cases/32/example_paper_cutout_job_ad.jpeg" width="300" alt="纸艺剪贴风格招聘广告">
 
-**提示词：**
+**提示词**
+
 ```
-The image shows professional drivers of cars and trucks at work, impressive urban and rural speeds, a positive team environment and modern visuals of the fleet - all this advertises a vacancy for drivers with competitive pay, flexible working hours and a clear call to institutions: "Apply today - we will start tomorrow!"
+图像展示了汽车和卡车的专业司机在工作中，呈现出令人印象深刻的城市与乡村行驶速度、积极的团队氛围以及车队的现代化视觉形象——所有这一切都在为司机岗位的招聘做宣传，提供有竞争力的薪酬、灵活的工作时间，并向各类机构发出明确的号召：“今天申请，明天上岗！”
 ```
 
-[⬆️ 返回案例目录](#example-toc)
 
 
-<a id="examples-31"></a>
-## 案例 31：动漫贴纸集合 (by [@richardchang](https://x.com/richardchang))
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-31"></a>
+### 案例 31：动漫贴纸集合 (by [@richardchang](https://x.com/richardchang))
 
 [原文链接](https://x.com/richardchang/status/1909086122959139312)
 
-<img src="./examples/example_naruto_stickers.jpeg" width="300" alt="动漫贴纸集合">
+<img src="cases/31/example_naruto_stickers.jpeg" width="300" alt="动漫贴纸集合">
 
-**提示词：**
+**提示词**
+
 ```
-Naruto stickers
+火影忍者贴纸
 ```
 
-[⬆️ 返回案例目录](#example-toc)
 
 
-<a id="examples-30"></a>
-## 案例 30：35mm 胶片风格飞岛 (by [@dotey](https://x.com/dotey))
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-30"></a>
+### 案例 30：35mm 胶片风格飞岛 (by [@dotey](https://x.com/dotey))
 
 [原文链接](https://x.com/dotey/status/1905020833451348283)
 
+<img src="cases/30/example_35mm_moscow_flying_island.jpeg" width="300" alt="35mm 胶片风格飞岛">
 
-<img src="./examples/example_35mm_moscow_flying_island.jpeg" width="300" alt="35mm 胶片风格飞岛">
+**提示词**
 
-**提示词：**
 ```
-35 mm photo of Moscow floating in the sky on a flying islands
+35 毫米胶片风格的照片：莫斯科漂浮在天空中的飞行岛屿上。
 ```
 
-[⬆️ 返回案例目录](#example-toc)
 
 
-<a id="examples-29"></a>
-## 案例 29：名画人物 OOTD (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-29"></a>
+### 案例 29：名画人物 OOTD (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
 
 [原文链接](https://x.com/ZHO_ZHO_ZHO/status/1909892294217781714)
 
-<img src="./examples/example_pearl_earring_ootd.png" width="300" alt="名画人物 OOTD">
+<img src="cases/29/example_pearl_earring_ootd.png" width="300" alt="名画人物 OOTD">
 
-**提示词：**
+**提示词**
+
 ```
 为图片人物生成不同职业风的OOTD，时尚穿搭和配饰，和人物色系一致的纯色背景，Q版 3d，c4d渲染，保持人脸特征，姿势都要保持一致，人物的比例腿很修长
 
@@ -1033,36 +1501,45 @@ Naruto stickers
 
 先来第一个职业：时尚设计师
 ```
+
+
 **需上传参考图片：** [《戴珍珠耳环的少女》图片](./references/Meisje_met_de_parel.jpg)。
 
-[⬆️ 返回案例目录](#example-toc)
 
+---
 
-<a id="examples-28"></a>
-## 案例 28：扁平贴纸设计 (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-28"></a>
+### 案例 28：扁平贴纸设计 (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
 
 [原文链接](https://x.com/ZHO_ZHO_ZHO/status/1908044836953108490)
 
-<img src="./examples/example_flat_sticker_pearl_earring.jpeg" width="300" alt="扁平贴纸设计">
+<img src="cases/28/example_flat_sticker_pearl_earring.jpeg" width="300" alt="扁平贴纸设计">
 
-**提示词：**
+**提示词**
+
 ```
-把这张照片设计成一个极简扁平插画风格的Q版贴纸，厚白边，保留人物特征，风格要可爱一些，人物要超出圆形区域边框，圆形区域要为纯色不要3d感，透明背景
+把这张照片设计成一个极简扁平插画风格的Q版贴纸，厚白边，保留人物特征，风格要可爱一些，人物要超出圆形区域边框，圆形区域要为纯色不要3d感，透明背景。
 ```
+
 
 **需上传参考图片：** 一张清晰头像照片。
 
-[⬆️ 返回案例目录](#example-toc)
 
+---
 
-<a id="examples-27"></a>
-## 案例 27：Q 版表情包制作 (by [@dotey](https://x.com/dotey))
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-27"></a>
+### 案例 27：Q 版表情包制作 (by [@dotey](https://x.com/dotey))
 
 [原文链接](https://x.com/dotey/status/1909800530739679488)
 
-<img src="./examples/example_chibi_emoji_pack.png" width="300" alt="Q 版表情包制作">
+<img src="cases/27/example_chibi_emoji_pack.png" width="300" alt="Q 版表情包制作">
 
-**提示词：**
+**提示词**
+
 ```
 创作一套全新的 chibi sticker，共六个独特姿势，以用户形象为主角：
 1. 双手比出剪刀手，俏皮地眨眼；
@@ -1074,38 +1551,47 @@ Naruto stickers
 保留 chibi 美学风格：夸张有神的大眼睛、柔和的面部线条、活泼俏皮的短款黑色发型、配以大胆领口设计的白色服饰，背景使用充满活力的红色，并搭配星星或彩色纸屑元素进行装饰。周边适当留白。
 Aspect ratio: 9:16
 ```
+
+
 **需上传参考图片：** 一张清晰头像照片。
 
-[⬆️ 返回案例目录](#example-toc)
 
+---
 
-<a id="examples-26"></a>
-## 案例 26：名画人物麦片广告 (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-26"></a>
+### 案例 26：名画人物麦片广告 (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
 
 [原文链接](https://x.com/ZHO_ZHO_ZHO/status/1909542765857587310)
 
-<img src="./examples/example_master_oats_ad.png" width="300" alt="名画人物麦片广告">
+<img src="cases/26/example_master_oats_ad.png" width="300" alt="名画人物麦片广告">
 
-**提示词：**
+**提示词**
+
 ```
-《大师麦片》：根据我上传的照片的人物特征判断，为他生成一个符合他特质的燕麦片搭配（比如蔬菜、水果、酸奶、粗粮等等）和包装设计，然后生成他作为麦片包装盒封面人物 加 相应麦片搭配的广告封面，人物要保持特征、可爱Q版3d、c4d渲染风格，麦片所放置的地方的风格也要符合设定，比如放在厨房、超市 极简主义的设计台上等等，先做好设定，再生成图像
+《大师麦片》：根据我上传的照片的人物特征判断，为他生成一个符合他特质的燕麦片搭配（比如蔬菜、水果、酸奶、粗粮等等）和包装设计，然后生成他作为麦片包装盒封面人物 加 相应麦片搭配的广告封面，人物要保持特征、可爱Q版3d、c4d渲染风格，麦片所放置的地方的风格也要符合设定，比如放在厨房、超市 极简主义的设计台上等等，先做好设定，再生成图像。
 ```
+
 
 **需上传参考图片：** [《戴珍珠耳环的少女》图片](./references/Meisje_met_de_parel.jpg)。
 
-[⬆️ 返回案例目录](#example-toc)
 
+---
 
-<a id="examples-25"></a>
-## 案例 25：极简主义 3D 插画 (by [@0xdlk](https://x.com/0xdlk))
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-25"></a>
+### 案例 25：极简主义 3D 插画 (by [@0xdlk](https://x.com/0xdlk))
 
 [原文链接](https://x.com/0xdlk/status/1906843247432929642)
 
-<img src="./examples/example_minimalist_3d_toilet.png" width="300" alt="极简主义 3D 插画">
+<img src="cases/25/example_minimalist_3d_toilet.png" width="300" alt="极简主义 3D 插画">
 
-**提示词：**
+**提示词**
+
 ```
-Generate a toilet with the following JSON profile:
+使用以下 JSON 配置文件生成一个马桶：
 {
   "art_style_profile": {
     "style_name": "Minimalist 3D Illustration",
@@ -1145,54 +1631,69 @@ Generate a toilet with the following JSON profile:
 }
 ```
 
-[⬆️ 返回案例目录](#example-toc)
+*注意： 原提示词以 JSON 格式给出，JSON部分未翻译，请参考原文。*
 
 
-<a id="examples-24"></a>
-## 案例 24：Funko Pop 公仔制作 (by [@dotey](https://x.com/dotey))
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-24"></a>
+### 案例 24：Funko Pop 公仔制作 (by [@dotey](https://x.com/dotey))
 
 [原文链接](https://x.com/dotey/status/1909047283485671924)
 
-<img src="./examples/funko-pop-james-bond-figure-and-box.png" width="300" alt="Funko Pop 公仔制作">
+<img src="cases/24/funko-pop-james-bond-figure-and-box.png" width="300" alt="Funko Pop 公仔制作">
 
-**提示词：**
+**提示词**
+
 ```
 把照片中的人物变成 Funko Pop 公仔包装盒的风格，以等距视角（isometric）呈现，并在包装盒上标注标题为“JAMES BOND”。包装盒内展示的是照片中人物形象，旁边搭配有人物的必备物品（手枪、手表、西装、其他）同时，在包装盒旁边还应呈现该公仔本体的实物效果，采用逼真的、具有真实感的渲染风格。
 ```
 
+
 **需上传参考图片：** 一张半身或者全身清晰照片。
 
-[⬆️ 返回案例目录](#example-toc)
 
+---
 
-<a id="examples-23"></a>
-## 案例 23：《泰坦尼克号》模仿 (by [@balconychy](https://x.com/balconychy))
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-23"></a>
+### 案例 23：《泰坦尼克号》模仿 (by [@balconychy](https://x.com/balconychy))
 
 [原文链接](https://x.com/balconychy/status/1909916265067557299)
 
-<img src="./examples/example_titanic_q_realistic.jpeg" width="300" alt="《泰坦尼克号》模仿">
+<img src="cases/23/example_titanic_q_realistic.jpeg" width="300" alt="《泰坦尼克号》模仿">
 
-**提示词：**
+**提示词**
+
 ```
 将附图中的人物转换成可爱Q版3D造型
 场景：在豪华游轮最顶尖的船头，船头是尖的。
 男士带着女士站在泰坦尼克号船头，男士双手搂着女士的腰，女士双臂伸展穿着连衣裙，迎着风，脸上洋溢着自由与畅快。
-此时天色呈现出黄昏的暖色调，大海在船下延展 。
+此时天色呈现出黄昏的暖色调，大海在船下延展。
 除了人物用Q版3D造型以外，其他环境都是实物。
 ```
+
+
 **需上传参考图片：** 一张情侣照片。
 
-[⬆️ 返回案例目录](#example-toc)
 
+---
 
-<a id="examples-22"></a>
-## 案例 22：小红书封面 (by [@balconychy](https://x.com/balconychy))
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-22"></a>
+### 案例 22：小红书封面 (by [@balconychy](https://x.com/balconychy))
 
 [原文链接](https://x.com/balconychy/status/1905507936526627078)
 
-<img src="./examples/example_notebook_promo.png" width="300" alt="小红书封面">
+<img src="cases/22/example_notebook_promo.png" width="300" alt="小红书封面">
 
-**提示词：**
+**提示词**
+
 ```
 画图：画一个小红书封面。
 要求：
@@ -1214,165 +1715,210 @@ Generate a toilet with the following JSON profile:
 图像9:16比例
 ```
 
-[⬆️ 返回案例目录](#example-toc)
 
 
-<a id="examples-21"></a>
-## 案例 21：简笔画表情包 (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-21"></a>
+### 案例 21：简笔画表情包 (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
 
 [原文链接](https://x.com/ZHO_ZHO_ZHO/status/1909907741948399873)
 
-<img src="./examples/example_einstein_stickfigure_emoji.jpeg" width="300" alt="简笔画表情包">
+<img src="cases/21/example_einstein_stickfigure_emoji.jpeg" width="300" alt="简笔画表情包">
 
-**提示词：**
+**提示词**
+
 ```
-(分为两步)
-先把图片人物变成手绘简笔画风格
-然后把简笔画按照吐舌头、微笑、皱眉、惊讶、思考、眨眼生成一系列表情包
+(Step 1) 先将图片中的人物转换为手绘简笔画风格。
+(Step 2) 在此基础上，基于简笔画人物绘制一系列表情包，包括：吐舌头、微笑、皱眉、惊讶、思考、眨眼。
 ```
+
 
 **需上传参考图片：** 一张人物照片。
 
-[⬆️ 返回案例目录](#example-toc)
 
+---
 
-<a id="examples-20"></a>
-## 案例 20：四格漫画 (相对论) (by [@dotey](https://x.com/dotey))
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-20"></a>
+### 案例 20：四格漫画 (相对论) (by [@dotey](https://x.com/dotey))
 
 [原文链接](https://x.com/dotey/status/1904980568107819060)
 
-<img src="./examples/example_relativity_manga.jpeg" width="300" alt="四格漫画 (相对论)">
+<img src="cases/20/example_relativity_manga.jpeg" width="300" alt="四格漫画 (相对论)">
 
-**提示词：**
+**提示词**
+
 ```
-make a colorful page of manga describing the theory of relativity. add some humor
+制作一页色彩丰富的漫画，用来描述相对论理论，并加入一些幽默元素。
 ```
 
-[⬆️ 返回案例目录](#example-toc)
 
 
-<a id="examples-19"></a>
-## 案例 19：语文课本重绘 (by [@balconychy](https://x.com/balconychy))
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-19"></a>
+### 案例 19：语文课本重绘 (by [@balconychy](https://x.com/balconychy))
 
 [原文链接](https://x.com/balconychy/status/1906982626365178361)
 
-<img src="./examples/example_textbook_redraw.jpeg" width="300" alt="语文课本重绘">
+<img src="cases/19/example_textbook_redraw.jpeg" width="300" alt="语文课本重绘">
 
-**提示词：**
+**提示词**
+
 ```
 重绘语文课本插画
 ```
 
+
 **需上传参考图片：** 一张原课本插画。
 
-[⬆️ 返回案例目录](#example-toc)
 
+---
 
-<a id="examples-18"></a>
-## 案例 18：皮克斯3D风格 (by [AnimeAI](https://animeai.online))
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-18"></a>
+### 案例 18：皮克斯3D风格 (by [AnimeAI](https://animeai.online))
 
 [原文链接](https://animeai.online/#demo-gallery)
 
-<img src="https://animeai.online/demo/pixar-style-godfather-scene.png" width="300" alt="皮克斯3D风格《教父》">
+<img src="cases/18/pixar-style-godfather-scene.png" width="300" alt="皮克斯3D风格《教父》">
 
-**提示词：**
+**提示词**
+
 ```
 以皮克斯 3D 风格重绘这张照片
 ```
+
+
 **需上传参考图片：** 一张人物或者其他照片。
 
-[⬆️ 返回案例目录](#example-toc)
 
+---
 
-<a id="examples-17"></a>
-## 案例 17：数码宝贝风格图 (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-17"></a>
+### 案例 17：数码宝贝风格图 (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
 
 [原文链接](https://x.com/ZHO_ZHO_ZHO/status/1911001291280859559)
 
-<img src="./examples/example_digimon_style.jpeg" width="300" alt="数码宝贝风格图">
+<img src="cases/17/example_digimon_style.jpeg" width="300" alt="数码宝贝风格图">
 
-**提示词：**
+**提示词**
+
 ```
 为我生成一张数码宝贝风格的图片，并为我匹配一只数码宝贝
 ```
+
+
 **需上传参考图片：** 一张单人照片。
 
-[⬆️ 返回案例目录](#example-toc)
 
+---
 
-<a id="examples-16"></a>
-## 案例 16：布丁老虎机 (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-16"></a>
+### 案例 16：布丁老虎机 (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
 
 [原文链接](https://x.com/ZHO_ZHO_ZHO/status/1911107569898471818)
 
-<img src="./examples/example_pudding_slot.jpeg" width="300" alt="布丁老虎机">
+<img src="cases/16/example_pudding_slot.jpeg" width="300" alt="布丁老虎机">
 
-**提示词：**
+**提示词**
+
 ```
 将图标[🎰]变成美味可口布丁造型，Q弹质感，背景粉白渐变，整体甜美、轻盈、可爱
 ```
 
-[⬆️ 返回案例目录](#example-toc)
 
 
-<a id="examples-15"></a>
-## 案例 15：讽刺海报生成 (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-15"></a>
+### 案例 15：讽刺海报生成 (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
 
 [原文链接](https://x.com/ZHO_ZHO_ZHO/status/1905287637084274742)
 
-<img src="./examples/example_gpt_involution_poster.png" width="300" alt="讽刺海报生成">
+<img src="cases/15/example_gpt_involution_poster.png" width="300" alt="讽刺海报生成">
 
-**提示词：**
+**提示词**
+
 ```
 为我生成讽刺海报：GPT 4o 狂卷，都别干图像AI了 还是送外卖吧
 ```
 
-[⬆️ 返回案例目录](#example-toc)
 
 
-<a id="examples-14"></a>
-## 案例 14：《海贼王》主题手办制作 (by [@dotey](https://x.com/dotey))
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-14"></a>
+### 案例 14：《海贼王》主题手办制作 (by [@dotey](https://x.com/dotey))
 
 [原文链接](https://x.com/dotey/status/1909047547563213145)
 
-<img src="./examples/example_one_piece_figure_creation.png" width="300" alt="《海贼王》主题手办制作">
+<img src="cases/14/example_one_piece_figure_creation.png" width="300" alt="《海贼王》主题手办制作">
 
-**提示词：**
+**提示词**
+
 ```
 把照片中的人物变成《海贼王》（One Piece）动漫主题手办包装盒的风格，以等距视角（isometric）呈现。包装盒内展示的是基于照片人物的《海贼王》动漫画风设计的形象，旁边搭配有日常必备物品（手枪、手表、西装和皮鞋）同时，在包装盒旁边还应呈现该手办本体的实物效果，采用逼真的、具有真实感的渲染风格。
 ```
 
-*注意：日常必备物品此处稍作修改。请参考原文。*
+*注意： 日常必备物品此处稍作修改。请参考原文。*
 
 **需上传参考图片：** 一张半身或者全身照片。
 
-[⬆️ 返回案例目录](#example-toc)
 
+---
 
-<a id="examples-13"></a>
-## 案例 13：3D Q版风格 (by [@dotey](https://x.com/dotey))
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-13"></a>
+### 案例 13：3D Q版风格 (by [@dotey](https://x.com/dotey))
 
 [原文链接](https://x.com/dotey/status/1908194518345678865)
 
-<img src="./examples/example_photo_to_3d_q.png" width="300" alt="3D Q版风格">
+<img src="cases/13/example_photo_to_3d_q.png" width="300" alt="3D Q版风格">
 
-**提示词：**
+**提示词**
+
 ```
 将场景中的角色转化为3D Q版风格，同时保持原本的场景布置和服装造型不变。
 ```
+
+
 **需上传参考图片：** 一张照片。
 
-[⬆️ 返回案例目录](#example-toc)
 
+---
 
-<a id="examples-12"></a>
-## 案例 12：3D 情侣珠宝盒摆件 (by [@dotey](https://x.com/dotey))
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-12"></a>
+### 案例 12：3D 情侣珠宝盒摆件 (by [@dotey](https://x.com/dotey))
 
 [原文链接](https://x.com/dotey/status/1909332895115714835)
 
-<img src="./examples/example_3d_collectible_couple_box.jpeg" width="300" alt="3D 情侣珠宝盒摆件">
+<img src="cases/12/example_3d_collectible_couple_box.jpeg" width="300" alt="3D 情侣珠宝盒摆件">
 
-**提示词：**
+**提示词**
+
 ```
 根据照片上的内容打造一款细致精美、萌趣可爱的3D渲染收藏摆件，装置在柔和粉彩色调、温馨浪漫的展示盒中。展示盒为浅奶油色搭配柔和的金色装饰，形似精致的便携珠宝盒。打开盒盖，呈现出一幕温暖浪漫的场景：两位Q版角色正甜蜜相望。盒顶雕刻着“FOREVER TOGETHER”（永远在一起）的字样，周围点缀着小巧精致的星星与爱心图案。
 盒内站着照片上的女性，手中捧着一束小巧的白色花束。她的身旁是她的伴侣，照片上的男性。两人都拥有大而闪亮、充满表现力的眼睛，以及柔和、温暖的微笑，传递出浓浓的爱意和迷人的气质。
@@ -1380,208 +1926,256 @@ make a colorful page of manga describing the theory of relativity. add some humo
 尺寸：9:16
 ```
 
+
 **需上传参考图片：** 一张情侣照片。
 
-[⬆️ 返回案例目录](#example-toc)
 
+---
 
-<a id="examples-11"></a>
-## 案例 11：PS2 游戏封面 (GTA x Shrek) (by [@dotey](https://x.com/dotey))
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-11"></a>
+### 案例 11：PS2 游戏封面 (GTA x Shrek) (by [@dotey](https://x.com/dotey))
 
 [原文链接](https://x.com/dotey/status/1904978767090524372)
 
-<img src="./examples/example_ps2_gta_shrek.jpeg" width="300" alt="PS2 游戏封面 (GTA x Shrek)">
+<img src="cases/11/example_ps2_gta_shrek.jpeg" width="300" alt="PS2 游戏封面 (GTA x Shrek)">
 
-**提示词：**
+**提示词**
+
 ```
-Can you create a PS2 video game case of "Grand Theft Auto: Far Far Away" a GTA based in the Shrek Universe.
+你能制作一个PS2游戏封面的图像吗？标题为《Grand Theft Auto: Far Far Away》。是一个设定在《怪物史瑞克》宇宙中的GTA风格游戏。
 ```
 
-[⬆️ 返回案例目录](#example-toc)
 
 
-<a id="examples-10"></a>
-## 案例 10：讽刺漫画生成 (by [@dotey](https://x.com/dotey))
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-10"></a>
+### 案例 10：讽刺漫画生成 (by [@dotey](https://x.com/dotey))
 
 [原文链接](https://x.com/dotey/status/1910514811756065159)
 
-<img src="./examples/example_maga_hat_cartoon.jpeg" width="300" alt="讽刺漫画生成">
+<img src="cases/10/example_maga_hat_cartoon.jpeg" width="300" alt="讽刺漫画生成">
 
-**提示词：**
+**提示词**
+
 ```
 一幅讽刺漫画风格的插画，采用复古美式漫画风格，背景是一个多层货架，货架上都是一样的红色棒球帽，帽子正面印有大字标语“MAKE AMERICA GREAT AGAIN”，帽侧贴着白色标签写着“MADE IN CHINA”，特写视角聚焦其中一顶红色棒球帽。画面下方有价格牌，原价“$50.00”被粗黑线X划掉，改为“$77.00”，色调为怀旧的土黄与暗红色调，阴影处理带有90年代复古印刷质感。整体构图风格夸张讽刺，具讽刺政治消费主义的意味。
 ```
 
-[⬆️ 返回案例目录](#example-toc)
 
 
-<a id="examples-9"></a>
-## 案例 9：气球名画 (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-9"></a>
+### 案例 9：气球名画 (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
 
 [原文链接](https://x.com/ZHO_ZHO_ZHO/status/1910976632141267237)
 
-<img src="./examples/example_pearl_earring_balloon.jpeg" width="300" alt="氦气球名画">
+<img src="cases/9/example_pearl_earring_balloon.jpeg" width="300" alt="氦气球名画">
 
-**提示词：**
+**提示词**
+
 ```
 将图片中的人物变成玩偶形状的氦气球
 ```
+
+
 **需上传参考图片：** 一张半身或者全身单人照片。
 
-[⬆️ 返回案例目录](#example-toc)
 
+---
 
-<a id="examples-8"></a>
-## 案例 8：乐高收藏品 (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-8"></a>
+### 案例 8：乐高收藏品 (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
 
 [原文链接](https://x.com/ZHO_ZHO_ZHO/status/1910644499354968091)
 
-<img src="./examples/example_lego_collectible.jpeg" width="300" alt="乐高收藏品">
+<img src="cases/8/example_lego_collectible.jpeg" width="300" alt="乐高收藏品">
 
-**提示词：**
+**提示词**
+
 ```
 根据我上传的照片，生成一张纵向比例的照片，使用以下提示词：
-
 经典乐高人偶风格，一个微缩场景 —— 一只动物站在我身旁。这只动物的配色与我相匹配。
-
 请根据你对我的理解来创造这只动物（你可以选择任何你认为适合我的动物，不论是真实存在的，还是超现实的、幻想的，只要你觉得符合我的气质即可）。
-
 整个场景设定在一个透明玻璃立方体内，布景极简。
-
 微缩场景的底座是哑光黑色，配以银色装饰，风格简约且时尚。
-
 底座上有一块优雅雕刻的标签牌，字体为精致的衬线体，上面写着该动物的名称。
-
 底部设计中还巧妙融入了类似自然历史博物馆展示的生物学分类信息，以精细蚀刻的方式呈现。
-
 整体构图像是一件高端收藏艺术品：精心打造、策展般呈现、灯光细致。
-
 构图重在平衡。背景为渐变色，从深色到浅色过渡（颜色基于主色调进行选择）。
 ```
 
+
 **需上传参考图片：** 一张半身或者全身单人照片。
 
-[⬆️ 返回案例目录](#example-toc)
 
+---
 
-<a id="examples-7"></a>
-## 案例 7：个性化房间设计 (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-7"></a>
+### 案例 7：个性化房间设计 (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
 
 [原文链接](https://x.com/ZHO_ZHO_ZHO/status/1910698005193515370)
 
-<img src="./examples/example_personalized_room.png" width="300" alt="个性化房间设计">
+<img src="cases/7/example_personalized_room.png" width="300" alt="个性化房间设计">
 
-**提示词：**
+**提示词**
+
 ```
-为我生成我的房间设计（床、书架、沙发、电脑桌和电脑、墙上挂着绘画、绿植，窗外是城市夜景。可爱 3d 风格，c4d 渲染，轴测图。
+为我生成我的房间设计（床、书架、沙发、绿植、电脑桌和电脑），墙上挂着绘画，窗外是城市夜景。可爱 3d 风格，c4d 渲染，轴测图。
 ```
 
-*注意：原文提示词是根据chatgpt的记忆内容为用户生成房间设计，此处稍作修改。请参考原文。*
-
-[⬆️ 返回案例目录](#example-toc)
+*注意： 原文提示词是根据 ChatGPT 的记忆内容为用户生成房间设计，此处稍作修改。请参考原文。*
 
 
-<a id="examples-6"></a>
-## 案例 6：角色穿越传送门 (by [@dotey](https://x.com/dotey))
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-6"></a>
+### 案例 6：角色穿越传送门 (by [@dotey](https://x.com/dotey))
 
 [原文链接](https://x.com/dotey/status/1908910838636765204)
 
-<img src="./examples/example_portal_crossing_handhold.jpeg" width="300" alt="角色穿越传送门">
+<img src="cases/6/example_portal_crossing_handhold.jpeg" width="300" alt="角色穿越传送门">
 
-**提示词：**
+**提示词**
+
 ```
 照片中的角色的 3D Q 版形象穿过传送门，牵着观众的手，在将观众拉向前时动态地回头一看。传送门外的背景是观众的现实世界，一个典型的程序员的书房，有书桌，显示器和笔记本电脑，传送门内是角色所处的3D Q 版世界，细节可以参考照片，整体呈蓝色调，和现实世界形成鲜明对比。传送门散发着神秘的蓝色和紫色色调，是两个世界之间的完美椭圆形框架处在画面中间。从第三人称视角拍摄的摄像机角度，显示观看者的手被拉入角色世界。3：2 的宽高比。
-(需要上传一张半身或者全身清晰照片作为输入)
 ```
+
 
 **需上传参考图片：** 一张半身或者全身单人照片。
 
-[⬆️ 返回案例目录](#example-toc)
 
+---
 
-<a id="examples-5"></a>
-## 案例 5：吉卜力风格 (by [AnimeAI](https://animeai.online))
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-5"></a>
+### 案例 5：吉卜力风格 (by [AnimeAI](https://animeai.online))
 
 [原文链接](https://animeai.online/#demo-gallery)
 
-<img src="https://animeai.online/demo/ghibli-style-mona-lisa.png" width="300" alt="吉卜力风格《蒙娜丽莎》">
+<img src="cases/5/ghibli-style-mona-lisa.png" width="300" alt="吉卜力风格《蒙娜丽莎》">
 
-**提示词：**
+**提示词**
+
 ```
 以吉卜力风格重绘这张照片
 ```
+
+*注意： 如果遇到违反内容政策的情况，提示词增加一句：如果背景里有不合适（敏感）的内容，可以进行修改或删除。*
+
 **需上传参考图片：** 一张人物或者其他照片。
 
-*如果遇到违反内容政策的情况，提示词增加一句：如果背景里有不合适（敏感）的内容，可以进行修改或删除。*
 
-[⬆️ 返回案例目录](#example-toc)
+---
 
+[⬆️ 返回案例目录](#cases-toc)
 
-<a id="examples-4"></a>
-## 案例 4：Q 版中式婚礼图 (by [@balconychy](https://x.com/balconychy))
+<a id="cases-4"></a>
+### 案例 4：3D Q版中式婚礼图 (by [@balconychy](https://x.com/balconychy))
 
 [原文链接](https://x.com/balconychy/status/1909418699150237917)
 
-<img src="./examples/example_q_chinese_wedding.jpeg" width="300" alt="Q 版中式婚礼图">
+<img src="cases/4/example_q_chinese_wedding.jpeg" width="300" alt="3D Q版中式婚礼图">
 
-**提示词：**
+**提示词**
+
 ```
 将照片里的两个人转换成Q版 3D人物，中式古装婚礼，大红颜色，背景“囍”字剪纸风格图案。 服饰要求：写实，男士身着长袍马褂，主体为红色，上面以金色绣龙纹图案，彰显尊贵大气 ，胸前系着大红花，寓意喜庆吉祥。女士所穿是秀禾服，同样以红色为基调，饰有精美的金色花纹与凤凰刺绣，展现出典雅华丽之感 ，头上搭配花朵发饰，增添柔美温婉气质。二者皆为中式婚礼中经典着装，蕴含着对新人婚姻美满的祝福。 头饰要求： 男士：中式状元帽，主体红色，饰有金色纹样，帽顶有精致金饰，尽显传统儒雅庄重。 女士：凤冠造型，以红色花朵为中心，搭配金色立体装饰与垂坠流苏，华丽富贵，古典韵味十足。
 ```
+
+
 **需上传参考图片：** 一张情侣照片。
 
-[⬆️ 返回案例目录](#example-toc)
 
+---
 
-<a id="examples-3"></a>
-## 案例 3：复古宣传海报 (by [@dotey](https://x.com/dotey))
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-3"></a>
+### 案例 3：复古宣传海报 (by [@dotey](https://x.com/dotey))
 
 [原文链接](https://x.com/dotey/status/1905251524248248650)
 
-<img src="./examples/example_vintage_poster.jpeg" width="300" alt="复古宣传海报">
+<img src="cases/3/example_vintage_poster.jpeg" width="300" alt="复古宣传海报">
 
-**提示词：**
+**提示词**
+
 ```
 复古宣传海报风格，突出中文文字，背景为红黄放射状图案。画面中心位置有一位美丽的年轻女性，以精致复古风格绘制，面带微笑，气质优雅，具有亲和力。主题是GPT最新AI绘画服务的广告促销，强调‘惊爆价9.9/张’、‘适用各种场景、图像融合、局部重绘’、‘每张提交3次修改’、‘AI直出效果，无需修改’，底部醒目标注‘有意向点右下“我想要”’，右下角绘制一个手指点击按钮动作，左下角展示OpenAI标志。
 ```
 
-[⬆️ 返回案例目录](#example-toc)
 
 
-<a id="examples-2"></a>
-## 案例 2：立体相框 (by [@dotey](https://x.com/dotey))
-
-[原文链接](https://x.com/dotey/status/1908238003169903060)
-
-<img src="./examples/example_polaroid_breakout.png" width="300" alt="立体相框">
-
-**提示词：**
-```
-将场景中的角色转化为3D Q版风格，放在一张拍立得照片上，相纸被一只手拿着，照片中的角色正从拍立得照片中走出，呈现出突破二维相片边框、进入二维现实空间的视觉效果。
-```
-**需上传参考图片：** 一张半身或者全身单人照片。
-
-[⬆️ 返回案例目录](#example-toc)
-
-<a id="examples-1"></a>
-## 案例 1：Q版求婚场景 (by [@balconychy](https://x.com/balconychy))
-
-[原文链接](https://x.com/balconychy/status/1909417750587486469)
-
-<img src="./examples/example_proposal_scene_q_realistic.jpeg" width="300" alt="Q版求婚场景">
-
-**提示词：**
-```
-将照片里的两个人转换成Q版 3D人物，场景换成求婚，背景换成淡雅五彩花瓣做的拱门，背景换成浪漫颜色，地上散落着玫瑰花瓣。除了人物采用Q版 3D人物风格，其他环境采用真实写实风格。
-```
-**需上传参考图片：** 一张情侣照片。
-
-[⬆️ 返回案例目录](#example-toc)
 
 ---
 
+[⬆️ 返回案例目录](#cases-toc)
 
-<a id="tools-toc"></a>
+<a id="cases-2"></a>
+### 案例 2：3D Q版人物立体相框 (by [@dotey](https://x.com/dotey))
+
+[原文链接](https://x.com/dotey/status/1908238003169903060)
+
+<img src="cases/2/example_polaroid_breakout.png" width="300" alt="3D Q版人物立体相框">
+
+**提示词**
+
+```
+将场景中的角色转化为3D Q版风格，放在一张拍立得照片上，相纸被一只手拿着，照片中的角色正从拍立得照片中走出，呈现出突破二维相片边框、进入二维现实空间的视觉效果。
+```
+
+
+**需上传参考图片：** 一张半身或者全身单人照片。
+
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-1"></a>
+### 案例 1：Q版求婚场景 (by [@balconychy](https://x.com/balconychy))
+
+[原文链接](https://x.com/balconychy/status/1909417750587486469)
+
+<img src="cases/1/example_proposal_scene_q_realistic.jpeg" width="300" alt="Q版求婚场景">
+
+**提示词**
+
+```
+将照片里的两个人转换成Q版 3D人物，场景换成求婚，背景换成淡雅五彩花瓣做的拱门，背景换成浪漫颜色，地上散落着玫瑰花瓣。除了人物采用Q版 3D人物风格，其他环境采用真实写实风格。
+```
+
+
+**需上传参考图片：** 一张情侣照片。
+
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+
+
+---
+
+<a id="tools-intro"></a>
 ## 🛠️ 工具介绍 
 
 以下是可以使用 GPT-4o 模型生成图片的应用：
@@ -1597,7 +2191,9 @@ Can you create a PS2 video game case of "Grand Theft Auto: Far Far Away" a GTA b
   - 🌎 丰富的世界知识
   - 🔤 一致的文本渲染
 
-<a id="prompting-toc"></a>
+
+
+<a id="prompting-tips"></a>
 ## 💡 提示词技巧
 
 1. [提示词高手们到底是怎么发现 GPT-4o 画图新玩法的？](https://baoyu.io/blog/gpt-4-image-generation-new-tricks) by [@dotey](https://x.com/dotey)
@@ -1605,13 +2201,17 @@ Can you create a PS2 video game case of "Grand Theft Auto: Far Far Away" a GTA b
 3. [Prompt Engineering 简体中文翻译版](https://baoyu.io/blog/google-prompt-engineering-whitepaper) by [@dotey](https://x.com/dotey)
 
 
-<a id="contribute-toc"></a>
+
+
+<a id="how-to-contribute"></a>
 ## 🤝 贡献案例
 
 有两种参与贡献的方式，请阅读 [CONTRIBUTING.md](./CONTRIBUTING.md)。
 
 
-<a id="acknowledgements-toc"></a>
+
+
+<a id="acknowledgements"></a>
 ## 🙏 致谢
 
 本案例集的内容很大程度上依赖于 AI 社区在 Twitter/X 上分享的创意提示词和精彩视觉效果。我们向所有案例的贡献者表示诚挚的感谢。😊
@@ -1640,6 +2240,7 @@ Can you create a PS2 video game case of "Grand Theft Auto: Far Far Away" a GTA b
 *   [Hewar (@hewarsaber)](https://x.com/hewarsaber)
 *   [Anima (@Anima_Labs)](https://x.com/Anima_Labs)
 *   [terry623 (@terry623)](https://github.com/terry623)
+*   [photis (Sora Profile)](https://sora.com/explore?user=user-sydD5ZkXZsDaL0BriQa010dQ)
 *   以及其他可能通过转推或间接分享而被收录其提示词的创作者们。
 
 如果您的作品被收录在此，而您希望更改署名或将其移除，请随时与我们联系。✉️
@@ -1647,9 +2248,11 @@ Can you create a PS2 video game case of "Grand Theft Auto: Far Far Away" a GTA b
 [⬆️ 返回顶部](#readme-top)
 
 
-<a id="starhistory-toc"></a>
+
+<a id="star-history"></a>
 ## 🌟 Star历史
 
 [![Star History Chart](https://api.star-history.com/svg?repos=jamez-bondos/awesome-gpt4o-images&type=Date)](https://www.star-history.com/#jamez-bondos/awesome-gpt4o-images&Date)
 
 [⬆️ 返回顶部](#readme-top)
+

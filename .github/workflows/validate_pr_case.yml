@@ -1,0 +1,93 @@
+name: Validate PR Case
+
+on:
+  pull_request:
+    paths:
+      - 'cases/**'
+    types: [opened, synchronize, reopened]
+
+jobs:
+  validate_case:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          
+      - name: Validate cases directory
+        id: validation
+        run: |
+          # Get PR number
+          PR_NUMBER=${{ github.event.pull_request.number }}
+          echo "Validating PR #$PR_NUMBER"
+          
+          # Get changed files using git diff
+          echo "Getting changed files in PR #$PR_NUMBER..."
+          git fetch --no-tags --prune --depth=1 origin ${{ github.base_ref }}
+          PR_FILES=$(git diff --name-only --diff-filter=ACMRT origin/${{ github.base_ref }} | grep -E "^cases/[0-9]+" || echo "")
+          
+          echo "Files changed in PR:"
+          echo "$PR_FILES"
+          
+          if [ -z "$PR_FILES" ]; then
+            echo "No files changed in cases directory. Skipping validation."
+            exit 0
+          fi
+          
+          # Get main branch case directories info
+          echo "Getting main branch case directories info..."
+          git checkout ${{ github.base_ref }} --quiet
+          
+          # Get directory numbers from main branch
+          MAIN_CASE_DIRS=$(find cases -maxdepth 1 -type d -name "[0-9]*" | xargs -n1 basename | sort -n || echo "")
+          
+          if [ -n "$MAIN_CASE_DIRS" ]; then
+            # Convert to array of numbers
+            MAIN_DIRS_ARRAY=$(echo "$MAIN_CASE_DIRS" | tr '\n' ' ' | sed 's/ *$//')
+            # Get max directory number
+            MAX_DIR_NUM=$(echo "$MAIN_CASE_DIRS" | sort -n | tail -1)
+            
+            # Create JSON with main branch directory info
+            MAIN_BRANCH_DIRS_JSON="{\"caseDirs\": [$(echo $MAIN_DIRS_ARRAY | sed 's/ /, /g')], \"maxDirNum\": $MAX_DIR_NUM}"
+          else
+            # No directories found, create empty JSON
+            MAIN_BRANCH_DIRS_JSON='{"caseDirs": [], "maxDirNum": 0}'
+          fi
+          
+          # Switch back to PR head
+          git checkout ${{ github.event.pull_request.head.sha }} --quiet
+          
+          # Install required Node.js packages
+          npm install js-yaml
+          
+          # Run the validation script and capture output
+          echo "Running validation script with the following input:"
+          echo "------- MAIN BRANCH DIRS JSON -------"
+          echo "$MAIN_BRANCH_DIRS_JSON"
+          echo "------- CHANGED FILES -------"
+          echo "$PR_FILES"
+          echo "-----------------------------------"
+          
+          # Create temporary input file
+          echo "$MAIN_BRANCH_DIRS_JSON" > input_data.json
+          echo "$PR_FILES" >> input_data.json
+          
+          # Run validation script
+          node .github/scripts/validate_case.js < input_data.json
+          VALIDATION_EXIT_CODE=$?
+          echo "Validation exit code: $VALIDATION_EXIT_CODE"
+          
+          # Check validation results
+          if [ $VALIDATION_EXIT_CODE -ne 0 ]; then
+            echo "::error::Validation errors were found in the PR. Please check the output above."
+            exit 1
+          else
+            echo "✅ All case validation checks passed!"
+          fi 

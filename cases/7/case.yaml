@@ -1,0 +1,21 @@
+title: 个性化房间设计
+title_en: Personalized Room Design
+author: "@ZHO_ZHO_ZHO"
+author_link: https://x.com/ZHO_ZHO_ZHO
+source_links:
+  - url: https://x.com/ZHO_ZHO_ZHO/status/1910698005193515370
+image: example_personalized_room.png
+alt_text: 个性化房间设计
+alt_text_en: Personalized Room Design
+prompt: |
+  为我生成我的房间设计（床、书架、沙发、绿植、电脑桌和电脑），墙上挂着绘画，窗外是城市夜景。可爱 3d 风格，c4d 渲染，轴测图。
+prompt_en: |
+  Design a cozy bedroom in a cute 3D style with C4D-quality rendering, presented in an isometric view. The room includes a bed, bookshelf, sofa, green plants, a computer desk, and a computer setup. A framed painting hangs on the wall. Outside the window, a nighttime cityscape is visible with glowing buildings and a dark sky. All furniture and objects should have a soft, rounded, stylized design to match the cute 3D aesthetic. Lighting should be warm and inviting, creating a comfortable nighttime indoor atmosphere.
+prompt_note: |
+  原文提示词是根据 ChatGPT 的记忆内容为用户生成房间设计，此处稍作修改。请参考原文。
+prompt_note_en: |
+  The original prompt generated the room based on ChatGPT's memory of the user. This version is slightly modified. Please refer to the original source.
+reference_note: ""
+reference_note_en: ""
+submitter: ""
+submitter_link: ""

@@ -1,0 +1,21 @@
+title: 超现实交互场景
+title_en: Surreal Interaction Scene
+author: "@umesh_ai"
+author_link: https://x.com/umesh_ai
+source_links:
+  - url: https://x.com/umesh_ai/status/1917444534239191544
+image: case.png
+alt_text: 超现实交互场景
+alt_text_en: Surreal Interaction Scene
+prompt: |
+  一幅铅笔素描画，描绘了 [Subject 1] 与 [Subject 2] 互动的场景，其中 [Subject 2] 以逼真的全彩风格呈现，与 [Subject 1] 及背景的手绘素描风格形成超现实的对比。
+prompt_en: |
+  A pencil sketch of [Subject 1] interacting with [Subject 2], where [Subject 2] is rendered as a realistic, full-color object, creating a surreal contrast against the hand-drawn style of [Subject 1] and the background
+prompt_note: |
+  替换提示词中的[主体1]和[主体2]为具体的主体描述，例如"一个女孩"和"一朵玫瑰"。
+prompt_note_en: |
+  Replace [Subject 1] and [Subject 2] in the prompt with specific subject descriptions, such as "a hand" and "a rose".
+reference_note: ""
+reference_note_en: ""
+submitter: ""
+submitter_link: ""

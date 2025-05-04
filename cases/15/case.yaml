@@ -1,0 +1,22 @@
+title: 讽刺海报生成
+title_en: Satirical Poster Generation
+author: "@ZHO_ZHO_ZHO"
+author_link: https://x.com/ZHO_ZHO_ZHO
+source_links:
+  - url: https://x.com/ZHO_ZHO_ZHO/status/1905287637084274742
+image: example_gpt_involution_poster.png
+alt_text: 讽刺海报生成
+alt_text_en: Satirical Poster Generation
+prompt: |
+  为我生成讽刺海报：GPT 4o 狂卷，都别干图像AI了 还是送外卖吧
+prompt_en: |
+  Satirical Poster Text (English):
+  GPT-4o is taking over.
+  Forget working in image AI
+  maybe it’s time to deliver takeout instead.
+prompt_note: ""
+prompt_note_en: ""
+reference_note: ""
+reference_note_en: ""
+submitter: ""
+submitter_link: ""

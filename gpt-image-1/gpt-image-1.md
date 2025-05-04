@@ -1,5 +1,5 @@
 <a id="readme-top"></a>
-# OpenAI gpt-image-1：40 个精选图像案例及提示词
+# OpenAI gpt-image-1: 40 个精选图像案例及提示词
 
 [![English](https://img.shields.io/badge/English-Click-yellow)](gpt-image-1-en.md)
 [![简体中文](https://img.shields.io/badge/简体中文-点击查看-orange)](gpt-image-1.md)

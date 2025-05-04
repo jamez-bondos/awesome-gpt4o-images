@@ -1,0 +1,21 @@
+title: Trompe-l'œil 三维空间艺术
+title_en: Trompe-l'œil Three-Dimensional Spatial Art
+author: "@madpencil_"
+author_link: https://x.com/madpencil_
+source_links:
+  - url: https://x.com/madpencil_/status/1915099250079469907
+image: example_tromple-I-3d-art.jpg
+alt_text: Trompe-l'œil 三维空间艺术
+alt_text_en: Trompe-l'œil Three-Dimensional Spatial Art
+prompt: |
+  一幅视错觉风格的画面：人物A[主题/着装]从显示着xyz社交媒体界面的大屏幕中迈步而出。屏幕上可见用户名为“@”，显示1千次点赞、12-20条评论，周围漂浮着[爱心眼、笑脸]表情符号，背景可根据您的喜好自定义。
+prompt_en: |
+  Trompe l'oeil illusion of A (subject) (attire) steps out of a large screen displaying xyz social media interface. The screen shows the username "@" 1K likes, and 12- 20 comments, with floating emojis (heart-eyes, smiley) around it. your preferred background.
+prompt_note: |
+  可替换提示词中的【主题/着装】与[爱心眼、笑脸]。
+prompt_note_en: |
+  You can replace the [Theme/Dress Code] and [Heart Eyes Emoji, Smiling Face Emoji] in the prompt words.
+reference_note: ""
+reference_note_en: ""
+submitter: wowmarcomei
+submitter_link: https://github.com/wowmarcomei

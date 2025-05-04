@@ -1,0 +1,21 @@
+title: 3D Q版人物立体相框
+title_en: 3D Polaroid Breakout Effect
+author: "@dotey"
+author_link: https://x.com/dotey
+source_links:
+  - url: https://x.com/dotey/status/1908238003169903060
+image: example_polaroid_breakout.png
+alt_text: 3D Q版人物立体相框
+alt_text_en: 3D Polaroid Breakout Effect
+prompt: |
+  将场景中的角色转化为3D Q版风格，放在一张拍立得照片上，相纸被一只手拿着，照片中的角色正从拍立得照片中走出，呈现出突破二维相片边框、进入二维现实空间的视觉效果。
+prompt_en: |
+  Convert the character in the scene into a 3D chibi-style figure, placed inside a Polaroid photo. The photo paper is being held by a human hand. The character is stepping out of the Polaroid frame, creating a visual effect of breaking through the two-dimensional photo border and entering the real-world 3D space.
+prompt_note: ""
+prompt_note_en: ""
+reference_note: |
+  一张半身或者全身单人照片。
+reference_note_en: |
+  A half-body or full-body single person photo.
+submitter: ""
+submitter_link: ""

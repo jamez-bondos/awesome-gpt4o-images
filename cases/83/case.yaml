@@ -1,0 +1,21 @@
+title: 发光线条解剖图
+title_en: Glowing Lines Anatomy Diagram
+author: "@umesh_ai"
+author_link: https://x.com/umesh_ai
+source_links:
+  - url: https://x.com/umesh_ai/status/1914644426334314545
+image: case.png
+alt_text: 发光线条解剖图
+alt_text_en: Glowing Lines Anatomy Diagram
+prompt: |
+  一幅数字插画，描绘了一个 [SUBJECT]，其结构由一组发光、干净且纯净的蓝色线条勾勒而成。画面设定在深色背景之上，以突出 [SUBJECT] 的形态与特征。某个特定部位，如 [PART]，通过红色光晕加以强调，以表示该区域的重要性或特殊意义。整体风格兼具教育性与视觉吸引力，设计上仿佛是一种先进的成像技术。
+prompt_en: |
+  A digital illustration of a [SUBJECT], portrayed with a network of glowing clean pristine blue lines outlining its anatomy. The image is set against a dark background, highlighting the [SUBJECT] form and features. A specific area such as [PART] is emphasized with a red glow to indicate a point of interest or significance. The style is both educational and visually captivating, designed to resemble an advanced imaging technique
+prompt_note: |
+  可替换提示词中的 `[SUBJECT]` (主体) 和 `[PART]` (部位)。
+prompt_note_en: |
+  Replace `[SUBJECT]` and `[PART]` in the prompt.
+reference_note: ""
+reference_note_en: ""
+submitter: ""
+submitter_link: ""

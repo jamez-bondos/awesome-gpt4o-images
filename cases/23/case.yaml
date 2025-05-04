@@ -1,0 +1,29 @@
+title: 《泰坦尼克号》模仿
+title_en: '"Titanic" Pose Parody'
+author: "@balconychy"
+author_link: https://x.com/balconychy
+source_links:
+  - url: https://x.com/balconychy/status/1909916265067557299
+image: example_titanic_q_realistic.jpeg
+alt_text: 《泰坦尼克号》模仿
+alt_text_en: '"Titanic" Pose Parody'
+prompt: |
+  将附图中的人物转换成可爱Q版3D造型
+  场景：在豪华游轮最顶尖的船头，船头是尖的。
+  男士带着女士站在泰坦尼克号船头，男士双手搂着女士的腰，女士双臂伸展穿着连衣裙，迎着风，脸上洋溢着自由与畅快。
+  此时天色呈现出黄昏的暖色调，大海在船下延展。
+  除了人物用Q版3D造型以外，其他环境都是实物。
+prompt_en: |
+  Transform the person in the attached image into a cute chibi-style 3D character.
+  Scene: On the pointed bow of a luxurious cruise ship.
+  The man stands behind the woman at the bow, holding her waist with both hands. The woman is wearing a dress, arms spread wide, facing the wind, with a joyful and liberated expression on her face—just like the iconic scene from Titanic.
+  The sky is painted in warm sunset tones, and the vast ocean stretches beneath the ship.
+  Only the characters should be in chibi 3D style; the rest of the environment should be realistic.
+prompt_note: ""
+prompt_note_en: ""
+reference_note: |
+  一张情侣照片。
+reference_note_en: |
+  A couple's photo.
+submitter: ""
+submitter_link: ""

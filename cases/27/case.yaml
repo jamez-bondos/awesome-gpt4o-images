@@ -1,0 +1,42 @@
+title: Q 版表情包制作
+title_en: Q-version Emoji Sticker Pack Creation
+author: "@dotey"
+author_link: https://x.com/dotey
+source_links:
+  - url: https://x.com/dotey/status/1909800530739679488
+image: example_chibi_emoji_pack.png
+alt_text: Q 版表情包制作
+alt_text_en: Q-version Emoji Sticker Pack Creation
+prompt: |
+  创作一套全新的 chibi sticker，共六个独特姿势，以用户形象为主角：
+  1. 双手比出剪刀手，俏皮地眨眼；
+  2. 泪眼汪汪、嘴唇微微颤动，呈现可爱哭泣的表情；
+  3. 张开双臂，做出热情的大大拥抱姿势；
+  4. 侧卧入睡，靠着迷你枕头，带着甜甜的微笑；
+  5. 自信满满地向前方伸手指，周围点缀闪亮特效；
+  6. 手势飞吻，周围飘散出爱心表情。
+  保留 chibi 美学风格：夸张有神的大眼睛、柔和的面部线条、活泼俏皮的短款黑色发型、配以大胆领口设计的白色服饰，背景使用充满活力的红色，并搭配星星或彩色纸屑元素进行装饰。周边适当留白。
+  Aspect ratio: 9:16
+prompt_en: |
+  Create a brand-new set of chibi-style stickers featuring the user as the main character, with six unique poses:
+    1.	Making a playful peace sign with both hands and winking.
+    2.	Tearful eyes and slightly trembling lips, showing a cute crying expression.
+    3.	Arms wide open in a warm, enthusiastic hug pose.
+    4.	Lying on their side asleep, resting on a tiny pillow with a sweet smile.
+    5.	Pointing forward with confidence, surrounded by shining visual effects.
+    6.	Blowing a kiss, with heart symbols floating around.
+  Maintain the chibi aesthetic:
+  – Exaggerated, expressive big eyes
+  – Soft facial lines
+  – Playful, short black hairstyle
+  – A white outfit with a bold neckline design
+  Background: Vibrant red with star or colorful confetti elements for decoration. Leave some clean white space around each sticker.
+  Aspect ratio: 9:16
+prompt_note: ""
+prompt_note_en: ""
+reference_note: |
+  一张清晰头像照片。
+reference_note_en: |
+  A clear profile photo.
+submitter: ""
+submitter_link: ""

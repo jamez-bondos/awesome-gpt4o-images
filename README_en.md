@@ -15,27 +15,30 @@ Most examples come from Twitter/X 🐦. May they spark ideas 💡 and turbo‑ch
 
 OpenAI’s latest cutting-edge image model, **gpt-image-1**, has been released, offering even more powerful image generation capabilities and is available via API.
 
-<strong>Check out the 40+ brilliant examples below, carefully curated and translated by this project, sourced from OpenAI official materials, showcasing the power of `gpt-image-1`! 👇</strong>
+<strong>Additionally, check out the brilliant examples below, carefully curated and translated from official OpenAI materials by this project, showcasing the power of <code>gpt-image-1</code>! 👇</strong>
 
 -   Chinese Version: [OpenAI gpt-image-1: 40 Curated Prompt & Image Examples (Chinese)](./gpt-image-1/gpt-image-1.md)
 -   English Version: [OpenAI gpt-image-1: 40 Curated Prompt & Image Examples](./gpt-image-1/gpt-image-1-en.md)
 
-*Note: Both `gpt-image-1` and GPT-4o are OpenAI's latest image generation products, supported by largely the same underlying models. The main difference is that the former is currently accessed via API, while the latter powers official products like ChatGPT and Sora. `gpt-image-1` represents the newer iteration available through the API.*
-
 <strong>→ 喜欢就点 Star 支持！ / Smash that ⭐ if you like it!</strong>
 
-<a id="contents-toc"></a>
+---
+
+<a id="table-of-contents"></a>
 ## Contents
 
-- [🎨 What is GPT‑4o](#gpt4o-toc)
-- [📖 Example Directory](#example-toc)
-- [🛠️ Tools Introduction](#tools-toc)
-- [💡 Prompting Tips](#prompting-toc)
-- [🤝 How to Contribute](#contribute-toc)
-- [🙏 Acknowledgements](#acknowledgements-toc)
-- [🌟 Star History](#starhistory-toc)
+- [🎨 What is GPT‑4o](#gpt4o-intro)
+- [📖 Cases Directory](#cases-toc)
+- [🛠️ Tools Introduction](#tools-intro)
+- [💡 Prompting Tips](#prompting-tips)
+- [🤝 How to Contribute](#how-to-contribute)
+- [🙏 Acknowledgements](#acknowledgements)
+- [🌟 Star History](#star-history)
 
-<a id="gpt4o-toc"></a>
+
+---
+
+<a id="gpt4o-intro"></a>
 ## 🎨 What is GPT‑4o
 
 GPT‑4o is a multimodal model that not only turns text prompts into high‑quality images but also offers image‑to‑image editing—enabling targeted retouching, style transfer, and multi‑image blending.
@@ -48,99 +51,374 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 - ⚡️ Lightning‑fast interaction: Shorter response times for real‑time ideation and iteration
 
 
+---
+
+<a id="cases-toc"></a>
+## 📖 Cases Directory
+
+*   [Case 85: Surreal Interaction Scene (by @umesh_ai)](#cases-85)
+*   [Case 84: Animal Silicone Wrist Rest (by @ZHO_ZHO_ZHO)](#cases-84)
+*   [Case 83: Glowing Lines Anatomy Diagram (by @umesh_ai)](#cases-83)
+*   [Case 82: Signature City Weather Forecast (by @dotey)](#cases-82)
+*   [Case 81: 3D Translucent Glass Transformation (by @azed_ai)](#cases-81)
+*   [Case 80: Code Style Business Card (by @umesh_ai)](#cases-80)
+*   [Case 79: Lego Cityscape (Shanghai Bund) (by @dotey)](#cases-79)
+*   [Case 78: Glass Retexturing (by @egeberkina)](#cases-78)
+*   [Case 77: Story Scene in Crystal Ball (by @dotey)](#cases-77)
+*   [Case 76: Nostalgic Anime Film Poster (by photis (Sora))](#cases-76)
+*   [Case 75: Social Media Frame Integration (by @dotey)](#cases-75)
+*   [Case 74: Creative Logo Shaped Bookshelf (by @umesh_ai)](#cases-74)
+*   [Case 73: Cute Chibi Keychain (by @azed_ai)](#cases-73)
+*   [Case 72: Gold Pendant Necklace (by @azed_ai)](#cases-72)
+*   [Case 71: Miniature Cyberpunk Tilt-Shift Landscape (by terry623)](#cases-71)
+*   [Case 70: Original Pokemon Creation (by @Anima_Labs)](#cases-70)
+*   [Case 69: Silhouette Art (by @umesh_ai)](#cases-69)
+*   [Case 68: Futuristic Logo Trading Card (by @hewarsaber)](#cases-68)
+*   [Case 67: Ultra-realistic 3D Game (by @ZHO_ZHO_ZHO)](#cases-67)
+*   [Case 66: Creative Silk Universe (by @ZHO_ZHO_ZHO)](#cases-66)
+*   [Case 65: Trompe-l'œil Three-Dimensional Spatial Art (by @madpencil_)](#cases-65)
+*   [Case 64: Steampunk Mechanical Fish (by @f-is-h)](#cases-64)
+*   [Case 63: Emoji Cream Popsicle (by @ZHO_ZHO_ZHO)](#cases-63)
+*   [Case 62: Kawaii Enamel Pin (by @gnrlyxyz)](#cases-62)
+*   [Case 61: Fake Tweet Screenshot (Einstein) (by @egeberkina)](#cases-61)
+*   [Case 60: Emoji Tufted Rug (by @gizakdag)](#cases-60)
+*   [Case 59: Colorful Vector Art Poster (by @michaelrabone)](#cases-59)
+*   [Case 58: Cloud Art (by @umesh_ai)](#cases-58)
+*   [Case 57: 8-Bit Pixel Icon (by @egeberkina)](#cases-57)
+*   [Case 56: Miniature 3D Building (by @dotey)](#cases-56)
+*   [Case 55: Low-Poly 3D Render (by @azed_ai)](#cases-55)
+*   [Case 54: Extremely Ordinary iPhone Selfie (by @jiamimaodashu)](#cases-54)
+*   [Case 53: Emoji Inflatable Cushion (by @gizakdag)](#cases-53)
+*   [Case 52: Paper Craft Style Emoji Icon (by @egeberkina)](#cases-52)
+*   [Case 51: Passport Entry Stamp (by @M_w14_)](#cases-51)
+*   [Case 50: Physical Destruction Effect Card (Lara Croft) (by @op7418)](#cases-50)
+*   [Case 49: Fashion Magazine Cover Style (by @dotey)](#cases-49)
+*   [Case 48: Voxel Style 3D Icon Conversion (by @BrettFromDJ)](#cases-48)
+*   [Case 47: ESC Keycap Miniature Diorama (by @egeberkina)](#cases-47)
+*   [Case 46: Happy Capsule Creation (by @ZHO_ZHO_ZHO)](#cases-46)
+*   [Case 45: 3D Chibi-style University Anthropomorphic Mascot (by @dotey)](#cases-45)
+*   [Case 44: RPG-Style Character Card Creation (by @berryxia_ai)](#cases-44)
+*   [Case 43: Cute Chibi Matryoshka Dolls (Girl with a Pearl Earring) (by @ZHO_ZHO_ZHO)](#cases-43)
+*   [Case 42: 3D Q-version Couple Snow Globe (by @balconychy)](#cases-42)
+*   [Case 41: Miniature Three-dimensional Scene Presentation (by @dotey)](#cases-41)
+*   [Case 40: Japanese-style Two-Panel Manga (Angry Girl President) (by @hellokaton)](#cases-40)
+*   [Case 39: Fantasy Cartoon Illustration (by @dotey)](#cases-39)
+*   [Case 38: Hand-drawn Infographic Card (by @dotey)](#cases-38)
+*   [Case 37: Social Media Post Doodle Overlay (by @op7418)](#cases-37)
+*   [Case 36: Minimalist 3D Illustration (Markdown Format) (by @dotey)](#cases-36)
+*   [Case 35: Fluffy Jack-o'-lantern (by gizakdag)](#cases-35)
+*   [Case 34: Hand-drawn Infographic Card (Cognition) (by @dotey)](#cases-34)
+*   [Case 33: Family Wedding Photo (Q-version) (by @balconychy)](#cases-33)
+*   [Case 32: Paper Cutout Style Job Ad (by @dotey)](#cases-32)
+*   [Case 31: Anime Sticker Collection (by @richardchang)](#cases-31)
+*   [Case 30: 35mm Film Style Flying Island (by @dotey)](#cases-30)
+*   [Case 29: Famous Painting Character OOTD (by @ZHO_ZHO_ZHO)](#cases-29)
+*   [Case 28: Flat Sticker Design (by @ZHO_ZHO_ZHO)](#cases-28)
+*   [Case 27: Q-version Emoji Sticker Pack Creation (by @dotey)](#cases-27)
+*   [Case 26: Famous Painting Character Cereal Ad (by @ZHO_ZHO_ZHO)](#cases-26)
+*   [Case 25: Minimalist 3D Illustration (by @0xdlk)](#cases-25)
+*   [Case 24: Funko Pop Figure Creation (by @dotey)](#cases-24)
+*   [Case 23: "Titanic" Pose Parody (by @balconychy)](#cases-23)
+*   [Case 22: Xiaohongshu Cover Image (by @balconychy)](#cases-22)
+*   [Case 21: Stick Figure Emoji Pack (by @ZHO_ZHO_ZHO)](#cases-21)
+*   [Case 20: Four-Panel Manga (Theory of Relativity) (by @dotey)](#cases-20)
+*   [Case 19: Textbook Illustration Redraw (by @balconychy)](#cases-19)
+*   [Case 18: Pixar 3D Style (by AnimeAI)](#cases-18)
+*   [Case 17: Digimon Style Image (by @ZHO_ZHO_ZHO)](#cases-17)
+*   [Case 16: Pudding Slot Machine (by @ZHO_ZHO_ZHO)](#cases-16)
+*   [Case 15: Satirical Poster Generation (by @ZHO_ZHO_ZHO)](#cases-15)
+*   [Case 14: One Piece Themed Figure Creation (by @dotey)](#cases-14)
+*   [Case 13: Photo to 3D Q-version Style (by @dotey)](#cases-13)
+*   [Case 12: 3D Couple Jewelry Box Figurine (by @dotey)](#cases-12)
+*   [Case 11: PS2 Game Cover (GTA x Shrek) (by @dotey)](#cases-11)
+*   [Case 10: Satirical Cartoon Generation (by @dotey)](#cases-10)
+*   [Case 9: Famous Painting as Helium Balloon (by @ZHO_ZHO_ZHO)](#cases-9)
+*   [Case 8: Lego Collectible Figure (by @ZHO_ZHO_ZHO)](#cases-8)
+*   [Case 7: Personalized Room Design (by @ZHO_ZHO_ZHO)](#cases-7)
+*   [Case 6: Character Stepping Through Portal (by @dotey)](#cases-6)
+*   [Case 5: Ghibli Style (by AnimeAI)](#cases-5)
+*   [Case 4: 3D Chibi Chinese Wedding Scene (by @balconychy)](#cases-4)
+*   [Case 3: Retro Style Promotional Poster (by @dotey)](#cases-3)
+*   [Case 2: 3D Polaroid Breakout Effect (by @dotey)](#cases-2)
+*   [Case 1: 3D Chibi Proposal Scene (by @balconychy)](#cases-1)
 
 ---
 
-<a id="example-toc"></a>
-## 📖 Example Directory
+<a id="cases"></a>
+## 🧩 Case
 
-**Note on Prompts:** For accuracy and reproducibility, prompts are provided in their original language (Chinese or English) as used for generation.
+<a id="cases-85"></a>
+### Case 85: Surreal Interaction Scene (by [@umesh_ai](https://x.com/umesh_ai))
 
-*   [Example 74: Logo Shaped Bookshelf (by @umesh_ai)](#examples-74)
-*   [Example 73: Cute Chibi Keychain (by @azed_ai)](#examples-73)
-*   [Example 72: Gold Pendant Necklace (by @azed_ai)](#examples-72)
-*   [Example 71: Miniature Cyberpunk Tilt-Shift Landscape (by @terry623)](#examples-71)
-*   [Example 70: Original Pokemon Creation (by @Anima_Labs)](#examples-70)
-*   [Example 69: Silhouette Art (by @umesh_ai)](#examples-69)
-*   [Example 68: Futuristic Logo Trading Card (by @hewarsaber)](#examples-68)
-*   [Example 67: Ultra-realistic 3D Game (by @ZHO_ZHO_ZHO)](#examples-67)
-*   [Example 66: Creative Silk Universe (by @ZHO_ZHO_ZHO)](#examples-66)
-*   [Example 65: Trompe-l'œil Three-Dimensional Spatial Art (by @madpencil_)](#examples-65)
-*   [Example 64: Steampunk Mechanical Fish (by @f-is-h)](#examples-64)
-*   [Example 63: Emoji Cream Popsicle (by @ZHO_ZHO_ZHO)](#examples-63)
-*   [Example 62: Kawaii Enamel Pin (by @gnrlyxyz)](#examples-62)
-*   [Example 61: Fake Tweet Screenshot (Einstein) (by @egeberkina)](#examples-61)
-*   [Example 60: Emoji Tufted Rug (by @gizakdag)](#examples-60)
-*   [Example 59: Colorful Vector Art Poster (by @michaelrabone)](#examples-59)
-*   [Example 58: Cloud Art (by @umesh_ai)](#examples-58)
-*   [Example 57: 8-Bit Pixel Icon (by @egeberkina)](#examples-57)
-*   [Example 56: Miniature 3D Building (by @dotey)](#examples-56)
-*   [Example 55: Low-Poly 3D Render (by @azed_ai)](#examples-55)
-*   [Example 54: "Extremely Ordinary" iPhone Selfie (Eason & Nicholas) (by @jiamimaodashu)](#examples-54)
-*   [Example 53: Emoji Inflatable Cushion (by @gizakdag)](#examples-53)
-*   [Example 52: Paper Craft Style Emoji Icon (by @egeberkina)](#examples-52)
-*   [Example 51: Passport Entry Stamp (Rome) (by @M_w14_)](#examples-51)
-*   [Example 50: Physical Destruction Effect Card (Lara Croft) (by @op7418)](#examples-50)
-*   [Example 49: Fashion Magazine Cover Style (by @dotey)](#examples-49)
-*   [Example 48: Voxel Style 3D Icon Conversion (by @BrettFromDJ)](#examples-48)
-*   [Example 47: ESC Keycap Miniature Diorama (by @egeberkina)](#examples-47)
-*   [Example 46: Happy Capsule Creation (by @ZHO_ZHO_ZHO)](#examples-46)
-*   [Example 45: 3D Q-version University Anthropomorphic Mascot (by @dotey)](#examples-45)
-*   [Example 44: RPG-Style Character Card Creation (by @berryxia_ai)](#examples-44)
-*   [Example 43: Q-version Cute Matryoshka Dolls (Girl with a Pearl Earring) (by @ZHO_ZHO_ZHO)](#examples-43)
-*   [Example 42: 3D Q-version Couple Snow Globe (by @balconychy)](#examples-42)
-*   [Example 41: Miniature Diorama (Monkey King Fights White Bone Demon) (by @dotey)](#examples-41)
-*   [Example 40: Japanese-style Two-Panel Manga (Angry Girl President) (by @hellokaton)](#examples-40)
-*   [Example 39: Cartoon Illustration (Computer Head) (by @dotey)](#examples-39)
-*   [Example 38: Hand-drawn Infographic Card (IP) (by @dotey)](#examples-38)
-*   [Example 37: Social Media Post Doodle Overlay (by @op7418)](#examples-37)
-*   [Example 36: Minimalist 3D Illustration (Text Prompt) (by @dotey)](#examples-36)
-*   [Example 35: Fluffy Jack-o'-lantern (by gizakdag)](#examples-35)
-*   [Example 34: Hand-drawn Infographic Card (Cognition) (by @dotey)](#examples-34)
-*   [Example 33: Family Wedding Photo (Q-version) (by @balconychy)](#examples-33)
-*   [Example 32: Paper Cutout Style Job Ad (by @dotey)](#examples-32)
-*   [Example 31: Anime Sticker Collection (by @richardchang)](#examples-31)
-*   [Example 30: 35mm Film Style Flying Island (by @dotey)](#examples-30)
-*   [Example 29: Famous Painting Character OOTD (by @ZHO_ZHO_ZHO)](#examples-29)
-*   [Example 28: Flat Sticker Design (by @ZHO_ZHO_ZHO)](#examples-28)
-*   [Example 27: Q-version Emoji Sticker Pack Creation (by @dotey)](#examples-27)
-*   [Example 26: Famous Painting Character Cereal Ad (by @ZHO_ZHO_ZHO)](#examples-26)
-*   [Example 25: Minimalist 3D Illustration (by @0xdlk)](#examples-25)
-*   [Example 24: Funko Pop Figure Creation (by @dotey)](#examples-24)
-*   [Example 23: "Titanic" Pose Parody (by @balconychy)](#examples-23)
-*   [Example 22: Xiaohongshu Cover Image (by @balconychy)](#examples-22)
-*   [Example 21: Stick Figure Emoji Pack (by @ZHO_ZHO_ZHO)](#examples-21)
-*   [Example 20: Four-Panel Manga (Theory of Relativity) (by @dotey)](#examples-20)
-*   [Example 19: Textbook Illustration Redraw (by @balconychy)](#examples-19)
-*   [Example 18: Pixar 3D Style (by AnimeAI)](#examples-18)
-*   [Example 17: Digimon Style Image (by @ZHO_ZHO_ZHO)](#examples-17)
-*   [Example 16: Pudding Slot Machine (by @ZHO_ZHO_ZHO)](#examples-16)
-*   [Example 15: Satirical Poster Generation (by @ZHO_ZHO_ZHO)](#examples-15)
-*   [Example 14: "One Piece" Themed Figure Creation (by @dotey)](#examples-14)
-*   [Example 13: Photo to 3D Q-version Style (by @dotey)](#examples-13)
-*   [Example 12: 3D Couple Jewelry Box Figurine (by @dotey)](#examples-12)
-*   [Example 11: PS2 Game Cover (GTA x Shrek) (by @dotey)](#examples-11)
-*   [Example 10: Satirical Cartoon Generation (by @dotey)](#examples-10)
-*   [Example 9: Famous Painting as Helium Balloon (by @ZHO_ZHO_ZHO)](#examples-9)
-*   [Example 8: Lego Collectible Figure (by @ZHO_ZHO_ZHO)](#examples-8)
-*   [Example 7: Personalized Room Design (by @ZHO_ZHO_ZHO)](#examples-7)
-*   [Example 6: Character Stepping Through Portal (by @dotey)](#examples-6)
-*   [Example 5: Ghibli Style (by AnimeAI)](#examples-5)
-*   [Example 4: Q-version Chinese Wedding Scene (by @balconychy)](#examples-4)
-*   [Example 3: Vintage Promotional Poster (by @dotey)](#examples-3)
-*   [Example 2: 3D Polaroid Breakout Effect (by @dotey)](#examples-2)
-*   [Example 1: Q-version Proposal Scene (by @balconychy)](#examples-1)
+[Source Link](https://x.com/umesh_ai/status/1917444534239191544)
+
+<img src="cases/85/case.png" width="300" alt="Surreal Interaction Scene">
+
+**Prompt**
+
+```
+A pencil sketch of [Subject 1] interacting with [Subject 2], where [Subject 2] is rendered as a realistic, full-color object, creating a surreal contrast against the hand-drawn style of [Subject 1] and the background
+```
+
+*Note: Replace [Subject 1] and [Subject 2] in the prompt with specific subject descriptions, such as "a hand" and "a rose".*
+
+
 
 ---
 
-<a id="examples-74"></a>
-## Example 74: Logo Shaped Bookshelf (by [@umesh_ai](https://x.com/umesh_ai))
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-84"></a>
+### Case 84: Animal Silicone Wrist Rest (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
+
+[Source Link](https://x.com/ZHO_ZHO_ZHO/status/1918525296577327574)
+
+<img src="cases/84/case.png" width="300" alt="Animal Silicone Wrist Rest">
+
+**Prompt**
+
+```
+Create an image of a cute chibi-style silicone wrist rest based on the {🐼} emoji. The wrist rest is made of soft, food-grade silicone with a skin-friendly matte surface. The interior is filled with slow-rebound foam. Designed in a personified cartoon style, the expression is lively, with both arms stretched out as if hugging the user’s wrist while lying on a desk. The overall shape is round, soft, and adorable, featuring the classic {🐼} color scheme. The design is comforting and cute, suitable for office use. The background is a solid white color with soft lighting. Rendered in a product photography style, the angle is either front-facing or at a 45-degree top-down view, showcasing high-definition details and emphasizing the silicone texture and comfort functionality.
+```
+
+*Note: Replace the {🐼} emoji in the prompt with other animal emojis.*
+
+
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-83"></a>
+### Case 83: Glowing Lines Anatomy Diagram (by [@umesh_ai](https://x.com/umesh_ai))
+
+[Source Link](https://x.com/umesh_ai/status/1914644426334314545)
+
+<img src="cases/83/case.png" width="300" alt="Glowing Lines Anatomy Diagram">
+
+**Prompt**
+
+```
+A digital illustration of a [SUBJECT], portrayed with a network of glowing clean pristine blue lines outlining its anatomy. The image is set against a dark background, highlighting the [SUBJECT] form and features. A specific area such as [PART] is emphasized with a red glow to indicate a point of interest or significance. The style is both educational and visually captivating, designed to resemble an advanced imaging technique
+```
+
+*Note: Replace `[SUBJECT]` and `[PART]` in the prompt.*
+
+
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-82"></a>
+### Case 82: Signature City Weather Forecast (by [@dotey](https://x.com/dotey))
+
+[Source Link](https://x.com/dotey/status/1917988595228438771)
+
+<img src="cases/82/example.png" width="300" alt="Signature City Weather Forecast">
+
+**Prompt**
+
+```
+Show a clear 45-degree bird’s-eye view of an isometric miniature city scene featuring Shanghai’s iconic buildings, such as the Oriental Pearl Tower and the Bund. The weather effect—cloudy—blends softly into the city, interacting gently with the architecture. Use physically based rendering (PBR) and realistic lighting. Solid color background, crisp and clean. Centered composition to highlight the precision and detail of the 3D model. Display “Shanghai Cloudy 20°C” and a cloudy weather icon at the top of the image.
+```
+
+*Note: The city, weather, temperature, and building names can be replaced with the content in []. Generated with sora.*
+
+
+**Submitter:** [luoshui-coder](https://github.com/luoshui-coder)
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-81"></a>
+### Case 81: 3D Translucent Glass Transformation (by [@azed_ai](https://x.com/azed_ai))
+
+[Source Link](https://x.com/azed_ai/status/1917948899098243407)
+
+<img src="cases/81/example.jpeg" width="300" alt="3D Translucent Glass Transformation">
+
+**Prompt**
+
+```
+A soft, 3D translucent glass of the attached image with a frosty matte finish and detailed texture, original colors, centered on a light gray background, floats gently in space, soft shadows, natural lighting
+```
+
+
+**Reference Image Required:** Need to upload a reference image of a physical object
+
+**Submitter:** [luoshui-coder](https://github.com/luoshui-coder)
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-80"></a>
+### Case 80: Code Style Business Card (by [@umesh_ai](https://x.com/umesh_ai))
+
+[Source Link1](https://x.com/umesh_ai/status/1915696926596415492) | [Source Link2](https://x.com/fr0gger_/status/1916743281339498760) | [Source Link3](https://x.com/dotey/status/1917412535130563006)
+
+<img src="cases/80/example_business_card_code_style.png" width="300" alt="Code Style Business Card">
+
+**Prompt**
+
+```
+A close-up shot of a hand holding a business card designed to look like a JSON file opened in VS Code. The card shows code formatted in realistic syntax-highlighted JSON code. The window includes typical toolbar icons and a title bar labeled Business Card.json, styled exactly like the interface of VS Code. Background is slightly blurred, keeping the focus on the card.
+The card displays the following code formatted in JSON:
+{
+  "name": "Jamez Bondos",
+  "title": "Your Title",
+  "email": "your@email.com",
+  "link": "yourwebsite"
+}
+```
+
+*Note: Replace the values of name, title, email, and link in the final JSON code. The prompt is a simplified version derived from the original source link.*
+
+
+**Submitter:** [Kong-F](https://github.com/Kong-F)
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-79"></a>
+### Case 79: Lego Cityscape (Shanghai Bund) (by [@dotey](https://x.com/dotey))
+
+[Source Link](https://x.com/dotey/status/1917713810346872902)
+
+<img src="cases/79/example_lego_shanghai_bund.jpeg" width="300" alt="Lego brick rendition of the Shanghai Bund cityscape">
+
+**Prompt**
+
+```
+Create a highly detailed and vividly colored LEGO-style scene of the Shanghai Bund. The foreground features the iconic historical buildings of the Bund, meticulously recreated with LEGO bricks in Western and neoclassical architectural styles — including clock towers, domes, and colonnades. LEGO minifigures are seen strolling along the riverfront, taking photos, and sightseeing, with classic LEGO-style cars parked along the street.
+In the background lies the spectacular Huangpu River, assembled with translucent blue LEGO bricks. On the water, LEGO ferries and tour boats sail along. Across the river stands the skyline of Lujiazui in Pudong, including the Oriental Pearl Tower, Shanghai Tower, Jin Mao Tower, and Shanghai World Financial Center — all rendered as vibrant, lifelike LEGO skyscrapers.
+The sky is LEGO’s signature bright blue, adorned with a few white LEGO brick clouds, creating a visual full of energy and modernity.
+```
+
+*Note: You can ask AI to generate similar prompts for other cityscapes based on this example. Original image generated by Sora.*
+
+
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-78"></a>
+### Case 78: Glass Retexturing (by [@egeberkina](https://x.com/egeberkina))
+
+[Source Link](https://x.com/egeberkina/status/1917631056980721743)
+
+<img src="cases/78/example_retexture_glass_phone.jpeg" width="300" alt="Glass Retexturing">
+
+**Prompt**
+
+```
+retexture the image attached based on the json below:
+
+{
+  "style": "photorealistic",
+  "material": "glass",
+  "background": "plain white",
+  "object_position": "centered",
+  "lighting": "soft, diffused studio lighting",
+  "camera_angle": "eye-level, straight-on",
+  "resolution": "high",
+  "aspect_ratio": "2:3",
+  "details": {
+    "reflections": true,
+    "shadows": false,
+    "transparency": true
+  }
+}
+```
+
+*Note: This prompt uses a JSON structure to precisely control the output style.*
+
+**Reference Image Required:** Yes, needs an image of the object to be retextured.
+
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-77"></a>
+### Case 77: Story Scene in Crystal Ball (by [@dotey](https://x.com/dotey))
+
+[Source Link](https://x.com/dotey/status/1916530529324699858)
+
+<img src="cases/77/example_crystal_ball_chang_e.jpeg" width="300" alt="Story Scene in Crystal Ball">
+
+**Prompt**
+
+```
+A delicate crystal ball rests quietly on a warm, softly lit tabletop by the window. The background is blurred and hazy, with warm-toned sunlight gently passing through the crystal ball, refracting specks of golden light that softly illuminate the dim surroundings.
+Inside the crystal ball, a miniature three-dimensional world themed around {Chang’e Flying to the Moon} is naturally displayed — a finely detailed, dreamlike 3D scene. All characters and objects are rendered in adorable chibi style, exquisitely crafted and visually charming, with vivid emotional interactions between them.
+The overall atmosphere is rich with East Asian fantasy elements, full of intricate details and a surreal magical realism texture. The entire scene feels poetic and dreamy, luxurious yet elegant, radiating a gentle, comforting glow — as if imbued with life through the warm play of light and shadow.
+```
+
+*Note: Replace the text within the square brackets {} in the prompt with a description of a story scene (idioms, stories, short tales all work).*
+
+
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-76"></a>
+### Case 76: Nostalgic Anime Film Poster (by [photis (Sora)](https://sora.com/explore?user=user-sydD5ZkXZsDaL0BriQa010dQ))
+
+[Source Link](https://sora.com/g/gen_01jsfxrdpjfpebnyed8yaz42nf)
+
+<img src="cases/76/example_anime_nostalgic_poster.png" width="300" alt="Nostalgic Anime Film Poster">
+
+**Prompt**
+
+```
+{The Lord of the Rings} anime film poster, the anime is in the style of High School DXD. Visible even folds are seen across the poster as it’s been folded over time, and due to some creases over damaging the poster has caused some physical damage scuffing along the creases and the color has partially faded. Indiscriminate flaps and folds and scratches all around simply from moving back and forth causing subtle yet incremental damage with the ever expanding of entropy we cannot escape, but the loving memories in our hearts will forever be whole. Making the objects we collect along the way priceless is the essence you feel when looking at this nostalgic poster.
+```
+
+*Note: You can replace the movie title "{The Lord of the Rings}" in the prompt with others. Be aware that some movie titles may trigger content moderation. The referenced anime style can also be modified.*
+
+
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-75"></a>
+### Case 75: Social Media Frame Integration (by [@dotey](https://x.com/dotey))
+
+[Source Link](https://x.com/dotey/status/1917042797506662560)
+
+<img src="cases/75/example_instagram_frame_pearl_earring.png" width="300" alt="Social Media Frame Integration">
+
+**Prompt**
+
+```
+Create a stylized 3D chibi character based on the attached photo, accurately preserving the subject’s facial features and clothing details. The character is making a finger heart with the left hand (with a red heart element above the fingers) and playfully sitting on the edge of a giant Instagram frame, with both legs hanging outside the frame. The top of the frame displays the username “Beauty,” and various social media icons (like, comment, share) float around the scene.
+```
+
+*Note: The username "Beauty" and icons in the prompt can be replaced. Original image generated by Sora.*
+
+**Reference Image Required:** Yes, needs an image to be uploaded as reference.
+
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-74"></a>
+### Case 74: Creative Logo Shaped Bookshelf (by [@umesh_ai](https://x.com/umesh_ai))
 
 [Source Link](https://x.com/umesh_ai/status/1916517976414495161)
 
-<img src="./examples/example_logo_bookshelves_composite.jpeg" width="300" alt="Collection of modern bookshelves inspired by famous company logos (e.g., Apple, McDonald's, Google)">
+<img src="cases/74/example_logo_bookshelves_composite.jpeg" width="300" alt="Creative Logo Shaped Bookshelf">
 
-**Prompt:**
+**Prompt**
+
 ```
 Create a photograph of a modern bookshelf inspired by the shape of [LOGO]. The bookshelf features flowing, interconnected curves forming multiple sections of varying sizes. It is made of sleek matte black metal with wooden shelves inside the loops. Soft, warm LED lighting outlines the inner curves. The bookshelf is mounted on a neutral-toned wall and holds a mix of colorful books, small plants, and minimalistic art pieces. The overall vibe is creative, elegant, and slightly futuristic
 ```
@@ -148,17 +426,20 @@ Create a photograph of a modern bookshelf inspired by the shape of [LOGO]. The b
 *Note: Replace the `[LOGO]` placeholder in the prompt with a specific brand logo description (e.g., "Apple logo", "McDonald's logo").*
 
 
-[⬆️ Back to Directory](#example-toc)
 
+---
 
-<a id="examples-73"></a>
-## Example 73: Cute Chibi Keychain (by [@azed_ai](https://x.com/azed_ai))
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-73"></a>
+### Case 73: Cute Chibi Keychain (by [@azed_ai](https://x.com/azed_ai))
 
 [Source Link](https://x.com/azed_ai/status/1916521742052503804)
 
-<img src="./examples/example_keychain_chibi_composite.jpeg" width="300" alt="Collection of cute, colorful soft rubber keychains held by a hand, featuring chibi-style designs of various characters">
+<img src="cases/73/example_keychain_chibi_composite.jpeg" width="300" alt="Cute Chibi Keychain">
 
-**Prompt:**
+**Prompt**
+
 ```
 A close-up photo of a cute, colorful keychain held by person's hand. The keychain features a chibi-style of the [attached image ]. The keychain is made of soft rubber with bold black outlines and attached to a small silver keyring, neutral background
 ```
@@ -167,52 +448,65 @@ A close-up photo of a cute, colorful keychain held by person's hand. The keychai
 
 **Reference Image Required:** A photo of a person or object as the subject for the keychain design.
 
-**Example Submitted by:** [Kong-F](https://github.com/Kong-F)
+**Submitter:** [Kong-F](https://github.com/Kong-F)
 
-[⬆️ Back to Directory](#example-toc)
+---
 
+[⬆️ Back to Cases Directory](#cases-toc)
 
-<a id="examples-72"></a>
-## Example 72: Gold Pendant Necklace (by [@azed_ai](https://x.com/azed_ai))
+<a id="cases-72"></a>
+### Case 72: Gold Pendant Necklace (by [@azed_ai](https://x.com/azed_ai))
 
 [Source Link](https://x.com/azed_ai/status/1915770501705925106)
 
-<img src="./examples/example_gold_pendant.png" width="300" alt="Photorealistic close-up of a gold pendant necklace held by female hand.">
+<img src="cases/72/gold_pendant_necklace.png" width="300" alt="Gold Pendant Necklace">
 
-**Prompt:**
-\\\
+**Prompt**
+
+```
 A photorealistic close-up of a gold pendant necklace held by female hand. The pendant features a bas-relief engraving of [image /emoji]. The pendant hangs from a polished gold chain. The background is softly blurred with neutral beige tones, and natural lighting, realistic skin tones, Product photography, 16:9 aspect ratio.
-\\\
+```
 
 *Note: Replace `[image /emoji]` in the prompt with a specific image description or an emoji.*
 
 **Reference Image Required:** (Optional) An image can be uploaded to be used as the bas-relief pattern.
 
-[⬆️ Back to Directory](#example-toc)
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-71"></a>
+### Case 71: Miniature Cyberpunk Tilt-Shift Landscape (by [terry623](https://github.com/terry623))
 
 
-<a id="examples-71"></a>
-## Example 71: Miniature Cyberpunk Tilt-Shift Landscape (by [terry623](https://github.com/terry623))
 
-<img src="./examples/example_cyberpunk_tilt_shift_miniature.jpg" width="300" alt="Highly detailed miniature Cyberpunk landscape viewed from above, with tilt-shift lens effect">
+<img src="cases/71/example_cyberpunk_tilt_shift_miniature.jpg" width="300" alt="Highly detailed miniature Cyberpunk landscape viewed from above, with tilt-shift lens effect">
 
-**Prompt:**
+**Prompt**
+
 ```
 A highly detailed miniature [Cyberpunk] landscape viewed from above, using a tilt-shift lens effect. The scene is filled with toy-like elements, all rendered in high-resolution CG. Dramatic lighting creates a cinematic atmosphere, with vivid colors and strong contrast, emphasizing depth of field and a realistic micro-perspective, making the viewer feel as if overlooking a toy world. The image contains many visual jokes and details worth repeated viewing.
 ```
 
 *Note: You can replace [Cyberpunk] in the prompt with other styles or scenes, such as "Futuristic City", "Steampunk", "Medieval Village", etc.*
 
-[⬆️ Back to Directory](#example-toc)
 
-<a id="examples-70"></a>
-## Example 70: Original Pokemon Creation (by [@Anima_Labs](https://x.com/Anima_Labs))
+**Submitter:** [terry623](https://github.com/terry623)
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-70"></a>
+### Case 70: Original Pokemon Creation (by [@Anima_Labs](https://x.com/Anima_Labs))
 
 [Source Link](https://x.com/Anima_Labs/status/1915044265895379166)
 
-<img src="./examples/example_pokemon_pepperimp.jpeg" width="300" alt="Original Pokemon 'Pepperimp' inspired by a pepper, Grass type">
+<img src="cases/70/example_pokemon_pepperimp.jpeg" width="300" alt="Original Pokemon Creation">
 
-**Prompt:**
+**Prompt**
+
 ```
 Create an original creature inspired by this object (photo provided). The creature should look like it belongs in a fantasy monster-catching universe, with a cute or cool design influenced by retro Japanese RPG monster art. The image must include:
 – A full-body view of the creature, inspired by the shape, materials or purpose of the object.
@@ -224,34 +518,41 @@ Create an original creature inspired by this object (photo provided). The creatu
 
 **Reference Image Required:** Needs a photo of an object, food, etc., as inspiration.
 
-[⬆️ Back to Directory](#example-toc)
 
+---
 
-<a id="examples-69"></a>
-## Example 69: Silhouette Art (by [@umesh_ai](https://x.com/umesh_ai))
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-69"></a>
+### Case 69: Silhouette Art (by [@umesh_ai](https://x.com/umesh_ai))
 
 [Source Link](https://x.com/umesh_ai/status/1915417277953962048)
 
-<img src="./examples/example_silhouette_art_composite.jpeg" width="300" alt="Collection of black silhouette art on yellow background (UFO/person, lightbulb, woman's profile, dragon/castle)">
+<img src="cases/69/example_silhouette_art_composite.jpeg" width="300" alt="Silhouette Art">
 
-**Prompt:**
+**Prompt**
+
 ```
 The silhouette of a basic outline of a [PROMPT]. The background is bright yellow, and the silhouette is solid black.
 ```
 
 *Note: Replace `[PROMPT]` with the specific subject, e.g., "dragon on a castle", "woman's profile", etc.*
 
-[⬆️ Back to Directory](#example-toc)
 
 
-<a id="examples-68"></a>
-## Example 68: Futuristic Logo Trading Card (by [@hewarsaber](https://x.com/hewarsaber))
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-68"></a>
+### Case 68: Futuristic Logo Trading Card (by [@hewarsaber](https://x.com/hewarsaber))
 
 [Source Link](https://x.com/hewarsaber/status/1912933875166171515)
 
-<img src="./examples/example_trading_card_logo_tesla.png" width="300" alt="Futuristic trading card featuring the Tesla logo">
+<img src="cases/68/example_trading_card_logo_tesla.png" width="300" alt="Futuristic Logo Trading Card">
 
-**Prompt:**
+**Prompt**
+
 ```
 {
     "prompt": "A futuristic trading card with a dark, moody neon aesthetic and soft sci-fi lighting. The card features a semi-transparent, rounded rectangle with slightly muted glowing edges, appearing as if made of holographic glass. At the center is a large glowing logo of {{logo}}, with no additional text or label, illuminated with a smooth gradient of {{colors}}, but not overly bright. The reflections on the card surface should be subtle, with a slight glossy finish catching ambient light. The background is a dark carbon fiber texture or deep gradient with soft ambient glows bleeding into the edges. Add subtle light rays streaming down diagonally from the top, giving the scene a soft cinematic glow. Apply light motion blur to the edges and reflections to give the scene a sense of depth and energy, as if it's part of a high-end tech animation still. Below the card, include realistic floor reflections that mirror the neon edges and logo—slightly diffused for a grounded, futuristic look. Text elements are minimal and softly lit: top-left shows '{{ticker}}', top-right has a stylized signature, and the bottom displays '{{company_name}}' with a serial number '{{card_number}}', a revenue badge reading '{{revenue}}', and the year '{{year}}'. Typography should have a faint glow with slight blurring, and all elements should feel premium, elegant, and softly illuminated—like a high-end cyberpunk collectible card.",
@@ -278,77 +579,92 @@ The silhouette of a basic outline of a [PROMPT]. The background is bright yellow
     "size": "1080px by 1080px"
 }
 ```
+
 *Note: The prompt uses a JSON-like structure to describe card elements. Modify values in the `parameters` object (like logo, ticker, company_name, colors, etc.) to customize the card. For custom logos, specify in `parameters.logo` (e.g., "Framer logo (attached image)") and upload the image.*
 
 **Reference Image Required:** (Optional) Upload a custom logo image.
 
-[⬆️ Back to Directory](#example-toc)
 
+---
 
-<a id="examples-67"></a>
-## Example 67: Ultra-realistic 3D Game (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO) )
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-67"></a>
+### Case 67: Ultra-realistic 3D Game (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
 
 [Source Link](https://x.com/ZHO_ZHO_ZHO/status/1913648013144137840)
 
-<img src="./examples/example_Ultra_realistic_3D_game.jpg" width="300" alt="Ultra-realistic 3D">
+<img src="cases/67/example_Ultra_realistic_3D_game.jpg" width="300" alt="Ultra-realistic 3D">
 
-**Prompt：**
+**Prompt**
+
 ```
 Ultra-realistic 3D rendered image that replicates the character design of Natasha from Command & Conquer: Red Alert 3 in 2008, following the original model exactly. The scene is set in a dim and cluttered bedroom from the year 2008. The character is sitting on the carpet, facing an old-fashioned television that is playing Command & Conquer: Red Alert 3 and a game console controller.
 The entire room is filled with a nostalgic atmosphere of the year 2008: snack packaging bags, soda cans, posters, and tangled wires are everywhere. Natasha Volkova is captured in the moment of turning her head, looking back at the camera over her shoulder. There is an innocent smile on her iconic ethereally beautiful face. Her upper body is slightly twisted, with a natural dynamic, as if she is reacting to being startled by the flash.
 The flash slightly overexposes her face and clothes, making her silhouette stand out more prominently in the dimly lit room. The whole photo appears raw and natural. The strong contrast between light and dark casts deep shadows behind her. The image is full of tactile feel, with a simulated texture that resembles an authentic film snapshot from 2008.
 ```
 
-**Example Submitted by:** [wowmarcomei](https://github.com/wowmarcomei)
-
-[⬆️ Back to Directory](#example-toc)
 
 
-<a id="examples-66"></a>
-## Example 66: Creative Silk Universe (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO) )
+**Submitter:** [wowmarcomei](https://github.com/wowmarcomei)
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-66"></a>
+### Case 66: Creative Silk Universe (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
 
 [Source Link](https://x.com/ZHO_ZHO_ZHO/status/1914864217867608175)
 
-<img src="./examples/example_silk_creation_universe.jpg" width="300" alt="Silk Universe-Creative Universe">
+<img src="cases/66/example_silk_creation_universe.jpg" width="300" alt="Silk Universe-Creative Universe">
 
-**Prompt：**
+**Prompt**
+
 ```
-Transform the ❄️ into a soft 3D object with a silk texture. The entire surface of the object is wrapped in smooth and flowing silk fabric, featuring surreal wrinkle details, soft highlights, and shadows. The object gently floats in the center of a clean light gray background, creating a light and elegant atmosphere. The overall style is surreal, tactile, and modern, conveying a sense of comfort and refined playfulness. Studio lighting, high-resolution rendering.
+Transform the {❄️} into a soft 3D object with a silk texture. The entire surface of the object is wrapped in smooth and flowing silk fabric, featuring surreal wrinkle details, soft highlights, and shadows. The object gently floats in the center of a clean light gray background, creating a light and elegant atmosphere. The overall style is surreal, tactile, and modern, conveying a sense of comfort and refined playfulness. Studio lighting, high-resolution rendering.
 ```
-*You can replace the [❄️] in the prompt words with your target value*
 
-**Example Submitted by:** [wowmarcomei](https://github.com/wowmarcomei)
-
-[⬆️ Back to Directory](#example-toc)
+*Note: You can replace the {❄️} in the prompt words with your target value*
 
 
-<a id="examples-65"></a>
-## Example 65: Trompe-l'œil Three-Dimensional Spatial Art (by [@madpencil_](https://x.com/madpencil_) )
+**Submitter:** [wowmarcomei](https://github.com/wowmarcomei)
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-65"></a>
+### Case 65: Trompe-l'œil Three-Dimensional Spatial Art (by [@madpencil_](https://x.com/madpencil_))
 
 [Source Link](https://x.com/madpencil_/status/1915099250079469907)
 
-<img src="./examples/example_tromple-I-3d-art.jpg" width="300" alt="Three-dimensional illusion of a figure stepping out from the screen.">
+<img src="cases/65/example_tromple-I-3d-art.jpg" width="300" alt="Trompe-l'œil Three-Dimensional Spatial Art">
 
-**Prompt:**
+**Prompt**
+
 ```
-Trompe l'oeil illusion of A (subject) (attire) steps out of a large screen displaying xyz social media interface. The screen shows the username "@" 1K likes, and 12- 20 comments, with floating emojis (heart-eyes, smiley) around it. your preferred background..
+Trompe l'oeil illusion of A (subject) (attire) steps out of a large screen displaying xyz social media interface. The screen shows the username "@" 1K likes, and 12- 20 comments, with floating emojis (heart-eyes, smiley) around it. your preferred background.
 ```
 
 *Note: You can replace the [Theme/Dress Code] and [Heart Eyes Emoji, Smiling Face Emoji] in the prompt words.*
 
-**Example Submitted by:** [wowmarcomei](https://github.com/wowmarcomei)
 
-[⬆️ Back to Directory](#example-toc)
+**Submitter:** [wowmarcomei](https://github.com/wowmarcomei)
 
+---
 
-<a id="examples-64"></a>
-## Example 64: Steampunk Mechanical Fish (by [@f-is-h](https://github.com/f-is-h))
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-64"></a>
+### Case 64: Steampunk Mechanical Fish (by [@f-is-h](https://github.com/f-is-h))
 
 [Source Link](https://github.com/f-is-h/f-is-h/blob/main/images/streampank-fish-4.png)
 
-<img src="./examples/example_steampunk_fish.jpg" width="300" alt="Steampunk-style mechanical fish with brass body, visible gear mechanisms and multi-faceted ruby eyes">
+<img src="cases/64/example_steampunk_fish.jpg" width="300" alt="Steampunk Mechanical Fish">
 
-**Prompt:**
+**Prompt**
+
 ```
 A steampunk-style mechanical fish with a brass body and clearly visible gear mechanisms when in motion.
 Its mechanical teeth can be slightly seen, neatly arranged and closed, with both upper and lower teeth visible. Each tooth is triangular in shape and made of diamond material.
@@ -361,102 +677,127 @@ The entire fish looks very cool. This is a high-definition image with extremely 
 
 *Note: This image showcases an excellent combination of steampunk style and metallic textures, presenting intricate mechanical details and a retro-futuristic aesthetic.*
 
-[⬆️ Back to Directory](#example-toc)
 
+**Submitter:** [f-is-h](https://github.com/f-is-h)
 
-<a id="examples-63"></a>
-## Example 63: Emoji Cream Popsicle (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-63"></a>
+### Case 63: Emoji Cream Popsicle (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
 
 [Source Link](https://x.com/ZHO_ZHO_ZHO/status/1914574278911000967)
 
-<img src="./examples/example_ice_cream_emoji_strawberry.png" width="300" alt="Strawberry-shaped cream popsicle with a cream swirl on top, cute Q-version 3D style">
+<img src="cases/63/example_ice_cream_emoji_strawberry.png" width="300" alt="Emoji Cream Popsicle">
 
-**Prompt:**
+**Prompt**
+
 ```
-Turn 【🍓】 into a cream popsicle, with cream swirling deliciously on top, suspended at a 45-degree angle in the air, cute Q-version 3D style, solid background with matching color scheme.
+Generate an image: Transform the [🍓] into a creamy ice cream bar, with cream flowing in curved swirls on top, making it look delicious and tempting. The ice cream is floating at a 45-degree angle in mid-air, rendered in a cute chibi-style 3D aesthetic, set against a solid color background with a unified color palette.
 ```
 
 *Note: The 【🍓】 emoji in the prompt can be replaced with other emojis.*
 
-[⬆️ Back to Directory](#example-toc)
 
 
-<a id="examples-62"></a>
-## Example 62: Kawaii Enamel Pin (by [@gnrlyxyz](https://x.com/gnrlyxyz))
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-62"></a>
+### Case 62: Kawaii Enamel Pin (by [@gnrlyxyz](https://x.com/gnrlyxyz))
 
 [Source Link](https://x.com/gnrlyxyz/status/1914303110853583302)
 
-<img src="./examples/example_enamel_pins_pop_culture.jpeg" width="300" alt="Kawaii enamel pins of several pop culture characters (e.g., Terminator, Breaking Bad protagonist)">
+<img src="cases/62/example_enamel_pins_pop_culture.jpeg" width="300" alt="Kawaii Enamel Pin">
 
-**Prompt:**
+**Prompt**
+
 ```
 Turn the subject in the attached image into a kawaii enamel pin. Use glossy metal outlines and vibrant enamel fill. No extra added features. Square mockup format. White background.
 ```
 
+
 **Reference Image Required:** Needs a photo of a person or object as the subject for transformation.
 
-**Example Submitted by:** [StevenSong-sTs](https://github.com/StevenSong-sTs)
+**Submitter:** [StevenSong-sTs](https://github.com/StevenSong-sTs)
 
-[⬆️ Back to Directory](#example-toc)
+---
 
+[⬆️ Back to Cases Directory](#cases-toc)
 
-<a id="examples-61"></a>
-## Example 61: Fake Tweet Screenshot (Einstein) (by [@egeberkina](https://x.com/egeberkina))
+<a id="cases-61"></a>
+### Case 61: Fake Tweet Screenshot (Einstein) (by [@egeberkina](https://x.com/egeberkina))
 
 [Source Link](https://x.com/egeberkina/status/1914299716394778713)
 
-<img src="./examples/example_fake_tweet_einstein.jpeg" width="300" alt="Hyperrealistic Twitter post screenshot by Albert Einstein after finishing the theory of relativity, with chalkboard and equations in the background, liked by Nikola Tesla">
+<img src="cases/61/example_fake_tweet_einstein.jpeg" width="300" alt="Fake Tweet Screenshot (Einstein)">
 
-**Prompt:**
+**Prompt**
+
 ```
 a hyper realistic twitter post by Albert Einstein right after finishing the theory of relativity. include a selfie where you can clearly see scribbled equations and a chalkboard in the background. have it visible that the post was liked by Nikola Tesla
 ```
 
-[⬆️ Back to Directory](#example-toc)
 
 
-<a id="examples-60"></a>
-## Example 60: Emoji Tufted Rug (by [@gizakdag](https://x.com/gizakdag))
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-60"></a>
+### Case 60: Emoji Tufted Rug (by [@gizakdag](https://x.com/gizakdag))
 
 [Source Link](https://x.com/gizakdag/status/1913925062568144924)
 
-<img src="./examples/example_tufted_rug_dino_emoji.jpeg" width="300" alt="Hand-tufted rug in the shape of a dinosaur emoji 🦖">
+<img src="cases/60/example_tufted_rug_dino_emoji.jpeg" width="300" alt="Emoji Tufted Rug">
 
-**Prompt:**
+**Prompt**
+
 ```
 Create an image of a colorful, hand-tufted rug in the shape of 🦖 emoji, placed on a simple floor background. The rug has a bold, playful design with soft, fluffy texture and thick yarn details. Shot from above, in natural daylight, with a slightly quirky, DIY aesthetic. Vibrant colors, cartoonish outlines, and tactile, cozy material—similar to handmade tufted art rugs.
 ```
 
 *Note: The 🦖 emoji in the prompt can be replaced with other emojis.*
 
-[⬆️ Back to Directory](#example-toc)
 
 
-<a id="examples-59"></a>
-## Example 59: Colorful Vector Art Poster (by [@michaelrabone](https://x.com/michaelrabone))
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-59"></a>
+### Case 59: Colorful Vector Art Poster (by [@michaelrabone](https://x.com/michaelrabone))
 
 [Source Link](https://x.com/michaelrabone/status/1913865394139316291)
 
-<img src="./examples/example_vector_poster_london.png" width="300" alt="Colorful vector art poster of London">
+<img src="cases/59/example_vector_poster_london.png" width="300" alt="Colorful Vector Art Poster">
 
-**Prompt:**
+**Prompt**
+
 ```
 Barcelona Spain colourful summer vector art poster with big "BARCELONA" title at the top and smaller "SPAIN" title under
 ```
 
 *Note: Replace the city and country names in the prompt (e.g., replace "Barcelona Spain" and the titles with "London United Kingdom" to generate the example image). This style prompt also works for food, movies, music, etc.*
 
-[⬆️ Back to Directory](#example-toc)
 
 
-<a id="examples-58"></a>
-## Example 58: Cloud Art (by [@umesh_ai](https://x.com/umesh_ai))
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-58"></a>
+### Case 58: Cloud Art (by [@umesh_ai](https://x.com/umesh_ai))
 
 [Source Link](https://x.com/umesh_ai/status/1913628737872027805)
 
-<img src="./examples/example_cloud_art_dragon_great_wall.png" width="300" alt="Dragon formed by clouds above the Great Wall">
+<img src="cases/58/example_cloud_art_dragon_great_wall.png" width="300" alt="Cloud Art">
 
-**Prompt:**
+**Prompt**
+
 ```
 Generate image: A photograph captures a daytime scene with a [SUBJECT/OBJECT] formed by scattered clouds in the sky, positioned above a [LOCATION]
 ```
@@ -464,167 +805,213 @@ Generate image: A photograph captures a daytime scene with a [SUBJECT/OBJECT] fo
 *Note: The `[SUBJECT/OBJECT]` (shape formed by clouds) and `[LOCATION]` placeholders in the prompt can be replaced. The example image uses 'chinese dragon' as the subject and 'The Great Wall' as the location.*
 
 
-[⬆️ Back to Directory](#example-toc)
 
+---
 
-<a id="examples-57"></a>
-## Example 57: 8-Bit Pixel Icon (by [@egeberkina](https://x.com/egeberkina))
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-57"></a>
+### Case 57: 8-Bit Pixel Icon (by [@egeberkina](https://x.com/egeberkina))
 
 [Source Link](https://x.com/egeberkina/status/1913654508330058064)
 
-<img src="./examples/example_8bit_pixel_burger.jpeg" width="300" alt="8-bit pixel art style burger icon">
+<img src="cases/57/example_8bit_pixel_burger.jpeg" width="300" alt="8-Bit Pixel Icon">
 
-**Prompt:**
+**Prompt**
+
 ```
 Create a minimalist 8-bit pixel logo of [🍔], centered on a pure white background. Use a limited retro color palette with pixelated detailing, sharp edges, and clean blocky forms. The logo should be simple, iconic, and clearly recognizable in pixel art style — inspired by classic arcade game aesthetics.
 ```
 
 *Note: The `[🍔]` emoji in the prompt can be replaced with other emojis or subjects.*
 
-[⬆️ Back to Directory](#example-toc)
 
 
-<a id="examples-56"></a>
-## Example 56: Miniature 3D Building (by [@dotey](https://x.com/dotey))
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-56"></a>
+### Case 56: Miniature 3D Building (by [@dotey](https://x.com/dotey))
 
 [Source Link](https://x.com/dotey/status/1913759515700285569)
 
-<img src="./examples/example_miniature_starbucks_cup_building.jpeg" width="300" alt="3D Q-version miniature Starbucks cafe building shaped like a coffee cup">
+<img src="cases/56/example_miniature_starbucks_cup_building.jpeg" width="300" alt="Miniature 3D Building">
 
-**Prompt:**
+**Prompt**
+
 ```
-3D Q-version mini style, a fun-filled miniature Starbucks cafe that looks like a giant takeaway coffee cup, complete with a lid and straw. The building has two floors, with large glass windows clearly displaying the warm and exquisite interior design: wooden furniture, warm lighting, and busy baristas. Cute small figures walk or sit on the street, surrounded by benches, streetlights, and potted plants, creating a charming city corner. The overall style is urban miniature landscape, rich in detail, realistic, with soft lighting presenting a cozy afternoon feel.
+3D chibi-style miniature design of a whimsical Starbucks café, shaped like an oversized takeaway coffee cup complete with a lid and straw. The building has two floors, with large glass windows that clearly reveal a cozy and refined interior: wooden furniture, warm lighting, and busy baristas at work. On the street, cute little figurines are strolling or sitting, surrounded by benches, street lamps, and potted plants, creating a charming corner of the city. The overall aesthetic follows a detailed and realistic miniature cityscape style, with soft lighting that evokes a relaxing afternoon atmosphere.
 ```
+
 *Note: You can ask the AI to generate similar prompts for other buildings by referencing the prompt above. For example: "Referencing the prompt above, write a similar prompt for [Dunkin' Donuts], shaped like a [donut]".*
 
-[⬆️ Back to Directory](#example-toc)
 
 
-<a id="examples-55"></a>
-## Example 55: Low-Poly 3D Render (by [@azed_ai](https://x.com/azed_ai))
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-55"></a>
+### Case 55: Low-Poly 3D Render (by [@azed_ai](https://x.com/azed_ai))
 
 [Source Link](https://x.com/azed_ai/status/1912084257918595342)
 
-<img src="./examples/example_low_poly_lizard.jpeg" width="300" alt="Low-poly style 3D render of a lizard">
+<img src="cases/55/example_low_poly_lizard.jpeg" width="300" alt="Low-Poly 3D Render of a Lizard">
 
-**Prompt:**
+**Prompt**
+
 ```
 A low-poly 3D render of a [subject], built from clean triangular facets with flat [color1] and [color2] surfaces. The environment is a stylized digital desert with minimal geometry and ambient occlusion.
 ```
 
 *Note: The [subject] (the object to draw), [color1], and [color2] (colors) placeholders in the prompt can be replaced to generate different objects. For the example image shown, the subject is 'lizard', and colors 1/2 are 'olive green' and 'dusty brown' respectively.*
 
-[⬆️ Back to Directory](#example-toc)
 
 
-<a id="examples-54"></a>
-## Example 54: "Extremely Ordinary" iPhone Selfie (Eason & Nicholas) (by [@jiamimaodashu](https://x.com/jiamimaodashu))
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-54"></a>
+### Case 54: Extremely Ordinary iPhone Selfie (by [@jiamimaodashu](https://x.com/jiamimaodashu))
 
 [Source Link](https://x.com/jiamimaodashu/status/1912653073190879410)
 
-<img src="./examples/example_ordinary_selfie_eason_nicholas.jpeg" width="300" alt="'Extremely ordinary' iPhone selfie of Eason Chan and Nicholas Tse by Victoria Harbour, Hong Kong">
+<img src="cases/54/example_ordinary_selfie_eason_nicholas.jpeg" width="300" alt="Extremely Ordinary iPhone Selfie">
 
-**Prompt:**
+**Prompt**
+
 ```
-Please draw an extremely ordinary iPhone selfie, lacking a clear subject or sense of composition, like a snapshot taken casually. The photo has slight motion blur, and uneven sunlight or indoor lighting causes slight overexposure. The angle is awkward, the composition is chaotic, presenting an overall sense of deliberate mediocrity - like a selfie accidentally taken while pulling the phone out of a pocket. The subjects are Eason Chan and Nicholas Tse, at night, next to the Hong Kong Convention and Exhibition Centre, beside Victoria Harbour in Hong Kong.
+Please draw an extremely ordinary and unremarkable iPhone selfie, with no clear subject or sense of composition — just like a random snapshot taken casually. The photo should include slight motion blur, with uneven lighting caused by sunlight or indoor lights resulting in mild overexposure. The angle is awkward, the composition is messy, and the overall aesthetic is deliberately plain — as if it was accidentally taken while pulling the phone out of a pocket.
+The subjects are Eason Chan and Nicholas Tse, taken at night, next to the Hong Kong Convention and Exhibition Centre, by Victoria Harbour in Hong Kong.
 ```
 
 *Note: This prompt aims to generate a photo that looks very casual, even slightly like an accidental snapshot.*
 
-[⬆️ Back to Directory](#example-toc)
 
 
-<a id="examples-53"></a>
-## Example 53: Emoji Inflatable Cushion (by [@gizakdag](https://x.com/gizakdag))
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-53"></a>
+### Case 53: Emoji Inflatable Cushion (by [@gizakdag](https://x.com/gizakdag))
 
 [Source Link](https://x.com/gizakdag/status/1912858535643197927)
 
-<img src="./examples/example_emoji_cushion_pleading.jpeg" width="300" alt="Pleading face emoji designed as an inflatable cushion">
+<img src="cases/53/example_emoji_cushion_pleading.jpeg" width="300" alt="Emoji Inflatable Cushion">
 
-**Prompt:**
+**Prompt**
+
 ```
 Create a high-resolution 3D render of [🥹] designed as an inflatable, puffy object. The shape should appear soft, rounded, and air-filled — like a plush balloon or blow-up toy. Use a smooth, matte texture with subtle fabric creases and stitching to emphasize the inflatable look. The form should be slightly irregular and squishy, with gentle shadows and soft lighting that highlight volume and realism. Place it on a clean, minimal background (light gray or pale blue), and maintain a playful, sculptural aesthetic.
 ```
 
 *Note: The [🥹] emoji in the prompt can be replaced with other emojis.*
 
-[⬆️ Back to Directory](#example-toc)
 
 
-<a id="examples-52"></a>
-## Example 52: Paper Craft Style Emoji Icon (by [@egeberkina](https://x.com/egeberkina))
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-52"></a>
+### Case 52: Paper Craft Style Emoji Icon (by [@egeberkina](https://x.com/egeberkina))
 
 [Source Link](https://x.com/egeberkina/status/1912521263085482464)
 
-<img src="./examples/example_paper_craft_emoji_fire.jpeg" width="300" alt="Paper craft style fire emoji icon">
+<img src="cases/52/example_paper_craft_emoji_fire.jpeg" width="300" alt="Paper craft style fire emoji icon">
 
-**Prompt:**
+**Prompt**
+
 ```
 A paper craft-style "🔥" floating on a pure white background. The emoji is handcrafted from colorful cut paper with visible textures, creases, and layered shapes. It casts a soft drop shadow beneath, giving a sense of lightness and depth. The design is minimal, playful, and clean — centered in the frame with lots of negative space. Use soft studio lighting to highlight the paper texture and edges.
 ```
 
 *Note: The "🔥" emoji in the prompt can be replaced with other emojis.*
 
-[⬆️ Back to Directory](#example-toc)
 
 
-<a id="examples-51"></a>
-## Example 51: Passport Entry Stamp (by [@M_w14_](https://x.com/M_w14_))
+---
 
-[Source Link](https://x.com/M_w14_/status/1912146666410459618)
+[⬆️ Back to Cases Directory](#cases-toc)
 
-<img src="./examples/example_passport_stamp_rome.jpeg" width="300" alt="Passport entry stamp for Rome, Italy featuring the Colosseum">
+<a id="cases-51"></a>
+### Case 51: Passport Entry Stamp (by [@M_w14_](https://x.com/M_w14_))
 
-**Prompt (Structure by @M_w14_):**
+[Source Link1](https://x.com/M_w14_/status/1912146666410459618) | [Source Link2](https://x.com/ZHO_ZHO_ZHO/status/1912188562944250035)
+
+<img src="cases/51/example_passport_stamp_rome.jpeg" width="300" alt="Passport Entry Stamp">
+
+**Prompt**
+
 ```
 Create a realistic passport page with an entry stamp for [{City}, {Country}]. The stamp should say "Welcome to {City}" in bold English, designed in a round or oval shape with decorative borders. Include the word "ARRIVAL" and a fictional date like "15 APR 2025" Incorporate a subtle silhouette of {Main Landmark} as a background detail within the stamp. Use deep blue or red ink with light smudges for added realism. The stamp should appear slightly angled, as if hand-pressed. The passport page should show visible paper texture and security patterns.
 ```
 
-*Note: You can replace the city, country, landmark, and date placeholders. The example image uses "Rome", "Italy", "Colosseum", and "13 APR 2025" (date differs slightly from the base prompt structure).*
-
-[⬆️ Back to Directory](#example-toc)
+*Note: You can replace the city, country, landmark, and date placeholders. The example image uses "Rome", "Italy", "Colosseum", and "13 APR 2025" (date differs slightly from the base prompt structure). Prompt by [@M_w14_](https://x.com/M_w14_)*
 
 
-<a id="examples-50"></a>
-## Example 50: Physical Destruction Effect Card (Lara Croft) (by [@op7418](https://x.com/op7418))
 
-[Source Link 1](https://x.com/op7418/status/1912782048160542886)
-[Source Link 2](https://x.com/hc_dsn/status/1912367201476309396)
+---
 
-<img src="./examples/example_lara_croft_card_break.jpeg" width="300" alt="Lara Croft breaking through the border of an 'Archaeological Expeditions' card with physical destruction effects">
+[⬆️ Back to Cases Directory](#cases-toc)
 
-**Prompt:**
+<a id="cases-50"></a>
+### Case 50: Physical Destruction Effect Card (Lara Croft) (by [@op7418](https://x.com/op7418))
+
+[Source Link1](https://x.com/op7418/status/1912782048160542886) | [Source Link2](https://x.com/hc_dsn/status/1912367201476309396)
+
+<img src="cases/50/example_lara_croft_card_break.jpeg" width="300" alt="Physical Destruction Effect Card (Lara Croft)">
+
+**Prompt**
+
 ```
-A hyper-realistic, cinematic illustration depicting Lara Croft dynamically crashing through the border of an "Archaeological Expeditions" trading card. She is mid-leap or swinging on a rope, clad in iconic adventure gear, possibly firing dual pistols with muzzle flares helping to shatter the card's ancient stone-carved border, creating visible dimensional break effects around the breach like energy cracks and spatial distortion, sending dust and debris flying. Her body bursts forward energetically with significant motion depth, breaking the card's plane, while the card interior (background) depicts a lush jungle ruin or trap-filled tomb interior. Card debris mixes with crumbling stone, flying vines, ancient coin fragments, and spent bullet casings. The title "ARCHAEOLOGICAL EXPEDITIONS" and the name "LARA CROFT" (with a stylized artifact icon) are visible on the remaining cracked and weathered parts of the card. Adventurous, dynamic lighting highlights her athleticism and the perilous environment.
+An ultra-photorealistic, cinematic-style illustration depicting Lara Croft dynamically bursting through the frame of an “Archaeological Adventure” trading card. She is caught mid-jump or swinging on a rope, wearing her iconic adventurer outfit and possibly firing dual pistols. The muzzle flashes help shatter the card’s ancient stone-carved border, creating a visible dimensional rupture with energy cracks and spatial distortions, scattering dust and debris outward.
+
+Her body lunges forward with powerful momentum, breaking through the card’s flat plane, emphasizing strong motion depth. Inside the card (the background) is a depiction of dense jungle ruins or a trap-filled ancient tomb. The shattered card fragments mix with crumbling stone, flying vines, broken ancient coins, and spent shell casings.
+
+The title “Archaeological Adventure” and the name “Lara Croft” (accompanied by a stylized artifact icon) remain visible on the remaining cracked and weathered parts of the card. The scene is lit with adventurous, dynamic lighting that emphasizes her agility and the perilous environment.
 ```
+
 *Note: The original tweet mentioned key terms are "dimensional break effects" and "motion depth". The prompt above is a reconstruction based on the description.*
 
-[⬆️ Back to Directory](#example-toc)
 
 
-<a id="examples-49"></a>
-## Example 49: Fashion Magazine Cover Style (by [@dotey](https://x.com/dotey))
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-49"></a>
+### Case 49: Fashion Magazine Cover Style (by [@dotey](https://x.com/dotey))
 
 [Source Link](https://x.com/dotey/status/1912536019905233194)
 
-<img src="./examples/example_fashion_design_cover.jpeg" width="300" alt="Fashion magazine cover style photo of a woman in pink cheongsam with flowers and butterflies">
+<img src="cases/49/example_fashion_design_cover.jpeg" width="300" alt="Fashion Magazine Cover Style">
 
-**Prompt:**
+**Prompt**
+
 ```
-A beautiful woman wearing a pink cheongsam, floral headwear with colorful flowers in her hair, and an elegant white lace collar around her neck. She is holding large butterflies in one hand. The photography style features high-definition details, resembling a fashion magazine cover design. The text "FASHION DESIGN" is displayed at the top center of the photo. The background is a minimalist, light gray solid color, designed to highlight the model.
+A beautiful woman wearing a pink qipao, adorned with delicate floral accessories on her head and colorful blossoms woven into her hair. Around her neck is an elegant white lace collar. One of her hands gently holds several large butterflies. The overall photography style features high-definition detail and texture, resembling a fashion magazine cover. The word “FASHION DESIGN” is placed at the top center of the image. The background is a minimalist light gray, designed to highlight the subject.
 ```
 
-[⬆️ Back to Directory](#example-toc)
 
 
-<a id="examples-48"></a>
-## Example 48: Voxel Style 3D Icon Conversion (by [@BrettFromDJ](https://x.com/BrettFromDJ))
 
-[Source Link](https://x.com/BrettFromDJ/status/1910387413404234076)
+---
 
-<img src="./examples/example_voxel_icons.jpeg" width="300" alt="3D voxel-style icons">
+[⬆️ Back to Cases Directory](#cases-toc)
 
-**Prompt:**
+<a id="cases-48"></a>
+### Case 48: Voxel Style 3D Icon Conversion (by [@BrettFromDJ](https://x.com/BrettFromDJ))
+
+[Source Link1](https://x.com/BrettFromDJ/status/1910387413404234076) | [Source Link2](https://x.com/ZHO_ZHO_ZHO/status/1910671581962985788)
+
+<img src="cases/48/example_voxel_icons.jpeg" width="300" alt="3D voxel-style icons">
+
+**Prompt**
+
 ```
 Take the icon on the right and transform it into a voxel 3d icon like the icons in the left image. Octane render. 8k.
 ```
@@ -633,72 +1020,89 @@ Take the icon on the right and transform it into a voxel 3d icon like the icons 
 
 **Reference Image Required:** Requires uploading two images: a reference image showing the desired voxel style icons (like the one provided by the tweet author), and the original icon to be transformed.
 
-[⬆️ Back to Directory](#example-toc)
 
+---
 
-<a id="examples-47"></a>
-## Example 47: ESC Keycap Miniature Diorama (by [@egeberkina](https://x.com/egeberkina))
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-47"></a>
+### Case 47: ESC Keycap Miniature Diorama (by [@egeberkina](https://x.com/egeberkina))
 
 [Source Link](https://x.com/egeberkina/status/1911368319212408926)
 
-<img src="./examples/example_esc_keycap_diorama.jpeg" width="300" alt="Miniature computer setup diorama inside an ESC keycap">
+<img src="cases/47/example_esc_keycap_diorama.jpeg" width="300" alt="Miniature computer setup diorama inside an ESC keycap">
 
-**Prompt:**
+**Prompt**
+
 ```
 A hyper-realistic isometric 3D render of a miniature computer setup inside a translucent mechanical keyboard keycap, specifically placed on the ESC key of a real matte-finished mechanical keyboard. Inside the keycap, a tiny figure sits in a modern ergonomic chair, wearing a cozy textured hoodie, working at a glowing ultra-realistic computer screen. The environment is packed with lifelike miniature tech accessories: real-material desk lamps, monitors with reflections, tiny speaker grills, tangled cables, and ceramic mugs. The base of the scene is made of soil, rocks, and moss, with photorealistic textures and imperfections. The lighting inside the cap mimics natural morning sun, casting soft shadows and warm tones, while the outside has cold ambient reflections from the surrounding keyboard. The word “ESC” is subtly etched onto the top of the translucent keycap with a faint frosted glass effect — just barely visible depending on the angle. The surrounding keyboard keys like F1, Q, Shift, and CTRL are crisp, textured, and photorealistically lit. Shot as if taken with a high-end mobile phone camera, with shallow depth of field, perfect white balance, and cinematic detail.
 ```
 
-[⬆️ Back to Directory](#example-toc)
 
 
-<a id="examples-46"></a>
-## Example 46: Happy Capsule Creation (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-46"></a>
+### Case 46: Happy Capsule Creation (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
 
 [Source Link](https://x.com/ZHO_ZHO_ZHO/status/1911724629460455896)
 
-<img src="./examples/example_happy_capsule.png" width="300" alt="Happy Capsule">
+<img src="cases/46/example_happy_capsule.png" width="300" alt="Happy Capsule">
 
-**Prompt:**
+**Prompt**
+
 ```
-Title (large font): Quick-acting Happy Capsules
-
-A small pill with Starbucks green on top and transparent on the bottom, with the Starbucks logo printed on it and a lot of coffee beans inside
-
-Instructions (small font): Please take it when you are sad, three times a day, two pills at a time
-
-The purchase button is the same color as the pill, and the price below is $9. Please follow the doctor's advice and purchase as appropriate
+Title (large text): Fast-Acting Happiness Capsule
+A capsule pill with a green top in Starbucks green and a transparent bottom, printed with the Starbucks logo. Inside the capsule are numerous coffee beans.
+Description (small text): Take when feeling sad or down. Three times a day, two capsules per dose.
+Buy button: Same color as the capsule.
+Below the button, display the price: $9.
+Please follow medical advice and purchase as needed.
 ```
 
-[⬆️ Back to Directory](#example-toc)
 
 
-<a id="examples-45"></a>
-## Example 45: 3D Q-version University Anthropomorphic Mascot (by [@dotey](https://x.com/dotey))
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-45"></a>
+### Case 45: 3D Chibi-style University Anthropomorphic Mascot (by [@dotey](https://x.com/dotey))
 
 [Source Link](https://x.com/dotey/status/1911988003729203648)
 
-<img src="./examples/example_university_mascot_npu.jpeg" width="300" alt="Anthropomorphic 3D Q-version cute girl mascot for Northwestern Polytechnical University, showcasing aerospace and maritime features">
+<img src="cases/45/example_university_mascot_npu.jpeg" width="300" alt="3D Chibi-style University Anthropomorphic Mascot">
 
-**Prompt:**
+**Prompt**
+
 ```
-給【西北工业大学】画一个拟人化的3D Q版美少女形象，体现学校【航空航天航海三航】特色
+Create a personified 3D chibi-style anime girl character representing {Northwestern Polytechnical University}, embodying the school’s distinctive strengths in {aeronautics, astronautics, and marine engineering}.
 ```
-*Note: The university name 【西北工业大学】 (Northwestern Polytechnical University) and characteristic description 【航空航天航海三航】 (Aeronautics, Astronautics, and Marine Technology - "Three Ais") within the square brackets can be replaced to generate anthropomorphic mascots for different universities.*
 
-[⬆️ Back to Directory](#example-toc)
+*Note: Replace the university name {Northwestern Polytechnical University} and characteristic description {Aeronautics, Astronautics, and Marine Technology - "Three Ais"} within the square brackets to generate anthropomorphic mascots for different universities.*
 
 
-<a id="examples-44"></a>
-## Example 44: RPG-Style Character Card Creation (by [@berryxia_ai](https://x.com/berryxia_ai))
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-44"></a>
+### Case 44: RPG-Style Character Card Creation (by [@berryxia_ai](https://x.com/berryxia_ai))
 
 [Source Link](https://x.com/berryxia_ai/status/1911334046724165905)
 
-<img src="./examples/example_rpg_card_designer.png" width="300" alt="RPG-style character card for a Designer">
+<img src="cases/44/example_rpg_card_designer.png" width="300" alt="RPG-Style Character Card Creation">
 
-**Prompt:**
+**Prompt**
+
 ```
 Create a digital character card in RPG collectible style.
-The subject is a 【Programmer】, standing confidently with tools or symbols relevant to their job.
+The subject is a {Programmer}, standing confidently with tools or symbols relevant to their job.
 Render it in 3D cartoon style, soft lighting, vivid personality.
 Include skill bars or stats like [Skill1 +x], [Skill2 +x, e.g., Creativity +10, UI/UX +8].
 Add a title banner on top and a nameplate on the bottom.
@@ -707,393 +1111,518 @@ Make the background fit the profession's theme.
 Colors: warm highlights, profession-matching hues.
 ```
 
-Note: Replace the 【】 placeholder in the prompt with specifics like "Designer", "Doctor", etc.
+*Note: Replace the {Programmer} placeholder in the prompt with specifics like "Designer", "Doctor", etc.*
 
 **Reference Image Required:** Optional. Can be generated based on profession/role description or use an uploaded photo as reference.
 
-[⬆️ Back to Directory](#example-toc)
 
+---
 
-<a id="examples-43"></a>
-## Example 43: Q-version Cute Matryoshka Dolls (Girl with a Pearl Earring) (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-43"></a>
+### Case 43: Cute Chibi Matryoshka Dolls (Girl with a Pearl Earring) (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
 
 [Source Link](https://x.com/ZHO_ZHO_ZHO/status/1911669883315818497)
 
-<img src="./examples/example_matryoshka_pearl_earring.png" width="300" alt="Q-version Girl with a Pearl Earring as Matryoshka dolls">
+<img src="cases/43/example_matryoshka_pearl_earring.png" width="300" alt="Cute Chibi Matryoshka Dolls (Girl with a Pearl Earring)">
 
-**Prompt:**
+**Prompt**
+
 ```
-把图片人物生成变成 Q 版可爱俄罗斯套娃🪆，大到小一共五个，放在精致的木桌上，横幅4:3比例
+Transform the person in the image into a set of cute chibi-style Russian nesting dolls (🪆), with a total of five dolls arranged from largest to smallest. Place them on an elegant wooden table. Horizontal aspect ratio: 3:2.
 ```
 
-*Note: The aspect ratio description in the prompt has been slightly modified. See the source link for the original prompt.*
 
 **Reference Image Required:** Requires uploading a person's image as the subject for transformation (The original post used ['Girl with a Pearl Earring'](./references/Meisje_met_de_parel.jpg)).
 
-[⬆️ Back to Directory](#example-toc)
 
+---
 
-<a id="examples-42"></a>
-## Example 42: 3D Q-version Couple Snow Globe (by [@balconychy](https://x.com/balconychy))
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-42"></a>
+### Case 42: 3D Q-version Couple Snow Globe (by [@balconychy](https://x.com/balconychy))
 
 [Source Link](https://x.com/balconychy/status/1909908568129655248)
 
-<img src="./examples/example_3d_q_snowglobe_couple.jpeg" width="300" alt="3D Q-version couple inside a snow globe on a desk by a window">
+<img src="cases/42/example_3d_q_snowglobe_couple.jpeg" width="300" alt="3D Chibi Couple Snow Globe">
 
-**Prompt:**
+**Prompt**
+
 ```
-将附图中的人物转换成水晶球场景。 整体环境：水晶球放在窗户旁桌面上，背景模糊，暖色调。阳光透过球体，洒下点点金光，照亮了周围的黑暗。 水晶球内部：人物是可爱Q版3D造型，相互之间满眼的爱意。
+Transform the person in the attached image into a snow globe scene.
+Overall environment: The snow globe is placed on a tabletop by the window, with a blurred, warm-toned background. Sunlight passes through the globe, casting golden sparkles that gently illuminate the surrounding darkness.
+Inside the globe: The characters are in a cute chibi-style 3D design, gazing at each other with eyes full of love.
 ```
+
 
 **Reference Image Required:** A photo of a couple or another person.
 
-[⬆️ Back to Directory](#example-toc)
 
+---
 
-<a id="examples-41"></a>
-## Example 41: Miniature Diorama (Monkey King Fights White Bone Demon) (by [@dotey](https://x.com/dotey))
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-41"></a>
+### Case 41: Miniature Three-dimensional Scene Presentation (by [@dotey](https://x.com/dotey))
 
 [Source Link](https://x.com/dotey/status/1911609122547449886)
 
-<img src="./examples/example_miniature_journey_west.jpeg" width="300" alt="Miniature Q-version diorama of Journey to the West (Monkey King fights White Bone Demon) in tilt-shift photography style">
+<img src="cases/41/example_miniature_journey_west.jpeg" width="300" alt="Miniature Three-dimensional Scene Presentation">
 
-**Prompt:**
+**Prompt**
+
 ```
-微型立体场景呈现，运用移轴摄影的技法，呈现出Q版【孙悟空三打白骨精】场景
+Miniature three-dimensional scene presentation using tilt-shift photography techniques, depicting a chibi-style version of the scene {Sun Wukong’s Three Battles with the White Bone Demon}
 ```
-*Note: The Chinese text within the brackets 【孙悟空三打白骨精】 (Sun Wukong San Da Baigu Jing - Monkey King Thrice Defeats the White Bone Demon) in the prompt can be replaced with other Chinese scenes, such as "孙悟空大闹天宫" (Sun Wukong Da Nao Tiangong - Monkey King Wreaks Havoc in Heaven), "哪吒闹海" (Nezha Nao Hai - Nezha Fights the Sea Dragon), "武松打虎" (Wu Song Da Hu - Wu Song Fights the Tiger), "黛玉葬花" (Daiyu Zang Hua - Daiyu Buries Flowers), or "关云长过五关斩六将" (Guan Yunchang Guo Wu Guan Zhan Liu Jiang - Guan Yu Passes Five Gates and Slays Six Generals), according to the original tweet.*
 
-[⬆️ Back to Directory](#example-toc)
+*Note: The content in brackets can be replaced with Western scenes such as “Hercules Slaying the Hydra” or “King Arthur Pulls the Sword from the Stone.”*
 
 
-<a id="examples-40"></a>
-## Example 40: Japanese-style Two-Panel Manga (Angry Girl President) (by [@hellokaton](https://x.com/hellokaton))
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-40"></a>
+### Case 40: Japanese-style Two-Panel Manga (Angry Girl President) (by [@hellokaton](https://x.com/hellokaton))
 
 [Source Link](https://x.com/hellokaton/status/1910900979194646959)
 
-<img src="./examples/example_two_panel_manga_president.jpeg" width="300" alt="Two-panel cute Japanese manga showing a girl president upset about a phone call, then angrily raising tariffs">
+<img src="cases/40/example_two_panel_manga_president.jpeg" width="300" alt="Two-panel Cute Japanese Manga">
 
-**Prompt:**
-```
-创建一张日系萌系双格漫画，上下排列，主题：少女总统的工作日常。
-
-角色形象: 将上传的附件转换为日系萌系卡通女生形象的风格，保留原图所有细节，如服饰（西装）、发型（明亮的金黄色）、五官等。 
-
-第一格: 
-- 表情: 委屈巴巴，沮丧的表情，单手托腮 
-- 文字框: “肿么办嘛！他不跟我通话！(；´д｀)” 
-- 场景: 暖色调办公室，背后美国国旗，桌上放着一堆汉堡，一个复古红色转盘电话，人物在画面左边，电话在右边。  
-
-第二格:  
-- 表情: 咬牙切齿，暴怒，脸涨红 
-- 动作: 猛拍桌子，汉堡震得跳起来 
-- 文字泡: “哼！关税加倍！不理我是他们的损失！( `д´ )” - 场景: 和第一格相同，但一片狼藉。  
-
-其他说明:  
-- 文字采用简洁可爱的手写体，整体风格可爱而有趣。 
-- 构图饱满生动，请保留足够空间用于文字显示，适当留白。 
-- 图片比例 2:3。 
-- 画面整体色彩鲜艳，突出卡通风格。
+**Prompt**
 
 ```
+Create a two-panel vertical manga in a cute Japanese anime style, theme: “The Daily Work Life of a Girl President.”
+
+Character Design:
+Transform the person in the uploaded image into a cute, moe-style anime girl while preserving all key details from the photo — including the outfit (a suit), hairstyle (bright golden-yellow), and facial features.
+
+Panel 1:
+- Expression: Pouting, disappointed, resting her cheek on one hand
+- Text box: “What do I dooo?! He won’t take my call! (；´д｀)”
+- Scene: Warm-toned office, with the U.S. flag in the background. On the desk: a pile of hamburgers and a vintage red rotary phone. The character is on the left side of the frame, the phone on the right.
+
+Panel 2:
+- Expression: Furious, face red with anger, gritting teeth
+- Action: Slams the desk hard, making the hamburgers jump
+- Speech bubble: “Hmph! Double the tariffs! Ignoring me is their loss! ( `д´ )”
+- Scene: Same office, now a complete mess
+
+Additional Notes:
+- Use a cute, casual handwritten font for all text
+- Keep the composition full and expressive, with adequate space for dialogue and intentional white space
+- Aspect ratio: 2:3
+- The overall visual tone should be colorful and energetic, with a distinctly cartoony style
+```
+
+
 **Reference Image Required:** A photo of a person is needed for reference.
 
-[⬆️ Back to Directory](#example-toc)
 
+---
 
-<a id="examples-39"></a>
-## Example 39: Cartoon Illustration (Computer Head) (by [@dotey](https://x.com/dotey))
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-39"></a>
+### Case 39: Fantasy Cartoon Illustration (by [@dotey](https://x.com/dotey))
 
 [Source Link](https://x.com/dotey/status/1905103477879267823)
 
-<img src="./examples/example_fantasy_computer_head_portal.jpeg" width="300" alt="Cartoon character with a computer monitor head jumping through a portal in a fantasy forest">
+<img src="cases/39/example_fantasy_computer_head_portal.jpeg" width="300" alt="Fantasy Cartoon Illustration">
 
-**Prompt:**
+**Prompt**
+
 ```
 A cartoon-style character with a smiling computer monitor as its head, wearing gloves and boots, happily jumping through a glowing, blue, circular portal in a lush, fantasy forest landscape. The forest is detailed with large trees, mushrooms, flowers, a serene river, floating islands, and an atmospheric starry night sky with multiple moons. Bright, vibrant colors with soft lighting, fantasy illustration style.
 ```
 
-[⬆️ Back to Directory](#example-toc)
 
 
-<a id="examples-38"></a>
-## Example 38: Hand-drawn Infographic Card (IP) (by [@dotey](https://x.com/dotey))
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-38"></a>
+### Case 38: Hand-drawn Infographic Card (by [@dotey](https://x.com/dotey))
 
 [Source Link](https://x.com/dotey/status/1907870919852179850)
 
-<img src="./examples/example_hand_drawn_infographic.jpeg" width="300" alt="Hand-drawn infographic card in Chinese stating that building an IP yields long-term compound interest">
+<img src="cases/38/example_hand_drawn_infographic.jpeg" width="300" alt="Hand-drawn Infographic Card">
 
-**Prompt:**
+**Prompt**
+
 ```
-创作一张手绘风格的信息图卡片，比例为9:16竖版。卡片主题鲜明，背景为带有纸质肌理的米色或米白色，整体设计体现质朴、亲切的手绘美感。
+Create a hand-drawn style infographic card in a 9:16 vertical format. The card should have a clear theme, with a beige or off-white paper-textured background. The overall design should reflect a simple, warm, and handmade aesthetic.
 
-卡片上方以红黑相间、对比鲜明的大号毛笔草书字体突出标题，吸引视觉焦点。文字内容均采用中文草书，整体布局分为2至4个清晰的小节，每节以简短、精炼的中文短语表达核心要点。字体保持草书流畅的韵律感，既清晰可读又富有艺术气息。周边适当留白。
+At the top of the card, use large, eye-catching brush-style Chinese cursive calligraphy in red and black for the title, creating strong visual contrast. All text should be in Chinese cursive script. The layout should be divided into 2 to 4 clear sections, each conveying a core idea through concise and refined Chinese phrases. The calligraphy should maintain a fluid, rhythmic style that is both legible and artistically expressive. Leave appropriate blank space around the text.
 
-卡片中点缀简单、有趣的手绘插画或图标，例如人物或象征符号，以增强视觉吸引力，引发读者思考与共鸣。整体布局注意视觉平衡，预留足够的空白空间，确保画面简洁明了，易于阅读和理解。
-“做 IP 是长期复利
-坚持每日更新，肯定会有结果，因为 99% 都坚持不了的！”
+The card should be accented with simple and fun hand-drawn illustrations or icons — such as figures or symbolic elements — to enhance visual appeal and spark thought or emotional resonance. The overall layout should emphasize visual balance and include ample whitespace, ensuring the design is clean, clear, and easy to read.
+
+“Building a personal brand (IP) is long-term compounding.
+Keep updating daily, and results will come — because 99% of people can’t keep it up!”
 ```
 
-[⬆️ Back to Directory](#example-toc)
 
 
-<a id="examples-37"></a>
-## Example 37: Social Media Post Doodle Overlay (by [@op7418](https://x.com/op7418))
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-37"></a>
+### Case 37: Social Media Post Doodle Overlay (by [@op7418](https://x.com/op7418))
 
 [Source Link](https://x.com/op7418/status/1906208691877253536)
 
-<img src="./examples/example_social_media_doodle.jpeg" width="300" alt="Screenshot of a social media post covered in frantic red ink doodles, annotations, and drawings">
+<img src="cases/37/example_social_media_doodle.jpeg" width="300" alt="Social Media Post Doodle Overlay">
 
-**Prompt:**
+**Prompt**
+
 ```
-生成图片，把它打印出来，然后用红墨水疯狂地加上手写中文批注、涂鸦、乱画，如果你想的话，还可以加点小剪贴画
+Generate an image, print it out, then go wild with red ink — cover it in handwritten Chinese annotations, doodles, and messy scribbles. If you’d like, you can even add some small collage elements.
 ```
+
+
 **Reference Image Required:** A photo or screenshot.
 
-[⬆️ Back to Directory](#example-toc)
 
+---
 
-<a id="examples-36"></a>
-## Example 36: Minimalist 3D Illustration (Text Prompt) (by [@dotey](https://x.com/dotey))
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-36"></a>
+### Case 36: Minimalist 3D Illustration (Markdown Format) (by [@dotey](https://x.com/dotey))
 
 [Source Link](https://x.com/dotey/status/1907131027253772399)
 
-<img src="./examples/example_minimalist_3d_toilet_txt.jpeg" width="300" alt="Minimalist 3D illustration of a toilet generated from a detailed text-based style description">
+<img src="cases/36/example_minimalist_3d_toilet_txt.jpeg" width="300" alt="Minimalist 3D Illustration">
 
-**Prompt:**
-```
-画一个马桶：
-
-## 艺术风格简介：极简主义3D插画（Minimalist 3D Illustration）
-
-### 🎨 视觉元素（Visual Elements）
-
-#### 🟢 造型语言（Shape Language）
-- 圆润的边缘、平滑柔和的外形，采用简化几何造型。
-
-#### 🎨 色彩（Colors）
-- **主色调：** 柔和米色、浅灰色、暖橙色。
-- **强调色：** 暖橙色用于焦点元素。
-- **明暗处理：** 柔和渐变，平滑过渡，避免强烈的阴影和高光。
-
-#### 💡 光照（Lighting）
-- **类型：** 柔和、漫反射光照。
-- **光源方向：** 上方稍偏右。
-- **阴影风格：** 微妙且漫射，无锐利或高对比度的阴影。
-
-#### 🧱 材质（Materials）
-- **表面纹理：** 哑光、平滑的表面，带有微妙的明暗变化。
-- **反射性：** 低或无，避免明显的光泽。
-
-#### 🖼️ 构图（Composition）
-- **对象呈现：** 单一、居中的物体，周围留出大量负空间。
-- **视角：** 轻微倾斜视角，呈现适度的三维感，但无明显的景深效果。
-- **背景：** 纯色、低饱和度，与主体协调且不干扰视线。
-
-#### ✒️ 字体排版（Typography）
-- **字体风格：** 极简、无衬线字体。
-- **文字位置：** 左下角，尺寸小巧且不突出。
-- **字体颜色：** 灰色，与背景形成低对比度。
-
-#### 🖥️ 渲染风格（Rendering Style）
-- **技术手法：** 3D渲染，采用简化的低多边形风格。
-- **细节程度：** 中等细节，以形状和色彩为主，避免复杂纹理和细节。
-
-### 🎯 风格目标（Purpose）
-> 创建干净、美观的视觉效果，强调简洁、亲和和现代感。
+**Prompt**
 
 ```
+Draw a Toilet
 
-[⬆️ Back to Directory](#example-toc)
+## 🎨 Art Style: Minimalist 3D Illustration
+
+### 🟢 Shape Language
+- Rounded edges and smooth, soft forms using simplified geometric shapes.
+
+### 🎨 Colors
+- **Primary palette:** soft beige, light gray, warm orange.  
+- **Accent color:** warm orange for focal elements.  
+- **Shading:** gentle gradients and smooth transitions, avoiding harsh shadows and highlights.
+
+### 💡 Lighting
+- **Type:** soft, diffuse lighting.  
+- **Light source direction:** from above, slightly to the right.  
+- **Shadow style:** subtle and diffused, without sharp or high-contrast shadows.
+
+### 🧱 Materials
+- **Surface texture:** matte and smooth with subtle light variation.  
+- **Reflectivity:** low to none, avoiding noticeable gloss.
+
+### 🖼️ Composition
+- **Object presentation:** a single, centered object with generous negative space around it.  
+- **Perspective:** slight tilt to suggest depth, but no strong depth-of-field effects.  
+- **Background:** flat color, low saturation, harmonious with the subject and non-distracting.
+
+### ✒️ Typography
+- **Font style:** minimalist sans-serif.  
+- **Text placement:** bottom left corner, small and unobtrusive.  
+- **Font color:** gray, low contrast with the background.
+
+### 🖥️ Rendering Style
+- **Technique:** 3D rendering in a simplified low-poly style.  
+- **Detail level:** medium — focus on shape and color, avoiding complex textures or fine details.
+
+## 🎯 Style Goal
+> Create a clean and aesthetically pleasing visual that emphasizes simplicity, approachability, and modernity.
+```
 
 
-<a id="examples-35"></a>
-## Example 35: Fluffy Jack-o'-lantern (by [gizakdag](https://x.com/gizakdag))
 
-[Source Link 1](https://x.com/gizakdag/status/1911075302941622512)
-[Source Link 2](https://x.com/dotey/status/1912276883196039520)
 
-<img src="./examples/example_fluffy_pumpkin.jpeg" width="300" alt="Hyperrealistic 3D render of a jack-o'-lantern emoji covered in soft orange fur">
+---
 
-**Prompt:**
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-35"></a>
+### Case 35: Fluffy Jack-o'-lantern (by [gizakdag](https://x.com/gizakdag))
+
+[Source Link1](https://x.com/gizakdag/status/1911075302941622512) | [Source Link2](https://x.com/dotey/status/1912276883196039520)
+
+<img src="cases/35/example_fluffy_pumpkin.jpeg" width="300" alt="Fluffy Jack-o'-lantern">
+
+**Prompt**
+
 ```
 Transform a simple flat vector icon of [🎃] into a soft, 3D fluffy object. The shape is fully covered in fur, with hyperrealistic hair texture and soft shadows. The object is centered on a clean, light gray background and floats gently in space. The style is surreal, tactile, and modern, evoking a sense of comfort and playfulness. Studio lighting, high-resolution render.
 ```
 
-[⬆️ Back to Directory](#example-toc)
 
 
-<a id="examples-34"></a>
-## Example 34: Hand-drawn Infographic Card (Cognition) (by [@dotey](https://x.com/dotey))
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-34"></a>
+### Case 34: Hand-drawn Infographic Card (Cognition) (by [@dotey](https://x.com/dotey))
 
 [Source Link](https://x.com/dotey/status/1907903480678985784)
 
-<img src="./examples/example_hand_drawn_infographic_cognition.jpeg" width="300" alt="Hand-drawn infographic card in Chinese discussing cognition and social circles determining limits and opportunities">
+<img src="cases/34/example_hand_drawn_infographic_cognition.jpeg" width="300" alt="Hand-drawn Infographic Card">
 
-**Prompt:**
+**Prompt**
+
 ```
-创作一张手绘风格的信息图卡片，比例为9:16竖版。卡片主题鲜明，背景为带有纸质肌理的米色或米白色，整体设计体现质朴、亲切的手绘美感。
+Create a hand-drawn style infographic card in vertical 9:16 ratio. The card should have a clear theme, with a beige or off-white paper-textured background. The overall design should convey a rustic, friendly, and handmade aesthetic.
 
-卡片上方以红黑相间、对比鲜明的大号毛笔草书字体突出标题，吸引视觉焦点。文字内容均采用中文草书，整体布局分为2至4个清晰的小节，每节以简短、精炼的中文短语表达核心要点。字体保持草书流畅的韵律感，既清晰可读又富有艺术气息。
+At the top of the card, feature a bold, eye-catching title in large Chinese cursive brush calligraphy using contrasting red and black colors. All text content should be in Chinese cursive script, and the layout should be divided into 2 to 4 clear sections. Each section expresses a core idea with brief and concise Chinese phrases. The cursive font should retain a smooth, rhythmic flow, remaining legible while carrying artistic appeal.
 
-卡片中点缀简单、有趣的手绘插画或图标，例如人物或象征符号，以增强视觉吸引力，引发读者思考与共鸣。
-整体布局注意视觉平衡，预留足够的空白空间，确保画面简洁明了，易于阅读和理解。
+The card should include simple, playful hand-drawn illustrations or icons, such as figures or symbolic elements, to enhance visual interest and spark reader reflection or emotional resonance.
 
-<h1><span style="color:red">「认知」</span>决定上限
-<span style="color:red">「圈子」</span>决定机会</h1>
-- 你赚不到「认知」以外的钱，
-- 也遇不到「圈子」以外的机会。
+The overall layout should maintain visual balance, with ample white space reserved to ensure clarity, simplicity, and ease of reading and understanding.
+<h1><span style="color:red">“Cognition”</span> defines your ceiling  
+<span style="color:red">“Circle”</span> defines your opportunities</h1>  
+– You can’t earn money beyond your level of cognition,  
+– Nor encounter opportunities beyond your social circle.
 ```
 
-[⬆️ Back to Directory](#example-toc)
 
 
-<a id="examples-33"></a>
-## Example 33: Family Wedding Photo (Q-version) (by [@balconychy](https://x.com/balconychy))
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-33"></a>
+### Case 33: Family Wedding Photo (Q-version) (by [@balconychy](https://x.com/balconychy))
 
 [Source Link](https://x.com/balconychy/status/1909426314643222595)
 
-<img src="./examples/example_family_wedding_photo_q.jpeg" width="300" alt="Q-version 3D family portrait with parents in wedding attire and child as flower bearer, framed">
+<img src="cases/33/example_family_wedding_photo_q.jpeg" width="300" alt="Q-version 3D Family Portrait">
 
-**Prompt:**
+**Prompt**
+
 ```
-将照片里的转换成Q版 3D人物，父母婚礼服饰，孩子是美丽的花童。 父母，西式婚礼服饰，父亲礼服，母亲婚纱。孩子手捧鲜花。 背景是五彩鲜花做的拱门。 除了人物是3D Q版，环境其他都是写实。 整体放在一个相框里。
+Transform the people in the photo into chibi-style 3D characters. The parents are dressed in Western wedding attire — the father in a formal suit, the mother in a wedding gown. The child is a beautiful flower girl holding a bouquet.
+
+The background features a colorful floral arch.
+The characters are in 3D chibi style, while the environment is photorealistic.
+The entire scene is placed inside a photo frame.
 ```
+
+
 **Reference Image Required:** A family photo.
 
-[⬆️ Back to Directory](#example-toc)
 
+---
 
-<a id="examples-32"></a>
-## Example 32: Paper Cutout Style Job Ad (by [@dotey](https://x.com/dotey))
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-32"></a>
+### Case 32: Paper Cutout Style Job Ad (by [@dotey](https://x.com/dotey))
 
 [Source Link](https://x.com/dotey/status/1905021792642564406)
 
-<img src="./examples/example_paper_cutout_job_ad.jpeg" width="300" alt="Job advertisement for drivers using a paper cutout art style">
+<img src="cases/32/example_paper_cutout_job_ad.jpeg" width="300" alt="Paper Cutout Style Job Ad">
 
-**Prompt:**
+**Prompt**
+
 ```
 The image shows professional drivers of cars and trucks at work, impressive urban and rural speeds, a positive team environment and modern visuals of the fleet - all this advertises a vacancy for drivers with competitive pay, flexible working hours and a clear call to institutions: "Apply today - we will start tomorrow!"
 ```
 
-[⬆️ Back to Directory](#example-toc)
 
 
-<a id="examples-31"></a>
-## Example 31: Anime Sticker Collection (by [@richardchang](https://x.com/richardchang))
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-31"></a>
+### Case 31: Anime Sticker Collection (by [@richardchang](https://x.com/richardchang))
 
 [Source Link](https://x.com/richardchang/status/1909086122959139312)
 
-<img src="./examples/example_naruto_stickers.jpeg" width="300" alt="Collection of various Naruto character stickers">
+<img src="cases/31/example_naruto_stickers.jpeg" width="300" alt="Anime Sticker Collection">
 
-**Prompt:**
+**Prompt**
+
 ```
 Naruto stickers
 ```
 
-[⬆️ Back to Directory](#example-toc)
 
 
-<a id="examples-30"></a>
-## Example 30: 35mm Film Style Flying Island (by [@dotey](https://x.com/dotey))
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-30"></a>
+### Case 30: 35mm Film Style Flying Island (by [@dotey](https://x.com/dotey))
 
 [Source Link](https://x.com/dotey/status/1905020833451348283)
 
-<img src="./examples/example_35mm_moscow_flying_island.jpeg" width="300" alt="35mm film photo aesthetic showing Moscow cityscape on a flying island in the sky">
+<img src="cases/30/example_35mm_moscow_flying_island.jpeg" width="300" alt="35mm Film Style Flying Island">
 
-**Prompt:**
+**Prompt**
+
 ```
-35 mm photo of Moscow floating in the sky on a flying islands
+35 mm photo of Moscow floating in the sky on a flying islands.
 ```
 
-[⬆️ Back to Directory](#example-toc)
 
 
-<a id="examples-29"></a>
-## Example 29: Famous Painting Character OOTD (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-29"></a>
+### Case 29: Famous Painting Character OOTD (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
 
 [Source Link](https://x.com/ZHO_ZHO_ZHO/status/1909892294217781714)
 
-<img src="./examples/example_pearl_earring_ootd.png" width="300" alt="Outfit of the Day (OOTD) concept for 'Girl with a Pearl Earring' as a fashion designer, Q-version 3D style">
+<img src="cases/29/example_pearl_earring_ootd.png" width="300" alt="Famous Painting Character OOTD">
 
-**Prompt:**
+**Prompt**
+
 ```
-为图片人物生成不同职业风的OOTD，时尚穿搭和配饰，和人物色系一致的纯色背景，Q版 3d，c4d渲染，保持人脸特征，姿势都要保持一致，人物的比例腿很修长
+Generate a Q-style 3D C4D-rendered character based on the person in the photo, dressed in a fashion-forward “outfit of the day” (OOTD) inspired by a specific profession.
+Profession: Fashion Designer
+– Keep the original facial features and character pose
+– Stylize the character with a cute, long-legged chibi proportion
+– Outfit and accessories should reflect the profession, including trendy designer wear, glasses, sketchbook or tablet, and stylish shoes
+– Match the outfit with fashion accessories to complete the look
+– Use a solid background color that complements the character’s overall color palette (no gradients or textures)
 
-构图：9:16
-顶部文字：OOTD，左侧为人物ootd q版形象，右侧为穿搭的单件展示
-
-先来第一个职业：时尚设计师
+Composition: Aspect ratio: 9:16
+Top text: “OOTD”
+Left side: the full-body chibi character wearing the complete outfit
+Right side: individual clothing items and accessories laid out separately, as if in a style breakdown
 ```
+
+
 **Reference Image Required:** [Image of 'Girl with a Pearl Earring'](./references/Meisje_met_de_parel.jpg).
 
-[⬆️ Back to Directory](#example-toc)
 
+---
 
-<a id="examples-28"></a>
-## Example 28: Flat Sticker Design (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-28"></a>
+### Case 28: Flat Sticker Design (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
 
 [Source Link](https://x.com/ZHO_ZHO_ZHO/status/1908044836953108490)
 
-<img src="./examples/example_flat_sticker_pearl_earring.jpeg" width="300" alt="Minimalist flat illustration style Q-version sticker of 'Girl with a Pearl Earring' with a thick white border">
+<img src="cases/28/example_flat_sticker_pearl_earring.jpeg" width="300" alt="Flat Sticker Design">
 
-**Prompt:**
+**Prompt**
+
 ```
-把这张照片设计成一个极简扁平插画风格的Q版贴纸，厚白边，保留人物特征，风格要可爱一些，人物要超出圆形区域边框，圆形区域要为纯色不要3d感，透明背景
+Turn this photo into a chibi-style sticker illustration in a minimalist flat design.
+– Keep the character’s recognizable features
+– Use a cute, simplified aesthetic
+– The sticker should have a thick white border
+– The character should break out of the circular frame, adding a playful touch
+– The circular base should be a solid flat color (no 3D or gradients)
+– Background should be transparent
+The overall style should be clean, modern, and visually appealing for use as a fun Q-version sticker.
 ```
+
+
 **Reference Image Required:** A clear profile photo.
 
-[⬆️ Back to Directory](#example-toc)
 
+---
 
-<a id="examples-27"></a>
-## Example 27: Q-version Emoji Sticker Pack Creation (by [@dotey](https://x.com/dotey))
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-27"></a>
+### Case 27: Q-version Emoji Sticker Pack Creation (by [@dotey](https://x.com/dotey))
 
 [Source Link](https://x.com/dotey/status/1909800530739679488)
 
-<img src="./examples/example_chibi_emoji_pack.png" width="300" alt="Set of six chibi-style stickers based on a user's photo, showing various cute expressions and poses">
+<img src="cases/27/example_chibi_emoji_pack.png" width="300" alt="Q-version Emoji Sticker Pack Creation">
 
-**Prompt:**
+**Prompt**
+
 ```
-创作一套全新的 chibi sticker，共六个独特姿势，以用户形象为主角：
-1. 双手比出剪刀手，俏皮地眨眼；
-2. 泪眼汪汪、嘴唇微微颤动，呈现可爱哭泣的表情；
-3. 张开双臂，做出热情的大大拥抱姿势；
-4. 侧卧入睡，靠着迷你枕头，带着甜甜的微笑；
-5. 自信满满地向前方伸手指，周围点缀闪亮特效；
-6. 手势飞吻，周围飘散出爱心表情。
-保留 chibi 美学风格：夸张有神的大眼睛、柔和的面部线条、活泼俏皮的短款黑色发型、配以大胆领口设计的白色服饰，背景使用充满活力的红色，并搭配星星或彩色纸屑元素进行装饰。周边适当留白。
+Create a brand-new set of chibi-style stickers featuring the user as the main character, with six unique poses:
+  1.	Making a playful peace sign with both hands and winking.
+  2.	Tearful eyes and slightly trembling lips, showing a cute crying expression.
+  3.	Arms wide open in a warm, enthusiastic hug pose.
+  4.	Lying on their side asleep, resting on a tiny pillow with a sweet smile.
+  5.	Pointing forward with confidence, surrounded by shining visual effects.
+  6.	Blowing a kiss, with heart symbols floating around.
+Maintain the chibi aesthetic:
+– Exaggerated, expressive big eyes
+– Soft facial lines
+– Playful, short black hairstyle
+– A white outfit with a bold neckline design
+Background: Vibrant red with star or colorful confetti elements for decoration. Leave some clean white space around each sticker.
 Aspect ratio: 9:16
 ```
+
+
 **Reference Image Required:** A clear profile photo.
 
-[⬆️ Back to Directory](#example-toc)
 
+---
 
-<a id="examples-26"></a>
-## Example 26: Famous Painting Character Cereal Ad (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-26"></a>
+### Case 26: Famous Painting Character Cereal Ad (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
 
 [Source Link](https://x.com/ZHO_ZHO_ZHO/status/1909542765857587310)
 
-<img src="./examples/example_master_oats_ad.png" width="300" alt="Ad cover featuring 'Girl with a Pearl Earring' as a cute Q-version 3D character on a fictional 'Master Oats' cereal box">
+<img src="cases/26/example_master_oats_ad.png" width="300" alt="Famous Painting Character Cereal Ad">
 
-**Prompt:**
+**Prompt**
+
 ```
-《大师麦片》：根据我上传的照片的人物特征判断，为他生成一个符合他特质的燕麦片搭配（比如蔬菜、水果、酸奶、粗粮等等）和包装设计，然后生成他作为麦片包装盒封面人物 加 相应麦片搭配的广告封面，人物要保持特征、可爱Q版3d、c4d渲染风格，麦片所放置的地方的风格也要符合设定，比如放在厨房、超市 极简主义的设计台上等等，先做好设定，再生成图像
+“Master Oats”: Based on the visual features of the person in the uploaded photo, generate a custom oatmeal mix that reflects their personality traits — for example, using vegetables, fruits, yogurt, whole grains, etc.
+
+Design a unique cereal box and package aesthetic that aligns with this tailored mix.
+
+Then, create an advertising cover featuring the person as the mascot on the cereal box. The character should retain their recognizable features but be transformed into a cute chibi-style 3D figure with a C4D-quality rendering.
+
+The oatmeal and packaging should be presented in a setting that matches the mood — such as a minimalist kitchen, a sleek supermarket display, or a clean design counter.
+
+The process includes:
+– Character analysis and oat mix pairing
+– Cereal box concept and design
+– Display environment selection
+– Final image with mascot figure, packaging, and styled scene composition
+
+All visuals should be balanced, modern, and appealing, reflecting a premium and fun oat brand identity.
 ```
+
+
 **Reference Image Required:** [Image of 'Girl with a Pearl Earring'](./references/Meisje_met_de_parel.jpg).
 
-[⬆️ Back to Directory](#example-toc)
 
+---
 
-<a id="examples-25"></a>
-## Example 25: Minimalist 3D Illustration (by [@0xdlk](https://x.com/0xdlk))
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-25"></a>
+### Case 25: Minimalist 3D Illustration (by [@0xdlk](https://x.com/0xdlk))
 
 [Source Link](https://x.com/0xdlk/status/1906843247432929642)
 
-<img src="./examples/example_minimalist_3d_toilet.png" width="300" alt="Minimalist 3D illustration of a toilet following a specific JSON style profile">
+<img src="cases/25/example_minimalist_3d_toilet.png" width="300" alt="Minimalist 3D Illustration">
 
-**Prompt:**
+**Prompt**
+
 ```
 Generate a toilet with the following JSON profile:
 {
@@ -1135,435 +1664,581 @@ Generate a toilet with the following JSON profile:
 }
 ```
 
-[⬆️ Back to Directory](#example-toc)
 
 
-<a id="examples-24"></a>
-## Example 24: Funko Pop Figure Creation (by [@dotey](https://x.com/dotey))
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-24"></a>
+### Case 24: Funko Pop Figure Creation (by [@dotey](https://x.com/dotey))
 
 [Source Link](https://x.com/dotey/status/1909047283485671924)
 
-<img src="./examples/funko-pop-james-bond-figure-and-box.png" width="300" alt="Isometric view of a custom Funko Pop box titled 'JAMES BOND' based on a photo, showing figure inside and beside the box">
+<img src="cases/24/funko-pop-james-bond-figure-and-box.png" width="300" alt="Funko Pop Figure Creation">
 
-**Prompt:**
+**Prompt**
+
 ```
-把照片中的人物变成 Funko Pop 公仔包装盒的风格，以等距视角（isometric）呈现，并在包装盒上标注标题为“JAMES BOND”。包装盒内展示的是照片中人物形象，旁边搭配有人物的必备物品（手枪、手表、西装、其他）同时，在包装盒旁边还应呈现该公仔本体的实物效果，采用逼真的、具有真实感的渲染风格。
+Transform the person in the photo into the style of a Funko Pop figure box, presented in isometric view.
+The packaging is labeled with the title “JAMES BOND.”
+Inside the box, display a chibi-style figure based on the person in the photo, along with their essential accessories: a pistol, a wristwatch, a suit, and other signature items.
+Next to the box, show a realistic rendering of the actual figure outside the packaging, with detailed textures and lighting to achieve a lifelike product display.
 ```
+
+
 **Reference Image Required:** A clear half-body or full-body photo.
 
-[⬆️ Back to Directory](#example-toc)
 
+---
 
-<a id="examples-23"></a>
-## Example 23: "Titanic" Pose Parody (by [@balconychy](https://x.com/balconychy))
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-23"></a>
+### Case 23: "Titanic" Pose Parody (by [@balconychy](https://x.com/balconychy))
 
 [Source Link](https://x.com/balconychy/status/1909916265067557299)
 
-<img src="./examples/example_titanic_q_realistic.jpeg" width="300" alt="Cute Q-version 3D couple recreating the Titanic 'king of the world' pose on a ship's bow">
+<img src="cases/23/example_titanic_q_realistic.jpeg" width="300" alt=""Titanic" Pose Parody">
 
-**Prompt:**
+**Prompt**
+
 ```
-将附图中的人物转换成可爱Q版3D造型
-场景：在豪华游轮最顶尖的船头，船头是尖的。
-男士带着女士站在泰坦尼克号船头，男士双手搂着女士的腰，女士双臂伸展穿着连衣裙，迎着风，脸上洋溢着自由与畅快。
-此时天色呈现出黄昏的暖色调，大海在船下延展 。
-除了人物用Q版3D造型以外，其他环境都是实物。
+Transform the person in the attached image into a cute chibi-style 3D character.
+Scene: On the pointed bow of a luxurious cruise ship.
+The man stands behind the woman at the bow, holding her waist with both hands. The woman is wearing a dress, arms spread wide, facing the wind, with a joyful and liberated expression on her face—just like the iconic scene from Titanic.
+The sky is painted in warm sunset tones, and the vast ocean stretches beneath the ship.
+Only the characters should be in chibi 3D style; the rest of the environment should be realistic.
 ```
+
+
 **Reference Image Required:** A couple's photo.
 
-[⬆️ Back to Directory](#example-toc)
 
+---
 
-<a id="examples-22"></a>
-## Example 22: Xiaohongshu Cover Image (by [@balconychy](https://x.com/balconychy))
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-22"></a>
+### Case 22: Xiaohongshu Cover Image (by [@balconychy](https://x.com/balconychy))
 
 [Source Link](https://x.com/balconychy/status/1905507936526627078)
 
-<img src="./examples/example_notebook_promo.png" width="300" alt="Promotional image styled like a Xiaohongshu cover about ChatGPT's new strengths">
+<img src="cases/22/example_notebook_promo.png" width="300" alt="Xiaohongshu Cover Image">
 
-**Prompt:**
+**Prompt**
+
 ```
-画图：画一个小红书封面。
-要求：
-有足够的吸引力吸引用户点击；
-字体醒目，选择有个性的字体；
-文字大小按重要度分级，体现文案的逻辑结构；
-标题是普通文字的至少2倍；
-文字段落之间留白。
-只对要强调的文字用醒目色吸引用户注意；
-背景使用吸引眼球的图案（包括不限于纸张，记事本，微信聊天窗口，选择一种）
-使用合适的图标或图片增加视觉层次，但要减少干扰。
+Draw an image: Create a cover for a Xiaohongshu (RED) post.
 
-文案：重磅！ChatGPT又变强了！
-多任务处理更牛✨
-编程能力更强💪
-创造力爆表🎨
-快来试试！
+Requirements:
+– It must be visually compelling enough to attract user clicks.
+– Use bold, characterful fonts.
+– Vary font sizes to reflect the hierarchy of information; emphasize the structure of the copy.
+– The main title should be at least twice the size of regular text.
+– Leave white space between text sections.
+– Only use bright accent colors to highlight key words and draw attention.
+– The background should feature an eye-catching pattern (such as paper texture, notebook, or a WeChat chat window—choose one).
+– Add appropriate icons or illustrations to enhance visual layers, but avoid visual clutter.
 
-图像9:16比例
+Copy text:
+BREAKING: ChatGPT just got even better!
+– Superior multitasking ✨
+– Stronger coding ability 💪
+– Creativity off the charts 🎨
+Try it now!
+
+Image aspect ratio: 9:16
 ```
 
-[⬆️ Back to Directory](#example-toc)
 
 
-<a id="examples-21"></a>
-## Example 21: Stick Figure Emoji Pack (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-21"></a>
+### Case 21: Stick Figure Emoji Pack (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
 
 [Source Link](https://x.com/ZHO_ZHO_ZHO/status/1909907741948399873)
 
-<img src="./examples/example_einstein_stickfigure_emoji.jpeg" width="300" alt="Einstein transformed into a hand-drawn stick figure emoji pack with various expressions">
+<img src="cases/21/example_einstein_stickfigure_emoji.jpeg" width="300" alt="Stick Figure Emoji Pack">
 
-**Prompt:**
+**Prompt**
+
 ```
-(分为两步)
-先把图片人物变成手绘简笔画风格
-然后把简笔画按照吐舌头、微笑、皱眉、惊讶、思考、眨眼生成一系列表情包
+(Step 1) First, convert the person in the image into a hand-drawn doodle style.
+(Step 2) Based on that doodle, create a series of expressive emoji-style faces, including: sticking out tongue, smiling, frowning, surprised, thinking, and winking.
 ```
+
+
 **Reference Image Required:** A photo of a person.
 
-[⬆️ Back to Directory](#example-toc)
 
+---
 
-<a id="examples-20"></a>
-## Example 20: Four-Panel Manga (Theory of Relativity) (by [@dotey](https://x.com/dotey))
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-20"></a>
+### Case 20: Four-Panel Manga (Theory of Relativity) (by [@dotey](https://x.com/dotey))
 
 [Source Link](https://x.com/dotey/status/1904980568107819060)
 
-<img src="./examples/example_relativity_manga.jpeg" width="300" alt="Colorful four-panel manga humorously explaining the theory of relativity">
+<img src="cases/20/example_relativity_manga.jpeg" width="300" alt="Four-Panel Manga (Theory of Relativity)">
 
-**Prompt:**
+**Prompt**
+
 ```
-make a colorful page of manga describing the theory of relativity. add some humor
+make a colorful page of manga describing the theory of relativity. add some humor.
 ```
 
-[⬆️ Back to Directory](#example-toc)
 
 
-<a id="examples-19"></a>
-## Example 19: Textbook Illustration Redraw (by [@balconychy](https://x.com/balconychy))
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-19"></a>
+### Case 19: Textbook Illustration Redraw (by [@balconychy](https://x.com/balconychy))
 
 [Source Link](https://x.com/balconychy/status/1906982626365178361)
 
-<img src="./examples/example_textbook_redraw.jpeg" width="300" alt="Chinese language textbook illustration redrawn in a modern style">
+<img src="cases/19/example_textbook_redraw.jpeg" width="300" alt="Textbook Illustration Redraw">
 
-**Prompt:**
+**Prompt**
+
 ```
-重绘语文课本插画
+Redraw the language textbook illustration
 ```
+
+
 **Reference Image Required:** An original textbook illustration.
 
-[⬆️ Back to Directory](#example-toc)
 
+---
 
-<a id="examples-18"></a>
-## Example 18: Pixar 3D Style (by [AnimeAI](https://animeai.online))
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-18"></a>
+### Case 18: Pixar 3D Style (by [AnimeAI](https://animeai.online))
 
 [Source Link](https://animeai.online/#demo-gallery)
 
-<img src="https://animeai.online/demo/pixar-style-godfather-scene.png" width="300" alt="Scene from The Godfather redrawn in Pixar 3D style">
+<img src="cases/18/pixar-style-godfather-scene.png" width="300" alt="Pixar 3D Style">
 
-**Prompt:**
+**Prompt**
+
 ```
-以皮克斯 3D 风格重绘这张照片
+Redraw this photo in Pixar 3D style
 ```
+
+
 **Reference Image Required:** A photo of a person or other subject.
 
-[⬆️ Back to Directory](#example-toc)
 
+---
 
-<a id="examples-17"></a>
-## Example 17: Digimon Style Image (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-17"></a>
+### Case 17: Digimon Style Image (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
 
 [Source Link](https://x.com/ZHO_ZHO_ZHO/status/1911001291280859559)
 
-<img src="./examples/example_digimon_style.jpeg" width="300" alt="User's photo transformed into Digimon style with a matching Digimon partner">
+<img src="cases/17/example_digimon_style.jpeg" width="300" alt="Digimon Style Image">
 
-**Prompt:**
+**Prompt**
+
 ```
-为我生成一张数码宝贝风格的图片，并为我匹配一只数码宝贝
+Generate a Digimon-style image for me, and match me with a Digimon partner.
 ```
+
+
 **Reference Image Required:** A single person photo.
 
-[⬆️ Back to Directory](#example-toc)
 
+---
 
-<a id="examples-16"></a>
-## Example 16: Pudding Slot Machine (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-16"></a>
+### Case 16: Pudding Slot Machine (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
 
 [Source Link](https://x.com/ZHO_ZHO_ZHO/status/1911107569898471818)
 
-<img src="./examples/example_pudding_slot.jpeg" width="300" alt="Slot machine emoji transformed into a delicious-looking pudding">
+<img src="cases/16/example_pudding_slot.jpeg" width="300" alt="Pudding Slot Machine">
 
-**Prompt:**
+**Prompt**
+
 ```
-将图标[🎰]变成美味可口布丁造型，Q弹质感，背景粉白渐变，整体甜美、轻盈、可爱
+Transform the [🎰] slot machine icon into a delicious-looking pudding design with a soft, jiggly texture.
+The background features a gentle pink-to-white gradient.
+The overall style should be sweet, light, and cute, evoking a playful and dessert-like aesthetic.
 ```
 
-[⬆️ Back to Directory](#example-toc)
 
 
-<a id="examples-15"></a>
-## Example 15: Satirical Poster Generation (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-15"></a>
+### Case 15: Satirical Poster Generation (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
 
 [Source Link](https://x.com/ZHO_ZHO_ZHO/status/1905287637084274742)
 
-<img src="./examples/example_gpt_involution_poster.png" width="300" alt="Satirical poster suggesting AI image creators should become delivery drivers due to GPT-4o competition">
+<img src="cases/15/example_gpt_involution_poster.png" width="300" alt="Satirical Poster Generation">
 
-**Prompt:**
+**Prompt**
+
 ```
-为我生成讽刺海报：GPT 4o 狂卷，都别干图像AI了 还是送外卖吧
+Satirical Poster Text (English):
+GPT-4o is taking over.
+Forget working in image AI
+maybe it’s time to deliver takeout instead.
 ```
 
-[⬆️ Back to Directory](#example-toc)
 
 
-<a id="examples-14"></a>
-## Example 14: "One Piece" Themed Figure Creation (by [@dotey](https://x.com/dotey))
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-14"></a>
+### Case 14: One Piece Themed Figure Creation (by [@dotey](https://x.com/dotey))
 
 [Source Link](https://x.com/dotey/status/1909047547563213145)
 
-<img src="./examples/example_one_piece_figure_creation.png" width="300" alt="Isometric view of a One Piece themed figure box based on a photo, showing the figure inside and beside the box">
+<img src="cases/14/example_one_piece_figure_creation.png" width="300" alt="One Piece Themed Figure Creation">
 
-**Prompt:**
+**Prompt**
+
 ```
-把照片中的人物变成《海贼王》（One Piece）动漫主题手办包装盒的风格，以等距视角（isometric）呈现。包装盒内展示的是基于照片人物的《海贼王》动漫画风设计的形象，旁边搭配有日常必备物品（手枪、手表、西装和皮鞋）同时，在包装盒旁边还应呈现该手办本体的实物效果，采用逼真的、具有真实感的渲染风格。
+Transform the person in the photo into a One Piece-themed anime-style action figure, presented inside a collectible figure box designed in the visual style of the One Piece universe. The box is shown in an isometric view.
+Inside the box, display the character reimagined in the One Piece anime art style, posed dynamically and accompanied by essential everyday items such as a pistol, a wristwatch, a suit, and leather shoes — all miniaturized and arranged like collectible accessories.
+Next to the box, include a realistic, fully rendered version of the actual figure itself, outside of the packaging. This figure should be rendered with high detail and realism, showcasing the material textures and craftsmanship, as if it were a professionally photographed product.
 ```
+
 *Note: The list of essential items was slightly modified here. Please refer to the original source.*
 
 **Reference Image Required:** A half-body or full-body photo.
 
-[⬆️ Back to Directory](#example-toc)
 
+---
 
-<a id="examples-13"></a>
-## Example 13: Photo to 3D Q-version Style (by [@dotey](https://x.com/dotey))
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-13"></a>
+### Case 13: Photo to 3D Q-version Style (by [@dotey](https://x.com/dotey))
 
 [Source Link](https://x.com/dotey/status/1908194518345678865)
 
-<img src="./examples/example_photo_to_3d_q.png" width="300" alt="Comparison showing original photo converted to 3D Q-version style while keeping scene and outfit">
+<img src="cases/13/example_photo_to_3d_q.png" width="300" alt="Photo to 3D Q-version Style">
 
-**Prompt:**
+**Prompt**
+
 ```
-将场景中的角色转化为3D Q版风格，同时保持原本的场景布置和服装造型不变。
+Transform the characters in the scene into 3D chibi-style figures, while keeping the original scene layout and their clothing exactly the same.
 ```
+
+
 **Reference Image Required:** A photo.
 
-[⬆️ Back to Directory](#example-toc)
 
+---
 
-<a id="examples-12"></a>
-## Example 12: 3D Couple Jewelry Box Figurine (by [@dotey](https://x.com/dotey))
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-12"></a>
+### Case 12: 3D Couple Jewelry Box Figurine (by [@dotey](https://x.com/dotey))
 
 [Source Link](https://x.com/dotey/status/1909332895115714835)
 
-<img src="./examples/example_3d_collectible_couple_box.jpeg" width="300" alt="3D rendered Q-version couple figurine inside a decorated jewelry box display">
+<img src="cases/12/example_3d_collectible_couple_box.jpeg" width="300" alt="3D Couple Jewelry Box Figurine">
 
-**Prompt:**
+**Prompt**
+
 ```
-根据照片上的内容打造一款细致精美、萌趣可爱的3D渲染收藏摆件，装置在柔和粉彩色调、温馨浪漫的展示盒中。展示盒为浅奶油色搭配柔和的金色装饰，形似精致的便携珠宝盒。打开盒盖，呈现出一幕温暖浪漫的场景：两位Q版角色正甜蜜相望。盒顶雕刻着“FOREVER TOGETHER”（永远在一起）的字样，周围点缀着小巧精致的星星与爱心图案。
-盒内站着照片上的女性，手中捧着一束小巧的白色花束。她的身旁是她的伴侣，照片上的男性。两人都拥有大而闪亮、充满表现力的眼睛，以及柔和、温暖的微笑，传递出浓浓的爱意和迷人的气质。
-他们身后有一扇圆形窗户，透过窗户能看到阳光明媚的中国古典小镇天际线和轻柔飘浮的云朵。盒内以温暖的柔和光线进行照明，背景中漂浮着花瓣点缀气氛。整个展示盒和角色的色调优雅和谐，营造出一个奢华而梦幻的迷你纪念品场景。
-尺寸：9:16
+Create a finely crafted, adorably charming 3D-rendered collectible figure based on the subjects in the photo, displayed inside a pastel-toned, warm and romantic presentation box. The box is designed in a soft cream color with gentle gold accents, resembling an elegant portable jewelry case.
+
+When opened, the box reveals a heartwarming romantic scene: two chibi-style characters gazing sweetly at each other. The lid is engraved with the words “FOREVER TOGETHER,” surrounded by delicate star and heart motifs.
+
+Inside the box stands the female from the photo, holding a small bouquet of white flowers. Beside her is her partner, the male from the photo. Both characters have large, expressive, sparkling eyes and soft, warm smiles that radiate affection and charm.
+
+Behind them is a round window, through which a sunny skyline of a traditional Chinese town can be seen, along with gently drifting clouds. The interior is softly lit with warm ambient lighting, and petals float in the background to enhance the atmosphere.
+
+The overall color scheme of both the display box and the characters is elegant and harmonious, creating a luxurious and dreamlike miniature keepsake.
+
+Aspect ratio: 9:16
 ```
+
+
 **Reference Image Required:** A couple's photo.
 
-[⬆️ Back to Directory](#example-toc)
 
+---
 
-<a id="examples-11"></a>
-## Example 11: PS2 Game Cover (GTA x Shrek) (by [@dotey](https://x.com/dotey))
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-11"></a>
+### Case 11: PS2 Game Cover (GTA x Shrek) (by [@dotey](https://x.com/dotey))
 
 [Source Link](https://x.com/dotey/status/1904978767090524372)
 
-<img src="./examples/example_ps2_gta_shrek.jpeg" width="300" alt="Fake PS2 game cover for 'Grand Theft Auto: Far Far Away' featuring Shrek characters">
+<img src="cases/11/example_ps2_gta_shrek.jpeg" width="300" alt="PS2 Game Cover (GTA x Shrek)">
 
-**Prompt:**
+**Prompt**
+
 ```
 Can you create a PS2 video game case of "Grand Theft Auto: Far Far Away" a GTA based in the Shrek Universe.
 ```
 
-[⬆️ Back to Directory](#example-toc)
 
 
-<a id="examples-10"></a>
-## Example 10: Satirical Cartoon Generation (by [@dotey](https://x.com/dotey))
-
-[Source Link](https://x.com/dotey/status/1910514811756065159)
-
-<img src="./examples/example_maga_hat_cartoon.jpeg" width="300" alt="Satirical retro cartoon of MAGA hats labeled 'Made in China' with marked-up price">
-
-**Prompt:**
-```
-一幅讽刺漫画风格的插画，采用复古美式漫画风格，背景是一个多层货架，货架上都是一样的红色棒球帽，帽子正面印有大字标语“MAKE AMERICA GREAT AGAIN”，帽侧贴着白色标签写着“MADE IN CHINA”，特写视角聚焦其中一顶红色棒球帽。画面下方有价格牌，原价“$50.00”被粗黑线X划掉，改为“$77.00”，色调为怀旧的土黄与暗红色调，阴影处理带有90年代复古印刷质感。整体构图风格夸张讽刺，具讽刺政治消费主义的意味。
-```
-
-[⬆️ Back to Directory](#example-toc)
-
-
-<a id="examples-9"></a>
-## Example 9: Famous Painting as Helium Balloon (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
-
-[Source Link](https://x.com/ZHO_ZHO_ZHO/status/1910976632141267237)
-
-<img src="./examples/example_pearl_earring_balloon.jpeg" width="300" alt="Girl with a Pearl Earring transformed into a doll-shaped helium balloon">
-
-**Prompt:**
-```
-将图片中的人物变成玩偶形状的氦气球
-```
-**Reference Image Required:** A half-body or full-body single person photo.
-
-[⬆️ Back to Directory](#example-toc)
-
-
-<a id="examples-8"></a>
-## Example 8: Lego Collectible Figure (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
-
-[Source Link](https://x.com/ZHO_ZHO_ZHO/status/1910644499354968091)
-
-<img src="./examples/example_lego_collectible.jpeg" width="300" alt="Lego figure resembling the user with a matching animal companion in a display case">
-
-**Prompt:**
-```
-根据我上传的照片，生成一张纵向比例的照片，使用以下提示词：
-
-经典乐高人偶风格，一个微缩场景 —— 一只动物站在我身旁。这只动物的配色与我相匹配。
-
-请根据你对我的理解来创造这只动物（你可以选择任何你认为适合我的动物，不论是真实存在的，还是超现实的、幻想的，只要你觉得符合我的气质即可）。
-
-整个场景设定在一个透明玻璃立方体内，布景极简。
-
-微缩场景的底座是哑光黑色，配以银色装饰，风格简约且时尚。
-
-底座上有一块优雅雕刻的标签牌，字体为精致的衬线体，上面写着该动物的名称。
-
-底部设计中还巧妙融入了类似自然历史博物馆展示的生物学分类信息，以精细蚀刻的方式呈现。
-
-整体构图像是一件高端收藏艺术品：精心打造、策展般呈现、灯光细致。
-
-构图重在平衡。背景为渐变色，从深色到浅色过渡（颜色基于主色调进行选择）。
-```
-**Reference Image Required:** A half-body or full-body single person photo.
-
-[⬆️ Back to Directory](#example-toc)
-
-
-<a id="examples-7"></a>
-## Example 7: Personalized Room Design (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
-
-[Source Link](https://x.com/ZHO_ZHO_ZHO/status/1910698005193515370)
-
-<img src="./examples/example_personalized_room.png" width="300" alt="Isometric view of a cute 3D personalized room design with city night view">
-
-**Prompt:**
-```
-为我生成我的房间设计（床、书架、沙发、电脑桌和电脑、墙上挂着绘画、绿植，窗外是城市夜景。可爱 3d 风格，c4d 渲染，轴测图。
-```
-*Note: The original prompt generated the room based on ChatGPT's memory of the user. This version is slightly modified. Please refer to the original source.*
-
-[⬆️ Back to Directory](#example-toc)
-
-
-<a id="examples-6"></a>
-## Example 6: Character Stepping Through Portal (by [@dotey](https://x.com/dotey))
-
-[Source Link](https://x.com/dotey/status/1908910838636765204)
-
-<img src="./examples/example_portal_crossing_handhold.jpeg" width="300" alt="3D Q-version character pulling viewer's hand through a portal from a programmer's room into a blue world">
-
-**Prompt:**
-```
-照片中的角色的 3D Q 版形象穿过传送门，牵着观众的手，在将观众拉向前时动态地回头一看。传送门外的背景是观众的现实世界，一个典型的程序员的书房，有书桌，显示器和笔记本电脑，传送门内是角色所处的3D Q 版世界，细节可以参考照片，整体呈蓝色调，和现实世界形成鲜明对比。传送门散发着神秘的蓝色和紫色色调，是两个世界之间的完美椭圆形框架处在画面中间。从第三人称视角拍摄的摄像机角度，显示观看者的手被拉入角色世界。3：2 的宽高比。
-(需要上传一张半身或者全身清晰照片作为输入)
-```
-**Reference Image Required:** A clear half-body or full-body single person photo.
-
-[⬆️ Back to Directory](#example-toc)
-
-
-<a id="examples-5"></a>
-## Example 5: Ghibli Style (by [AnimeAI](https://animeai.online))
-
-[Source Link](https://animeai.online/#demo-gallery)
-
-<img src="https://animeai.online/demo/ghibli-style-mona-lisa.png" width="300" alt="Mona Lisa redrawn in Ghibli style">
-
-**Prompt:**
-```
-以吉卜力风格重绘这张照片
-```
-**Reference Image Required:** A photo of a person or other subject.
-
-*If encountering content policy violations, add this sentence to the prompt: If there is inappropriate (sensitive) content in the background, it can be modified or deleted.*
-
-[⬆️ Back to Directory](#example-toc)
-
-
-<a id="examples-4"></a>
-## Example 4: Q-version Chinese Wedding Scene (by [@balconychy](https://x.com/balconychy))
-
-[Source Link](https://x.com/balconychy/status/1909418699150237917)
-
-<img src="./examples/example_q_chinese_wedding.jpeg" width="300" alt="Q-version 3D couple in traditional Chinese wedding attire with '囍' backdrop">
-
-**Prompt:**
-```
-将照片里的两个人转换成Q版 3D人物，中式古装婚礼，大红颜色，背景“囍”字剪纸风格图案。 服饰要求：写实，男士身着长袍马褂，主体为红色，上面以金色绣龙纹图案，彰显尊贵大气 ，胸前系着大红花，寓意喜庆吉祥。女士所穿是秀禾服，同样以红色为基调，饰有精美的金色花纹与凤凰刺绣，展现出典雅华丽之感 ，头上搭配花朵发饰，增添柔美温婉气质。二者皆为中式婚礼中经典着装，蕴含着对新人婚姻美满的祝福。 头饰要求： 男士：中式状元帽，主体红色，饰有金色纹样，帽顶有精致金饰，尽显传统儒雅庄重。 女士：凤冠造型，以红色花朵为中心，搭配金色立体装饰与垂坠流苏，华丽富贵，古典韵味十足。
-```
-**Reference Image Required:** A couple's photo.
-
-[⬆️ Back to Directory](#example-toc)
-
-
-<a id="examples-3"></a>
-## Example 3: Vintage Promotional Poster (by [@dotey](https://x.com/dotey))
-
-[Source Link](https://x.com/dotey/status/1905251524248248650)
-
-<img src="./examples/example_vintage_poster.jpeg" width="300" alt="Vintage style promotional poster with Chinese text advertising AI painting service">
-
-**Prompt:**
-```
-复古宣传海报风格，突出中文文字，背景为红黄放射状图案。画面中心位置有一位美丽的年轻女性，以精致复古风格绘制，面带微笑，气质优雅，具有亲和力。主题是GPT最新AI绘画服务的广告促销，强调‘惊爆价9.9/张’、‘适用各种场景、图像融合、局部重绘’、‘每张提交3次修改’、‘AI直出效果，无需修改’，底部醒目标注‘有意向点右下“我想要”’，右下角绘制一个手指点击按钮动作，左下角展示OpenAI标志。
-```
-
-[⬆️ Back to Directory](#example-toc)
-
-
-<a id="examples-2"></a>
-## Example 2: 3D Polaroid Breakout Effect (by [@dotey](https://x.com/dotey))
-
-[Source Link](https://x.com/dotey/status/1908238003169903060)
-
-<img src="./examples/example_polaroid_breakout.png" width="300" alt="3D Q-version character stepping out of a polaroid photo held by a hand">
-
-**Prompt:**
-```
-将场景中的角色转化为3D Q版风格，放在一张拍立得照片上，相纸被一只手拿着，照片中的角色正从拍立得照片中走出，呈现出突破二维相片边框、进入二维现实空间的视觉效果。
-```
-**Reference Image Required:** A half-body or full-body single person photo.
-
-[⬆️ Back to Directory](#example-toc)
-
-
-<a id="examples-1"></a>
-## Example 1: Q-version Proposal Scene (by [@balconychy](https://x.com/balconychy))
-
-[Source Link](https://x.com/balconychy/status/1909417750587486469)
-
-<img src="./examples/example_proposal_scene_q_realistic.jpeg" width="300" alt="Q-version 3D couple in a realistic proposal setting with flower arch">
-
-**Prompt:**
-```
-将照片里的两个人转换成Q版 3D人物，场景换成求婚，背景换成淡雅五彩花瓣做的拱门，背景换成浪漫颜色，地上散落着玫瑰花瓣。除了人物采用Q版 3D人物风格，其他环境采用真实写实风格。
-```
-**Reference Image Required:** A couple's photo.
-
-[⬆️ Back to Directory](#example-toc)
 
 ---
 
-<a id="tools-toc"></a>
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-10"></a>
+### Case 10: Satirical Cartoon Generation (by [@dotey](https://x.com/dotey))
+
+[Source Link](https://x.com/dotey/status/1910514811756065159)
+
+<img src="cases/10/example_maga_hat_cartoon.jpeg" width="300" alt="Satirical Cartoon Generation">
+
+**Prompt**
+
+```
+An illustration in satirical comic style, rendered in a vintage American comic aesthetic. The background features a multi-tiered shelf stocked entirely with identical red baseball caps. The caps have a bold slogan on the front: “MAKE AMERICA GREAT AGAIN,” while a white side tag on each reads “MADE IN CHINA.” The composition uses a close-up perspective focusing on one specific red cap.
+At the bottom of the image, a price label is shown: the original price “$50.00” is crossed out with a thick black X and replaced with “$77.00.” The overall color palette uses nostalgic ochre and deep red tones, with shading that mimics the textured print style of 1990s retro comics.
+The composition is exaggerated and satirical, carrying a strong critique of political consumerism.
+```
+
+
+
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-9"></a>
+### Case 9: Famous Painting as Helium Balloon (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
+
+[Source Link](https://x.com/ZHO_ZHO_ZHO/status/1910976632141267237)
+
+<img src="cases/9/example_pearl_earring_balloon.jpeg" width="300" alt="Famous Painting as Helium Balloon">
+
+**Prompt**
+
+```
+Transform the person in the image into a helium balloon shaped like a doll.
+```
+
+
+**Reference Image Required:** A half-body or full-body single person photo.
+
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-8"></a>
+### Case 8: Lego Collectible Figure (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
+
+[Source Link](https://x.com/ZHO_ZHO_ZHO/status/1910644499354968091)
+
+<img src="cases/8/example_lego_collectible.jpeg" width="300" alt="Lego Collectible Figure">
+
+**Prompt**
+
+```
+Generate a vertically-oriented image based on my uploaded photo, using the following prompt:
+Classic LEGO minifigure style in a miniature scene — an animal stands beside me. The color palette of the animal should match mine.
+Please design the animal based on your understanding of me. You may choose any creature — real, surreal, or fantastical — that you feel best reflects my personality.
+The entire scene is set within a transparent glass cube, with a minimalist interior design.
+The base of the miniature is matte black with silver accents, following a clean and modern aesthetic.
+On the base, there is an elegantly engraved nameplate in a refined serif font, displaying the name of the animal.
+The lower part of the base subtly incorporates finely etched biological classification details, similar to a natural history museum display.
+The overall composition should resemble a high-end collectible artwork: meticulously crafted, curated in style, and lit with refined lighting.
+Balance is key to the layout. The background should feature a smooth gradient transition from dark to light tones, selected to match the dominant color theme.
+```
+
+
+**Reference Image Required:** A half-body or full-body single person photo.
+
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-7"></a>
+### Case 7: Personalized Room Design (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
+
+[Source Link](https://x.com/ZHO_ZHO_ZHO/status/1910698005193515370)
+
+<img src="cases/7/example_personalized_room.png" width="300" alt="Personalized Room Design">
+
+**Prompt**
+
+```
+Design a cozy bedroom in a cute 3D style with C4D-quality rendering, presented in an isometric view. The room includes a bed, bookshelf, sofa, green plants, a computer desk, and a computer setup. A framed painting hangs on the wall. Outside the window, a nighttime cityscape is visible with glowing buildings and a dark sky. All furniture and objects should have a soft, rounded, stylized design to match the cute 3D aesthetic. Lighting should be warm and inviting, creating a comfortable nighttime indoor atmosphere.
+```
+
+*Note: The original prompt generated the room based on ChatGPT's memory of the user. This version is slightly modified. Please refer to the original source.*
+
+
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-6"></a>
+### Case 6: Character Stepping Through Portal (by [@dotey](https://x.com/dotey))
+
+[Source Link](https://x.com/dotey/status/1908910838636765204)
+
+<img src="cases/6/example_portal_crossing_handhold.jpeg" width="300" alt="Character Stepping Through Portal">
+
+**Prompt**
+
+```
+A 3D chibi-style version of the person in the photo is stepping through a glowing portal, reaching out and holding the viewer’s hand. As the character pulls the viewer forward, they turn back with a dynamic glance, inviting the viewer into their world.
+Behind the portal is the viewer’s real-life environment: a typical programmer’s study with a desk, monitor, and laptop, rendered in realistic detail. Inside the portal lies the character’s 3D chibi world, inspired by the photo, with a cool blue color scheme that sharply contrasts with the real-world surroundings.
+The portal itself is a perfectly elliptical frame glowing with mysterious blue and purple light, positioned at the center of the image as a gateway between the two worlds.
+The scene is captured from a third-person perspective, clearly showing the viewer’s hand being pulled into the character’s world. Use a 3:2 aspect ratio.
+```
+
+
+**Reference Image Required:** A clear half-body or full-body single person photo.
+
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-5"></a>
+### Case 5: Ghibli Style (by [AnimeAI](https://animeai.online))
+
+[Source Link](https://animeai.online/#demo-gallery)
+
+<img src="cases/5/ghibli-style-mona-lisa.png" width="300" alt="Mona Lisa redrawn in Ghibli style">
+
+**Prompt**
+
+```
+Redraw this photo in Ghibli style
+```
+
+*Note: If encountering content policy violations, add this sentence to the prompt: If there is inappropriate (sensitive) content in the background, it can be modified or deleted.*
+
+**Reference Image Required:** A photo of a person or other subject.
+
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-4"></a>
+### Case 4: 3D Chibi Chinese Wedding Scene (by [@balconychy](https://x.com/balconychy))
+
+[Source Link](https://x.com/balconychy/status/1909418699150237917)
+
+<img src="cases/4/example_q_chinese_wedding.jpeg" width="300" alt="3D Chibi Chinese Wedding Scene">
+
+**Prompt**
+
+```
+Transform the two people in the photo into chibi-style 3D cartoon characters, dressed in traditional Chinese wedding attire. The overall theme is a festive red Chinese-style wedding. The background features a decorative “囍” (double happiness) paper-cut pattern in a classic folk style. 
+Clothing (realistic texture, traditional details):
+Male: Wearing a red changpao and magua (traditional robe and jacket) embroidered with golden dragon motifs, symbolizing nobility and grandeur. A large red flower is tied on his chest, representing celebration and good fortune.
+Female: Dressed in a red xiuhe wedding gown adorned with exquisite golden floral and phoenix embroidery, showcasing elegance and luxury. She wears delicate floral hair ornaments to enhance her gentle and graceful appearance.
+Headwear:
+Male: A traditional red zhuangyuan (scholar) hat with golden patterns and a refined golden ornament at the top, exuding classic scholarly dignity.
+Female: A phoenix crown adorned with a central red flower, gold 3D decorative elements, and hanging tassels—luxurious and full of classical charm.
+This image should reflect the joy and blessing of a traditional Chinese wedding, with realistic textures for costumes and accessories, combined with stylized 3D chibi characters.
+```
+
+
+**Reference Image Required:** A couple's photo.
+
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-3"></a>
+### Case 3: Retro Style Promotional Poster (by [@dotey](https://x.com/dotey))
+
+[Source Link](https://x.com/dotey/status/1905251524248248650)
+
+<img src="cases/3/example_vintage_poster.jpeg" width="300" alt="Retro Style Promotional Poster">
+
+**Prompt**
+
+```
+A retro-style promotional poster emphasizing bold Chinese text. The background features a red-and-yellow radial burst pattern. In the center of the composition is a beautiful young woman illustrated in a refined vintage art style—she smiles warmly with a graceful, approachable presence. The poster advertises GPT’s latest AI image generation service with key slogans in Chinese, such as: “Shocking price: 9.9 per image”, “Supports all scenes, image blending, partial redrawing”, “3 revisions per image”, and “Direct AI output with no need for manual edits”. At the bottom, prominently display the call-to-action: “If you’re interested, click ‘I want this’ in the bottom-right corner”. Illustrate a hand pressing a button in the bottom-right, and place the OpenAI logo in the bottom-left.
+```
+
+
+
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-2"></a>
+### Case 2: 3D Polaroid Breakout Effect (by [@dotey](https://x.com/dotey))
+
+[Source Link](https://x.com/dotey/status/1908238003169903060)
+
+<img src="cases/2/example_polaroid_breakout.png" width="300" alt="3D Polaroid Breakout Effect">
+
+**Prompt**
+
+```
+Convert the character in the scene into a 3D chibi-style figure, placed inside a Polaroid photo. The photo paper is being held by a human hand. The character is stepping out of the Polaroid frame, creating a visual effect of breaking through the two-dimensional photo border and entering the real-world 3D space.
+```
+
+
+**Reference Image Required:** A half-body or full-body single person photo.
+
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-1"></a>
+### Case 1: 3D Chibi Proposal Scene (by [@balconychy](https://x.com/balconychy))
+
+[Source Link](https://x.com/balconychy/status/1909417750587486469)
+
+<img src="cases/1/example_proposal_scene_q_realistic.jpeg" width="300" alt="3D Chibi Proposal Scene">
+
+**Prompt**
+
+```
+Transform the two people in the photo into chibi-style 3D cartoon characters. Change the scene to a proposal setting, with a soft pastel-colored floral arch in the background. Use romantic tones for the overall background. Rose petals are scattered on the ground. While the characters are rendered in cute chibi 3D style, the environment—including the arch, lighting, and textures—should be realistic and photorealistic.
+```
+
+
+**Reference Image Required:** A couple's photo.
+
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+
+
+---
+
+<a id="tools-intro"></a>
 ## 🛠️ Tools Introduction
 
 Here are applications where you can use the GPT-4o model to generate images:
@@ -1579,23 +2254,26 @@ Here are applications where you can use the GPT-4o model to generate images:
   - 🔤 Consistent text rendering
 
 
-<a id="prompting-toc"></a>
+
+<a id="prompting-tips"></a>
 ## 💡 Prompting Tips
 
 1. [Prompt Engineering (PDF)](https://s.baoyu.io/files/2025-01-18-pdf-1-TechAI-Goolge-whitepaper_Prompt%20Engineering_v4-af36dcc7a49bb7269a58b1c9b89a8ae1.pdf) by Google
 2. [Introducing 4o Image Generation](https://openai.com/index/introducing-4o-image-generation) by OpenAI
 
 
-<a id="contribute-toc"></a>
+
+<a id="how-to-contribute"></a>
 ## 🤝 How to Contribute
 
 There are two ways to contribute, please read [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 
-<a id="acknowledgements-toc"></a>
+
+<a id="acknowledgements"></a>
 ## 🙏 Acknowledgements
 
-The content of this collection heavily relies on the creative prompts and wonderful visuals shared by the AI community on Twitter/X. We express our sincere gratitude to all contributors of these examples. 😊
+The content of this collection heavily relies on the creative prompts and wonderful visuals shared by the AI community on Twitter/X. We express our sincere gratitude to all contributors of these cases. 😊
 
 Special thanks to the following users for sharing their inspiring work ✨:
 
@@ -1621,15 +2299,18 @@ Special thanks to the following users for sharing their inspiring work ✨:
 *   [Hewar (@hewarsaber)](https://x.com/hewarsaber)
 *   [Anima (@Anima_Labs)](https://x.com/Anima_Labs)
 *   [terry623 (@terry623)](https://github.com/terry623)
+*   [photis (Sora Profile)](https://sora.com/explore?user=user-sydD5ZkXZsDaL0BriQa010dQ)
 *   And other creators whose prompts may have been included through retweets or indirect shares.
 
 If your work is included here and you wish to change the attribution or have it removed, please feel free to contact us. ✉️
 
 [⬆️ Back to Top](#readme-top)
 
-<a id="starhistory-toc"></a>
+
+<a id="star-history"></a>
 ## 🌟 Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=jamez-bondos/awesome-gpt4o-images&type=Date)](https://www.star-history.com/#jamez-bondos/awesome-gpt4o-images&Date)
 
 [⬆️ Back to Top](#readme-top)
+

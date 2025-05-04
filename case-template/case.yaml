@@ -1,0 +1,23 @@
+title: 金色吊坠项链
+title_en: Gold Pendant Necklace
+author: "@azed_ai"
+author_link: https://x.com/azed_ai
+source_links:
+  - url: https://x.com/azed_ai/status/1915770501705925106
+image: gold_pendant_necklace.png
+alt_text: 金色吊坠项链
+alt_text_en: Gold Pendant Necklace
+prompt: |
+  一张照片级写实的特写图像，展示一条由女性手握持的金质吊坠项链。吊坠上刻有 [参考图片 / 表情符号] 的浮雕图案，悬挂在一条抛光金链上。背景为柔和虚化的中性米色调，采用自然光照，肤色真实，风格为产品摄影，画面比例为 16:9。
+prompt_en: |
+  A photorealistic close-up of a gold pendant necklace held by female hand. The pendant features a bas-relief engraving of [image /emoji]. The pendant hangs from a polished gold chain. The background is softly blurred with neutral beige tones, and natural lighting, realistic skin tones, Product photography, 16:9 aspect ratio.
+prompt_note: |
+  可替换提示词中的 `[参考图片 /表情符号]` 为具体图像描述或 Emoji。
+prompt_note_en: |
+  Replace `[image /emoji]` in the prompt with a specific image description or an emoji.
+reference_note: |
+  （可选）可上传图片作为浮雕图案。
+reference_note_en: |
+  (Optional) An image can be uploaded to be used as the bas-relief pattern.
+submitter: ""
+submitter_link: ""

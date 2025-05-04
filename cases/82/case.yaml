@@ -1,0 +1,19 @@
+title: 特色城市天气预报
+title_en: Signature City Weather Forecast
+author: "@dotey"
+author_link: https://x.com/dotey
+source_links:
+  - url: https://x.com/dotey/status/1917988595228438771
+image: example.png
+alt_text: 特色城市天气预报
+alt_text_en: Signature City Weather Forecast
+prompt: |
+  以清晰的45°俯视角度，展示一个等距微缩模型场景，内容为[上海东方明珠塔、外滩]等城市特色建筑，天气效果巧妙融入场景中，柔和的多云天气与城市轻柔互动。使用基于物理的真实渲染（PBR）和逼真的光照效果，纯色背景，清晰简洁。画面采用居中构图，凸显出三维模型精准而细腻的美感。在图片上方展示“[上海 多云 20°C]”，并附有多云天气图标。
+prompt_en: |
+  Show a clear 45-degree bird’s-eye view of an isometric miniature city scene featuring Shanghai’s iconic buildings, such as the Oriental Pearl Tower and the Bund. The weather effect—cloudy—blends softly into the city, interacting gently with the architecture. Use physically based rendering (PBR) and realistic lighting. Solid color background, crisp and clean. Centered composition to highlight the precision and detail of the 3D model. Display “Shanghai Cloudy 20°C” and a cloudy weather icon at the top of the image.
+prompt_note: "城市、天气、温度和建筑名称可根据需求替换 [] 中的内容。图片由 Sora 生成。"
+prompt_note_en: "The city, weather, temperature, and building names can be replaced with the content in []. Generated with sora."
+reference_note: ""
+reference_note_en: ""
+submitter: luoshui-coder
+submitter_link: https://github.com/luoshui-coder

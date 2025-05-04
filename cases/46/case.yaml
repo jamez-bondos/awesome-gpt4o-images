@@ -1,0 +1,27 @@
+title: 快乐胶囊制作
+title_en: Happy Capsule Creation
+author: "@ZHO_ZHO_ZHO"
+author_link: https://x.com/ZHO_ZHO_ZHO
+source_links:
+  - url: https://x.com/ZHO_ZHO_ZHO/status/1911724629460455896
+image: example_happy_capsule.png
+alt_text: 快乐胶囊
+alt_text_en: Happy Capsule
+prompt: |
+  标题（大字）：速效快乐胶囊
+  一颗上为星巴克绿下为透明的小药丸，上面印有星巴克logo，里面有很多咖啡豆
+  说明（小字）：请在悲伤难过时服用，一日三次，一次两粒
+  购买按钮 和 药丸颜色一致，下面价格：$9，请遵循医嘱酌情购买
+prompt_en: |
+  Title (large text): Fast-Acting Happiness Capsule
+  A capsule pill with a green top in Starbucks green and a transparent bottom, printed with the Starbucks logo. Inside the capsule are numerous coffee beans.
+  Description (small text): Take when feeling sad or down. Three times a day, two capsules per dose.
+  Buy button: Same color as the capsule.
+  Below the button, display the price: $9.
+  Please follow medical advice and purchase as needed.
+prompt_note: ""
+prompt_note_en: ""
+reference_note: ""
+reference_note_en: ""
+submitter: ""
+submitter_link: ""

@@ -1,0 +1,22 @@
+title: 怀旧动漫风格电影海报
+title_en: Nostalgic Anime Film Poster
+author: photis (Sora)
+author_link: https://sora.com/explore?user=user-sydD5ZkXZsDaL0BriQa010dQ
+source_links:
+  - url: https://sora.com/g/gen_01jsfxrdpjfpebnyed8yaz42nf
+image: example_anime_nostalgic_poster.png
+alt_text: 怀旧动漫风格电影海报
+alt_text_en: Nostalgic Anime Film Poster
+prompt: |
+  {The Lord of the Rings} 风格的动漫电影海报，动漫画风为《恶魔高中 DXD（High School DXD）》风格。海报上可见明显的折痕痕迹，因长时间反复折叠，造成部分区域出现褶皱处的物理性损伤和擦痕，颜色也在某些地方出现了褪色。表面遍布无规律的折痕、翻折印记与划痕，这些都是在不断搬动过程中逐渐积累的微小损耗，如同熵增不可逆的过程在不断扩展。
+  然而，留存在我们心中的美好记忆却始终完整无缺。当你凝视这张充满怀旧氛围的海报时，所感受到的，正是那些随时间累积、变得无比珍贵的收藏品所承载的情感本质。
+prompt_en: |
+  {The Lord of the Rings} anime film poster, the anime is in the style of High School DXD. Visible even folds are seen across the poster as it’s been folded over time, and due to some creases over damaging the poster has caused some physical damage scuffing along the creases and the color has partially faded. Indiscriminate flaps and folds and scratches all around simply from moving back and forth causing subtle yet incremental damage with the ever expanding of entropy we cannot escape, but the loving memories in our hearts will forever be whole. Making the objects we collect along the way priceless is the essence you feel when looking at this nostalgic poster.
+prompt_note: |
+  可替换提示词中的电影名{The Lord of the Rings}为其他电影，某些电影可能会触发内容审核。参考的动漫风格也可以修改。
+prompt_note_en: |
+  You can replace the movie title "{The Lord of the Rings}" in the prompt with others. Be aware that some movie titles may trigger content moderation. The referenced anime style can also be modified.
+reference_note: ""
+reference_note_en: ""
+submitter: ""
+submitter_link: ""

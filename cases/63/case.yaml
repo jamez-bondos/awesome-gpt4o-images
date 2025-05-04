@@ -1,0 +1,21 @@
+title: Emoji 奶油雪糕
+title_en: Emoji Cream Popsicle
+author: "@ZHO_ZHO_ZHO"
+author_link: https://x.com/ZHO_ZHO_ZHO
+source_links:
+  - url: https://x.com/ZHO_ZHO_ZHO/status/1914574278911000967
+image: example_ice_cream_emoji_strawberry.png
+alt_text: Emoji 奶油雪糕
+alt_text_en: Emoji Cream Popsicle
+prompt: |
+  生成图片：将【🍓】变成变成一根奶油雪糕，奶油在雪糕顶上呈曲线流动状看起来美味可口，45度悬浮在空中，q版 3d 可爱风格，一致色系的纯色背景
+prompt_en: |
+  Generate an image: Transform the [🍓] into a creamy ice cream bar, with cream flowing in curved swirls on top, making it look delicious and tempting. The ice cream is floating at a 45-degree angle in mid-air, rendered in a cute chibi-style 3D aesthetic, set against a solid color background with a unified color palette.
+prompt_note: |
+  可替换提示词中的【🍓】为其他 Emoji。
+prompt_note_en: |
+  The 【🍓】 emoji in the prompt can be replaced with other emojis.
+reference_note: ""
+reference_note_en: ""
+submitter: ""
+submitter_link: ""

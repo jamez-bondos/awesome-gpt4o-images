@@ -1,0 +1,21 @@
+title: 云彩艺术
+title_en: Cloud Art
+author: "@umesh_ai"
+author_link: https://x.com/umesh_ai
+source_links:
+  - url: https://x.com/umesh_ai/status/1913628737872027805
+image: example_cloud_art_dragon_great_wall.png
+alt_text: 云彩艺术
+alt_text_en: Cloud Art
+prompt: |
+  生成一张照片：捕捉了白天的场景，天空中散落的云彩组成了 [主体/物体] 的形状，位于 [地点] 的上方。
+prompt_en: |
+  Generate image: A photograph captures a daytime scene with a [SUBJECT/OBJECT] formed by scattered clouds in the sky, positioned above a [LOCATION]
+prompt_note: |
+  可替换提示词中的 `[SUBJECT/OBJECT]`（云彩形状的主体）和 `[LOCATION]`（地点）。示例图的主体是中国龙，地点是长城。
+prompt_note_en: |
+  The `[SUBJECT/OBJECT]` (shape formed by clouds) and `[LOCATION]` placeholders in the prompt can be replaced. The example image uses 'chinese dragon' as the subject and 'The Great Wall' as the location.
+reference_note: ""
+reference_note_en: ""
+submitter: ""
+submitter_link: ""

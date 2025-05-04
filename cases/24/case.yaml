@@ -1,0 +1,24 @@
+title: Funko Pop 公仔制作
+title_en: Funko Pop Figure Creation
+author: "@dotey"
+author_link: https://x.com/dotey
+source_links:
+  - url: https://x.com/dotey/status/1909047283485671924
+image: funko-pop-james-bond-figure-and-box.png
+alt_text: Funko Pop 公仔制作
+alt_text_en: Funko Pop Figure Creation
+prompt: |
+  把照片中的人物变成 Funko Pop 公仔包装盒的风格，以等距视角（isometric）呈现，并在包装盒上标注标题为“JAMES BOND”。包装盒内展示的是照片中人物形象，旁边搭配有人物的必备物品（手枪、手表、西装、其他）同时，在包装盒旁边还应呈现该公仔本体的实物效果，采用逼真的、具有真实感的渲染风格。
+prompt_en: |
+  Transform the person in the photo into the style of a Funko Pop figure box, presented in isometric view.
+  The packaging is labeled with the title “JAMES BOND.”
+  Inside the box, display a chibi-style figure based on the person in the photo, along with their essential accessories: a pistol, a wristwatch, a suit, and other signature items.
+  Next to the box, show a realistic rendering of the actual figure outside the packaging, with detailed textures and lighting to achieve a lifelike product display.
+prompt_note: ""
+prompt_note_en: ""
+reference_note: |
+  一张半身或者全身清晰照片。
+reference_note_en: |
+  A clear half-body or full-body photo.
+submitter: ""
+submitter_link: ""

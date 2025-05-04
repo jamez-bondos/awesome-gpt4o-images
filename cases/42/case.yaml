@@ -1,0 +1,23 @@
+title: 3D Q版情侣水晶球
+title_en: 3D Q-version Couple Snow Globe
+author: "@balconychy"
+author_link: https://x.com/balconychy
+source_links:
+  - url: https://x.com/balconychy/status/1909908568129655248
+image: example_3d_q_snowglobe_couple.jpeg
+alt_text: 3D Q版情侣水晶球
+alt_text_en: 3D Chibi Couple Snow Globe
+prompt: |
+  将附图中的人物转换成水晶球场景。 整体环境：水晶球放在窗户旁桌面上，背景模糊，暖色调。阳光透过球体，洒下点点金光，照亮了周围的黑暗。 水晶球内部：人物是可爱Q版3D造型，相互之间满眼的爱意。
+prompt_en: |
+  Transform the person in the attached image into a snow globe scene.
+  Overall environment: The snow globe is placed on a tabletop by the window, with a blurred, warm-toned background. Sunlight passes through the globe, casting golden sparkles that gently illuminate the surrounding darkness.
+  Inside the globe: The characters are in a cute chibi-style 3D design, gazing at each other with eyes full of love.
+prompt_note: ""
+prompt_note_en: ""
+reference_note: |
+  一张情侣照片 或 一张其他人物照片。
+reference_note_en: |
+  A photo of a couple or another person.
+submitter: ""
+submitter_link: ""

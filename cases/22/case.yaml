@@ -1,0 +1,55 @@
+title: 小红书封面
+title_en: Xiaohongshu Cover Image
+author: "@balconychy"
+author_link: https://x.com/balconychy
+source_links:
+  - url: https://x.com/balconychy/status/1905507936526627078
+image: example_notebook_promo.png
+alt_text: 小红书封面
+alt_text_en: Xiaohongshu Cover Image
+prompt: |
+  画图：画一个小红书封面。
+  要求：
+  有足够的吸引力吸引用户点击；
+  字体醒目，选择有个性的字体；
+  文字大小按重要度分级，体现文案的逻辑结构；
+  标题是普通文字的至少2倍；
+  文字段落之间留白。
+  只对要强调的文字用醒目色吸引用户注意；
+  背景使用吸引眼球的图案（包括不限于纸张，记事本，微信聊天窗口，选择一种）
+  使用合适的图标或图片增加视觉层次，但要减少干扰。
+
+  文案：重磅！ChatGPT又变强了！
+  多任务处理更牛✨
+  编程能力更强💪
+  创造力爆表🎨
+  快来试试！
+
+  图像9:16比例
+prompt_en: |
+  Draw an image: Create a cover for a Xiaohongshu (RED) post.
+
+  Requirements:
+  – It must be visually compelling enough to attract user clicks.
+  – Use bold, characterful fonts.
+  – Vary font sizes to reflect the hierarchy of information; emphasize the structure of the copy.
+  – The main title should be at least twice the size of regular text.
+  – Leave white space between text sections.
+  – Only use bright accent colors to highlight key words and draw attention.
+  – The background should feature an eye-catching pattern (such as paper texture, notebook, or a WeChat chat window—choose one).
+  – Add appropriate icons or illustrations to enhance visual layers, but avoid visual clutter.
+
+  Copy text:
+  BREAKING: ChatGPT just got even better!
+  – Superior multitasking ✨
+  – Stronger coding ability 💪
+  – Creativity off the charts 🎨
+  Try it now!
+
+  Image aspect ratio: 9:16
+prompt_note: ""
+prompt_note_en: ""
+reference_note: ""
+reference_note_en: ""
+submitter: ""
+submitter_link: ""

@@ -1,0 +1,21 @@
+title: 彩色矢量艺术海报
+title_en: Colorful Vector Art Poster
+author: "@michaelrabone"
+author_link: https://x.com/michaelrabone
+source_links:
+  - url: https://x.com/michaelrabone/status/1913865394139316291
+image: example_vector_poster_london.png
+alt_text: 彩色矢量艺术海报
+alt_text_en: Colorful Vector Art Poster
+prompt: |
+  地点是"英国伦敦"，生成一张夏季的彩色矢量艺术海报，顶部有大的"LONDON"标题，下方有较小的"UNITED KINGDOM"标题
+prompt_en: |
+  Barcelona Spain colourful summer vector art poster with big "BARCELONA" title at the top and smaller "SPAIN" title under
+prompt_note: |
+  可替换提示词中的城市和国家名称（例如将"英国伦敦"替换为"中国北京"以生成示例图，大小标题也跟着更换）。此风格提示词也可用于食物、电影、音乐等主题。
+prompt_note_en: |
+  Replace the city and country names in the prompt (e.g., replace "Barcelona Spain" and the titles with "London United Kingdom" to generate the example image). This style prompt also works for food, movies, music, etc.
+reference_note: ""
+reference_note_en: ""
+submitter: ""
+submitter_link: ""

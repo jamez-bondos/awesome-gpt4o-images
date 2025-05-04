@@ -1,0 +1,55 @@
+name: Auto-generate README files
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'cases/**'
+      - 'gen-tool/src/**'
+      - 'gen-tool/templates/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update_readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+          cache-dependency-path: 'gen-tool/package.json'
+
+      - name: Install gen-tool dependencies
+        run: npm install
+        working-directory: ./gen-tool
+
+      - name: Run generate script to generate README
+        run: npm run generate
+        working-directory: ./gen-tool
+
+      - name: Commit and push if README files changed
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+          # Check if either README.md or README_en.md has changed
+          README_CHANGED=$(git diff --quiet README.md || echo "changed")
+          README_EN_CHANGED=$(git diff --quiet README_en.md || echo "changed")
+          
+          if [ -z "$README_CHANGED" ] && [ -z "$README_EN_CHANGED" ]; then
+            echo "README files are up-to-date. No changes to commit."
+          else
+            echo "README files have changes. Committing..."
+            git add README.md README_en.md
+            git commit -m "docs: update auto-generated README files"
+            git push origin main
+            echo "Changes pushed successfully."
+          fi

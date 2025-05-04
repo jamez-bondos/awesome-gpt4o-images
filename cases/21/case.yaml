@@ -1,0 +1,23 @@
+title: 简笔画表情包
+title_en: Stick Figure Emoji Pack
+author: "@ZHO_ZHO_ZHO"
+author_link: https://x.com/ZHO_ZHO_ZHO
+source_links:
+  - url: https://x.com/ZHO_ZHO_ZHO/status/1909907741948399873
+image: example_einstein_stickfigure_emoji.jpeg
+alt_text: 简笔画表情包
+alt_text_en: Stick Figure Emoji Pack
+prompt: |
+  (Step 1) 先将图片中的人物转换为手绘简笔画风格。
+  (Step 2) 在此基础上，基于简笔画人物绘制一系列表情包，包括：吐舌头、微笑、皱眉、惊讶、思考、眨眼。
+prompt_en: |
+  (Step 1) First, convert the person in the image into a hand-drawn doodle style.
+  (Step 2) Based on that doodle, create a series of expressive emoji-style faces, including: sticking out tongue, smiling, frowning, surprised, thinking, and winking.
+prompt_note: ""
+prompt_note_en: ""
+reference_note: |
+  一张人物照片。
+reference_note_en: |
+  A photo of a person.
+submitter: ""
+submitter_link: ""

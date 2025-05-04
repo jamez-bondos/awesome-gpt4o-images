@@ -1,0 +1,20 @@
+{
+  "name": "gen-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "generate-zh": "node src/index.js --lang=zh",
+    "generate-en": "node src/index.js --lang=en",
+    "generate": "npm run generate-zh && npm run generate-en",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "mustache": "^4.2.0"
+  }
+}

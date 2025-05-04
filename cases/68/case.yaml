@@ -1,0 +1,69 @@
+title: 未来主义 Logo 交易卡
+title_en: Futuristic Logo Trading Card
+author: "@hewarsaber"
+author_link: https://x.com/hewarsaber
+source_links:
+  - url: https://x.com/hewarsaber/status/1912933875166171515
+image: example_trading_card_logo_tesla.png
+alt_text: 未来主义 Logo 交易卡
+alt_text_en: Futuristic Logo Trading Card
+prompt: |
+  {
+      "prompt": "A futuristic trading card with a dark, moody neon aesthetic and soft sci-fi lighting. The card features a semi-transparent, rounded rectangle with slightly muted glowing edges, appearing as if made of holographic glass. At the center is a large glowing logo of {{logo}}, with no additional text or label, illuminated with a smooth gradient of {{colors}}, but not overly bright. The reflections on the card surface should be subtle, with a slight glossy finish catching ambient light. The background is a dark carbon fiber texture or deep gradient with soft ambient glows bleeding into the edges. Add subtle light rays streaming down diagonally from the top, giving the scene a soft cinematic glow. Apply light motion blur to the edges and reflections to give the scene a sense of depth and energy, as if it's part of a high-end tech animation still. Below the card, include realistic floor reflections that mirror the neon edges and logo—slightly diffused for a grounded, futuristic look. Text elements are minimal and softly lit: top-left shows '{{ticker}}', top-right has a stylized signature, and the bottom displays '{{company_name}}' with a serial number '{{card_number}}', a revenue badge reading '{{revenue}}', and the year '{{year}}'. Typography should have a faint glow with slight blurring, and all elements should feel premium, elegant, and softly illuminated—like a high-end cyberpunk collectible card.",
+      "style": {
+          "lighting": "Neon glow, soft reflections",
+          "font": "Modern sans-serif, clean and minimal",
+          "layout": "Centered, structured like a digital collectible card",
+          "materials": "Glass, holographic plastic, glowing metal edges"
+      },
+      "parameters": {
+          "logo": "Tesla logo",
+          "ticker": "TSLA",
+          "company_name": "Tesla Inc.",
+          "card_number": "#0006",
+          "revenue": "$96.8B",
+          "year": "2025",
+          "colors": [
+              "red",
+              "white",
+              "dark gray"
+          ]
+      },
+      "medium": "3D render, high-resolution digital art",
+      "size": "1080px by 1080px"
+  }
+prompt_en: |
+  {
+      "prompt": "A futuristic trading card with a dark, moody neon aesthetic and soft sci-fi lighting. The card features a semi-transparent, rounded rectangle with slightly muted glowing edges, appearing as if made of holographic glass. At the center is a large glowing logo of {{logo}}, with no additional text or label, illuminated with a smooth gradient of {{colors}}, but not overly bright. The reflections on the card surface should be subtle, with a slight glossy finish catching ambient light. The background is a dark carbon fiber texture or deep gradient with soft ambient glows bleeding into the edges. Add subtle light rays streaming down diagonally from the top, giving the scene a soft cinematic glow. Apply light motion blur to the edges and reflections to give the scene a sense of depth and energy, as if it's part of a high-end tech animation still. Below the card, include realistic floor reflections that mirror the neon edges and logo—slightly diffused for a grounded, futuristic look. Text elements are minimal and softly lit: top-left shows '{{ticker}}', top-right has a stylized signature, and the bottom displays '{{company_name}}' with a serial number '{{card_number}}', a revenue badge reading '{{revenue}}', and the year '{{year}}'. Typography should have a faint glow with slight blurring, and all elements should feel premium, elegant, and softly illuminated—like a high-end cyberpunk collectible card.",
+      "style": {
+          "lighting": "Neon glow, soft reflections",
+          "font": "Modern sans-serif, clean and minimal",
+          "layout": "Centered, structured like a digital collectible card",
+          "materials": "Glass, holographic plastic, glowing metal edges"
+      },
+      "parameters": {
+          "logo": "Tesla logo",
+          "ticker": "TSLA",
+          "company_name": "Tesla Inc.",
+          "card_number": "#0006",
+          "revenue": "$96.8B",
+          "year": "2025",
+          "colors": [
+              "red",
+              "white",
+              "dark gray"
+          ]
+      },
+      "medium": "3D render, high-resolution digital art",
+      "size": "1080px by 1080px"
+  }
+prompt_note: |
+  提示词采用类 JSON 结构描述卡片元素。可修改 `parameters` 对象中的值（如 logo, ticker, company_name, colors 等）来自定义卡片。对于自定义 Logo，需在 `parameters.logo` 中注明（例如："Framer logo (attached image)"）并上传图片。本提示词为结构化JSON，保持英文。
+prompt_note_en: |
+  The prompt uses a JSON-like structure to describe card elements. Modify values in the `parameters` object (like logo, ticker, company_name, colors, etc.) to customize the card. For custom logos, specify in `parameters.logo` (e.g., "Framer logo (attached image)") and upload the image.
+reference_note: |
+  （可选）上传自定义 Logo 图片。
+reference_note_en: |
+  (Optional) Upload a custom logo image.
+submitter: ""
+submitter_link: ""

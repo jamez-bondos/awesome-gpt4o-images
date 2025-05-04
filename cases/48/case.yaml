@@ -1,0 +1,27 @@
+title: 体素风格 3D 图标转换
+title_en: Voxel Style 3D Icon Conversion
+author: "@BrettFromDJ"
+author_link: https://x.com/BrettFromDJ
+source_links:
+  - url: https://x.com/BrettFromDJ/status/1910387413404234076
+  - url: https://x.com/ZHO_ZHO_ZHO/status/1910671581962985788
+image: example_voxel_icons.jpeg
+alt_text: 体素风格 3D 图标
+alt_text_en: 3D voxel-style icons
+prompt: |
+  三个步骤
+  1. 上传参考图
+  2. 上传要转换的照片
+  3. 提示词：将图片/描述/emoji转换为参考图一样的体素 3D 图标，Octane 渲染，8k
+prompt_en: |
+  Take the icon on the right and transform it into a voxel 3d icon like the icons in the left image. Octane render. 8k.
+prompt_note: |
+  中文提示词 by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)
+prompt_note_en: |
+  The tweet author provides a reference image for best results, recommend downloading and using it. When uploading, upload the reference image first, then the icon to be converted.
+reference_note: |
+  需要上传两张图片：一张包含期望体素风格图标的参考图（如推文作者提供），以及一张要转换的原始图标。
+reference_note_en: |
+  Requires uploading two images: a reference image showing the desired voxel style icons (like the one provided by the tweet author), and the original icon to be transformed.
+submitter: ""
+submitter_link: ""

@@ -1,0 +1,23 @@
+title: 吉卜力风格
+title_en: Ghibli Style
+author: "AnimeAI"
+author_link: https://animeai.online
+source_links:
+  - url: https://animeai.online/#demo-gallery
+image: ghibli-style-mona-lisa.png
+alt_text: 吉卜力风格《蒙娜丽莎》
+alt_text_en: Mona Lisa redrawn in Ghibli style
+prompt: |
+  以吉卜力风格重绘这张照片
+prompt_en: |
+  Redraw this photo in Ghibli style
+prompt_note: |
+  如果遇到违反内容政策的情况，提示词增加一句：如果背景里有不合适（敏感）的内容，可以进行修改或删除。
+prompt_note_en: |
+  If encountering content policy violations, add this sentence to the prompt: If there is inappropriate (sensitive) content in the background, it can be modified or deleted.
+reference_note: |
+  一张人物或者其他照片。
+reference_note_en: |
+  A photo of a person or other subject.
+submitter: ""
+submitter_link: ""

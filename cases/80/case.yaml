@@ -1,0 +1,37 @@
+title: 代码风格名片
+title_en: Code Style Business Card
+author: "@umesh_ai"
+author_link: https://x.com/umesh_ai
+source_links:
+  - url: https://x.com/umesh_ai/status/1915696926596415492
+  - url: https://x.com/fr0gger_/status/1916743281339498760
+  - url: https://x.com/dotey/status/1917412535130563006
+image: example_business_card_code_style.png
+alt_text: 代码风格名片
+alt_text_en: Code Style Business Card
+prompt: |
+  特写镜头：一只手正拿着一张设计成 VS Code 中 JSON 文件外观的名片。名片上的代码以真实的 JSON 语法高亮格式呈现。窗口界面包含典型的工具栏图标和标题栏，标题显示为 Business Card.json，整体风格与 VS Code 界面完全一致。背景略微虚化，突出展示名片内容。
+  名片上的 JSON 代码如下所示：
+  {
+    "name": "Jamez Bondos",
+    "title": "Your Title",
+    "email": "your@email.com",
+    "link": "yourwebsite"
+  }
+prompt_en: |
+  A close-up shot of a hand holding a business card designed to look like a JSON file opened in VS Code. The card shows code formatted in realistic syntax-highlighted JSON code. The window includes typical toolbar icons and a title bar labeled Business Card.json, styled exactly like the interface of VS Code. Background is slightly blurred, keeping the focus on the card.
+  The card displays the following code formatted in JSON:
+  {
+    "name": "Jamez Bondos",
+    "title": "Your Title",
+    "email": "your@email.com",
+    "link": "yourwebsite"
+  }
+prompt_note: |
+  替换最后的JSON代码中的name、title、email和link数据。提示词由原文链接中简化而来。
+prompt_note_en: |
+  Replace the values of name, title, email, and link in the final JSON code. The prompt is a simplified version derived from the original source link.
+reference_note: ""
+reference_note_en: ""
+submitter: Kong-F
+submitter_link: https://github.com/Kong-F
