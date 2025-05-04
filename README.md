@@ -59,6 +59,7 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 <a id="cases-toc"></a>
 ## 📖 案例目录
 
+*   [案例 83：发光线条解剖图 (by @umesh_ai)](#cases-83)
 *   [案例 82：特色城市天气预报 (by @dotey)](#cases-82)
 *   [案例 81：半透明玻璃质感变换 (by @azed_ai)](#cases-81)
 *   [案例 80：代码风格名片 (by @umesh_ai)](#cases-80)
@@ -146,6 +147,27 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 
 <a id="cases"></a>
 ## 🧩 案例
+
+<a id="cases-83"></a>
+### 案例 83：发光线条解剖图 (by [@umesh_ai](https://x.com/umesh_ai))
+
+[原文链接](https://x.com/umesh_ai/status/1914644426334314545)
+
+<img src="cases/83/case.png" width="300" alt="发光线条解剖图">
+
+**提示词**
+
+```
+一幅数字插画，描绘了一个 [SUBJECT]，其结构由一组发光、干净且纯净的蓝色线条勾勒而成。画面设定在深色背景之上，以突出 [SUBJECT] 的形态与特征。某个特定部位，如 [PART]，通过红色光晕加以强调，以表示该区域的重要性或特殊意义。整体风格兼具教育性与视觉吸引力，设计上仿佛是一种先进的成像技术。
+```
+
+*注意： 可替换提示词中的 `[SUBJECT]` (主体) 和 `[PART]` (部位)。*
+
+
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
 
 <a id="cases-82"></a>
 ### 案例 82：特色城市天气预报 (by [@dotey](https://x.com/dotey))

@@ -58,6 +58,7 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 <a id="cases-toc"></a>
 ## 📖 Cases Directory
 
+*   [Case 83: Glowing Lines Anatomy Diagram (by @umesh_ai)](#cases-83)
 *   [Case 82: Signature City Weather Forecast (by @dotey)](#cases-82)
 *   [Case 81: 3D Translucent Glass Transformation (by @azed_ai)](#cases-81)
 *   [Case 80: Code Style Business Card (by @umesh_ai)](#cases-80)
@@ -145,6 +146,27 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 
 <a id="cases"></a>
 ## 🧩 Case
+
+<a id="cases-83"></a>
+### Case 83: Glowing Lines Anatomy Diagram (by [@umesh_ai](https://x.com/umesh_ai))
+
+[Source Link](https://x.com/umesh_ai/status/1914644426334314545)
+
+<img src="cases/83/case.png" width="300" alt="Glowing Lines Anatomy Diagram">
+
+**Prompt**
+
+```
+A digital illustration of a [SUBJECT], portrayed with a network of glowing clean pristine blue lines outlining its anatomy. The image is set against a dark background, highlighting the [SUBJECT] form and features. A specific area such as [PART] is emphasized with a red glow to indicate a point of interest or significance. The style is both educational and visually captivating, designed to resemble an advanced imaging technique
+```
+
+*Note: Replace `[SUBJECT]` and `[PART]` in the prompt.*
+
+
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
 
 <a id="cases-82"></a>
 ### Case 82: Signature City Weather Forecast (by [@dotey](https://x.com/dotey))
