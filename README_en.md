@@ -29,13 +29,13 @@ OpenAI’s latest cutting-edge image model, **gpt-image-1**, has been released, 
 <a id="table-of-contents"></a>
 ## Contents
 
-- [🎨 What is GPT‑4o](#gpt4o-toc)
-- [📖 Cases Directory](#case-toc)
-- [🛠️ Tools Introduction](#tools-toc)
-- [💡 Prompting Tips](#prompting-toc)
-- [🤝 How to Contribute](#contribute-toc)
-- [🙏 Acknowledgements](#acknowledgements-toc)
-- [🌟 Star History](#starhistory-toc)
+- [🎨 What is GPT‑4o](#gpt4o-intro)
+- [📖 Cases Directory](#cases-toc)
+- [🛠️ Tools Introduction](#tools-intro)
+- [💡 Prompting Tips](#prompting-tips)
+- [🤝 How to Contribute](#how-to-contribute)
+- [🙏 Acknowledgements](#acknowledgements)
+- [🌟 Star History](#star-history)
 
 
 ---
@@ -58,6 +58,7 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 <a id="cases-toc"></a>
 ## 📖 Cases Directory
 
+*   [Case 84: Animal Silicone Wrist Rest (by @ZHO_ZHO_ZHO)](#cases-84)
 *   [Case 83: Glowing Lines Anatomy Diagram (by @umesh_ai)](#cases-83)
 *   [Case 82: Signature City Weather Forecast (by @dotey)](#cases-82)
 *   [Case 81: 3D Translucent Glass Transformation (by @azed_ai)](#cases-81)
@@ -146,6 +147,27 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 
 <a id="cases"></a>
 ## 🧩 Case
+
+<a id="cases-84"></a>
+### Case 84: Animal Silicone Wrist Rest (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
+
+[Source Link](https://x.com/ZHO_ZHO_ZHO/status/1918525296577327574)
+
+<img src="cases/84/case.png" width="300" alt="Animal Silicone Wrist Rest">
+
+**Prompt**
+
+```
+Create an image of a cute chibi-style silicone wrist rest based on the {🐼} emoji. The wrist rest is made of soft, food-grade silicone with a skin-friendly matte surface. The interior is filled with slow-rebound foam. Designed in a personified cartoon style, the expression is lively, with both arms stretched out as if hugging the user’s wrist while lying on a desk. The overall shape is round, soft, and adorable, featuring the classic {🐼} color scheme. The design is comforting and cute, suitable for office use. The background is a solid white color with soft lighting. Rendered in a product photography style, the angle is either front-facing or at a 45-degree top-down view, showcasing high-definition details and emphasizing the silicone texture and comfort functionality.
+```
+
+*Note: Replace the {🐼} emoji in the prompt with other animal emojis.*
+
+
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
 
 <a id="cases-83"></a>
 ### Case 83: Glowing Lines Anatomy Diagram (by [@umesh_ai](https://x.com/umesh_ai))
