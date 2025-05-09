@@ -1,0 +1,21 @@
+title: 三只动物与地标自拍
+title_en: Three Animals Selfie at Landmark
+author: "@berryxia_ai"
+author_link: https://x.com/berryxia_ai
+source_links:
+  - url: https://x.com/berryxia_ai/status/1920795648946782583
+image: three_animals_selfie_at_landmark.png
+alt_text: 三只动物与地标自拍
+alt_text_en: Three Animals Selfie at Landmark
+prompt: |
+  三只[动物类型]在标志性[地标]前的特写自拍照，它们表情各异，拍摄于黄金时刻，采用电影般的灯光。动物们靠近镜头，头挨着头，模仿自拍姿势，展现出喜悦、惊讶和平静的表情。背景展示了[地标]完整的建筑细节，光线柔和，氛围温暖。采用摄影感、写实卡通风格拍摄，高细节，1:1 宽高比。
+prompt_en: |
+  A close-up selfie of three [animal type] with different expressions in front of the iconic [landmark], taken at golden hour with cinematic lighting. The animals are positioned close to the camera with their heads touching, mimicking a selfie pose, showing joyful, surprised, and calm expressions. The background features the full architectural detail of [landmark], softly illuminated, with a warm ambient atmosphere. Shot in a photographic, realistic cartoon style, high detail, 1:1 aspect ratio.
+prompt_note: |
+  可替换提示词中的 [动物类型] 和 [地标] 为具体描述。
+prompt_note_en: |
+  Replace [animal type] and [landmark] in the prompt with specific descriptions.
+reference_note: ""
+reference_note_en: ""
+submitter: ""
+submitter_link: ""
