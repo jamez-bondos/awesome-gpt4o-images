@@ -1,0 +1,85 @@
+title: 玻璃质感重塑
+title_en: Glass Retexturing
+author: "@egeberkina"
+author_link: https://x.com/egeberkina
+source_links:
+  - url: https://x.com/egeberkina/status/1920448389960909085
+image: glass_retexturing.jpeg
+alt_text: 玻璃质感重塑
+alt_text_en: Glass Retexturing
+prompt: |
+  对参考图片进行重新纹理化，基于下方的 JSON 美学定义
+  {
+    "style": "photorealistic 3D render",
+    "material": "glass with transparent and iridescent effects",
+    "surface_texture": "smooth, polished with subtle reflections and refractive effects",
+    "lighting": {
+      "type": "studio HDRI",
+      "intensity": "high",
+      "direction": "angled top-left key light and ambient fill",
+      "accent_colors": ["blue", "green", "purple"],
+      "reflections": true,
+      "refractions": true,
+      "dispersion_effects": true,
+      "bloom": true
+    },
+    "color_scheme": {
+      "primary": "transparent with iridescent blue, green, and purple hues",
+      "secondary": "crystal-clear with subtle chromatic shifts",
+      "highlights": "soft, glowing accents reflecting rainbow-like effects",
+      "rim_light": "soft reflective light around edges"
+    },
+    "background": {
+      "color": "black",
+      "vignette": true,
+      "texture": "none"
+    },
+    "post_processing": {
+      "chromatic_aberration": true,
+      "glow": true,
+      "high_contrast": true,
+      "sharp_details": true
+    }
+  }
+prompt_en: |
+  retexture the image attached based on the JSON aesthetic below
+  {
+    "style": "photorealistic 3D render",
+    "material": "glass with transparent and iridescent effects",
+    "surface_texture": "smooth, polished with subtle reflections and refractive effects",
+    "lighting": {
+      "type": "studio HDRI",
+      "intensity": "high",
+      "direction": "angled top-left key light and ambient fill",
+      "accent_colors": ["blue", "green", "purple"],
+      "reflections": true,
+      "refractions": true,
+      "dispersion_effects": true,
+      "bloom": true
+    },
+    "color_scheme": {
+      "primary": "transparent with iridescent blue, green, and purple hues",
+      "secondary": "crystal-clear with subtle chromatic shifts",
+      "highlights": "soft, glowing accents reflecting rainbow-like effects",
+      "rim_light": "soft reflective light around edges"
+    },
+    "background": {
+      "color": "black",
+      "vignette": true,
+      "texture": "none"
+    },
+    "post_processing": {
+      "chromatic_aberration": true,
+      "glow": true,
+      "high_contrast": true,
+      "sharp_details": true
+    }
+  }
+prompt_note: ""
+prompt_note_en: ""
+reference_note: |
+  需要上传一张图像作为重新纹理化的基础。
+reference_note_en: |
+  An image needs to be uploaded as the base for retexturing.
+submitter: ""
+submitter_link: ""
