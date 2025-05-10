@@ -1,0 +1,23 @@
+title: 自拍生成摇头娃娃
+title_en: Bobblehead Generator from Selfie
+author: "@thisdudelikesAI"
+author_link: https://x.com/thisdudelikesAI
+source_links:
+  - url: https://x.com/thisdudelikesAI/status/1920433372243136730
+image: selfie-to-bobblehead-generator.png
+alt_text: 自拍生成摇头娃娃
+alt_text_en: Bobblehead Generator from Selfie
+prompt: |
+  将这张照片变成一个摇头娃娃：头部稍微放大，保持面部准确，身体卡通化。[把它放在书架上]。
+prompt_en: |
+  Turn this photo into a bobblehead: enlarge the head slightly, keep the face accurate and cartoonify the body. [Place it on a bookshelf].
+prompt_note: |
+  请将提示词中的[把它放在书架上]替换为您想要的特定场景或背景，例如“把它放在书架上”或“把它放在办公桌上”，或“把它放在中性背景上”，或“生成透明背景”。
+prompt_note_en: |
+  Please replace [Place it on a bookshelf] in the prompt with your desired specific scene or background, for example "Place it on a bookshelf" or "Place it on an office desk", or "Place it on a neutral background" or "Generate with a transparent background".
+reference_note: |
+  需要上传一张自拍照作为生成摇头娃娃的基础。
+reference_note_en: |
+  A selfie needs to be uploaded as the basis for generating the bobblehead.
+submitter: ""
+submitter_link: ""
