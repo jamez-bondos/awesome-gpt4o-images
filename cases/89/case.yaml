@@ -1,0 +1,21 @@
+title: 镀铬emoji徽章
+title_en: Chrome Emoji Pin
+author: "@egeberkina"
+author_link: https://x.com/egeberkina
+source_links:
+  - url: https://x.com/egeberkina/status/1919398870867440124
+image: case.png
+alt_text: 镀铬emoji徽章
+alt_text_en: Chrome Emoji Pin
+prompt: |
+  高精度的 3D 渲染图，按照 emoji 图标 {👍} 展示一个金属质感的徽章，固定在竖直的商品卡片上，具有超光滑的镀铬质感和圆润的 3D 图标造型，风格化的未来主义设计，带有柔和的反光与干净的阴影。纸质卡片顶部中央带有一个冲切的欧式挂孔，徽章上方是醒目的标题 “{Awesome}”，下方配有趣味标语 “{Smash that ⭐ if you like it!}”。背景为柔和的灰色，使用柔光摄影棚灯光，整体风格极简。
+prompt_en: |
+  highly detailed 3D render of a single metallic {👍} emoji pin attached to a vertical product card, ultra-glossy chrome finish, smooth rounded 3D icon, stylized futuristic design, soft reflections, clean shadows, paper card has a die-cut euro hole at the top center, bold title “{Awesome}” above the pin, fun tagline “{Smash that ⭐ if you like it!}” below, soft gray background, soft studio lighting, minimal aesthetic
+prompt_note: |
+  替换 {👍} emoji 图标；替换标题和标语。
+prompt_note_en: |
+  Replace {👍} emoji with your emoji icon; Replace title and tagline.
+reference_note: ""
+reference_note_en: ""
+submitter: ""
+submitter_link: ""

@@ -1,0 +1,23 @@
+title: 透视3D出屏效果
+title_en: Perspective 3D Pop-Out Effect
+author: "@ZHO_ZHO_ZHO"
+author_link: https://x.com/ZHO_ZHO_ZHO
+source_links:
+  - url: https://x.com/ZHO_ZHO_ZHO/status/1920355982703509588
+image: perspective-3d-pop-out-effect.png
+alt_text: 透视3D出屏效果
+alt_text_en: Perspective 3D Pop-Out Effect
+prompt: |
+  超写实，从上往下俯视角拍摄，一个美丽的ins模特【安妮海瑟薇 / 见参考图片】，有着精致美丽的妆容和时尚的造型，站在一部被人托起的智能手机屏幕上，画面营造出强烈的透视错觉。强调女孩从手机中站出来的三维效果。她戴着黑框眼镜，穿着高街风，俏皮地摆着可爱的pose。手机屏幕被处理成深色地板，像是一个小舞台。场景使用强烈的强制透视（forced perspective）表现手掌、手机与女孩之间的比例差异。背景为干净的灰色，使用柔和室内光，浅景深，整体风格为超现实写实合成。透视特别强
+prompt_en: |
+  Hyperrealistic, top-down bird's-eye view shot, a beautiful Instagram model [Anne Hathaway / see reference image], with exquisite and beautiful makeup and fashionable styling, standing on the screen of a smartphone held up by someone. The image creates a strong perspective illusion. Emphasize the 3D effect of the girl standing out from the phone. She wears black-rimmed glasses, high-street fashion, and strikes a cute, playful pose. The phone screen is treated as a dark floor, like a small stage. The scene uses strong forced perspective to show the proportional difference between the hand, the phone, and the girl. The background is clean gray, using soft indoor light, shallow depth of field, and the overall style is surrealistic photorealistic compositing. Very strong perspective.
+prompt_note: |
+  可将提示词中的【安妮海瑟薇】替换为其他人物名称。或者使用一张人物照片作为参考图片。
+prompt_note_en: |
+  You can replace [Anne Hathaway] in the prompt with other character names. Or use a photo of a person as a reference image.
+reference_note: |
+  可使用一张人物照片作为参考图片。本示例的参考图片是[《戴珍珠耳环的少女》](./references/Meisje_met_de_parel.jpg)。
+reference_note_en: |
+  You can use a photo of a person as a reference image. This example image uses ["Girl with a Pearl Earring"](./references/Meisje_met_de_parel.jpg) as a reference image.
+submitter: ""
+submitter_link: ""

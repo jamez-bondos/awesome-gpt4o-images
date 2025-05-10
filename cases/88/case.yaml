@@ -1,0 +1,29 @@
+title: 儿童涂色页插画（含彩色参考图）
+title_en: Children's Coloring Page Illustration (with Color Reference)
+author: "@dotey"
+author_link: https://x.com/dotey
+source_links:
+  - url: https://x.com/dotey/status/1919522110395080838
+image: case.png
+alt_text: 儿童涂色页插画（含彩色参考图）
+alt_text_en: Children's Coloring Page Illustration (with Color Reference)
+prompt: |
+  一张黑白线描涂色插画，适合直接打印在标准尺寸（8.5x11英寸）的纸张上，无纸张边框。整体插画风格清新简洁，使用清晰流畅的黑色轮廓线条，无阴影、无灰阶、无颜色填充，背景纯白，便于涂色。
+  【同时为了方便不会涂色的用户，请在右下角用小图生成一个完整的彩色版本供参考】
+  适合人群：【6-9岁小朋友】
+  画面描述：
+  【一只独角兽在森林的草地上漫步，阳光明媚，蓝天白云】
+prompt_en: |
+  A black and white line drawing coloring illustration, suitable for direct printing on standard size (8.5x11 inch) paper, without paper borders. The overall illustration style is fresh and simple, using clear and smooth black outline lines, without shadows, grayscale, or color filling, with a pure white background for easy coloring.
+  [At the same time, for the convenience of users who are not good at coloring, please generate a complete colored version in the lower right corner as a small image for reference]
+  Suitable for: [6-9 year old children]
+  Scene description:
+  [A unicorn is walking on the grass in the forest, with bright sunshine, blue sky and white clouds]
+prompt_note: |
+  可替换提示词中的【】内容，例如适合人群和画面描述。
+prompt_note_en: |
+  The content within the brackets [] in the prompt can be replaced, such as the target audience and scene description.
+reference_note: ""
+reference_note_en: ""
+submitter: ""
+submitter_link: ""

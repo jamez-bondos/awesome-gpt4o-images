@@ -1,0 +1,21 @@
+title: 品牌化键盘键帽
+title_en: Branded Mechanical Keycaps
+author: "@egeberkina"
+author_link: https://x.com/egeberkina
+source_links:
+  - url: https://x.com/egeberkina/status/1918291652210311278
+image: case.png
+alt_text: 品牌化键盘键帽
+alt_text_en: Branded Mechanical Keycaps
+prompt: |
+  一个超逼真的3D渲染图，展示了四个机械键盘键帽，排列成紧密的2x2网格，所有键帽相互接触。从等轴测角度观察。一个键帽是透明的，上面用红色印刷着“{just}”字样。另外三个键帽采用颜色：{黑色、紫色和白色}。一个键帽上带有Github的Logo。另外两个键帽上分别写着“{fork}”和“{it}”。逼真的塑料纹理，圆润的雕刻键帽，柔和的阴影，干净的浅灰色背景。
+prompt_en: |
+  ultra-realistic 3D render of four mechanical keyboard keycaps in a tight 2x2 grid, all keys touching. View from an isometric angle. One key is transparent with the word “{just}” printed in {white}. The other three colors are: {black, purple, and white}. One key features the {Github} logo. The other two say "{fork}" and "{it}". Realistic plastic texture, rounded sculpted keycaps, soft shadows, clean light-gray background.
+prompt_note: |
+  替换品牌名、标语、键帽颜色
+prompt_note_en: |
+  Replace brand name, slogan, keycap colors
+reference_note: ""
+reference_note_en: ""
+submitter: ""
+submitter_link: ""

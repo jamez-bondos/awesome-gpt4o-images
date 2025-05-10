@@ -1,0 +1,21 @@
+title: 定制动漫手办
+title_en: Custom Anime Figure
+author: "@dotey"
+author_link: https://x.com/dotey
+source_links:
+  - url: https://x.com/dotey/status/1920851135516082246
+image: custom-anime-figure-from-photo.png
+alt_text: 定制动漫手办
+alt_text_en: Custom Anime Figure
+prompt: |
+  生成一张摆放于桌面上的动漫风格手办照片，以日常随手用手机拍摄的轻松休闲视角呈现。手办模型以附件中人物照片为基础，精确还原照片中人物的全身姿势、面部表情以及服装造型，确保手办全身完整呈现。整体设计精致细腻，头发与服饰采用自然柔和的渐变色彩与细腻质感，风格偏向日系动漫风，细节丰富，质感真实，观感精美。
+prompt_en: |
+  Generate an anime-style figure photo placed on a desktop, presented from a casual, everyday snapshot perspective as if taken with a mobile phone. The figure model is based on the attached character photo, accurately reproducing the full body posture, facial expression, and clothing style of the person in the photo, ensuring the entire figure is fully rendered. The overall design is exquisite and detailed, with hair and clothing featuring natural, soft gradient colors and fine textures. The style leans towards Japanese anime, rich in detail, with realistic textures and a beautiful appearance.
+prompt_note: ""
+prompt_note_en: ""
+reference_note: |
+  请上传一张包含人物全身姿势、面部表情及服装造型的照片，用于生成手办模型。
+reference_note_en: |
+  Please upload a photo showing the person's full body posture, facial expression, and clothing style to be used as the basis for the figure model.
+submitter: ""
+submitter_link: ""

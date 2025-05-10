@@ -9,11 +9,9 @@
 
 🎉 欢迎来到 GPT‑4o 图片精选！
 
-这里收集了 OpenAI 最新多模态模型 GPT‑4o 生成图片的精彩案例和提示词。
+这是一个精选的 GPT-4o 与 gpt-image-1 生成图像与提示词合集。借助 ChatGPT 和 Sora，全面展示 OpenAI 在 AI 图像生成方面的前沿能力，并不断探索创意表达的新可能。
 
-案例主要来源于 Twitter/X 🐦，希望这些案例能为您带来启发 💡，为你的灵感加速 🚀。
-
-OpenAI 最新尖端图像模型 gpt‑image‑1 已发布，图像生成能力更加强大，通过 API 调用提供服务。
+案例主要来源于 Twitter/X 🐦 和 Sora 社区 🎬，希望这些案例能为您带来启发 💡，为你的灵感加速 🚀。
 
 <strong>另外，来自OpenAI官方发布的 gpt‑image‑1 模型的数十个精彩案例，由本项目精心整理和翻译，查看请戳👇</strong>
 
@@ -58,6 +56,17 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 <a id="cases-toc"></a>
 ## 📖 案例目录
 
+*   [案例 96：定制动漫手办 (by @dotey)](#cases-96)
+*   [案例 95：自拍生成摇头娃娃 (by @thisdudelikesAI)](#cases-95)
+*   [案例 94：三只动物与地标自拍 (by @berryxia_ai)](#cases-94)
+*   [案例 93：玻璃质感重塑 (by @egeberkina)](#cases-93)
+*   [案例 92：透视3D出屏效果 (by @ZHO_ZHO_ZHO)](#cases-92)
+*   [案例 91：谷歌地图变身古代藏宝图 (by @umesh_ai)](#cases-91)
+*   [案例 90：品牌化键盘键帽 (by @egeberkina)](#cases-90)
+*   [案例 89：镀铬emoji徽章 (by @egeberkina)](#cases-89)
+*   [案例 88：儿童涂色页插画（含彩色参考图） (by @dotey)](#cases-88)
+*   [案例 87：字母与单词含义融合 (by @dotey)](#cases-87)
+*   [案例 86：双重曝光 (by rezzycheck (Sora))](#cases-86)
 *   [案例 85：超现实交互场景 (by @umesh_ai)](#cases-85)
 *   [案例 84：动物硅胶腕托 (by @ZHO_ZHO_ZHO)](#cases-84)
 *   [案例 83：发光线条解剖图 (by @umesh_ai)](#cases-83)
@@ -148,6 +157,277 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 
 <a id="cases"></a>
 ## 🧩 案例
+
+<a id="cases-96"></a>
+### 案例 96：定制动漫手办 (by [@dotey](https://x.com/dotey))
+
+[原文链接](https://x.com/dotey/status/1920851135516082246)
+
+<img src="cases/96/custom-anime-figure-from-photo.png" width="300" alt="定制动漫手办">
+
+**提示词**
+
+```
+生成一张摆放于桌面上的动漫风格手办照片，以日常随手用手机拍摄的轻松休闲视角呈现。手办模型以附件中人物照片为基础，精确还原照片中人物的全身姿势、面部表情以及服装造型，确保手办全身完整呈现。整体设计精致细腻，头发与服饰采用自然柔和的渐变色彩与细腻质感，风格偏向日系动漫风，细节丰富，质感真实，观感精美。
+```
+
+
+**需上传参考图片：** 请上传一张包含人物全身姿势、面部表情及服装造型的照片，用于生成手办模型。
+
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-95"></a>
+### 案例 95：自拍生成摇头娃娃 (by [@thisdudelikesAI](https://x.com/thisdudelikesAI))
+
+[原文链接](https://x.com/thisdudelikesAI/status/1920433372243136730)
+
+<img src="cases/95/selfie-to-bobblehead-generator.png" width="300" alt="自拍生成摇头娃娃">
+
+**提示词**
+
+```
+将这张照片变成一个摇头娃娃：头部稍微放大，保持面部准确，身体卡通化。[把它放在书架上]。
+```
+
+*注意： 请将提示词中的[把它放在书架上]替换为您想要的特定场景或背景，例如“把它放在书架上”或“把它放在办公桌上”，或“把它放在中性背景上”，或“生成透明背景”。*
+
+**需上传参考图片：** 需要上传一张自拍照作为生成摇头娃娃的基础。
+
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-94"></a>
+### 案例 94：三只动物与地标自拍 (by [@berryxia_ai](https://x.com/berryxia_ai))
+
+[原文链接](https://x.com/berryxia_ai/status/1920795648946782583)
+
+<img src="cases/94/three_animals_selfie_at_landmark.png" width="300" alt="三只动物与地标自拍">
+
+**提示词**
+
+```
+三只[动物类型]在标志性[地标]前的特写自拍照，它们表情各异，拍摄于黄金时刻，采用电影般的灯光。动物们靠近镜头，头挨着头，模仿自拍姿势，展现出喜悦、惊讶和平静的表情。背景展示了[地标]完整的建筑细节，光线柔和，氛围温暖。采用摄影感、写实卡通风格拍摄，高细节，1:1 宽高比。
+```
+
+*注意： 可替换提示词中的 [动物类型] 和 [地标] 为具体描述。*
+
+
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-93"></a>
+### 案例 93：玻璃质感重塑 (by [@egeberkina](https://x.com/egeberkina))
+
+[原文链接](https://x.com/egeberkina/status/1920448389960909085)
+
+<img src="cases/93/glass_retexturing.jpeg" width="300" alt="玻璃质感重塑">
+
+**提示词**
+
+```
+对参考图片进行重新纹理化，基于下方的 JSON 美学定义
+{
+  "style": "photorealistic 3D render",
+  "material": "glass with transparent and iridescent effects",
+  "surface_texture": "smooth, polished with subtle reflections and refractive effects",
+  "lighting": {
+    "type": "studio HDRI",
+    "intensity": "high",
+    "direction": "angled top-left key light and ambient fill",
+    "accent_colors": ["blue", "green", "purple"],
+    "reflections": true,
+    "refractions": true,
+    "dispersion_effects": true,
+    "bloom": true
+  },
+  "color_scheme": {
+    "primary": "transparent with iridescent blue, green, and purple hues",
+    "secondary": "crystal-clear with subtle chromatic shifts",
+    "highlights": "soft, glowing accents reflecting rainbow-like effects",
+    "rim_light": "soft reflective light around edges"
+  },
+  "background": {
+    "color": "black",
+    "vignette": true,
+    "texture": "none"
+  },
+  "post_processing": {
+    "chromatic_aberration": true,
+    "glow": true,
+    "high_contrast": true,
+    "sharp_details": true
+  }
+}
+```
+
+
+**需上传参考图片：** 需要上传一张图像作为重新纹理化的基础。
+
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-92"></a>
+### 案例 92：透视3D出屏效果 (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
+
+[原文链接](https://x.com/ZHO_ZHO_ZHO/status/1920355982703509588)
+
+<img src="cases/92/perspective-3d-pop-out-effect.png" width="300" alt="透视3D出屏效果">
+
+**提示词**
+
+```
+超写实，从上往下俯视角拍摄，一个美丽的ins模特【安妮海瑟薇 / 见参考图片】，有着精致美丽的妆容和时尚的造型，站在一部被人托起的智能手机屏幕上，画面营造出强烈的透视错觉。强调女孩从手机中站出来的三维效果。她戴着黑框眼镜，穿着高街风，俏皮地摆着可爱的pose。手机屏幕被处理成深色地板，像是一个小舞台。场景使用强烈的强制透视（forced perspective）表现手掌、手机与女孩之间的比例差异。背景为干净的灰色，使用柔和室内光，浅景深，整体风格为超现实写实合成。透视特别强
+```
+
+*注意： 可将提示词中的【安妮海瑟薇】替换为其他人物名称。或者使用一张人物照片作为参考图片。*
+
+**需上传参考图片：** 可使用一张人物照片作为参考图片。本示例的参考图片是[《戴珍珠耳环的少女》](./references/Meisje_met_de_parel.jpg)。
+
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-91"></a>
+### 案例 91：谷歌地图变身古代藏宝图 (by [@umesh_ai](https://x.com/umesh_ai))
+
+[原文链接](https://x.com/umesh_ai/status/1919701229363466328)
+
+<img src="cases/91/case.png" width="300" alt="谷歌地图变身古代藏宝图">
+
+**提示词**
+
+```
+将图像转换为绘制在古老羊皮纸上的古代藏宝图。地图包含详细的元素，如海洋上的帆船、海岸线上的古老港口或城堡、通向标记宝藏地点的大“X”的虚线路径、山脉、棕榈树和装饰性的罗盘玫瑰。整体风格让人联想到旧时的海盗冒险电影。
+```
+
+
+**需上传参考图片：** 需要上传一张谷歌地图截图或其他地图图片作为转换的基础。
+
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-90"></a>
+### 案例 90：品牌化键盘键帽 (by [@egeberkina](https://x.com/egeberkina))
+
+[原文链接](https://x.com/egeberkina/status/1918291652210311278)
+
+<img src="cases/90/case.png" width="300" alt="品牌化键盘键帽">
+
+**提示词**
+
+```
+一个超逼真的3D渲染图，展示了四个机械键盘键帽，排列成紧密的2x2网格，所有键帽相互接触。从等轴测角度观察。一个键帽是透明的，上面用红色印刷着“{just}”字样。另外三个键帽采用颜色：{黑色、紫色和白色}。一个键帽上带有Github的Logo。另外两个键帽上分别写着“{fork}”和“{it}”。逼真的塑料纹理，圆润的雕刻键帽，柔和的阴影，干净的浅灰色背景。
+```
+
+*注意： 替换品牌名、标语、键帽颜色*
+
+
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-89"></a>
+### 案例 89：镀铬emoji徽章 (by [@egeberkina](https://x.com/egeberkina))
+
+[原文链接](https://x.com/egeberkina/status/1919398870867440124)
+
+<img src="cases/89/case.png" width="300" alt="镀铬emoji徽章">
+
+**提示词**
+
+```
+高精度的 3D 渲染图，按照 emoji 图标 {👍} 展示一个金属质感的徽章，固定在竖直的商品卡片上，具有超光滑的镀铬质感和圆润的 3D 图标造型，风格化的未来主义设计，带有柔和的反光与干净的阴影。纸质卡片顶部中央带有一个冲切的欧式挂孔，徽章上方是醒目的标题 “{Awesome}”，下方配有趣味标语 “{Smash that ⭐ if you like it!}”。背景为柔和的灰色，使用柔光摄影棚灯光，整体风格极简。
+```
+
+*注意： 替换 {👍} emoji 图标；替换标题和标语。*
+
+
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-88"></a>
+### 案例 88：儿童涂色页插画（含彩色参考图） (by [@dotey](https://x.com/dotey))
+
+[原文链接](https://x.com/dotey/status/1919522110395080838)
+
+<img src="cases/88/case.png" width="300" alt="儿童涂色页插画（含彩色参考图）">
+
+**提示词**
+
+```
+一张黑白线描涂色插画，适合直接打印在标准尺寸（8.5x11英寸）的纸张上，无纸张边框。整体插画风格清新简洁，使用清晰流畅的黑色轮廓线条，无阴影、无灰阶、无颜色填充，背景纯白，便于涂色。
+【同时为了方便不会涂色的用户，请在右下角用小图生成一个完整的彩色版本供参考】
+适合人群：【6-9岁小朋友】
+画面描述：
+【一只独角兽在森林的草地上漫步，阳光明媚，蓝天白云】
+```
+
+*注意： 可替换提示词中的【】内容，例如适合人群和画面描述。*
+
+
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-87"></a>
+### 案例 87：字母与单词含义融合 (by [@dotey](https://x.com/dotey))
+
+[原文链接](https://x.com/dotey/status/1918529055340576812)
+
+<img src="cases/87/case.png" width="300" alt="字母与单词含义融合">
+
+**提示词**
+
+```
+在字母中融入单词的含义，将图形和字母巧妙融合在一起。
+单词：{ beautify }
+下面加上单词的简要说明
+```
+
+*注意： 替换单词{ beautify }为想要融合的单词*
+
+
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-86"></a>
+### 案例 86：双重曝光 (by [rezzycheck (Sora)](https://sora.com/explore?user=rezzycheck))
+
+[原文链接](https://sora.com/g/gen_01jtc9btfzef080z31v8w9rtbw)
+
+<img src="cases/86/double_exposure.png" width="300" alt="双重曝光">
+
+**提示词**
+
+```
+双重曝光，Midjourney 风格，融合、混合、叠加的双重曝光图像，双重曝光风格。一幅由 Yukisakura 创作的杰出杰作，展现了一个奇妙的双重曝光构图，将阿拉贡·阿拉松之子的剪影与生机勃勃春季里中土世界视觉上引人注目、崎岖的地貌和谐地交织在一起。沐浴阳光的松树林、山峰和一匹孤独的马穿过小径的景象从他身形的纹理中向外回响，增添了叙事和孤独的层次感。当简洁分明的单色背景保持着锐利的对比度时，美妙的张力逐渐形成，将所有焦点吸引到层次丰富的双重曝光上。其特点是阿拉贡剪影内部充满活力的全彩色方案，以及用情感的精确性描摹每个轮廓的清晰、刻意的线条。(Detailed:1.45). (Detailed background:1.4).
+```
+
+*注意： 中文提示词由英文原文翻译而来，基本能达到预期效果，不过使用英文提示词可能会获得更好的结果。*
+
+
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
 
 <a id="cases-85"></a>
 ### 案例 85：超现实交互场景 (by [@umesh_ai](https://x.com/umesh_ai))
@@ -2196,6 +2476,7 @@ Aspect ratio: 9:16
 1. [提示词高手们到底是怎么发现 GPT-4o 画图新玩法的？](https://baoyu.io/blog/gpt-4-image-generation-new-tricks) by [@dotey](https://x.com/dotey)
 2. [Prompt Engineering (PDF)](https://s.baoyu.io/files/2025-01-18-pdf-1-TechAI-Goolge-whitepaper_Prompt%20Engineering_v4-af36dcc7a49bb7269a58b1c9b89a8ae1.pdf) by Google
 3. [Prompt Engineering 简体中文翻译版](https://baoyu.io/blog/google-prompt-engineering-whitepaper) by [@dotey](https://x.com/dotey)
+4. [如何轻松写出好用的提示词模板？](https://baoyu.io/blog/how-to-write-prompt-templates) by [@dotey](https://x.com/dotey)
 
 
 

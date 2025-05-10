@@ -1,0 +1,25 @@
+title: 字母与单词含义融合
+title_en: Integrating Word Meaning into Letters
+author: "@dotey"
+author_link: https://x.com/dotey
+source_links:
+  - url: https://x.com/dotey/status/1918529055340576812
+image: case.png
+alt_text: 字母与单词含义融合
+alt_text_en: Integrating Word Meaning into Letters
+prompt: |
+  在字母中融入单词的含义，将图形和字母巧妙融合在一起。
+  单词：{ beautify }
+  下面加上单词的简要说明
+prompt_en: |
+  Integrate the meaning of the word into the letters, cleverly blending graphics and letters.
+  Word: {beautify}
+  Add a brief explanation of the word below.
+prompt_note: |
+  替换单词{ beautify }为想要融合的单词
+prompt_note_en: |
+  Replace the word { beautify } with the word you want to integrate
+reference_note: ""
+reference_note_en: ""
+submitter: ""
+submitter_link: ""
