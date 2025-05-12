@@ -1,0 +1,23 @@
+title: 磨砂玻璃后的虚实对比剪影
+title_en: Blurred Silhouette Behind Frosted Glass
+author: "@umesh_ai"
+author_link: https://x.com/umesh_ai
+source_links:
+  - url: https://x.com/umesh_ai/status/1921487841634156999
+image: blurred-silhouette-frosted-glass.png
+alt_text: 磨砂玻璃后的虚实对比剪影
+alt_text_en: Blurred Silhouette Behind Frosted Glass
+prompt: |
+  一张黑白照片，展示了一个[主体]在磨砂或半透明表面后的模糊剪影。其[部分]轮廓清晰，紧贴表面，与其余朦胧、模糊的身影形成鲜明对比。背景是柔和的灰色渐变色调，增强了神秘和艺术的氛围。
+prompt_en: |
+  A black and white photograph shows the blurred silhouette of a [SUBJECT] behind a frosted or translucent surface. The [PART] is sharply defined and pressed against the surface, creating a stark contrast with the rest of the hazy, indistinct figure. The background is a soft gradient of gray tones, enhancing the mysterious and artistic atmosphere.
+prompt_note: |
+  请在 [主体] 和 [部分] 中填入具体且富有画面感的描述，突出“模糊主体 + 清晰局部”的反差效果。
+  例如：[主体] 可写为“手持红色光剑的西斯领主”，[部分] 可写为“另一只聚集暗黑原力的手”。
+prompt_note_en: |
+  Replace [SUBJECT] and [PART] with vivid, visually striking details that emphasize the “blurred subject + sharply defined part” contrast.
+  For example, set [SUBJECT] to “a Sith Lord wielding a red lightsaber in one hand” and [PART] to “the other hand channeling the dark side of the Force.”
+reference_note: ""
+reference_note_en: ""
+submitter: ""
+submitter_link: ""
