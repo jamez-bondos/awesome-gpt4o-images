@@ -27,6 +27,7 @@ Special thanks to the following users for sharing their inspiring work ✨:
 *   [Anima (@Anima_Labs)](https://x.com/Anima_Labs)
 *   [terry623 (@terry623)](https://github.com/terry623)
 *   [photis (Sora Profile)](https://sora.com/explore?user=user-sydD5ZkXZsDaL0BriQa010dQ)
+*   [Ryan Hart (@thisdudelikesAI)](https://x.com/thisdudelikesAI)
 *   And other creators whose prompts may have been included through retweets or indirect shares.
 
 If your work is included here and you wish to change the attribution or have it removed, please feel free to contact us. ✉️
