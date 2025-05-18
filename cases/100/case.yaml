@@ -1,0 +1,33 @@
+title: 实物与手绘涂鸦创意广告
+title_en: Creative Ad with Real Object and Hand-Drawn Doodle
+author: "@azed_ai"
+author_link: https://x.com/azed_ai
+source_links:
+  - url: https://x.com/azed_ai/status/1923016036120658122
+image: creative-ad-real-object-hand-drawn-doodle.png
+alt_text: 实物与手绘涂鸦创意广告
+alt_text_en: Creative Ad with Real Object and Hand-Drawn Doodle
+prompt: |
+  一则简约且富有创意的广告，设置在纯白背景上。
+  一个真实的 [真实物体] 与手绘黑色墨水涂鸦相结合，线条松散而俏皮。涂鸦描绘了：[涂鸦概念及交互：以巧妙、富有想象力的方式与物体互动]。在顶部或中部加入粗体黑色 [广告文案] 文字。在底部清晰放置 [品牌标志]。视觉效果应简洁、有趣、高对比度且构思巧妙。
+prompt_en: |
+  A minimalist and creative advertisement set on a clean white background.
+  A real [Real Object] is integrated into a hand-drawn black ink doodle, using loose, playful lines. The [Doodle Concept] interacts with the object in a clever, imaginative way. Include bold black [Ad Copy] text at the top or center. Place the [Brand Logo] clearly at the bottom. The visual should be clean, fun, high-contrast, and conceptually smart.
+prompt_note: |
+  请将提示词中的 [真实物体]、[涂鸦概念及交互]、[广告文案] 和 [品牌标志] 替换为具体内容。
+  例如：
+  [真实物体]：咖啡豆
+  [涂鸦概念及交互]：巨型咖啡豆变成一个太空行星，一个小宇航员站在其表面上，并插上旗帜
+  [广告文案]：“Explore Bold Flavor”
+  [品牌标志]：星巴克 Logo
+prompt_note_en: |
+  Replace [Real Object], [Doodle Concept], [Ad Copy], and [Brand Logo] in the prompt with specific details.
+  For example:
+  [Real Object]: coffee bean
+  [Doodle Concept]: The giant coffee bean becomes a space planet, with a small astronaut planting a flag on its surface
+  [Ad Copy]: "Explore Bold Flavor"
+  [Brand Logo]: Starbucks logo
+reference_note: ""
+reference_note_en: ""
+submitter: ""
+submitter_link: ""
