@@ -1,0 +1,23 @@
+title: 定制Q版钥匙串
+title_en: Cute Chibi Keychain
+author: "@azed_ai"
+author_link: https://x.com/azed_ai
+source_links:
+  - url: https://x.com/azed_ai/status/1916521742052503804
+image: example_keychain_chibi.png
+alt_text: 定制Q版钥匙串
+alt_text_en: Cute Chibi Keychain
+prompt: |
+  一张特写照片，展示一个被人手握住的可爱多彩钥匙串。钥匙串的造型为 [参考图片] 的 Q 版风格。钥匙串由柔软橡胶材质制成，带有粗黑描边，连接在一个小巧的银色钥匙圈上，背景为中性色调。
+prompt_en: |
+  A close-up photo of a cute, colorful keychain held by person's hand. The keychain features a chibi-style of the [attached image ]. The keychain is made of soft rubber with bold black outlines and attached to a small silver keyring, neutral background
+prompt_note: |
+  提示词中的 `[参考图片]` 部分需要与上传的图片配合使用。
+prompt_note_en: |
+  The `[attached image]` part of the prompt needs to be used in conjunction with an uploaded image.
+reference_note: |
+  需要上传一张人物或物体的照片作为钥匙串图案主体。
+reference_note_en: |
+  A photo of a person or object as the subject for the keychain design.
+submitter: Kong-F
+submitter_link: https://github.com/Kong-F

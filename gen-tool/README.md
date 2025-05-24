@@ -56,4 +56,4 @@ npm run generate
 
 ## 📝 Note
 
-This tool only processes directories with numeric names in the `cases` folder. Each of these directories should contain a `case.yaml` file with case information and a image file.
+This tool only processes directories with numeric names in the `cases` folder. Each of these directories should contain a `case.yml` file with case information and a image file.

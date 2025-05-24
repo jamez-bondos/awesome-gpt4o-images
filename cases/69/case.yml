@@ -1,0 +1,21 @@
+title: 剪影艺术
+title_en: Silhouette Art
+author: "@umesh_ai"
+author_link: https://x.com/umesh_ai
+source_links:
+  - url: https://x.com/umesh_ai/status/1915417277953962048
+image: example_silhouette_art.png
+alt_text: 剪影艺术
+alt_text_en: Silhouette Art
+prompt: |
+  一个 [PROMPT] 的基础轮廓剪影。背景为亮黄色，剪影为纯黑色实心填充。
+prompt_en: |
+  The silhouette of a basic outline of a [PROMPT]. The background is bright yellow, and the silhouette is solid black.
+prompt_note: |
+  可替换提示词中的 `[PROMPT]` 为具体对象，例如 "dragon on a castle", "woman's profile" 等。
+prompt_note_en: |
+  Replace `[PROMPT]` with the specific subject, e.g., "dragon on a castle", "woman's profile", etc.
+reference_note: ""
+reference_note_en: ""
+submitter: ""
+submitter_link: ""

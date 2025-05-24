@@ -1,0 +1,93 @@
+title: 极简主义 3D 插画 (Markdown 格式)
+title_en: Minimalist 3D Illustration (Markdown Format)
+author: "@dotey"
+author_link: https://x.com/dotey
+source_links:
+  - url: https://x.com/dotey/status/1907131027253772399
+image: example_minimalist_3d_toilet_txt.png
+alt_text: 极简主义 3D 插画
+alt_text_en: Minimalist 3D Illustration
+prompt: |
+  画一个马桶：
+
+  ## 艺术风格简介：极简主义3D插画（Minimalist 3D Illustration）
+
+  ### 🎨 视觉元素（Visual Elements）
+
+  #### 🟢 造型语言（Shape Language）
+  - 圆润的边缘、平滑柔和的外形，采用简化几何造型。
+
+  #### 🎨 色彩（Colors）
+  - **主色调：** 柔和米色、浅灰色、暖橙色。
+  - **强调色：** 暖橙色用于焦点元素。
+  - **明暗处理：** 柔和渐变，平滑过渡，避免强烈的阴影和高光。
+
+  #### 💡 光照（Lighting）
+  - **类型：** 柔和、漫反射光照。
+  - **光源方向：** 上方稍偏右。
+  - **阴影风格：** 微妙且漫射，无锐利或高对比度的阴影。
+
+  #### 🧱 材质（Materials）
+  - **表面纹理：** 哑光、平滑的表面，带有微妙的明暗变化。
+  - **反射性：** 低或无，避免明显的光泽。
+
+  #### 🖼️ 构图（Composition）
+  - **对象呈现：** 单一、居中的物体，周围留出大量负空间。
+  - **视角：** 轻微倾斜视角，呈现适度的三维感，但无明显的景深效果。
+  - **背景：** 纯色、低饱和度，与主体协调且不干扰视线。
+
+  #### ✒️ 字体排版（Typography）
+  - **字体风格：** 极简、无衬线字体。
+  - **文字位置：** 左下角，尺寸小巧且不突出。
+  - **字体颜色：** 灰色，与背景形成低对比度。
+
+  #### 🖥️ 渲染风格（Rendering Style）
+  - **技术手法：** 3D渲染，采用简化的低多边形风格。
+  - **细节程度：** 中等细节，以形状和色彩为主，避免复杂纹理和细节。
+
+  ### 🎯 风格目标（Purpose）
+  > 创建干净、美观的视觉效果，强调简洁、亲和和现代感。
+prompt_en: |
+  Draw a Toilet
+
+  ## 🎨 Art Style: Minimalist 3D Illustration
+
+  ### 🟢 Shape Language
+  - Rounded edges and smooth, soft forms using simplified geometric shapes.
+
+  ### 🎨 Colors
+  - **Primary palette:** soft beige, light gray, warm orange.  
+  - **Accent color:** warm orange for focal elements.  
+  - **Shading:** gentle gradients and smooth transitions, avoiding harsh shadows and highlights.
+
+  ### 💡 Lighting
+  - **Type:** soft, diffuse lighting.  
+  - **Light source direction:** from above, slightly to the right.  
+  - **Shadow style:** subtle and diffused, without sharp or high-contrast shadows.
+
+  ### 🧱 Materials
+  - **Surface texture:** matte and smooth with subtle light variation.  
+  - **Reflectivity:** low to none, avoiding noticeable gloss.
+
+  ### 🖼️ Composition
+  - **Object presentation:** a single, centered object with generous negative space around it.  
+  - **Perspective:** slight tilt to suggest depth, but no strong depth-of-field effects.  
+  - **Background:** flat color, low saturation, harmonious with the subject and non-distracting.
+
+  ### ✒️ Typography
+  - **Font style:** minimalist sans-serif.  
+  - **Text placement:** bottom left corner, small and unobtrusive.  
+  - **Font color:** gray, low contrast with the background.
+
+  ### 🖥️ Rendering Style
+  - **Technique:** 3D rendering in a simplified low-poly style.  
+  - **Detail level:** medium — focus on shape and color, avoiding complex textures or fine details.
+
+  ## 🎯 Style Goal
+  > Create a clean and aesthetically pleasing visual that emphasizes simplicity, approachability, and modernity.
+prompt_note: ""
+prompt_note_en: ""
+reference_note: ""
+reference_note_en: ""
+submitter: ""
+submitter_link: ""

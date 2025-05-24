@@ -1,0 +1,23 @@
+title: 水晶球故事场景
+title_en: Story Scene in Crystal Ball
+author: "@dotey"
+author_link: https://x.com/dotey
+source_links:
+  - url: https://x.com/dotey/status/1916530529324699858
+image: example_crystal_ball_chang_e.png
+alt_text: 水晶球故事场景
+alt_text_en: Story Scene in Crystal Ball
+prompt: |
+  一枚精致的水晶球静静摆放在窗户旁温暖柔和的桌面上，背景虚化而朦胧，暖色调的阳光轻柔地穿透水晶球，折射出点点金光，温暖地照亮了四周的微暗空间。水晶球内部自然地呈现出一个以 {嫦娥奔月} 为主题的迷你立体世界，细腻精美而梦幻的3D景观，人物与物体皆是可爱的Q版造型，精致而美观，彼此之间充满灵动的情感互动。整体氛围充满了东亚奇幻色彩，细节极为丰富，呈现出魔幻现实主义般的奇妙质感。整个场景如诗如梦，华美而典雅，散发着温馨柔和的光芒，仿佛在温暖的光影中被赋予了生命。
+prompt_en: |
+  A delicate crystal ball rests quietly on a warm, softly lit tabletop by the window. The background is blurred and hazy, with warm-toned sunlight gently passing through the crystal ball, refracting specks of golden light that softly illuminate the dim surroundings.
+  Inside the crystal ball, a miniature three-dimensional world themed around {Chang’e Flying to the Moon} is naturally displayed — a finely detailed, dreamlike 3D scene. All characters and objects are rendered in adorable chibi style, exquisitely crafted and visually charming, with vivid emotional interactions between them.
+  The overall atmosphere is rich with East Asian fantasy elements, full of intricate details and a surreal magical realism texture. The entire scene feels poetic and dreamy, luxurious yet elegant, radiating a gentle, comforting glow — as if imbued with life through the warm play of light and shadow.
+prompt_note: |
+  可替换提示词中括号 {} 内文字为故事场景描述，成语、故事、小故事都可以。
+prompt_note_en: |
+  Replace the text within the square brackets {} in the prompt with a description of a story scene (idioms, stories, short tales all work).
+reference_note: ""
+reference_note_en: ""
+submitter: ""
+submitter_link: ""

@@ -1,0 +1,19 @@
+title: 虚构推文截图 (爱因斯坦)
+title_en: Fake Tweet Screenshot (Einstein)
+author: "@egeberkina"
+author_link: https://x.com/egeberkina
+source_links:
+  - url: https://x.com/egeberkina/status/1914299716394778713
+image: example_fake_tweet_einstein.png
+alt_text: 虚构推文截图 (爱因斯坦)
+alt_text_en: Fake Tweet Screenshot (Einstein)
+prompt: |
+  爱因斯坦刚刚完成相对论后发布的一条超写实风格的推文。包含一张自拍照，照片中清晰可见背景中的粉笔板和潦草的公式。推文下方显示尼古拉·特斯拉点赞了该内容。
+prompt_en: |
+  a hyper realistic twitter post by Albert Einstein right after finishing the theory of relativity. include a selfie where you can clearly see scribbled equations and a chalkboard in the background. have it visible that the post was liked by Nikola Tesla
+prompt_note: ""
+prompt_note_en: ""
+reference_note: ""
+reference_note_en: ""
+submitter: ""
+submitter_link: ""

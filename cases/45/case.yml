@@ -1,0 +1,21 @@
+title: 3D Q版大学拟人化形象
+title_en: 3D Chibi-style University Anthropomorphic Mascot
+author: "@dotey"
+author_link: https://x.com/dotey
+source_links:
+  - url: https://x.com/dotey/status/1911988003729203648
+image: example_university_mascot_npu.png
+alt_text: 西北工业大学拟人化3D Q版美少女，体现航空航天航海特色
+alt_text_en: 3D Chibi-style University Anthropomorphic Mascot
+prompt: |
+  给 {西北工业大学} 画一个拟人化的3D Q版美少女形象，体现学校 {航空航天航海三航} 特色
+prompt_en: |
+  Create a personified 3D chibi-style anime girl character representing {Northwestern Polytechnical University}, embodying the school’s distinctive strengths in {aeronautics, astronautics, and marine engineering}.
+prompt_note: |
+  可替换 {西北工业大学} 括号内的学校名称和特色描述以生成不同大学的拟人化形象。
+prompt_note_en: |
+  Replace the university name {Northwestern Polytechnical University} and characteristic description {Aeronautics, Astronautics, and Marine Technology - "Three Ais"} within the square brackets to generate anthropomorphic mascots for different universities.
+reference_note: ""
+reference_note_en: ""
+submitter: ""
+submitter_link: ""

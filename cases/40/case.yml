@@ -1,0 +1,59 @@
+title: 日系双格漫画 (少女总统红温了)
+title_en: Japanese-style Two-Panel Manga (Angry Girl President)
+author: "@hellokaton"
+author_link: https://x.com/hellokaton
+source_links:
+  - url: https://x.com/hellokaton/status/1910900979194646959
+image: example_two_panel_manga_president.png
+alt_text: 日系双格漫画：少女总统因电话未接通而生气加关税
+alt_text_en: Two-panel Cute Japanese Manga
+prompt: |
+  创建一张日系萌系双格漫画，上下排列，主题：少女总统的工作日常。
+
+  角色形象: 将上传的附件转换为日系萌系卡通女生形象的风格，保留原图所有细节，如服饰（西装）、发型（明亮的金黄色）、五官等。 
+
+  第一格: 
+  - 表情: 委屈巴巴，沮丧的表情，单手托腮 
+  - 文字框: “肿么办嘛！他不跟我通话！(；´д｀)” 
+  - 场景: 暖色调办公室，背后美国国旗，桌上放着一堆汉堡，一个复古红色转盘电话，人物在画面左边，电话在右边。  
+
+  第二格:  
+  - 表情: 咬牙切齿，暴怒，脸涨红 
+  - 动作: 猛拍桌子，汉堡震得跳起来 
+  - 文字泡: “哼！关税加倍！不理我是他们的损失！( `д´ )” - 场景: 和第一格相同，但一片狼藉。  
+
+  其他说明:  
+  - 文字采用简洁可爱的手写体，整体风格可爱而有趣。 
+  - 构图饱满生动，请保留足够空间用于文字显示，适当留白。 
+  - 图片比例 2:3。 
+  - 画面整体色彩鲜艳，突出卡通风格。
+prompt_en: |
+  Create a two-panel vertical manga in a cute Japanese anime style, theme: “The Daily Work Life of a Girl President.”
+
+  Character Design:
+  Transform the person in the uploaded image into a cute, moe-style anime girl while preserving all key details from the photo — including the outfit (a suit), hairstyle (bright golden-yellow), and facial features.
+
+  Panel 1:
+  - Expression: Pouting, disappointed, resting her cheek on one hand
+  - Text box: “What do I dooo?! He won’t take my call! (；´д｀)”
+  - Scene: Warm-toned office, with the U.S. flag in the background. On the desk: a pile of hamburgers and a vintage red rotary phone. The character is on the left side of the frame, the phone on the right.
+
+  Panel 2:
+  - Expression: Furious, face red with anger, gritting teeth
+  - Action: Slams the desk hard, making the hamburgers jump
+  - Speech bubble: “Hmph! Double the tariffs! Ignoring me is their loss! ( `д´ )”
+  - Scene: Same office, now a complete mess
+
+  Additional Notes:
+  - Use a cute, casual handwritten font for all text
+  - Keep the composition full and expressive, with adequate space for dialogue and intentional white space
+  - Aspect ratio: 2:3
+  - The overall visual tone should be colorful and energetic, with a distinctly cartoony style
+prompt_note: ""
+prompt_note_en: ""
+reference_note: |
+  需要上传一张人物照片作为参考。
+reference_note_en: |
+  A photo of a person is needed for reference.
+submitter: ""
+submitter_link: ""

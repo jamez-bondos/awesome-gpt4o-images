@@ -1,0 +1,21 @@
+title: 可爱珐琅别针
+title_en: Kawaii Enamel Pin
+author: "@gnrlyxyz"
+author_link: https://x.com/gnrlyxyz
+source_links:
+  - url: https://x.com/gnrlyxyz/status/1914303110853583302
+image: example_enamel_pins_einstein.png
+alt_text: 可爱珐琅别针
+alt_text_en: Kawaii Enamel Pin
+prompt: |
+  将附图中的人物转换成可爱的珐琅徽章风格。使用光亮金属描边和鲜艳的珐琅填色。不添加任何额外元素。方形效果图格式，白色背景。
+prompt_en: |
+  Turn the subject in the attached image into a kawaii enamel pin. Use glossy metal outlines and vibrant enamel fill. No extra added features. Square mockup format. White background.
+prompt_note: ""
+prompt_note_en: ""
+reference_note: |
+  需要上传一张人物或物体的照片作为转换主体。
+reference_note_en: |
+  Needs a photo of a person or object as the subject for transformation.
+submitter: StevenSong-sTs
+submitter_link: https://github.com/StevenSong-sTs
