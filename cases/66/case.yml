@@ -1,0 +1,21 @@
+title: 创意丝绸宇宙
+title_en: Creative Silk Universe
+author: "@ZHO_ZHO_ZHO"
+author_link: https://x.com/ZHO_ZHO_ZHO
+source_links:
+  - url: https://x.com/ZHO_ZHO_ZHO/status/1914864217867608175
+image: example_silk_creation_universe.png
+alt_text: 创意丝绸宇宙
+alt_text_en: Silk Universe-Creative Universe
+prompt: |
+  将 {❄️} 变成一个柔软的 3D 丝绸质感物体。整个物体表面包裹着顺滑流动的丝绸面料，带有超现实的褶皱细节、柔和的高光与阴影。该物体轻轻漂浮在干净的浅灰色背景中央，营造出轻盈优雅的氛围。整体风格超现实、触感十足且现代，传递出舒适与精致趣味的感觉。工作室灯光，高分辨率渲染。
+prompt_en: |
+  Transform the {❄️} into a soft 3D object with a silk texture. The entire surface of the object is wrapped in smooth and flowing silk fabric, featuring surreal wrinkle details, soft highlights, and shadows. The object gently floats in the center of a clean light gray background, creating a light and elegant atmosphere. The overall style is surreal, tactile, and modern, conveying a sense of comfort and refined playfulness. Studio lighting, high-resolution rendering.
+prompt_note: |
+  可替换提示词中的 {❄️} 替换为你的目标值。
+prompt_note_en: |
+  You can replace the {❄️} in the prompt words with your target value
+reference_note: ""
+reference_note_en: ""
+submitter: wowmarcomei
+submitter_link: https://github.com/wowmarcomei

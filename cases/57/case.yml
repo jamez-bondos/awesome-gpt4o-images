@@ -1,0 +1,21 @@
+title: 8位像素图标
+title_en: 8-Bit Pixel Icon
+author: "@egeberkina"
+author_link: https://x.com/egeberkina
+source_links:
+  - url: https://x.com/egeberkina/status/1913654508330058064
+image: example_8bit_pixel_beer.png
+alt_text: 8位像素图标
+alt_text_en: 8-Bit Pixel Icon
+prompt: |
+  创建一个极简主义的 8 位像素风格的 [🍔] 标志，居中放置在纯白背景上。使用有限的复古调色板，搭配像素化细节、锐利边缘和干净的块状形态。标志应简洁、具有标志性，并能在像素艺术风格中清晰识别——灵感来自经典街机游戏美学。
+prompt_en: |
+  Create a minimalist 8-bit pixel logo of [🍔], centered on a pure white background. Use a limited retro color palette with pixelated detailing, sharp edges, and clean blocky forms. The logo should be simple, iconic, and clearly recognizable in pixel art style — inspired by classic arcade game aesthetics.
+prompt_note: |
+  可替换提示词中的 `[🍔]` 为其他 Emoji 或对象。提示词翻译自英文版本，请参考原文链接
+prompt_note_en: |
+  The `[🍔]` emoji in the prompt can be replaced with other emojis or subjects.
+reference_note: ""
+reference_note_en: ""
+submitter: ""
+submitter_link: ""

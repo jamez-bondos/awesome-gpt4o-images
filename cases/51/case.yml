@@ -1,0 +1,22 @@
+title: 护照入境印章
+title_en: Passport Entry Stamp
+author: "@M_w14_"
+author_link: https://x.com/M_w14_
+source_links:
+  - url: https://x.com/M_w14_/status/1912146666410459618
+  - url: https://x.com/ZHO_ZHO_ZHO/status/1912188562944250035
+image: example_passport_stamp_rome.png
+alt_text: 护照入境印章
+alt_text_en: Passport Entry Stamp
+prompt: |
+  创建一个逼真的护照页，并盖上[北京, 中国]的入境章。章面应以粗体英文写明“欢迎来到北京”，并设计成圆形或椭圆形，并带有装饰性边框。章面应包含“ARRIVAL”字样和一个虚构的日期，例如“2025年4月16日”。在章面中加入{故宫}的微妙轮廓作为背景细节。使用深蓝色或红色墨水并略加晕染，以增强真实感。章面应略微倾斜，如同手工压印。护照页应清晰可见纸张纹理和安全图案。
+prompt_en: |
+  Create a realistic passport page with an entry stamp for [{City}, {Country}]. The stamp should say "Welcome to {City}" in bold English, designed in a round or oval shape with decorative borders. Include the word "ARRIVAL" and a fictional date like "15 APR 2025" Incorporate a subtle silhouette of {Main Landmark} as a background detail within the stamp. Use deep blue or red ink with light smudges for added realism. The stamp should appear slightly angled, as if hand-pressed. The passport page should show visible paper texture and security patterns.
+prompt_note: |
+  可替换提示词中括号内的城市、国家、地标和日期。示例图使用罗马、意大利、罗马斗兽场、日期2025年4月16日。中文提示词 by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO)
+prompt_note_en: |
+  You can replace the city, country, landmark, and date placeholders. The example image uses "Rome", "Italy", "Colosseum", and "13 APR 2025" (date differs slightly from the base prompt structure). Prompt by [@M_w14_](https://x.com/M_w14_)
+reference_note: ""
+reference_note_en: ""
+submitter: ""
+submitter_link: ""

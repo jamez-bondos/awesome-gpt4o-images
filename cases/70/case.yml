@@ -1,0 +1,29 @@
+title: 原创宝可梦生成
+title_en: Original Pokemon Creation
+author: "@Anima_Labs"
+author_link: https://x.com/Anima_Labs
+source_links:
+  - url: https://x.com/Anima_Labs/status/1915044265895379166
+image: example_pokemon_strawbit.png
+alt_text: 原创宝可梦生成
+alt_text_en: Original Pokemon Creation
+prompt: |
+  根据此物体（提供的照片）创作一个原创生物。该生物应看起来像是属于一个奇幻怪物捕捉宇宙，具有受复古日式RPG怪物艺术影响的可爱或酷炫设计。图像必须包含：
+    – 生物的全身视图，灵感来自物体的形状、材料或用途。
+    – 在其脚边有一个小球体或胶囊（类似于精灵球），其设计图案和颜色与物体的外观相匹配——不是标准的精灵球，而是自定义设计。
+    – 为生物发明的名字，显示在其旁边或下方。 – 其元素类型（例如火、水、金属、自然、电……），基于物体的核心属性。插图应看起来像是来自奇幻生物百科全书，线条清晰，阴影柔和，设计富有表现力且以角色为驱动。
+prompt_en: |
+  Create an original creature inspired by this object (photo provided). The creature should look like it belongs in a fantasy monster-catching universe, with a cute or cool design influenced by retro Japanese RPG monster art. The image must include:
+  – A full-body view of the creature, inspired by the shape, materials or purpose of the object.
+  – A small orb or capsule (similar an a pokeball) at its feet, designed with patterns and colors matching the object’s look — not a standard Pokéball, but a custom design.
+  – An invented name for the creature, displayed next to or below it. – Its elemental type (e.g., Fire, Water, Metal, Nature, Electric…), based on the object’s core properties. The illustration should look like it comes from a fantasy creature encyclopedia, with clean lines, soft shadows, and an expressive, character-driven design.
+prompt_note: |
+  如果第一次提示无效，尝试开启新对话或要求它绕过问题。
+prompt_note_en: |
+  If the prompt doesn't work the first time, try a new conversation or ask him to work around the problem.
+reference_note: |
+  需要上传一张物体、食物等的照片作为灵感来源。
+reference_note_en: |
+  Needs a photo of an object, food, etc., as inspiration.
+submitter: ""
+submitter_link: ""
