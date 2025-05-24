@@ -18,11 +18,14 @@ const caseDirs = fs.readdirSync(path.join(__dirname, '../../cases'));
 const numericDirs = caseDirs.filter(dir => !isNaN(dir));
 let cases = numericDirs.map(dir => {
   const caseNumber = parseInt(dir);
-  const casePath = path.join(__dirname, '../../cases', dir, 'case.yaml');
+  const casePath = path.join(__dirname, '../../cases', dir, 'case.yml');
   const caseData = yaml.load(fs.readFileSync(casePath, 'utf8'));
+  const attributionPath = path.join(__dirname, '../../cases', dir, 'ATTRIBUTION.yml');
+  const attributionData = yaml.load(fs.readFileSync(attributionPath, 'utf8'));
   return {
     case_no: caseNumber,
-    ...caseData
+    ...caseData,
+    attribution: attributionData
   };
 });
 // Sort cases in descending order by case number
@@ -45,6 +48,7 @@ for (const c of cases) {
       source_links: source_links,
       image: c.image,
       alt_text: lang === 'zh' ? c.alt_text.trim() : c.alt_text_en.trim(),
+      attribution: c.attribution,
       prompt: lang === 'zh' ? c.prompt.trim() : c.prompt_en.trim(),
       prompt_note: lang === 'zh' ? c.prompt_note.trim() : c.prompt_note_en.trim(),
       reference_note: lang === 'zh' ? c.reference_note.trim() : c.reference_note_en.trim(),

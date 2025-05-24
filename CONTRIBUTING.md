@@ -69,8 +69,31 @@ If you want to quickly share an example, or if you're less familiar with the Pul
 
 4. Wait for the maintainer to review and merge your PR.
 
+
+## 许可协议
+
+通过提交 Pull Request 或 Issue，**您即确认您对所上传的每一个文件拥有版权，或已获得明确授权，并且不可撤销地同意将您的贡献按 CC BY 4.0 许可证发布。**
+您上传的图像必须符合以下任一条件：
+1. 由您本人原创生成（例如使用 GPT-4o、Sora、gpt-image-1 等）；
+2. 或您已获得第三方作品的书面使用许可。
+
+严禁上传未经授权的第三方图像。
+
+
+## License Agreement
+
+By opening a Pull Request or Issue, you **confirm that you own the
+copyright or have explicit permission for every file you upload** and
+**irrevocably license your contribution under CC BY 4.0**.  
+Images must be either:
+
+1. Original works you generated (e.g., via GPT-4o, Sora, gpt-image-1), or  
+2. Third-party works for which you hold written permission.
+
+Uploading unlicensed third-party images is prohibited.
+
 ---
 
-感谢你您的贡献！
+感谢您的贡献！
 
 Thank you for your contribution!
