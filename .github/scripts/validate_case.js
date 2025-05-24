@@ -90,7 +90,7 @@ try {
   }
 
   // Validation 2 & 3: YAML format and image files
-  const templateFile = 'case-template/case.yaml';
+  const templateFile = 'case-template/case.yml';
   
   let templateData;
   try {
