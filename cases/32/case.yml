@@ -1,0 +1,21 @@
+title: 折叠式纸雕立体绘本
+title_en: 3D Papercraft Pop-up Book
+author: "@dotey"
+author_link: https://x.com/dotey
+source_links:
+  - url: https://x.com/dotey/status/1923264349050675329
+image: 3d_papercraft_popup_book.png
+alt_text: 折叠式纸雕立体绘本
+alt_text_en: 3D Papercraft Pop-up Book
+prompt: |
+  多层折叠式纸雕立体绘本，放在一张书桌上，背景纯净突出主题，绘本呈现出立体翻页书般的风格，比例为3:2横版。翻开的书页呈现【魔童版哪吒大战敖丙】的场景，所有元素皆可精细折叠组合，呈现出逼真细腻的纸张折叠质感；构图统一采用正面视角，整体视觉风格梦幻唯美，色彩缤纷绚丽，充满奇幻而生动的故事氛围。
+prompt_en: |
+  Multi-layered foldable paper sculpture pop-up book, placed on a desk, with a clean background highlighting the main subject. The book presents a 3D flip-book style, with a 2:3 vertical aspect ratio. The open pages display the scene of [Nezha Demon Child version battling Ao Bing]. All elements are finely foldable and assembled, showcasing a realistic and delicate texture of folded paper. The composition uniformly adopts a frontal perspective, with an overall dreamy and beautiful visual style, vibrant and gorgeous colors, full of a fantastical and lively story atmosphere.
+prompt_note: |
+  请酌情修改中括号【】内的场景描述，也可以增加更多细节。
+prompt_note_en: |
+  Please modify the scene description within the square brackets 【】 as appropriate, and you can also add more details.
+reference_note: ""
+reference_note_en: ""
+submitter: ""
+submitter_link: ""

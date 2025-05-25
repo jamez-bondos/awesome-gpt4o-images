@@ -1,0 +1,27 @@
+title: 二次元风格徽章
+title_en: Anime-style Badge
+author: "@Alittlefatwhale"
+author_link: https://x.com/Alittlefatwhale
+source_links:
+  - url: https://x.com/Alittlefatwhale/status/1922512847030124905
+image: anime_style_badge.png
+alt_text: 二次元风格徽章
+alt_text_en: Anime-style Badge
+prompt: |
+  基于附件中的人物，生成一个二次元风格的徽章的照片，要求：
+  材质：流苏
+  形状：圆形
+  画面主体：一只手手持徽章
+prompt_en: |
+  Based on the person in the attachment, generate a photo of an anime-style badge. Requirements:
+  Material: Tassel
+  Shape: Circular
+  Main subject: A hand holding the badge
+prompt_note: ""
+prompt_note_en: ""
+reference_note: |
+  需要上传一张人物照片作为徽章图案的参考。
+reference_note_en: |
+  A photo of a person needs to be uploaded as a reference for the badge design.
+submitter: ""
+submitter_link: ""

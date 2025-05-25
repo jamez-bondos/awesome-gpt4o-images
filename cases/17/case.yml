@@ -1,0 +1,21 @@
+title: 复古CRT电脑启动屏幕
+title_en: Retro CRT Computer Boot Screen
+author: "@Gdgtify"
+author_link: https://x.com/Gdgtify
+source_links:
+  - url: https://x.com/Gdgtify/status/1925176250626159053
+image: retro_crt_computer_boot_screen.png
+alt_text: 复古CRT电脑启动屏幕
+alt_text_en: Retro CRT Computer Boot Screen
+prompt: |
+  复古CRT电脑启动屏幕，最终显示为[形状或标志]的ASCII艺术。
+prompt_en: |
+  Retro CRT computer boot screen that resolves into ASCII-art of [shape or logo]
+prompt_note: |
+  可替换提示词中的 [形状或标志] 为具体的形状或标志描述，例如上海天际线
+prompt_note_en: |
+  Replace [shape or logo] in the prompt with a specific shape or logo description, such as Shanghai skyline.
+reference_note: ""
+reference_note_en: ""
+submitter: ""
+submitter_link: ""

@@ -1,0 +1,41 @@
+title: Q版角色表情包
+title_en: Chibi Character Sticker Pack
+author: "@leon_yuan2001"
+author_link: https://x.com/leon_yuan2001
+source_links:
+  - url: https://x.com/leon_yuan2001/status/1923712069209293014
+image: chibi_character_sticker_pack.png
+alt_text: Q版角色表情包
+alt_text_en: Chibi Character Sticker Pack
+prompt: |
+  请创作一套以 [参考图片中的角色] 为主角的Q版表情包，共9个，排列成3x3网格。
+  设计要求：
+  - 透明背景。
+  - 1:1正方形构图。
+  - 统一的Q版吉卜力卡通风格，色彩鲜艳。
+  - 每个表情的动作、神态、内容各不相同，需要体现“骚、贱、萌、抓狂”等多样情绪，例如：翻白眼、捶地狂笑、灵魂出窍、原地石化、撒钱、干饭状态、社交恐惧发作等。可融入打工人和网络热梗元素。
+  - 每个表情形象完整，无残缺。
+  - 每个表情均带有统一的白色描边，呈现贴纸效果。
+  - 画面中无多余、分离的元素。
+  - 严格禁止出现任何文字，或确保文字内容准确无误（优先选择无文字）。
+prompt_en: |
+  Please create a set of 9 Chibi stickers featuring [the character in the reference image], arranged in a 3x3 grid.
+  Design requirements:
+  - Transparent background.
+  - 1:1 square aspect ratio.
+  - Consistent Chibi Ghibli cartoon style with vibrant colors.
+  - Each sticker must have a unique action, expression, and theme, reflecting diverse emotions like "sassy, mischievous, cute, frantic" (e.g., rolling eyes, laughing hysterically on the floor, soul leaving body, petrified, throwing money, foodie mode, social anxiety attack). Incorporate elements related to office workers and internet memes.
+  - Each character depiction must be complete, with no missing parts.
+  - Each sticker must have a uniform white outline, giving it a sticker-like appearance.
+  - No extraneous or detached elements in the image.
+  - Strictly no text, or ensure any text is 100% accurate (no text preferred).
+prompt_note: |
+  请将提示词中的“[参考图片中的角色]”替换为对角色特征的具体描述，或直接上传参考图片。
+prompt_note_en: |
+  Please replace "[the character in the reference image]" in the prompt with a specific description of the character's features, or directly upload a reference image.
+reference_note: |
+  需要上传一张角色图片作为表情包创作的主要参考。
+reference_note_en: |
+  A character image needs to be uploaded as the main reference for creating the sticker pack.
+submitter: ""
+submitter_link: ""

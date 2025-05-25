@@ -1,0 +1,21 @@
+title: 玩具盒中的国家立体模型
+title_en: "Country Diorama in a Toy Box"
+author: "@TheRelianceAI"
+author_link: "https://x.com/TheRelianceAI"
+source_links:
+  - url: https://x.com/TheRelianceAI/status/1925223613055017251
+image: country_diorama_in_toy_box.png
+alt_text: 玩具盒中的[国家名称]立体模型
+alt_text_en: Country Diorama in a Toy Box
+prompt: |
+  一张超写实的俯拍摄影作品，展示了一个米色纸板盒内的3D打印立体模型，盒盖由两只人手撑开。盒子内部展现了[国家名称]的微缩景观，包含标志性地标、地形、建筑、河流、植被以及大量微小精细的人物模型。该立体模型充满了鲜活且符合地理特征的元素，全部采用触感舒适、玩具般的风格，使用哑光3D打印纹理制作，并带有可见的打印层纹。在顶部，盒盖内侧用大号、色彩鲜艳的凸起塑料字母显示“[国家名称]”字样——每个字母颜色各异，均为亮色。光线温暖且具有电影感，突出了纹理和阴影，营造出一种真实感和魅力，仿佛观看者正在打开一个神奇的国家微缩版本。
+prompt_en: |
+  An ultra-realistic top-down photograph of a 3D-printed diorama inside a beige cardboard box, with the lid being held open by two human hands. The interior of the box reveals a miniature landscape of [COUNTRY NAME], featuring iconic landmarks, terrain, buildings, rivers, vegetation, and crowds of tiny, detailed human figures. The diorama is filled with vibrant, geographically appropriate elements, all crafted in a tactile, toy-like style using matte 3D-printed textures with visible layer lines. At the top, the inside of the box lid displays the phrase “[COUNTRY NAME]” in large, colorful, raised plastic letters—each letter in a different bright color. The lighting is warm and cinematic, highlighting the textures and shadows to evoke a sense of realism and charm, as if the viewer is opening a magical miniature version of the nation
+prompt_note: |
+  请将提示词中的 `[国家名称]` 替换为具体的国家名称。
+prompt_note_en: |
+  Please replace `[COUNTRY NAME]` in the prompt with a specific country name.
+reference_note: ""
+reference_note_en: ""
+submitter: ""
+submitter_link: ""

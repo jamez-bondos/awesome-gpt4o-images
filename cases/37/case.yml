@@ -1,0 +1,21 @@
+title: 柔和风格3D广告
+title_en: Pastel Power 3D ADS
+author: "@aziz4ai"
+author_link: https://x.com/aziz4ai
+source_links:
+  - url: https://x.com/aziz4ai/status/1925301120252924356
+image: pastel_power_3d_ads.png
+alt_text: 柔和风格3D广告
+alt_text_en: Pastel Power 3D ADS
+prompt: |
+  一个柔和的3D卡通风格[品牌产品]雕塑，由光滑的粘土般纹理和鲜艳的柔和色彩制成，放置在简约的等距场景中，该场景与产品特性相得益彰，构图简洁，光线柔和，阴影微妙，产品徽标和三个词的口号清晰显示在下方。
+prompt_en: |
+  a soft 3D cartoon-style sculpture of [brand product], made of smooth clay-like textures and vibrant pastel colors, placed in a minimalist isometric scene that complements the product’s nature, clean composition, gentle lighting, subtle shadows, with the product’s logo and a 3-word slogan displayed clearly below
+prompt_note: |
+  可替换提示词中的 [品牌产品] 为具体的产品描述。
+prompt_note_en: |
+  Replace [brand product] in the prompt with a specific product description.
+reference_note: ""
+reference_note_en: ""
+submitter: ""
+submitter_link: ""

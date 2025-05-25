@@ -1,0 +1,21 @@
+title: 创意绿植花盆
+title_en: Cute Plant Planter
+author: "@azed_ai"
+author_link: https://x.com/azed_ai
+source_links:
+  - url: https://x.com/azed_ai/status/1923739813414568075
+image: cute_plant_planter.png
+alt_text: 创意绿植花盆
+alt_text_en: Cute Plant Planter
+prompt: |
+  一张高质量的照片，展示一个可爱的陶瓷[物体/动物]形状的花盆，表面光滑，里面装满了各种生机勃勃的多肉植物和绿色植物，包括尖刺的十二卷、莲座状的石莲花和精致的白色小花。花盆带有一个友好的面孔，放置在柔和的中性背景上，采用漫射自然光照明，展示了细腻的纹理和色彩对比，构图简洁、极具简约风格。
+prompt_en: |
+  A high-quality photo of a cute ceramic [object/animal]-shaped planter with a glossy finish, filled with a variety of vibrant succulents and greenery including a spiky Haworthia, a rosette-shaped Echeveria, and delicate white flowers. The planter has a friendly face and sits on a soft, neutral background with diffused natural lighting, showcasing fine textures and color contrast in a clean, minimalistic composition
+prompt_note: |
+  可替换提示词中的 [物体/动物] 为具体的物体、动物名称或表情符号。
+prompt_note_en: |
+  Replace [object/animal] in the prompt with a specific object, animal name, or emoji.
+reference_note: ""
+reference_note_en: ""
+submitter: ""
+submitter_link: ""
