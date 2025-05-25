@@ -20,8 +20,8 @@ prompt_note: |
 prompt_note_en: |
   The tweet author provides a reference image for best results, recommend downloading and using it. When uploading, upload the reference image first, then the icon to be converted.
 reference_note: |
-  需要上传两张图片：[一张包含期望体素风格图标的参考图](./references/voxel_icons_reference.jpeg)，以及一张要转换的原始图标。
+  体素风格图标的参考图从原文链接1获取；以及一张要转换的原始图标。
 reference_note_en: |
-  Requires uploading two images: [a reference image showing the desired voxel style icons](./references/voxel_icons_reference.jpeg), and the original icon to be transformed.
+  The reference image for voxel style icons is obtained from the original link 1; and an original icon to be transformed.
 submitter: ""
 submitter_link: ""
