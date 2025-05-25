@@ -28,6 +28,11 @@ Special thanks to the following users for sharing their inspiring work ✨:
 *   [terry623 (@terry623)](https://github.com/terry623)
 *   [photis (Sora Profile)](https://sora.com/explore?user=user-sydD5ZkXZsDaL0BriQa010dQ)
 *   [Ryan Hart (@thisdudelikesAI)](https://x.com/thisdudelikesAI)
+*   [Gadgetify (@Gdgtify)](https://x.com/Gdgtify)
+*   [Ilyas Salaoui (@TheRelianceAI)](https://x.com/TheRelianceAI)
+*   [Leon (@leon_yuan2001)](https://x.com/leon_yuan2001)
+*   [AZIZ | AI (@aziz4ai)](https://x.com/aziz4ai)
+*   [小肥鲸 (@Alittlefatwhale)](https://x.com/Alittlefatwhale)
 *   And other creators whose prompts may have been included through retweets or indirect shares.
 
 If your work is included here and you wish to change the attribution or have it removed, please feel free to contact us. ✉️
