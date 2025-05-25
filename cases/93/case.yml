@@ -4,7 +4,7 @@ author: "@egeberkina"
 author_link: https://x.com/egeberkina
 source_links:
   - url: https://x.com/egeberkina/status/1920448389960909085
-image: glass_retexturing.jpeg
+image: glass_retexturing.png
 alt_text: 玻璃质感重塑
 alt_text_en: Glass Retexturing
 prompt: |
@@ -75,8 +75,10 @@ prompt_en: |
       "sharp_details": true
     }
   }
-prompt_note: ""
-prompt_note_en: ""
+prompt_note: |
+  本提示词请使用 GPT-4o 生成图片；使用Sora可能无法生成正确的风格。
+prompt_note_en: |
+  Please use GPT-4o to generate images with this prompt; using Sora may not produce the correct style.
 reference_note: |
   需要上传一张图像作为重新纹理化的基础。
 reference_note_en: |

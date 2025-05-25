@@ -7,6 +7,6 @@ image_author_link: https://github.com/jamez-bondos
 source_links:
   - url: https://x.com/egeberkina/status/1920448389960909085
 license: CC-BY-4.0
-creation_tool: Sora
-date: 2025-05-24
-notes: Prompt quoted verbatim; image fully regenerated via Sora.
+creation_tool: GPT-4o
+date: 2025-05-25
+notes: Prompt quoted verbatim; image fully regenerated via GPT-4o.
