@@ -4,7 +4,7 @@
 {{{source_links}}}
 
 <img src="cases/{{{case_no}}}/{{{image}}}" width="300" alt="{{{alt_text}}}"><br>
-<sub>Image © 2025 {{{attribution.image_author}}}, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> • Prompt by <a href="{{{attribution.prompt_author_link}}}">{{{attribution.prompt_author}}}</a></sub>
+<sub>Image © 2025 <a href="{{{attribution.image_author_link}}}">{{{attribution.image_author}}}</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> • Prompt by <a href="{{{attribution.prompt_author_link}}}">{{{attribution.prompt_author}}}</a></sub>
 
 **{{{t.prompt_caption}}}**
 

@@ -5,7 +5,7 @@ author_link: https://x.com/BrettFromDJ
 source_links:
   - url: https://x.com/BrettFromDJ/status/1910387413404234076
   - url: https://x.com/ZHO_ZHO_ZHO/status/1910671581962985788
-image: example_voxel_icons.jpeg
+image: example_voxel_icon.png
 alt_text: 体素风格 3D 图标
 alt_text_en: 3D voxel-style icons
 prompt: |
@@ -20,8 +20,8 @@ prompt_note: |
 prompt_note_en: |
   The tweet author provides a reference image for best results, recommend downloading and using it. When uploading, upload the reference image first, then the icon to be converted.
 reference_note: |
-  需要上传两张图片：一张包含期望体素风格图标的参考图（如推文作者提供），以及一张要转换的原始图标。
+  需要上传两张图片：[一张包含期望体素风格图标的参考图](./references/voxel_icons_reference.jpeg)，以及一张要转换的原始图标。
 reference_note_en: |
-  Requires uploading two images: a reference image showing the desired voxel style icons (like the one provided by the tweet author), and the original icon to be transformed.
+  Requires uploading two images: [a reference image showing the desired voxel style icons](./references/voxel_icons_reference.jpeg), and the original icon to be transformed.
 submitter: ""
 submitter_link: ""
