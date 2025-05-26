@@ -16,8 +16,8 @@ prompt_note: |
 prompt_note_en: |
   You can replace [Anne Hathaway] in the prompt with other character names. Or use a photo of a person as a reference image.
 reference_note: |
-  可使用一张人物照片作为参考图片。本示例的参考图片是[《戴珍珠耳环的少女》](./references/Meisje_met_de_parel.jpg)。
+  可使用一张人物照片作为参考图片。本示例的参考图片是[《戴珍珠耳环的少女》](https://commons.wikimedia.org/w/index.php?curid=55017931)。
 reference_note_en: |
-  You can use a photo of a person as a reference image. This example image uses ["Girl with a Pearl Earring"](./references/Meisje_met_de_parel.jpg) as a reference image.
+  You can use a photo of a person as a reference image. This example image uses ["Girl with a Pearl Earring"](https://commons.wikimedia.org/w/index.php?curid=55017931) as a reference image.
 submitter: ""
 submitter_link: ""
