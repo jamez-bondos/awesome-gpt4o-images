@@ -14,6 +14,8 @@ The 40 examples below are curated directly from [OpenAI’s Official Image Gener
 - 🌎 Rich world knowledge
 - 🔤 Consistent text rendering
 
+OpenAI official examples are not covered by this repository’s CC BY 4.0 license (see the corresponding NOTICE file for details).
+
 *Note: Both `gpt-image-1` and GPT-4o are OpenAI's latest image generation products, supported by largely the same underlying models. The main difference is that the former is currently accessed via API, while the latter powers official products like ChatGPT and Sora. `gpt-image-1` represents the newer iteration available through the API.*
 
 <strong>→ 喜欢就点 Star 支持！ / Smash that ⭐ if you like it!</strong>
