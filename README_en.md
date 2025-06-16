@@ -163,10 +163,6 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 <a id="cases"></a>
 ## 🧩 Case
 
----
-
-[⬆️ Back to Cases Directory](#cases-toc)
-
 <a id="cases-102"></a>
 ### Case 102: A Gaze into the Golden Hour (by [@aimlapi](https://github.com/aimlapi))
 
@@ -180,9 +176,6 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 ```
 High-fashion editorial portrait, front-facing upper body shot of a professional female model. Captured with Hasselblad X2D 100C and XCD 90mm f/2.5 lens. Cinematic sepia tones with golden hour warmth. A dramatic black silhouette set against a burnt umber to honey amber gradient backdrop. Avant-garde composition featuring a tilted head pose, intense eye contact, and a profound, elongated stance in a flowing black turtleneck.Main Fresnel light positioned at a 60° angle with silk diffusion, complemented by a rim light using CTO gel at 75°. Subtle haze adds an ethereal touch. Feathered shadows, fine contrast curve adjustments, selective dodge & burn techniques, and grain texture overlays create visual depth. Color temperature smoothly transitions from 5500K to 3200K. Ultra-sharp details in RAW format. Inspired by Paolo Roversi’s lighting philosophy. Hyper-realistic, 16K resolution, rich in atmospheric nuance.--ar 9:16 --quality 2 --style raw --personalize nq7rq2j --stylize 500 --v 6.1
 ```
-
----
-
 
 ---
 
@@ -204,6 +197,7 @@ A group of enigmatic ninjas sits in serene silence within a {moss-covered Japane
 
 ---
 
+[⬆️ Back to Cases Directory](#cases-toc)
 
 <a id="cases-100"></a>
 ### Case 100: Creative Ad with Real Object and Hand-Drawn Doodle (by [@azed_ai](https://x.com/azed_ai))
