@@ -1,0 +1,31 @@
+title: 凝视黄金时刻的时尚肖像
+title_en: A Gaze into the Golden Hour
+author: "@aimlapi"
+author_link: https://github.com/aimlapi
+source_links:
+  - url: https://aimlapi.com/app/?utm_source=awesome-gpt4o-images&utm_medium=github&utm_campaign=integration
+image: a-gaze-into-the-golden-hour.png
+alt_text: 凝视黄金时刻的时尚肖像
+alt_text_en: A Gaze into the Golden Hour
+prompt: |
+  时尚编辑摄影，前拍，上身，专业女模特，用哈苏x2d100c，xc90mm f/2拍摄。 5个镜头，电影棕褐色的颜色分级，金色的温暖，戏剧性的黑色剪影，
+  燃烧的umber到蜂蜜琥珀色的渐变背景，前卫的构图，倾斜的头部姿势，凝视相机，深刻的凝视，拉长的身体姿势，流动的黑色高领，
+  专业的主菲涅尔光在60度角与丝扩散，边缘光与cto凝胶在75度角，雾气机器，羽毛阴影，对比曲线操纵，选择性闪避和燃烧，纹理叠加，
+  色温调整在5500k到3200k梯度，超锐利的细节, 原始格式，灵感来自paolo roversi照明技术，超现实，16k，丰富的细节--ar9:16--质量2--
+  风格原始--个性化nq7rq2j--风格化500--v6。 1
+prompt_en: |
+  High-fashion editorial portrait, front-facing upper body shot of a professional female model. 
+  Captured with Hasselblad X2D 100C and XCD 90mm f/2.5 lens. Cinematic sepia tones with golden hour warmth. 
+  A dramatic black silhouette set against a burnt umber to honey amber gradient backdrop. Avant-garde composition 
+  featuring a tilted head pose, intense eye contact, and a profound, elongated stance in a flowing black turtleneck.
+  Main Fresnel light positioned at a 60° angle with silk diffusion, complemented by a rim light using CTO gel at 75°.
+  Subtle haze adds an ethereal touch. Feathered shadows, fine contrast curve adjustments, selective dodge & burn techniques,
+  and grain texture overlays create visual depth. Color temperature smoothly transitions from 5500K to 3200K. Ultra-sharp 
+  details in RAW format. Inspired by Paolo Roversi’s lighting philosophy. Hyper-realistic, 16K resolution, rich in 
+  atmospheric nuance.--ar 9:16 --quality 2 --style raw --personalize nq7rq2j --stylize 500 --v 6.1
+prompt_note: ""
+prompt_note_en: ""
+reference_note: ""
+reference_note_en: ""
+submitter: ""
+submitter_link: ""

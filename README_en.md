@@ -55,6 +55,8 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 <a id="cases-toc"></a>
 ## 📖 Cases Directory
 
+*   [Case 102: A Gaze into the Golden Hour (by @aimlapi)](#cases-102)
+*   [Case 101: The Silent Tea Ritual of the Hidden Ninjas (by @aimlapi)](#cases-101)
 *   [Case 100: Creative Ad with Real Object and Hand-Drawn Doodle (by @azed_ai)](#cases-100)
 *   [Case 99: Black and White Portrait Art (by @ZHO_ZHO_ZHO)](#cases-99)
 *   [Case 98: Blurred Silhouette Behind Frosted Glass (by @umesh_ai)](#cases-98)
@@ -160,6 +162,42 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 
 <a id="cases"></a>
 ## 🧩 Case
+
+<a id="cases-102"></a>
+### Case 102: A Gaze into the Golden Hour (by [@aimlapi](https://github.com/aimlapi))
+
+[Source Link](https://aimlapi.com/app/?utm_source=awesome-gpt4o-images&utm_medium=github&utm_campaign=integration)
+
+<img src="cases/102/a-gaze-into-the-golden-hour.png" width="300" alt="Cute and Cozy Knitted Doll"><br>
+<sub>Image © 2025 <a href="https://github.com/aimlapi">@aimlapi</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> • Prompt by <a href="https://github.com/aimlapi">@aimlapi</a></sub>
+
+**Prompt**
+
+```
+High-fashion editorial portrait, front-facing upper body shot of a professional female model. Captured with Hasselblad X2D 100C and XCD 90mm f/2.5 lens. Cinematic sepia tones with golden hour warmth. A dramatic black silhouette set against a burnt umber to honey amber gradient backdrop. Avant-garde composition featuring a tilted head pose, intense eye contact, and a profound, elongated stance in a flowing black turtleneck.Main Fresnel light positioned at a 60° angle with silk diffusion, complemented by a rim light using CTO gel at 75°. Subtle haze adds an ethereal touch. Feathered shadows, fine contrast curve adjustments, selective dodge & burn techniques, and grain texture overlays create visual depth. Color temperature smoothly transitions from 5500K to 3200K. Ultra-sharp details in RAW format. Inspired by Paolo Roversi’s lighting philosophy. Hyper-realistic, 16K resolution, rich in atmospheric nuance.--ar 9:16 --quality 2 --style raw --personalize nq7rq2j --stylize 500 --v 6.1
+```
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
+
+<a id="cases-101"></a>
+### Case 101: The Silent Tea Ritual of the Hidden Ninjas (by [@aimlapi](https://github.com/aimlapi))
+
+[Source Link](https://aimlapi.com/app/?utm_source=awesome-gpt4o-images&utm_medium=github&utm_campaign=integration)
+
+<img src="cases/101/the-silent-tea-ritual-of-the-hidden-ninjas.jpg" width="300" alt="Cute and Cozy Knitted Doll"><br>
+<sub>Image © 2025 <a href="https://github.com/aimlapi">@aimlapi</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> • Prompt by <a href="https://github.com/aimlapi">@aimlapi</a></sub>
+
+**Prompt**
+
+```
+A group of enigmatic ninjas sits in serene silence within a {moss-covered Japanese courtyard / floating bamboo grove / rooftop of a futuristic metropolis / misty mountain valley}, quietly sharing tea with a few anthropomorphic teapots. These teapots possess {expressive eyes / delicate limbs / vivid facial expressions}, each with its own personality—some smiling gently, others blushing with shy warmth. The atmosphere is infused with the soft glow of ambient light and the gentle aroma of tea. Rendered in a richly detailed and imaginative style such as {traditional Ukiyo-e / dreamlike Surrealism / delicate watercolor / neon-lit Cyberpunk}, the scene evokes both tranquility and surreal wonder.
+```
+
+---
+
+[⬆️ Back to Cases Directory](#cases-toc)
 
 <a id="cases-100"></a>
 ### Case 100: Creative Ad with Real Object and Hand-Drawn Doodle (by [@azed_ai](https://x.com/azed_ai))
