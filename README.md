@@ -57,6 +57,8 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 <a id="cases-toc"></a>
 ## 📖 案例目录
 
+*   [案例 102：凝视黄金时刻的时尚肖像 (by @aimlapi)](#cases-102)
+*   [案例 101：茶隐忍者奇谭 (by @aimlapi)](#cases-101)
 *   [案例 100：实物与手绘涂鸦创意广告 (by @azed_ai)](#cases-100)
 *   [案例 99：黑白肖像艺术 (by @ZHO_ZHO_ZHO)](#cases-99)
 *   [案例 98：磨砂玻璃后的虚实对比剪影 (by @umesh_ai)](#cases-98)
@@ -162,6 +164,46 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 
 <a id="cases"></a>
 ## 🧩 案例
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-102"></a>
+### 案例 102: 凝视黄金时刻的时尚肖像 (by [@aimlapi](https://github.com/aimlapi))
+
+[原文链接](https://aimlapi.com/app/?utm_source=awesome-gpt4o-images&utm_medium=github&utm_campaign=integration)
+
+<img src="cases/102/a-gaze-into-the-golden-hour.png" width="300" alt="Cute and Cozy Knitted Doll"><br>
+<sub>Image © 2025 <a href="https://github.com/aimlapi">@aimlapi</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> • Prompt by <a href="https://github.com/aimlapi">@aimlapi</a></sub>
+
+**提示词**
+
+```
+时尚编辑摄影，前拍，上身，专业女模特，用哈苏x2d100c，xc90mm f/2拍摄。 5个镜头，电影棕褐色的颜色分级，金色的温暖，戏剧性的黑色剪影，燃烧的umber到蜂蜜琥珀色的渐变背景，前卫的构图，倾斜的头部姿势，凝视相机，深刻的凝视，拉长的身体姿势，流动的黑色高领，专业的主菲涅尔光在60度角与丝扩散，边缘光与cto凝胶在75度角，雾气机器，羽毛阴影，对比曲线操纵，选择性闪避和燃烧，纹理叠加，色温调整在5500k到3200k梯度，超锐利的细节, 原始格式，灵感来自paolo roversi照明技术，超现实，16k，丰富的细节--ar9:16--质量2--风格原始--个性化nq7rq2j--风格化500--v6。 1
+```
+
+---
+
+---
+
+[⬆️ 返回案例目录](#cases-toc)
+
+<a id="cases-101"></a>
+### 案例 101: 茶隐忍者奇谭 (by [@aimlapi](https://github.com/aimlapi))
+
+[原文链接](https://aimlapi.com/app/?utm_source=awesome-gpt4o-images&utm_medium=github&utm_campaign=integration)
+
+<img src="cases/101/the-silent-tea-ritual-of-the-hidden-ninjas.jpg" width="300" alt="Cute and Cozy Knitted Doll"><br>
+<sub>Image © 2025 <a href="https://github.com/aimlapi">@aimlapi</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> • Prompt by <a href="https://github.com/aimlapi">@aimlapi</a></sub>
+
+**提示词**
+
+```
+一群神秘的忍者在一个{古老日式庭院/漂浮的竹林/未来都市屋顶/被雾笼罩的山谷}中静静地围坐，和几只拟人化的茶壶一起喝茶。这些茶壶有{眼睛/四肢/面部表情}，表情各异，有的微笑，有的害羞。场景光线柔和，茶香缭绕，使用{浮世绘风/超现实主义/水彩画风/霓虹赛博朋克风格}描绘，细节精美、构图奇幻，营造出宁静而又奇异的氛围。
+```
+
+---
 
 <a id="cases-100"></a>
 ### 案例 100：实物与手绘涂鸦创意广告 (by [@azed_ai](https://x.com/azed_ai))
