@@ -55,7 +55,7 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 <a id="cases-toc"></a>
 ## 📖 Cases Directory
 
-*   [Case 101: Lego Collectible Figure (by @ZHO_ZHO_ZHO)](#cases-101)
+*   [Case 101: Edible Pop (by @aziz4ai)](#cases-101)
 *   [Case 100: Creative Ad with Real Object and Hand-Drawn Doodle (by @azed_ai)](#cases-100)
 *   [Case 99: Black and White Portrait Art (by @ZHO_ZHO_ZHO)](#cases-99)
 *   [Case 98: Blurred Silhouette Behind Frosted Glass (by @umesh_ai)](#cases-98)
@@ -163,29 +163,21 @@ GPT‑4o is a multimodal model that not only turns text prompts into high‑qual
 ## 🧩 Case
 
 <a id="cases-101"></a>
-### Case 101: Lego Collectible Figure (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
+### Case 101: Edible Pop (by [@aziz4ai](https://x.com/aziz4ai/))
 
-[Source Link](https://x.com/ZHO_ZHO_ZHO/status/1910644499354968091)
+[Source Link](https://x.com/aziz4ai/status/1934986353848017349)
 
-<img src="cases/101/example_lego_collectible.png" width="300" alt="Lego Collectible Figure"><br>
-<sub>Image © 2025 <a href="https://github.com/jamez-bondos">@jamez-bondos</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> • Prompt by <a href="https://x.com/ZHO_ZHO_ZHO">@ZHO_ZHO_ZHO</a></sub>
+<img src="cases/101/edible_pop.jpeg" width="300" alt="Edible Pop"><br>
+<sub>Image © 2025 <a href="https://github.com/highscore-ai">@highscore-ai</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> • Prompt by <a href="https://x.com/aziz4ai/">@aziz4ai</a></sub>
 
 **Prompt**
 
 ```
-Generate a vertically-oriented image based on my uploaded photo, using the following prompt:
-Classic LEGO minifigure style in a miniature scene — an animal stands beside me. The color palette of the animal should match mine.
-Please design the animal based on your understanding of me. You may choose any creature — real, surreal, or fantastical — that you feel best reflects my personality.
-The entire scene is set within a transparent glass cube, with a minimalist interior design.
-The base of the miniature is matte black with silver accents, following a clean and modern aesthetic.
-On the base, there is an elegantly engraved nameplate in a refined serif font, displaying the name of the animal.
-The lower part of the base subtly incorporates finely etched biological classification details, similar to a natural history museum display.
-The overall composition should resemble a high-end collectible artwork: meticulously crafted, curated in style, and lit with refined lighting.
-Balance is key to the layout. The background should feature a smooth gradient transition from dark to light tones, selected to match the dominant color theme.
+A hyper-realistic DSLR photo of the [brand/product] — juicy, crispy, mouth-watering. Held by a cute cartoon chibi hand about to take a bite. The background is a flat 2D illustration with pastel, edible-looking colors inspired by its visual identity — surreal, kawaii-style vector elements like sprinkles, stars, soft gradients, and playful shapes. Add a bold slogan using ONE powerful word that describes the flavor (like CRUNCH, MELT, WOW). Include the logo clearly on the food or next to the slogan. Composition: centered, 1:1 square, cinematic soft lighting, strong contrast between real food and flat illustrated background, 4K resolution.
 ```
 
 
-**Reference Image Required:** A half-body or full-body single person photo.
+**Reference Image Required:** A brand/product photo.
 
 
 ---

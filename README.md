@@ -57,7 +57,7 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 <a id="cases-toc"></a>
 ## 📖 案例目录
 
-*   [案例 101：乐高收藏品 (by @ZHO_ZHO_ZHO)](#cases-101)
+*   [案例 101：泡泡食物 (by @aziz4ai)](#cases-101)
 *   [案例 100：实物与手绘涂鸦创意广告 (by @azed_ai)](#cases-100)
 *   [案例 99：黑白肖像艺术 (by @ZHO_ZHO_ZHO)](#cases-99)
 *   [案例 98：磨砂玻璃后的虚实对比剪影 (by @umesh_ai)](#cases-98)
@@ -165,29 +165,20 @@ GPT‑4o 是 OpenAI 最新的多模态大模型，既能以文本提示一键生
 ## 🧩 案例
 
 <a id="cases-101"></a>
-### 案例 101：乐高收藏品 (by [@ZHO_ZHO_ZHO](https://x.com/ZHO_ZHO_ZHO))
+### 案例 101：泡泡食物 (by [@aziz4ai](https://x.com/aziz4ai/))
 
-[原文链接](https://x.com/ZHO_ZHO_ZHO/status/1910644499354968091)
+[原文链接](https://x.com/aziz4ai/status/1934986353848017349)
 
-<img src="cases/101/example_lego_collectible.png" width="300" alt="乐高收藏品"><br>
-<sub>Image © 2025 <a href="https://github.com/jamez-bondos">@jamez-bondos</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> • Prompt by <a href="https://x.com/ZHO_ZHO_ZHO">@ZHO_ZHO_ZHO</a></sub>
+<img src="cases/101/edible_pop.jpeg" width="300" alt="泡泡食物"><br>
+<sub>Image © 2025 <a href="https://github.com/highscore-ai">@highscore-ai</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> • Prompt by <a href="https://x.com/aziz4ai/">@aziz4ai</a></sub>
 
 **提示词**
 
 ```
-根据我上传的照片，生成一张纵向比例的照片，使用以下提示词：
-经典乐高人偶风格，一个微缩场景 —— 一只动物站在我身旁。这只动物的配色与我相匹配。
-请根据你对我的理解来创造这只动物（你可以选择任何你认为适合我的动物，不论是真实存在的，还是超现实的、幻想的，只要你觉得符合我的气质即可）。
-整个场景设定在一个透明玻璃立方体内，布景极简。
-微缩场景的底座是哑光黑色，配以银色装饰，风格简约且时尚。
-底座上有一块优雅雕刻的标签牌，字体为精致的衬线体，上面写着该动物的名称。
-底部设计中还巧妙融入了类似自然历史博物馆展示的生物学分类信息，以精细蚀刻的方式呈现。
-整体构图像是一件高端收藏艺术品：精心打造、策展般呈现、灯光细致。
-构图重在平衡。背景为渐变色，从深色到浅色过渡（颜色基于主色调进行选择）。
+一张超逼真的DSLR相机拍摄照片，展示出\[品牌/产品]——多汁、酥脆、令人垂涎。由一只可爱的Q版卡通小手拿着，正准备咬上一口。背景为平面2D插画，采用柔和的马卡龙色调，看起来像能吃的一样，灵感来自其视觉识别风格——带有超现实、可爱风格的矢量元素，如糖屑、星星、柔和渐变和俏皮图形。加入一个醒目的口号，仅用**一个有力的单词**来形容口味（如“酥”、“化”、“赞”）。在食物上或口号旁边清晰展示品牌Logo。构图为居中、1:1方形比例，电影感柔光，真实食物与扁平插画背景形成强烈对比，4K分辨率。
 ```
 
 
-**需上传参考图片：** 一张半身或者全身单人照片。
 
 
 ---
