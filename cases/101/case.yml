@@ -1,0 +1,37 @@
+title: 乐高收藏品
+title_en: Lego Collectible Figure
+author: "@ZHO_ZHO_ZHO"
+author_link: https://x.com/ZHO_ZHO_ZHO
+source_links:
+  - url: https://x.com/ZHO_ZHO_ZHO/status/1910644499354968091
+image: example_lego_collectible.png
+alt_text: 乐高收藏品
+alt_text_en: Lego Collectible Figure
+prompt: |
+  根据我上传的照片，生成一张纵向比例的照片，使用以下提示词：
+  经典乐高人偶风格，一个微缩场景 —— 一只动物站在我身旁。这只动物的配色与我相匹配。
+  请根据你对我的理解来创造这只动物（你可以选择任何你认为适合我的动物，不论是真实存在的，还是超现实的、幻想的，只要你觉得符合我的气质即可）。
+  整个场景设定在一个透明玻璃立方体内，布景极简。
+  微缩场景的底座是哑光黑色，配以银色装饰，风格简约且时尚。
+  底座上有一块优雅雕刻的标签牌，字体为精致的衬线体，上面写着该动物的名称。
+  底部设计中还巧妙融入了类似自然历史博物馆展示的生物学分类信息，以精细蚀刻的方式呈现。
+  整体构图像是一件高端收藏艺术品：精心打造、策展般呈现、灯光细致。
+  构图重在平衡。背景为渐变色，从深色到浅色过渡（颜色基于主色调进行选择）。
+prompt_en: |
+  Generate a vertically-oriented image based on my uploaded photo, using the following prompt:
+  Classic LEGO minifigure style in a miniature scene — an animal stands beside me. The color palette of the animal should match mine.
+  Please design the animal based on your understanding of me. You may choose any creature — real, surreal, or fantastical — that you feel best reflects my personality.
+  The entire scene is set within a transparent glass cube, with a minimalist interior design.
+  The base of the miniature is matte black with silver accents, following a clean and modern aesthetic.
+  On the base, there is an elegantly engraved nameplate in a refined serif font, displaying the name of the animal.
+  The lower part of the base subtly incorporates finely etched biological classification details, similar to a natural history museum display.
+  The overall composition should resemble a high-end collectible artwork: meticulously crafted, curated in style, and lit with refined lighting.
+  Balance is key to the layout. The background should feature a smooth gradient transition from dark to light tones, selected to match the dominant color theme.
+prompt_note: ""
+prompt_note_en: ""
+reference_note: |
+  一张半身或者全身单人照片。
+reference_note_en: |
+  A half-body or full-body single person photo.
+submitter: ""
+submitter_link: ""
