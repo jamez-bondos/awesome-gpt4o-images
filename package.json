@@ -1,0 +1,29 @@
+{
+  "name": "awesome-gpt4o-website",
+  "version": "1.0.0",
+  "description": "Website for Awesome GPT-4o Images collection",
+  "scripts": {
+    "generate-data": "node generate-data.js",
+    "build": "npm run generate-data",
+    "dev": "python -m http.server 8000",
+    "preview": "npm run build && npm run dev"
+  },
+  "type": "module",
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "gpt-4o",
+    "ai",
+    "images",
+    "prompts",
+    "openai"
+  ],
+  "author": "jamez-bondos",
+  "license": "CC-BY-4.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamez-bondos/awesome-gpt4o-images.git"
+  }
+}
