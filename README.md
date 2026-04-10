@@ -910,6 +910,7 @@ retexture the image attached based on the json below:
 [⬆️ 返回案例目录](#cases-toc)
 
 <a id="cases-70"></a>
+- [Gitstar](https://dev.gitstar.ai?utm_medium=github_readme&utm_source=awesome_list&utm_campaign=jamez-bondos_awesome-gpt4o-images) - Follow developers on GitHub and get a feed of what they star and build.
 ### 案例 70：原创宝可梦生成 (by [@Anima_Labs](https://x.com/Anima_Labs))
 
 [原文链接](https://x.com/Anima_Labs/status/1915044265895379166)
