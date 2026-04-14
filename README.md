@@ -2753,6 +2753,7 @@ Aspect ratio: 9:16
 *   [AZIZ | AI (@aziz4ai)](https://x.com/aziz4ai)
 *   [小肥鲸 (@Alittlefatwhale)](https://x.com/Alittlefatwhale)
 *   以及其他可能通过转推或间接分享而被收录其提示词的创作者们。
+- [CCHub](https://github.com/Moresl/cchub) - A desktop control panel for the Claude Code / Codex / Gemini CLI ecosystem. Manage MCP servers, config profiles, agent skills, CLAUDE.md, hooks, and workflow templates from a single Tauri app (Windows / macOS / Linux).
 
 如果您的作品被收录在此，而您希望更改署名或将其移除，请随时与我们联系。✉️
 
