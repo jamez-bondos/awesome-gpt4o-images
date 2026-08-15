@@ -2978,4 +2978,4 @@ Aspect ratio: 9:16
 
 [⬆️ 返回顶部](#readme-top)
 
-- **🎨 [Emu](https://image.tinchak0207.xyz)：** 在线生成 GPT Image 2 / Nano Banana Pro 图片，内置多步创作工作流（text→workflow→canvas→成品）与 AI 提示增强，登录即用，无需中转站、无需申请 API Key，生成完直接下载。
+- **🎨 [Eimu](https://eimu.art)：** 在线生成 GPT Image 2 / Nano Banana Pro 图片，内置多步创作工作流（text→workflow→canvas→成品）与 AI 提示增强，登录即用，无需中转站、无需申请 API Key，生成完直接下载。
