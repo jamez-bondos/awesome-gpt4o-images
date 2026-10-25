@@ -2763,7 +2763,7 @@ Here are applications where you can use the GPT-4o model to generate images:
 
 1. [Prompt Engineering (PDF)](https://s.baoyu.io/files/2025-01-18-pdf-1-TechAI-Goolge-whitepaper_Prompt%20Engineering_v4-af36dcc7a49bb7269a58b1c9b89a8ae1.pdf) by Google
 2. [Introducing 4o Image Generation](https://openai.com/index/introducing-4o-image-generation) by OpenAI
-
+3. [AIANDIA Visual Prompt Dictionary](https://www.aiandia.com/en/prompts/generation-visuelle/dictionnaire-prompts-ia-art-visuel/) - A structured reference guide and prompt dictionary for generative AI visual art.
 
 
 <a id="how-to-contribute"></a>
