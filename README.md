@@ -2695,6 +2695,8 @@ Aspect ratio: 9:16
   - 🌎 丰富的世界知识
   - 🔤 一致的文本渲染
 
+- **🎸 [No Stairs Please](https://nostairsplease.com/)：** 收录超过25,000个现场音乐场地的目录与MCP服务器，提供舞台尺寸与空间参考。
+
 
 
 <a id="prompting-tips"></a>
